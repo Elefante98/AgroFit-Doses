@@ -1,0 +1,21 @@
+{
+  "name": "mcp-agrofit",
+  "version": "0.1.0",
+  "description": "MCP server for Agrofit/Embrapa API – pests and products for viticulture",
+  "type": "module",
+  "scripts": {
+    "build": "tsc"
+  },
+  "bin": {
+    "mcp-agrofit": "./build/index.js"
+  },
+  "files": ["build"],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.16.0",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.29",
+    "typescript": "^5.8.3"
+  }
+}
