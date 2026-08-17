@@ -91,28 +91,26 @@ D:/Pragas Uva/
 }
 ```
 
-`coletor/tsconfig.json`:
+`coletor/tsconfig.json` (`allowImportingTsExtensions` é obrigatório: os imports relativos usam `.ts` porque quem executa é o tsx, não o tsc):
 ```json
 {
   "compilerOptions": {
     "target": "ES2022", "module": "Node16", "moduleResolution": "node16",
     "strict": true, "skipLibCheck": true, "noEmit": true,
+    "allowImportingTsExtensions": true, "esModuleInterop": true,
     "types": ["node"]
   },
   "include": ["src/**/*", "tests/**/*"]
 }
 ```
 
-Acrescentar ao `.gitignore` da raiz (manter linhas existentes):
+Acrescentar ao `.gitignore` da raiz **somente as linhas que faltam** (o arquivo já tem `node_modules/`, `raw/`, `*.db`, `.env`, `.bob/`):
 ```
-node_modules/
-raw/
 pre/
 data/
 estado.json
-*.db
-.env
-.bob/
+__pycache__/
+.pytest_cache/
 ```
 
 Rodar: `cd coletor && npm install`
@@ -184,7 +182,7 @@ export interface ProdutoResumo {
 export function bulasDe(produto: ProdutoResumo): DocumentoCadastrado[] {
   const vistos = new Set<string>();
   return (produto.documento_cadastrado ?? [])
-    .filter(d => d.tipo_documento.trim().toLowerCase() === "bula")
+    .filter(d => (d.tipo_documento ?? "").trim().toLowerCase() === "bula")
     .filter(d => (vistos.has(d.url) ? false : (vistos.add(d.url), true)));
 }
 
@@ -432,17 +430,18 @@ CONSUMER_KEY=<valor de .bob/mcp.json>
 CONSUMER_SECRET=<valor de .bob/mcp.json>
 ```
 
-`coletor/src/collect.ts`:
+`coletor/src/collect.ts` (dotenv aponta explicitamente para o `.env` **da raiz** — Global Constraints; `cd coletor` muda o cwd e o load implícito falharia):
 ```ts
-import "dotenv/config";
 import { appendFile, mkdir, readdir, readFile, writeFile } from "node:fs/promises";
 import { existsSync } from "node:fs";
 import { join, resolve } from "node:path";
+import dotenv from "dotenv";
 import { criarClienteApi } from "./api.ts";
 import { bulasDe, nomeArquivoBula, type ProdutoResumo } from "./helpers.ts";
 import { baixarPdf } from "./download.ts";
 
 const RAIZ = resolve(import.meta.dirname, "..", "..");
+dotenv.config({ path: join(RAIZ, ".env") });
 const DIR_PRODUTOS = join(RAIZ, "raw", "produtos");
 const DIR_BULAS = join(RAIZ, "raw", "bulas");
 const ARQ_FALHAS = join(RAIZ, "raw", "failures.jsonl");
@@ -481,7 +480,11 @@ async function faseBulas() {
   for (const arq of arquivos) {
     const produto: ProdutoResumo = JSON.parse(await readFile(join(DIR_PRODUTOS, arq), "utf8"));
     const bulas = bulasDe(produto);
-    if (bulas.length > 1) {
+    const algumaFaltando = bulas.some(
+      (_, i) => !existsSync(join(DIR_BULAS, nomeArquivoBula(produto.numero_registro, i))),
+    );
+    if (bulas.length > 1 && algumaFaltando) {
+      // loga só enquanto há download pendente — re-runs não acumulam duplicatas
       await registrarFalha({ tipo: "multi_bula", numero_registro: produto.numero_registro, total: bulas.length });
     }
     for (let i = 0; i < bulas.length; i++) {
@@ -669,8 +672,9 @@ def pag(numero, texto, tem_tabela=False):
 
 
 def test_seleciona_por_keyword_normalizada():
-    paginas = [pag(1, "capa do produto"), pag(2, "MODO DE APLICAÇÃO e doses")]
-    assert selecionar_paginas(paginas) == {2}
+    paginas = [pag(1, "capa do produto"), pag(2, "MODO DE APLICAÇÃO e doses"), pag(3, "x"), pag(4, "y")]
+    # 2 casa keyword; 1 e 3 entram por adjacência (spec, item iii); 4 fica fora
+    assert selecionar_paginas(paginas) == {1, 2, 3}
 
 
 def test_seleciona_por_tabela_e_adjacentes():
@@ -1062,12 +1066,16 @@ def carga_metadata(conn: sqlite3.Connection, dir_produtos: Path, dir_bulas: Path
     for arq in sorted(dir_produtos.glob("*.json")):
         produto = json.loads(arq.read_text(encoding="utf-8"))
         reg = produto["numero_registro"]
-        marcas = "; ".join(produto.get("marca_comercial") or [])
+        lista_marcas = produto.get("marca_comercial") or []
+        marcas = "; ".join(lista_marcas)  # exibição
+        # match: cada marca normalizada, separador ";" SEM espaço — o LIKE do MCP
+        # usa fronteiras ';<marca>;' e um espaço no separador quebraria a 2ª marca
+        marca_norm = ";".join(normalizar(m) for m in lista_marcas)
         bula_pdf = f"{reg}.pdf"
         valores = {
             "numero_registro": reg,
             "marca_comercial": marcas,
-            "marca_norm": normalizar(marcas),
+            "marca_norm": marca_norm,
             "titular": produto.get("titular_registro"),
             "formulacao": produto.get("formulacao"),
             "classificacao_toxicologica": produto.get("classificacao_toxicologica"),
@@ -1226,6 +1234,14 @@ def test_autor_botanico_nao_impede_match():
     r = registro_base(praga_nome_cientifico="Uncinula necator (Schwein.)")
     status, _ = validar_registro(r, UNIDADES, PARES_UVA)
     assert status == "validado"
+
+
+def test_cientifico_divergente_cai_no_match_por_comum():
+    # bula usa sinônimo taxonômico; o nome comum casa → validado (spec: comum OU científico)
+    r = registro_base(praga_nome_cientifico="Erysiphe necator")
+    status, enriquecido = validar_registro(r, UNIDADES, PARES_UVA)
+    assert status == "validado"
+    assert enriquecido["praga_nome_cientifico"] == "Erysiphe necator"  # o da bula é preservado
 ```
 
 - [ ] **Step 3: Rodar e ver falhar** — `python -m pytest tests/test_validacao.py -q` → erro de import.
@@ -1271,24 +1287,25 @@ def validar_registro(reg: dict, unidades: set[str], pares_api: list) -> tuple[st
     comum = reg.get("praga_nome_comum")
     candidatos = [p for p in pares_api if p["cultura_norm"] == cultura]
 
+    # spec: "casa por nome comum OU científico" — científico divergente (ex.:
+    # sinônimo taxonômico na bula) NÃO impede o match pelo comum
     if cientifico:
         alvo = normalizar(sem_autor(cientifico))
         if any(p["praga_cientifico_norm"] == alvo for p in candidatos):
             return "validado", saida
-        return "manual_review", saida
 
     if comum:
         alvo = normalizar(comum)
         matches = {p["praga_cientifico_norm"]: p for p in candidatos if p["praga_comum_norm"] == alvo}
-        if len(matches) == 1:  # único → enriquece o científico a partir da API
-            saida["praga_nome_cientifico"] = next(iter(matches.values()))["praga_nome_cientifico"]
-            return "validado", saida
-        return "manual_review", saida  # zero ou ambíguo
+        if len(matches) == 1:
+            if not cientifico:  # único → enriquece o científico a partir da API
+                saida["praga_nome_cientifico"] = next(iter(matches.values()))["praga_nome_cientifico"]
+            return "validado", saida  # científico da bula, se houver, é preservado
 
-    return "manual_review", saida  # sem nenhum nome de praga
+    return "manual_review", saida  # nenhum nome casou (ou comum ambíguo/ausente)
 ```
 
-- [ ] **Step 5: Rodar e ver passar** — `python -m pytest -q` → 20 passed.
+- [ ] **Step 5: Rodar e ver passar** — `python -m pytest -q` → 21 passed.
 
 - [ ] **Step 6: Commit**
 ```bash
@@ -1411,8 +1428,10 @@ def test_extracted_vazio_processada_sem_indicacoes(tmp_path):
 
 def test_derivar_estado_cascata(tmp_path):
     _, base = preparar(tmp_path)
+    # estados são POR PRODUTO: todo reg testado precisa do seu produtos/<reg>.json
     # 6099 tem extracted e foi importado; 7777 sem bula; 8888 com .scan; 9999 só pre
-    shutil.copy(FIXTURES / "produto_6099.json", base / "produtos" / "7777.json")
+    for reg in ("7777", "8888", "9999"):
+        shutil.copy(FIXTURES / "produto_6099.json", base / "produtos" / f"{reg}.json")
     (base / "pre" / "8888.scan").write_bytes(b"")
     (base / "pre" / "9999.txt").write_text("=== PÁGINA 1 ===\nDOSE")
     estados = derivar_estado(base / "produtos", base / "bulas", base / "pre",
@@ -1496,7 +1515,10 @@ def carga_extracted(conn: sqlite3.Connection, dir_extracted: Path, unidades: set
             conn.execute(f"INSERT INTO indicacoes ({cols}) VALUES ({marcadores})", linha)
             resumo["validados" if status == "validado" else "manual_review"] += 1
 
-        incompleto = any(not _par_tem_dose(conn, reg, par) for par in pares_api)
+        # par sem NENHUM nome de praga não bloqueia (não há como casar contra ele)
+        pares_nomeados = [p for p in pares_api
+                          if p["praga_cientifico_norm"] or p["praga_comum_norm"]]
+        incompleto = any(not _par_tem_dose(conn, reg, par) for par in pares_nomeados)
         conn.execute(
             "UPDATE produtos SET processada = 1, incompleto = ? WHERE numero_registro = ?",
             (1 if incompleto else 0, reg),
@@ -1531,13 +1553,22 @@ def derivar_estado(dir_produtos: Path, dir_bulas: Path, dir_pre: Path,
     return estados
 
 
-def relatorio_cobertura(conn: sqlite3.Connection) -> dict:
-    """% dos pares da API (de produtos COM bula) cobertos por dose validada."""
-    pares = conn.execute(
+def relatorio_cobertura(conn: sqlite3.Connection, regs: set[str] | None = None) -> dict:
+    """% dos pares da API (de produtos COM bula) cobertos por dose validada.
+
+    `regs` restringe a medição a um subconjunto de produtos — é assim que o
+    piloto de ~30 bulas mede sua própria cobertura (EXTRACAO.md) sem diluir o
+    número nos ~4 mil produtos ainda não extraídos.
+    """
+    sql = (
         "SELECT a.produto_fk, a.cultura_norm, a.praga_cientifico_norm, a.praga_comum_norm"
         " FROM indicacoes_api a JOIN produtos p ON p.numero_registro = a.produto_fk"
         " WHERE p.bula_arquivo IS NOT NULL"
-    ).fetchall()
+        " AND (a.praga_cientifico_norm IS NOT NULL OR a.praga_comum_norm IS NOT NULL)"
+    )
+    pares = conn.execute(sql).fetchall()
+    if regs is not None:
+        pares = [p for p in pares if p["produto_fk"] in regs]
     com_dose = sum(1 for par in pares if _par_tem_dose(conn, par["produto_fk"], par))
     total = len(pares)
     return {"pares_api": total, "pares_com_dose": com_dose,
@@ -1575,7 +1606,7 @@ if __name__ == "__main__":
 
 Acrescentar em `main()` antes da carga 2: `(RAIZ / "extracted").mkdir(exist_ok=True)`.
 
-- [ ] **Step 5: Rodar e ver passar** — `python -m pytest -q` → 27 passed.
+- [ ] **Step 5: Rodar e ver passar** — `python -m pytest -q` → 28 passed.
 
 - [ ] **Step 6: Smoke local** — `python import_db.py` com o que existir de `raw/` do smoke:
 Expected: `carga 1: ~100 produtos`, `carga 2: {'produtos': 0, ...}` (extracted vazio ainda), `estados:` com `pendente`/`pre_ok`/`sem_bula`, cobertura 0%.
@@ -1659,8 +1690,10 @@ a cultura como está escrita (a validação manda para manual_review — correto
    PDF (humano abre o PDF, compara campo a campo) e registrar acertos/erros
    numa planilha `piloto.csv` (reg, campo, extraido, correto, ok?).
 3. Metas: ≥95% de acurácia nos campos numéricos E ≤15% de taxa de manual_review
-   E cobertura ≥90% nos pilotos. Abaixo → ajustar este documento (prompt) ou a
-   heurística do preprocess → re-extrair as MESMAS 30 → re-medir.
+   E cobertura ≥90% medida SÓ nos 30 regs do piloto:
+   `python -c "from pathlib import Path; from import_db import conectar, relatorio_cobertura; regs=set(Path('piloto.txt').read_text().split()); print(relatorio_cobertura(conectar(Path('../data/doses.db')), regs))"`
+   Abaixo → ajustar este documento (prompt) ou a heurística do preprocess →
+   re-extrair as MESMAS 30 → re-medir.
 4. Só liberar o lote completo com as três metas batidas.
 ````
 
@@ -1768,12 +1801,15 @@ function inserirParApi(reg: string, cultura: string, cientifico: string, comum: 
   ).run(reg, cultura, normalizar(cultura), cientifico, normalizar(cientifico), comum, normalizar(comum));
 }
 
-function inserirIndicacao(reg: string, cultura: string, comum: string, status: string, dose = 30) {
+function inserirIndicacao(reg: string, cultura: string, comum: string, status: string,
+                          dose = 30, cientifico = "Uncinula necator") {
   db.prepare(
     `INSERT INTO indicacoes (produto_fk, cultura, cultura_norm, praga_nome_comum, praga_comum_norm,
+       praga_nome_cientifico, praga_cientifico_norm,
        dose_min, dose_max, dose_unidade, fonte_pagina, status)
-     VALUES (?, ?, ?, ?, ?, ?, ?, 'mL/100L', 4, ?)`
-  ).run(reg, cultura, normalizar(cultura), comum, normalizar(comum), dose, dose, status);
+     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, 'mL/100L', 4, ?)`
+  ).run(reg, cultura, normalizar(cultura), comum, normalizar(comum),
+        cientifico, normalizar(cientifico), dose, dose, status);
 }
 
 before(() => {
@@ -1845,6 +1881,12 @@ test("sem praga e sem produto: erro pedindo filtro", () => {
   assert.throws(() => buscarDose(db, { cultura: "Uva" }), /praga.*produto|produto.*praga/i);
 });
 
+test("caso 4: filtro que não casa nada retorna casos vazios (sem registro na base)", () => {
+  const r = buscarDose(db, { cultura: "Tomate", praga: "Traça" });
+  assert.deepEqual(r.casos, []);
+  assert.deepEqual(r.resumo_cobertura, { com_dose: 0, autorizados: 0 });
+});
+
 test("listarPragas lê de indicacoes_api (praga não extraída continua visível)", () => {
   const pragas = listarPragas(db, "uva");
   assert.ok(pragas.some(p => p.nome_comum === "Oídio"));
@@ -1874,9 +1916,9 @@ export function normalizar(s: string): string {
 }
 ```
 
-`mcp-doses/src/queries.ts`:
+`mcp-doses/src/queries.ts` (o pacote de tipos do better-sqlite3 usa `export =` — o tipo da instância é `Database.Database`, importado como default type):
 ```ts
-import type { Database } from "better-sqlite3";
+import type Database from "better-sqlite3";
 import { normalizar } from "./normalizar.ts";
 
 export interface LinhaDose {
@@ -1894,9 +1936,10 @@ export interface LinhaDose {
 
 type Caso =
   | { tipo: "dose"; numero_registro: string; marca: string; indicacoes: LinhaDose[];
-      aviso_incompleto: boolean; bula_url: string | null }
+      aviso_incompleto: boolean; bula_arquivo: string | null; bula_url: string | null }
   | { tipo: "sem_bula"; numero_registro: string; marca: string }
-  | { tipo: "consulte_bula"; numero_registro: string; marca: string; bula_url: string | null };
+  | { tipo: "consulte_bula"; numero_registro: string; marca: string;
+      bula_arquivo: string | null; bula_url: string | null };
 
 export interface ResultadoBusca {
   casos: Caso[];
@@ -1913,7 +1956,7 @@ const FILTRO_PRAGA =
   "   OR (praga_comum_norm      IS NOT NULL AND praga_comum_norm      = @praga))";
 
 export function buscarDose(
-  db: Database,
+  db: Database.Database,
   filtro: { cultura: string; praga?: string; produto?: string },
 ): ResultadoBusca {
   if (!filtro.praga && !filtro.produto) {
@@ -1950,14 +1993,15 @@ export function buscarDose(
     if (validadas.length > 0) {
       casos.push({
         tipo: "dose", numero_registro: p.numero_registro, marca: p.marca_comercial,
-        indicacoes: validadas, aviso_incompleto: p.incompleto === 1, bula_url: p.bula_url,
+        indicacoes: validadas, aviso_incompleto: p.incompleto === 1,
+        bula_arquivo: p.bula_arquivo, bula_url: p.bula_url,
       });
     } else if (p.bula_arquivo === null) {
       casos.push({ tipo: "sem_bula", numero_registro: p.numero_registro, marca: p.marca_comercial });
     } else {
       casos.push({
         tipo: "consulte_bula", numero_registro: p.numero_registro,
-        marca: p.marca_comercial, bula_url: p.bula_url,
+        marca: p.marca_comercial, bula_arquivo: p.bula_arquivo, bula_url: p.bula_url,
       });
     }
   }
@@ -1968,7 +2012,7 @@ export function buscarDose(
   return { casos, resumo_cobertura: resumo };
 }
 
-export function detalharProduto(db: Database, numeroRegistro: string): object | null {
+export function detalharProduto(db: Database.Database, numeroRegistro: string): object | null {
   const p = db.prepare("SELECT * FROM produtos WHERE numero_registro = ?").get(numeroRegistro);
   if (!p) return null;
   return {
@@ -1978,12 +2022,12 @@ export function detalharProduto(db: Database, numeroRegistro: string): object | 
   };
 }
 
-export function listarCulturas(db: Database): string[] {
+export function listarCulturas(db: Database.Database): string[] {
   return (db.prepare("SELECT DISTINCT cultura FROM indicacoes_api ORDER BY cultura").all() as { cultura: string }[])
     .map(r => r.cultura);
 }
 
-export function listarPragas(db: Database, cultura: string) {
+export function listarPragas(db: Database.Database, cultura: string) {
   return db.prepare(
     `SELECT DISTINCT praga_nome_comum AS nome_comum, praga_nome_cientifico AS nome_cientifico
      FROM indicacoes_api WHERE cultura_norm = ? ORDER BY 1`,
@@ -1991,7 +2035,7 @@ export function listarPragas(db: Database, cultura: string) {
 }
 ```
 
-- [ ] **Step 5: Rodar e ver passar** — `npm test` → 10 pass. `npm run check`.
+- [ ] **Step 5: Rodar e ver passar** — `npm test` → 10 pass (9 originais + caso 4). `npm run check`.
 
 - [ ] **Step 6: Commit**
 ```bash
@@ -2064,7 +2108,9 @@ server.registerTool(
   },
   async ({ cultura, praga, produto }) => {
     try {
-      return responder(buscarDose(db, { cultura, praga, produto }));
+      const r = buscarDose(db, { cultura, praga, produto });
+      // caso 4 explícito — o LLM cliente não deve interpretar vazio sozinho
+      return responder(r.casos.length === 0 ? { resultado: "sem registro na base", ...r } : r);
     } catch (err) {
       return responderErro(err);
     }
