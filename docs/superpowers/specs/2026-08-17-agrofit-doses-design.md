@@ -69,7 +69,9 @@ numa sessão de chat:
 detectada pelo pdfplumber **ou** (ii) casa keyword (`DOSE`, `INSTRUÇÕES DE USO`,
 `CULTURA`, `MODO DE APLICA`, `INTERVALO`, `CARÊNCIA`, case/acento-insensitive),
 **ou** (iii) é adjacente a uma página candidata (tabelas que transbordam). Bula
-cujo texto extraído < 500 chars (provável scan) → estado `manual_review` direto.
+cujo texto extraído < 500 chars (provável scan): 2a grava o marcador
+`pre/<reg>.scan` em vez do `.txt` — é esse artefato que a derivação de estado
+lê como `manual_review`.
 
 **2b. Extração (Claude, em lotes por sessão).** Claude lê `pre/<reg>.txt` e emite
 `extracted/<numero_registro>.json` com os registros no schema abaixo. Um arquivo
@@ -77,10 +79,14 @@ por bula, **mesmo quando vazio** (`{"registros": [], "motivo": "<texto livre>"}`
 — arquivo presente = bula processada; é isso que dá retomabilidade entre sessões.
 
 **2c. Import + validação (script Python, determinístico).** Duas cargas:
-1. **Metadata (sempre, para os 4.252):** upsert de `produtos` e
-   `ingredientes_ativos` a partir de `raw/produtos/*.json` — inclusive os ~6%
-   sem bula (`bula_arquivo NULL`). Nenhum produto depende de 2a/2b para existir
-   no banco.
+1. **Metadata (sempre, para os 4.252):** carga de `produtos`,
+   `ingredientes_ativos` e `indicacoes_api` (os pares (cultura, praga) do
+   `indicacao_uso` da API — persistidos, não só usados na validação) a partir de
+   `raw/produtos/*.json` — inclusive os ~6% sem bula (`bula_arquivo NULL`).
+   Nenhum produto depende de 2a/2b para existir no banco. Estratégia: UPDATE só
+   de colunas de metadata em `produtos` (nunca toca `processada`/`incompleto`);
+   `ingredientes_ativos` e `indicacoes_api` seguem o mesmo apaga-e-regrava por
+   produto das `indicacoes` — idempotência vale para as quatro tabelas.
 2. **Indicações:** lê `extracted/*.json`, valida e grava. **Idempotente por
    construção:** para cada produto, apaga e regrava todas as suas `indicacoes`
    a partir do `extracted/<reg>.json` (e recomputa `incompleto` e `processada`)
@@ -93,9 +99,10 @@ direta no SQLite é perdida no próximo import — por design.
 
 **Estados — dois níveis, sem mistura:**
 - *Pipeline* (manifesto `estado.json`): **derivado dos artefatos em disco** pelo
-  2c a cada execução — ausência de `pre/<reg>.txt` = `pendente`; `pre/` presente
-  = `pre_ok`; `extracted/` presente = `extraida`; importado = `importada` ou
-  `vazia`; scan/ilegível = `manual_review`. Ninguém escreve estado à mão.
+  2c a cada execução — produto sem bula em `raw/` = `sem_bula`; ausência de
+  `pre/<reg>.txt` = `pendente`; `pre/<reg>.scan` presente = `manual_review`;
+  `pre/<reg>.txt` presente = `pre_ok`; `extracted/` presente = `extraida`;
+  importado = `importada` ou `vazia`. Ninguém escreve estado à mão.
 - *Qualidade* (no banco): `indicacoes.status` por registro
   (`validado | manual_review`), flag `produtos.incompleto` (validação inversa) e
   flag `produtos.processada` (proxy gravado pelo 2c: 1 = bula passou pelo
@@ -109,8 +116,8 @@ Validações no import (cada uma com nível e destino declarados):
 - **Precisão** (nível registro): dose não numérica ou ≤ 0 → `manual_review`;
   unidade fora do vocabulário → `manual_review`; (cultura, praga) sem match no
   `indicacao_uso` da API → `manual_review`.
-- **Recall / validação inversa** (nível produto): todo par (cultura, praga) do
-  `indicacao_uso` da API **sem** registro extraído correspondente →
+- **Recall / validação inversa** (nível produto): todo par de `indicacoes_api`
+  **sem** registro extraído correspondente →
   `produtos.incompleto = true`. **Aceite: cobertura ≥ 90%** dos pares da API com
   dose extraída — medida no piloto e no lote; abaixo disso, ajustar
   heurística/prompt e re-medir no mesmo gabarito (mesmo loop do manual_review).
@@ -150,8 +157,12 @@ Proveniência: cada registro carrega arquivo da bula, página e trecho de origem
      `incompleto = 1`, ou só registros `manual_review` para o filtro) —
      resposta indica "consulte a bula original em <bula_url>";
   4. sem registro na base.
-  Nunca aproxima — e nunca deixa "ainda não processado" parecer "o MAPA não
-  autoriza".
+  Em consulta por cultura+praga (sem produto), a lacuna é detectada via
+  `indicacoes_api`: produtos cujo par casa o filtro mas sem indicação `validado`
+  correspondente entram na resposta como caso 3 (nome + bula_url, sem dose).
+  Toda resposta cultura+praga fecha com o resumo de cobertura: "X de Y produtos
+  autorizados para este par já têm dose extraída". Nunca aproxima — e nunca
+  deixa "ainda não processado" parecer "o MAPA não autoriza".
 - Toda resposta inclui a referência da bula (produto, registro MAPA, arquivo/página).
 
 ## Modelo de dados (SQLite)
@@ -166,6 +177,10 @@ produtos(
   incompleto INTEGER DEFAULT 0  -- flag de qualidade (validação inversa)
 )
 ingredientes_ativos(id PK, produto_fk, nome, grupo_quimico, concentracao, unidade)
+indicacoes_api(                 -- pares (cultura, praga) autorizados segundo a API
+  id PK, produto_fk,            -- fonte da validação inversa e da detecção de
+  cultura, praga_nome_cientifico, praga_nome_comum  -- lacunas em consultas cultura+praga
+)
 indicacoes(                     -- núcleo do dataset
   id PK, produto_fk,
   cultura, praga_nome_cientifico, praga_nome_comum,
@@ -210,7 +225,9 @@ converter mL/100L↔L/ha exige volume de calda e introduz erro.
     re-medir **no mesmo gabarito** antes de liberar o lote (loop declarado).
 - MCP: testes das tools contra um SQLite fixture, cobrindo os **quatro** casos de
   resposta (encontrado / produto sem bula / bula não processada ou incompleta —
-  fixture com `processada = 0` e com `incompleto = 1` / sem registro).
+  fixtures com `processada = 0`, com `incompleto = 1` **e** com produto processado
+  cujas indicações para o filtro são todas `manual_review` / sem registro), mais
+  o resumo de cobertura da consulta cultura+praga (X de Y).
 
 ## Riscos conhecidos
 
