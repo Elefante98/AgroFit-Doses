@@ -83,8 +83,9 @@ por bula, **mesmo quando vazio** (`{"registros": [], "motivo": "<texto livre>"}`
    `ingredientes_ativos` e `indicacoes_api` (os pares (cultura, praga) do
    `indicacao_uso` da API — persistidos, não só usados na validação) a partir de
    `raw/produtos/*.json` — inclusive os ~6% sem bula (`bula_arquivo NULL`).
-   Nenhum produto depende de 2a/2b para existir no banco. Estratégia: UPDATE só
-   de colunas de metadata em `produtos` (nunca toca `processada`/`incompleto`);
+   Nenhum produto depende de 2a/2b para existir no banco. Estratégia: INSERT
+   quando o produto não existe; quando existe, UPDATE só de colunas de metadata
+   em `produtos` (nunca toca `processada`/`incompleto`);
    `ingredientes_ativos` e `indicacoes_api` seguem o mesmo apaga-e-regrava por
    produto das `indicacoes` — idempotência vale para as quatro tabelas.
 2. **Indicações:** lê `extracted/*.json`, valida e grava. **Idempotente por
@@ -99,10 +100,13 @@ direta no SQLite é perdida no próximo import — por design.
 
 **Estados — dois níveis, sem mistura:**
 - *Pipeline* (manifesto `estado.json`): **derivado dos artefatos em disco** pelo
-  2c a cada execução — produto sem bula em `raw/` = `sem_bula`; ausência de
-  `pre/<reg>.txt` = `pendente`; `pre/<reg>.scan` presente = `manual_review`;
-  `pre/<reg>.txt` presente = `pre_ok`; `extracted/` presente = `extraida`;
-  importado = `importada` ou `vazia`. Ninguém escreve estado à mão.
+  2c a cada execução, em cascata **do estado mais avançado para o mais básico —
+  vale o primeiro que casar**: importado = `importada` ou `vazia`; senão
+  `extracted/<reg>.json` presente = `extraida`; senão `pre/<reg>.txt` presente =
+  `pre_ok`; senão `pre/<reg>.scan` presente = `manual_review`; senão produto sem
+  bula em `raw/` = `sem_bula`; senão `pendente`. Ninguém escreve estado à mão.
+  (A cascata também resolve a correção de um scan: criar `extracted/<reg>.json`
+  à mão supera o `.scan` — o marcador não precisa ser removido.)
 - *Qualidade* (no banco): `indicacoes.status` por registro
   (`validado | manual_review`), flag `produtos.incompleto` (validação inversa) e
   flag `produtos.processada` (proxy gravado pelo 2c: 1 = bula passou pelo
@@ -146,23 +150,29 @@ Proveniência: cada registro carrega arquivo da bula, página e trecho de origem
     normalizada; `praga` por nome comum OU científico normalizado; `produto` por
     `marca_comercial` normalizada OU `numero_registro` exato.
   - `detalhar_produto(numero_registro)`
-  - `listar_culturas()`, `listar_pragas(cultura)`
+  - `listar_culturas()`, `listar_pragas(cultura)` — leem de `indicacoes_api`
+    (o universo autorizado pelo MAPA), nunca de `indicacoes`: praga autorizada
+    mas ainda não extraída continua visível na descoberta.
 - Dose vem **sempre** de query determinística — o LLM cliente nunca gera número.
   `buscar_dose` filtra `WHERE status = 'validado'`: registro reprovado nunca
   chega ao agrônomo como dose; ele conta apenas para acionar o caso 3 abaixo.
-- Respostas distinguem **quatro** casos (todos decidíveis só com o SQLite):
-  1. resultado encontrado;
-  2. produto existe mas sem bula disponível (`bula_arquivo IS NULL`);
-  3. **bula existe mas não processada ou incompleta** (`processada = 0`, ou
-     `incompleto = 1`, ou só registros `manual_review` para o filtro) —
-     resposta indica "consulte a bula original em <bula_url>";
+- Respostas distinguem **quatro** casos, decididos **por filtro consultado**
+  (todos só com o SQLite):
+  1. há indicação `validado` para o filtro → dose. Se além disso
+     `incompleto = 1`, a dose sai acompanhada de aviso ("produto tem lacunas em
+     outros pares") — caso 3 **não** engole dose validada existente;
+  2. produto sem bula disponível (`bula_arquivo IS NULL`);
+  3. **bula existe mas sem `validado` para o filtro** (`processada = 0`, ou par
+     autorizado sem indicação extraída, ou só registros `manual_review` para o
+     filtro) — resposta indica "consulte a bula original em <bula_url>";
   4. sem registro na base.
-  Em consulta por cultura+praga (sem produto), a lacuna é detectada via
-  `indicacoes_api`: produtos cujo par casa o filtro mas sem indicação `validado`
-  correspondente entram na resposta como caso 3 (nome + bula_url, sem dose).
-  Toda resposta cultura+praga fecha com o resumo de cobertura: "X de Y produtos
-  autorizados para este par já têm dose extraída". Nunca aproxima — e nunca
-  deixa "ainda não processado" parecer "o MAPA não autoriza".
+  Em consulta por cultura+praga sem produto, cada produto cujo par em
+  `indicacoes_api` casa o filtro entra na resposta: com `validado` → caso 1;
+  sem bula → caso 2; demais → caso 3. A resposta fecha com o resumo de
+  cobertura: "X de Y produtos autorizados para este par já têm dose validada"
+  (com os três filtros juntos, o resumo não se aplica — a resposta é sobre o
+  produto pedido). Nunca aproxima — e nunca deixa "ainda não processado"
+  parecer "o MAPA não autoriza".
 - Toda resposta inclui a referência da bula (produto, registro MAPA, arquivo/página).
 
 ## Modelo de dados (SQLite)
