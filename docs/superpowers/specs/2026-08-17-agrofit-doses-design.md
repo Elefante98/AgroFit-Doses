@@ -44,7 +44,7 @@ depois agente local). Futuro possível: alimentar o FrutiT.
 
 ### Bloco 1 — Coletor (script Node/TS, sem IA)
 
-- Pagina `GET /produtos-formulados` (43 páginas × 100) e salva um JSON por produto
+- Pagina `GET /produtos-formulados` (até `X-Pages`; hoje 43 × 100) e salva um JSON por produto
   em `raw/produtos/<numero_registro>.json`.
 - Baixa o PDF de cada documento `tipo_documento == "Bula"` para
   `raw/bulas/<numero_registro>.pdf`. Se um produto tiver **mais de uma** bula,
@@ -61,30 +61,44 @@ depois agente local). Futuro possível: alimentar o FrutiT.
 Três sub-etapas com artefatos intermediários em disco — o estado nunca vive só
 numa sessão de chat:
 
-**2a. Pré-processamento (script Python).** Para cada bula, extrai com `pdfplumber`
-as páginas candidatas e grava `pre/<numero_registro>.txt`. Heurística de seleção:
-página entra se (i) contém tabela detectada pelo pdfplumber **ou** (ii) casa
-keyword (`DOSE`, `INSTRUÇÕES DE USO`, `CULTURA`, `MODO DE APLICA`, `INTERVALO`,
-`CARÊNCIA`, case/acento-insensitive). **Na dúvida, inclui** — errar para mais
-texto, nunca para menos. Bula cujo texto extraído < 500 chars (provável scan) →
-estado `manual_review` direto.
+**2a. Pré-processamento (script Python).** Processa apenas `raw/bulas/<reg>.pdf`
+**sem sufixo** (`_2.pdf` etc. ficam bloqueados até decisão manual do caso
+`multi_bula`). Extrai com `pdfplumber` as páginas candidatas e grava
+`pre/<numero_registro>.txt` com delimitador por página (`=== PÁGINA N ===`) —
+é daí que o 2b tira `fonte_pagina`. Seleção: página entra se (i) contém tabela
+detectada pelo pdfplumber **ou** (ii) casa keyword (`DOSE`, `INSTRUÇÕES DE USO`,
+`CULTURA`, `MODO DE APLICA`, `INTERVALO`, `CARÊNCIA`, case/acento-insensitive),
+**ou** (iii) é adjacente a uma página candidata (tabelas que transbordam). Bula
+cujo texto extraído < 500 chars (provável scan) → estado `manual_review` direto.
 
 **2b. Extração (Claude, em lotes por sessão).** Claude lê `pre/<reg>.txt` e emite
 `extracted/<numero_registro>.json` com os registros no schema abaixo. Um arquivo
-por bula, **mesmo quando vazio** (`{"registros": []}` + motivo) — arquivo presente
-= bula processada; é isso que dá retomabilidade entre sessões.
+por bula, **mesmo quando vazio** (`{"registros": [], "motivo": "<texto livre>"}`)
+— arquivo presente = bula processada; é isso que dá retomabilidade entre sessões.
 
 **2c. Import + validação (script Python, determinístico).** Lê `extracted/*.json`,
-valida e grava no SQLite. Mantém manifesto `estado.json` por bula:
-`pendente | pre_ok | extraida | importada | vazia | manual_review`.
+valida e grava no SQLite. **Idempotente por construção:** para cada produto,
+apaga e regrava todas as suas `indicacoes` a partir do `extracted/<reg>.json` —
+re-rodar o import nunca duplica.
 
-Validações no import:
-- **Precisão:** dose numérica > 0; unidade pertence ao vocabulário (abaixo);
-  (cultura, praga) deve casar com o `indicacao_uso` da API do produto.
-- **Recall (validação inversa):** todo par (cultura, praga) do `indicacao_uso`
-  da API **sem** registro extraído correspondente marca o produto como
-  `incompleto` e entra na fila. Cobertura agregada (% de pares da API com dose
-  extraída) é métrica de aceite do lote.
+**Estados — dois níveis, sem mistura:**
+- *Pipeline* (manifesto `estado.json`, chaveado por numero_registro, escrito por
+  2a/2c): `pendente | pre_ok | extraida | importada | vazia | manual_review`.
+- *Qualidade* (no banco): `indicacoes.status` por registro
+  (`validado | manual_review`) e flag `produtos.incompleto` (boolean).
+  O import é **parcial**: registros válidos entram como `validado`, reprovados
+  entram como `manual_review` (nunca descartados), e o produto ganha
+  `incompleto = true` se a validação inversa achar par faltante.
+
+Validações no import (cada uma com nível e destino declarados):
+- **Precisão** (nível registro): dose não numérica ou ≤ 0 → `manual_review`;
+  unidade fora do vocabulário → `manual_review`; (cultura, praga) sem match no
+  `indicacao_uso` da API → `manual_review`.
+- **Recall / validação inversa** (nível produto): todo par (cultura, praga) do
+  `indicacao_uso` da API **sem** registro extraído correspondente →
+  `produtos.incompleto = true`. **Aceite: cobertura ≥ 90%** dos pares da API com
+  dose extraída — medida no piloto e no lote; abaixo disso, ajustar
+  heurística/prompt e re-medir no mesmo gabarito (mesmo loop do manual_review).
 - **Matching cultura/praga:** normalização = lowercase + sem acento + sem autor
   botânico (parênteses no fim do científico). Casa por nome comum OU científico.
   Bula só com nome comum → `praga_nome_cientifico` preenchido a partir da API
@@ -104,14 +118,20 @@ Proveniência: cada registro carrega arquivo da bula, página e trecho de origem
 - Mesmo transporte/estrutura do `mcp-agrofit`, lendo do SQLite local.
 - Tools:
   - `buscar_dose(cultura: obrigatória, praga?: string, produto?: string)` —
-    `praga` e `produto` opcionais e independentes (pode passar ambos); `praga`
-    casa por nome comum ou científico (normalizado); sem nenhum dos dois, retorna
-    erro pedindo ao menos um filtro.
+    `praga` e `produto` opcionais e independentes (pode passar ambos); sem nenhum
+    dos dois, retorna erro pedindo ao menos um filtro. Matching (mesma
+    normalização do 2c — lowercase, sem acento): `cultura` por igualdade
+    normalizada; `praga` por nome comum OU científico normalizado; `produto` por
+    `marca_comercial` normalizada OU `numero_registro` exato.
   - `detalhar_produto(numero_registro)`
   - `listar_culturas()`, `listar_pragas(cultura)`
 - Dose vem **sempre** de query determinística — o LLM cliente nunca gera número.
-- Respostas distinguem três casos: resultado encontrado; **produto existe mas sem
-  bula disponível** (`bula_arquivo IS NULL`); sem registro na base. Nunca aproxima.
+- Respostas distinguem **quatro** casos: resultado encontrado; produto existe mas
+  sem bula disponível (`bula_arquivo IS NULL`); **bula existe mas ainda não
+  processada ou incompleta** (estado do pipeline ≠ importada, ou
+  `incompleto = true` — resposta indica "consulte a bula original em <bula_url>");
+  sem registro na base. Nunca aproxima — e nunca deixa "ainda não processado"
+  parecer "o MAPA não autoriza".
 - Toda resposta inclui a referência da bula (produto, registro MAPA, arquivo/página).
 
 ## Modelo de dados (SQLite)
@@ -122,21 +142,21 @@ produtos(
   marca_comercial, titular, formulacao,
   classificacao_toxicologica, classificacao_ambiental,
   url_agrofit, bula_arquivo, bula_url,   -- bula_arquivo NULL = sem bula
-  estado TEXT                  -- manifesto: pendente|pre_ok|extraida|importada|vazia|manual_review|incompleto
+  incompleto INTEGER DEFAULT 0 -- flag de qualidade (validação inversa); estado de pipeline vive no estado.json
 )
 ingredientes_ativos(id PK, produto_fk, nome, grupo_quimico, concentracao, unidade)
 indicacoes(                     -- núcleo do dataset
   id PK, produto_fk,
   cultura, praga_nome_cientifico, praga_nome_comum,
-  dose_min REAL, dose_max REAL, dose_unidade TEXT,  -- dose única → min = max
-  volume_calda_min, volume_calda_max, volume_calda_unidade,
+  dose_min REAL, dose_max REAL, dose_unidade TEXT,  -- valor único → min = max
+  volume_calda_min, volume_calda_max, volume_calda_unidade,  -- idem: único → min = max
   num_max_aplicacoes INT,
   intervalo_aplicacao TEXT,     -- texto da bula (ex: "7 a 15 dias")
   carencia_dias INT,            -- NULL quando não numérico…
   carencia_texto TEXT,          -- …e o texto original vem aqui (ex: "UNA")
   epoca_aplicacao TEXT,
   fonte_pagina INT, fonte_trecho TEXT,               -- proveniência
-  status TEXT  -- extraido | validado | manual_review
+  status TEXT  -- validado | manual_review
 )
 ```
 
@@ -173,8 +193,8 @@ converter mL/100L↔L/ha exige volume de calda e introduz erro.
 ## Riscos conhecidos
 
 - Layout de tabela varia por fabricante (medido em amostra de 12) — mitigado pelo
-  piloto estratificado + validação inversa de recall + fila de revisão manual.
+  piloto estratificado + validação inversa de recall (aceite ≥ 90% de cobertura) + fila de revisão manual.
 - ~6% dos produtos sem bula na API — ficam com `bula_arquivo NULL` e `indicacoes`
   vazias; o MCP responde o caso explicitamente.
 - Credenciais Embrapa vivem em `.bob/mcp.json`, **fora do git** (`.bob/` está no
-  `.gitignore` desde o primeiro commit); o coletor lê de `.env` (também ignorado).
+  `.gitignore`; nunca foi rastreado); o coletor lê de `.env` (também ignorado).
