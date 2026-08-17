@@ -76,16 +76,31 @@ cujo texto extraído < 500 chars (provável scan) → estado `manual_review` dir
 por bula, **mesmo quando vazio** (`{"registros": [], "motivo": "<texto livre>"}`)
 — arquivo presente = bula processada; é isso que dá retomabilidade entre sessões.
 
-**2c. Import + validação (script Python, determinístico).** Lê `extracted/*.json`,
-valida e grava no SQLite. **Idempotente por construção:** para cada produto,
-apaga e regrava todas as suas `indicacoes` a partir do `extracted/<reg>.json` —
-re-rodar o import nunca duplica.
+**2c. Import + validação (script Python, determinístico).** Duas cargas:
+1. **Metadata (sempre, para os 4.252):** upsert de `produtos` e
+   `ingredientes_ativos` a partir de `raw/produtos/*.json` — inclusive os ~6%
+   sem bula (`bula_arquivo NULL`). Nenhum produto depende de 2a/2b para existir
+   no banco.
+2. **Indicações:** lê `extracted/*.json`, valida e grava. **Idempotente por
+   construção:** para cada produto, apaga e regrava todas as suas `indicacoes`
+   a partir do `extracted/<reg>.json` (e recomputa `incompleto` e `processada`)
+   — re-rodar nunca duplica nem deixa flag obsoleta.
+
+**Correção humana vive nos artefatos, nunca no banco:** o banco é 100%
+regenerável de `raw/` + `extracted/` + `unidades.json`. Corrigir um registro de
+`manual_review` = editar `extracted/<reg>.json` e re-rodar o import. Edição
+direta no SQLite é perdida no próximo import — por design.
 
 **Estados — dois níveis, sem mistura:**
-- *Pipeline* (manifesto `estado.json`, chaveado por numero_registro, escrito por
-  2a/2c): `pendente | pre_ok | extraida | importada | vazia | manual_review`.
+- *Pipeline* (manifesto `estado.json`): **derivado dos artefatos em disco** pelo
+  2c a cada execução — ausência de `pre/<reg>.txt` = `pendente`; `pre/` presente
+  = `pre_ok`; `extracted/` presente = `extraida`; importado = `importada` ou
+  `vazia`; scan/ilegível = `manual_review`. Ninguém escreve estado à mão.
 - *Qualidade* (no banco): `indicacoes.status` por registro
-  (`validado | manual_review`) e flag `produtos.incompleto` (boolean).
+  (`validado | manual_review`), flag `produtos.incompleto` (validação inversa) e
+  flag `produtos.processada` (proxy gravado pelo 2c: 1 = bula passou pelo
+  import). `processada` existe para o MCP — que lê **só** o SQLite — distinguir
+  "não processada" sem acoplar no `estado.json`.
   O import é **parcial**: registros válidos entram como `validado`, reprovados
   entram como `manual_review` (nunca descartados), e o produto ganha
   `incompleto = true` se a validação inversa achar par faltante.
@@ -126,12 +141,17 @@ Proveniência: cada registro carrega arquivo da bula, página e trecho de origem
   - `detalhar_produto(numero_registro)`
   - `listar_culturas()`, `listar_pragas(cultura)`
 - Dose vem **sempre** de query determinística — o LLM cliente nunca gera número.
-- Respostas distinguem **quatro** casos: resultado encontrado; produto existe mas
-  sem bula disponível (`bula_arquivo IS NULL`); **bula existe mas ainda não
-  processada ou incompleta** (estado do pipeline ≠ importada, ou
-  `incompleto = true` — resposta indica "consulte a bula original em <bula_url>");
-  sem registro na base. Nunca aproxima — e nunca deixa "ainda não processado"
-  parecer "o MAPA não autoriza".
+  `buscar_dose` filtra `WHERE status = 'validado'`: registro reprovado nunca
+  chega ao agrônomo como dose; ele conta apenas para acionar o caso 3 abaixo.
+- Respostas distinguem **quatro** casos (todos decidíveis só com o SQLite):
+  1. resultado encontrado;
+  2. produto existe mas sem bula disponível (`bula_arquivo IS NULL`);
+  3. **bula existe mas não processada ou incompleta** (`processada = 0`, ou
+     `incompleto = 1`, ou só registros `manual_review` para o filtro) —
+     resposta indica "consulte a bula original em <bula_url>";
+  4. sem registro na base.
+  Nunca aproxima — e nunca deixa "ainda não processado" parecer "o MAPA não
+  autoriza".
 - Toda resposta inclui a referência da bula (produto, registro MAPA, arquivo/página).
 
 ## Modelo de dados (SQLite)
@@ -142,7 +162,8 @@ produtos(
   marca_comercial, titular, formulacao,
   classificacao_toxicologica, classificacao_ambiental,
   url_agrofit, bula_arquivo, bula_url,   -- bula_arquivo NULL = sem bula
-  incompleto INTEGER DEFAULT 0 -- flag de qualidade (validação inversa); estado de pipeline vive no estado.json
+  processada INTEGER DEFAULT 0, -- 1 = bula passou pelo import (proxy p/ o MCP)
+  incompleto INTEGER DEFAULT 0  -- flag de qualidade (validação inversa)
 )
 ingredientes_ativos(id PK, produto_fk, nome, grupo_quimico, concentracao, unidade)
 indicacoes(                     -- núcleo do dataset
@@ -187,8 +208,9 @@ converter mL/100L↔L/ha exige volume de calda e introduz erro.
   - acurácia ≥95% nos campos numéricos (dose, calda, carência, nº aplicações);
   - taxa de `manual_review` ≤15% — acima disso, ajustar heurística/prompt e
     re-medir **no mesmo gabarito** antes de liberar o lote (loop declarado).
-- MCP: testes das tools contra um SQLite fixture, incluindo os três casos de
-  resposta (encontrado / produto sem bula / sem registro).
+- MCP: testes das tools contra um SQLite fixture, cobrindo os **quatro** casos de
+  resposta (encontrado / produto sem bula / bula não processada ou incompleta —
+  fixture com `processada = 0` e com `incompleto = 1` / sem registro).
 
 ## Riscos conhecidos
 
