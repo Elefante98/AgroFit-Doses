@@ -1,0 +1,75 @@
+import json
+from pathlib import Path
+
+from validacao import validar_registro
+
+UNIDADES = set(json.loads((Path(__file__).parent.parent / "unidades.json").read_text()))
+
+PARES_UVA = [
+    {"cultura_norm": "uva", "praga_cientifico_norm": "uncinula necator",
+     "praga_comum_norm": "oidio", "praga_nome_cientifico": "Uncinula necator"},
+    {"cultura_norm": "uva", "praga_cientifico_norm": "phakopsora euvitis",
+     "praga_comum_norm": "ferrugem-da-videira", "praga_nome_cientifico": "Phakopsora euvitis"},
+]
+
+
+def registro_base(**extra):
+    r = {"cultura": "Uva", "praga_nome_comum": "Oídio", "praga_nome_cientifico": "Uncinula necator",
+         "dose_min": 30, "dose_max": 30, "dose_unidade": "mL/100L",
+         "fonte_pagina": 4, "fonte_trecho": "UVA | Oídio | 30"}
+    r.update(extra)
+    return r
+
+
+def test_registro_valido():
+    status, _ = validar_registro(registro_base(), UNIDADES, PARES_UVA)
+    assert status == "validado"
+
+
+def test_dose_nao_positiva_reprova():
+    status, _ = validar_registro(registro_base(dose_min=0, dose_max=0), UNIDADES, PARES_UVA)
+    assert status == "manual_review"
+
+
+def test_dose_nao_numerica_reprova():
+    status, _ = validar_registro(registro_base(dose_min="30-50"), UNIDADES, PARES_UVA)
+    assert status == "manual_review"
+
+
+def test_unidade_fora_do_vocabulario_reprova():
+    status, _ = validar_registro(registro_base(dose_unidade="sacos/talhão"), UNIDADES, PARES_UVA)
+    assert status == "manual_review"
+
+
+def test_par_sem_match_na_api_reprova():
+    status, _ = validar_registro(registro_base(cultura="Banana"), UNIDADES, PARES_UVA)
+    assert status == "manual_review"
+
+
+def test_match_por_nome_comum_e_enriquece_cientifico():
+    r = registro_base(praga_nome_cientifico=None)
+    status, enriquecido = validar_registro(r, UNIDADES, PARES_UVA)
+    assert status == "validado"
+    assert enriquecido["praga_nome_cientifico"] == "Uncinula necator"
+
+
+def test_comum_ambiguo_reprova():
+    pares = PARES_UVA + [{"cultura_norm": "uva", "praga_cientifico_norm": "outra especie",
+                          "praga_comum_norm": "oidio", "praga_nome_cientifico": "Outra especie"}]
+    r = registro_base(praga_nome_cientifico=None)
+    status, _ = validar_registro(r, UNIDADES, pares)
+    assert status == "manual_review"
+
+
+def test_autor_botanico_nao_impede_match():
+    r = registro_base(praga_nome_cientifico="Uncinula necator (Schwein.)")
+    status, _ = validar_registro(r, UNIDADES, PARES_UVA)
+    assert status == "validado"
+
+
+def test_cientifico_divergente_cai_no_match_por_comum():
+    # bula usa sinônimo taxonômico; o nome comum casa → validado (spec: comum OU científico)
+    r = registro_base(praga_nome_cientifico="Erysiphe necator")
+    status, enriquecido = validar_registro(r, UNIDADES, PARES_UVA)
+    assert status == "validado"
+    assert enriquecido["praga_nome_cientifico"] == "Erysiphe necator"  # o da bula é preservado
