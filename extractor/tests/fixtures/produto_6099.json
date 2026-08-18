@@ -1,0 +1,20 @@
+{
+  "numero_registro": "6099",
+  "marca_comercial": ["Domark 100 EC"],
+  "titular_registro": "Gowan Produtos Agrícolas Ltda.",
+  "formulacao": "EC - Concentrado Emulsionável",
+  "classificacao_toxicologica": "Categoria 4",
+  "classificacao_ambiental": "III - Produto Perigoso ao Meio Ambiente",
+  "url_agrofit": "https://agrofit.agricultura.gov.br/agrofit_cons/!ap_produto_form_detalhe_cons?p_nr_registro=6099",
+  "ingrediente_ativo_detalhado": [
+    {"ingrediente_ativo": "tetraconazol", "grupo_quimico": "triazol", "concentracao": "100", "unidade_medida": "Gramas por Litros"}
+  ],
+  "indicacao_uso": [
+    {"cultura": "Uva", "praga_nome_cientifico": "Uncinula necator", "praga_nome_comum": ["Oídio"]},
+    {"cultura": "Uva", "praga_nome_cientifico": "Phakopsora euvitis", "praga_nome_comum": ["Ferrugem-da-videira"]},
+    {"cultura": "Algodão", "praga_nome_cientifico": "Ramularia areola", "praga_nome_comum": "Ausente"}
+  ],
+  "documento_cadastrado": [
+    {"tipo_documento": "Bula", "url": "https://agrofit.agricultura.gov.br/bula6099.pdf", "descricao": "Bula"}
+  ]
+}
