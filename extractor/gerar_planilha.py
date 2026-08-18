@@ -14,8 +14,9 @@ from pathlib import Path
 RAIZ = Path(__file__).resolve().parent.parent
 DB = RAIZ / "data" / "doses.db"
 
-CAMPOS_BASE = [
-    "numero_registro", "marca", "bula_pdf", "fonte_pagina",
+CAMPOS_BASE = [  # "produto (marca comercial)" = campo marca_comercial do registro MAPA
+
+    "numero_registro", "produto (marca comercial)", "bula_pdf", "fonte_pagina",
     "praga_nome_comum", "praga_nome_cientifico",
     "dose_min", "dose_max", "dose_unidade",
     "volume_calda_min", "volume_calda_max", "volume_calda_unidade",
@@ -44,7 +45,7 @@ def main() -> None:
 
     # conferência (agrupado por linha de origem)
     grupos = conn.execute(
-        f"""SELECT i.produto_fk AS numero_registro, p.marca_comercial AS marca,
+        f"""SELECT i.produto_fk AS numero_registro, p.marca_comercial AS "produto (marca comercial)",
               i.produto_fk || '.pdf' AS bula_pdf, i.fonte_pagina,
               i.praga_nome_comum, i.praga_nome_cientifico,
               i.dose_min, i.dose_max, i.dose_unidade,
