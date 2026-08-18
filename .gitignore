@@ -3,3 +3,8 @@ raw/
 *.db
 .env
 .bob/
+pre/
+data/
+estado.json
+__pycache__/
+.pytest_cache/
