@@ -44,11 +44,13 @@ server.registerTool(
       cultura: z.string().describe("Nome da cultura (ex: 'Uva'). Obrigatório."),
       praga: z.string().optional().describe("Nome comum OU científico da praga (ex: 'Oídio')."),
       produto: z.string().optional().describe("Marca comercial ou número de registro Mapa."),
+      limite: z.number().int().min(1).max(100).optional()
+        .describe("Máximo de produtos na resposta (default 20). casos_omitidos informa o corte."),
     }),
   },
-  async ({ cultura, praga, produto }) => {
+  async ({ cultura, praga, produto, limite }) => {
     try {
-      const r = buscarDose(db, { cultura, praga, produto });
+      const r = buscarDose(db, { cultura, praga, produto, limite });
       // caso 4 explícito — o LLM cliente não deve interpretar vazio sozinho
       return responder(r.casos.length === 0 ? { resultado: "sem registro na base", ...r } : r);
     } catch (err) {

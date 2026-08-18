@@ -23,8 +23,12 @@ type Caso =
 
 export interface ResultadoBusca {
   casos: Caso[];
+  casos_omitidos: number;   // truncados pelo limite — o resumo cobre o total
   resumo_cobertura: { com_dose: number; autorizados: number } | null;
 }
+
+const LIMITE_PADRAO = 20;
+const ORDEM_TIPO: Record<Caso["tipo"], number> = { dose: 0, consulte_bula: 1, sem_bula: 2 };
 
 interface ProdutoRow {
   numero_registro: string; marca_comercial: string; bula_arquivo: string | null;
@@ -37,7 +41,7 @@ const FILTRO_PRAGA =
 
 export function buscarDose(
   db: Database.Database,
-  filtro: { cultura: string; praga?: string; produto?: string },
+  filtro: { cultura: string; praga?: string; produto?: string; limite?: number },
 ): ResultadoBusca {
   if (!filtro.praga && !filtro.produto) {
     throw new Error("Informe ao menos um filtro além da cultura: praga ou produto.");
@@ -100,7 +104,14 @@ export function buscarDose(
   const resumo = filtro.produto
     ? null
     : { com_dose: casos.filter(c => c.tipo === "dose").length, autorizados: casos.length };
-  return { casos, resumo_cobertura: resumo };
+
+  // teto de resposta: consultas amplas reais retornam 300+ produtos (~100 KB) e
+  // estouram o contexto do cliente — trunca os casos, nunca o resumo
+  casos.sort((a, b) =>
+    ORDEM_TIPO[a.tipo] - ORDEM_TIPO[b.tipo] || a.numero_registro.localeCompare(b.numero_registro));
+  const limite = filtro.limite ?? LIMITE_PADRAO;
+  const exibidos = casos.slice(0, limite);
+  return { casos: exibidos, casos_omitidos: casos.length - exibidos.length, resumo_cobertura: resumo };
 }
 
 export function detalharProduto(db: Database.Database, numeroRegistro: string): object | null {

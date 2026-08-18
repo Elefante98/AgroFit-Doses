@@ -130,6 +130,20 @@ test("caso 4: filtro que não casa nada retorna casos vazios (sem registro na ba
   assert.deepEqual(r.resumo_cobertura, { com_dose: 0, autorizados: 0 });
 });
 
+test("limite trunca casos mas resumo cobre o total; dose vem primeiro", () => {
+  const r = buscarDose(db, { cultura: "Uva", praga: "Oídio", limite: 2 });
+  assert.equal(r.casos.length, 2);
+  assert.ok(r.casos.every(c => c.tipo === "dose")); // ordenação: dose primeiro
+  assert.equal(r.casos_omitidos, 4); // 6 autorizados - 2 exibidos
+  assert.deepEqual(r.resumo_cobertura, { com_dose: 3, autorizados: 6 }); // total, não truncado
+});
+
+test("sem limite explícito aplica default 20 e casos_omitidos 0 no fixture", () => {
+  const r = buscarDose(db, { cultura: "Uva", praga: "Oídio" });
+  assert.equal(r.casos.length, 6);
+  assert.equal(r.casos_omitidos, 0);
+});
+
 test("listarPragas lê de indicacoes_api (praga não extraída continua visível)", () => {
   const pragas = listarPragas(db, "uva");
   assert.ok(pragas.some(p => p.nome_comum === "Oídio"));
