@@ -76,6 +76,13 @@ test("cultura+praga: classifica os 4 casos e resume cobertura", () => {
   assert.deepEqual(r.resumo_cobertura, { com_dose: 3, autorizados: 6 });
 });
 
+test("caso 2 (sem_bula) inclui bula_url mesmo com bula_arquivo null (download falhou/formato .doc)", () => {
+  const r = buscarDose(db, { cultura: "Uva", praga: "Oídio" });
+  const semBula = r.casos.find(c => c.numero_registro === "2001");
+  assert.equal(semBula?.tipo, "sem_bula");
+  assert.equal((semBula as { bula_url: string | null }).bula_url, "https://mapa/bula2001.pdf");
+});
+
 test("dose validada com incompleto=1 sai como dose COM aviso (caso 3 não engole caso 1)", () => {
   const r = buscarDose(db, { cultura: "Uva", praga: "Oídio" });
   const c1002 = r.casos.find(c => c.numero_registro === "1002");

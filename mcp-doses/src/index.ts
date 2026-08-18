@@ -25,8 +25,9 @@ function responder(dados: unknown) {
 }
 
 function responderErro(err: unknown) {
+  const mensagem = err instanceof Error ? err.message : String(err);
   return {
-    content: [{ type: "text" as const, text: `Erro: ${err instanceof Error ? err.message : String(err)}` }],
+    content: [{ type: "text" as const, text: JSON.stringify({ aviso: AVISO_LEGAL, erro: mensagem }, null, 1) }],
     isError: true,
   };
 }

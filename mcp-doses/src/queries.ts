@@ -17,7 +17,7 @@ export interface LinhaDose {
 type Caso =
   | { tipo: "dose"; numero_registro: string; marca: string; indicacoes: LinhaDose[];
       aviso_incompleto: boolean; bula_arquivo: string | null; bula_url: string | null }
-  | { tipo: "sem_bula"; numero_registro: string; marca: string }
+  | { tipo: "sem_bula"; numero_registro: string; marca: string; bula_url: string | null }
   | { tipo: "consulte_bula"; numero_registro: string; marca: string;
       bula_arquivo: string | null; bula_url: string | null };
 
@@ -85,7 +85,10 @@ export function buscarDose(
         bula_arquivo: p.bula_arquivo, bula_url: p.bula_url,
       });
     } else if (p.bula_arquivo === null) {
-      casos.push({ tipo: "sem_bula", numero_registro: p.numero_registro, marca: p.marca_comercial });
+      casos.push({
+        tipo: "sem_bula", numero_registro: p.numero_registro, marca: p.marca_comercial,
+        bula_url: p.bula_url,
+      });
     } else {
       casos.push({
         tipo: "consulte_bula", numero_registro: p.numero_registro,
