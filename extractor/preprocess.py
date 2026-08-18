@@ -16,19 +16,36 @@ RAIZ = Path(__file__).resolve().parent.parent
 DIR_BULAS = RAIZ / "raw" / "bulas"
 DIR_PRE = RAIZ / "pre"
 MIN_CHARS = 500
-KEYWORDS = ["dose", "instrucoes de uso", "cultura", "modo de aplica", "intervalo", "carencia"]
+# Heurística v3 (medida em 20 bulas reais: 57% de seleção, zero tabelas de dose
+# perdidas; a v1 por keywords soltas selecionava 90% — "dose" e "cultura"
+# aparecem em quase toda página de bula). Candidata = tabela de uso real OU
+# título de seção; adjacência só a partir de tabelas (transbordo de página).
+SECOES = [re.compile(r) for r in (
+    r"instrucoes de uso", r"modo de aplicac", r"numero,? epoca e intervalo",
+    r"epoca e intervalo de aplicac", r"intervalo de seguranca",
+    r"intervalo de reentrada", r"volume de calda")]
+CONTEUDO_USO = re.compile(r"doses?|culturas?|l/ha|ml/|g/")
 SEM_SUFIXO = re.compile(r"^\d+\.pdf$")
 
 
+def tabela_de_uso(tabela: list[list[str | None]]) -> bool:
+    """Tabela de verdade (>=3 linhas, >=2 colunas — descarta sublinhados que o
+    pdfplumber detecta como tabela) com conteúdo de dose/cultura/unidade."""
+    if len(tabela) < 3 or max(len(linha) for linha in tabela) < 2:
+        return False
+    flat = normalizar(" ".join(str(c) for linha in tabela for c in linha if c))
+    return bool(CONTEUDO_USO.search(flat))
+
+
 def selecionar_paginas(paginas: list[dict]) -> set[int]:
-    """Candidata = tem tabela OU keyword normalizada; adjacentes entram (tabelas transbordam)."""
+    """Candidata = tabela de uso OU título de seção; adjacentes só de tabelas."""
+    numeros = {p["numero"] for p in paginas}
     candidatas = {
         p["numero"]
         for p in paginas
-        if p["tem_tabela"] or any(k in normalizar(p["texto"]) for k in KEYWORDS)
+        if p["tabela_uso"] or any(s.search(normalizar(p["texto"])) for s in SECOES)
     }
-    numeros = {p["numero"] for p in paginas}
-    adjacentes = {n + d for n in candidatas for d in (-1, 1)} & numeros
+    adjacentes = {p["numero"] + d for p in paginas if p["tabela_uso"] for d in (-1, 1)} & numeros
     return candidatas | adjacentes
 
 
@@ -49,7 +66,8 @@ def processar_bula(caminho_pdf: Path, dir_saida: Path) -> Path:
         for i, pagina in enumerate(pdf.pages, start=1):
             texto = pagina.extract_text() or ""
             tabelas = pagina.extract_tables()
-            paginas.append({"numero": i, "texto": texto, "tem_tabela": bool(tabelas)})
+            paginas.append({"numero": i, "texto": texto,
+                            "tabela_uso": any(tabela_de_uso(t) for t in tabelas)})
             tabelas_por_pagina[i] = tabelas
 
     total_chars = sum(len(p["texto"]) for p in paginas)
