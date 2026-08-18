@@ -1,0 +1,21 @@
+{
+  "name": "mcp-doses",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "test": "node --import tsx --test tests/*.test.ts",
+    "check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.16.0",
+    "better-sqlite3": "^11.5.0",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.11",
+    "@types/node": "^22.15.29",
+    "tsx": "^4.19.0",
+    "typescript": "^5.8.3"
+  }
+}
