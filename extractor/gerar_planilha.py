@@ -19,7 +19,7 @@ CAMPOS_BASE = [  # "produto (marca comercial)" = campo marca_comercial do regist
     "numero_registro", "produto (marca comercial)", "bula_pdf", "fonte_pagina",
     "praga_nome_comum", "praga_nome_cientifico",
     "dose_min", "dose_max", "dose_unidade",
-    "volume_calda_min", "volume_calda_max", "volume_calda_unidade",
+    "volume_calda_min", "volume_calda_max", "volume_calda_unidade", "volume_calda_outros",
     "num_max_aplicacoes", "intervalo_aplicacao",
 ]
 
@@ -49,7 +49,7 @@ def main() -> None:
               i.produto_fk || '.pdf' AS bula_pdf, i.fonte_pagina,
               i.praga_nome_comum, i.praga_nome_cientifico,
               i.dose_min, i.dose_max, i.dose_unidade,
-              i.volume_calda_min, i.volume_calda_max, i.volume_calda_unidade,
+              i.volume_calda_min, i.volume_calda_max, i.volume_calda_unidade, i.volume_calda_outros,
               i.num_max_aplicacoes, i.intervalo_aplicacao,
               GROUP_CONCAT(DISTINCT i.cultura) AS culturas,
               COUNT(*) AS n_registros,

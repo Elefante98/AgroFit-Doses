@@ -114,7 +114,7 @@ COLS_INDICACAO = [
     "produto_fk", "cultura", "cultura_norm",
     "praga_nome_cientifico", "praga_cientifico_norm", "praga_nome_comum", "praga_comum_norm",
     "dose_min", "dose_max", "dose_unidade",
-    "volume_calda_min", "volume_calda_max", "volume_calda_unidade",
+    "volume_calda_min", "volume_calda_max", "volume_calda_unidade", "volume_calda_outros",
     "num_max_aplicacoes", "intervalo_aplicacao",
     "carencia_dias", "carencia_texto", "epoca_aplicacao",
     "fonte_pagina", "fonte_trecho", "status",

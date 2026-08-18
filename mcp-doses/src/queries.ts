@@ -7,6 +7,7 @@ export interface LinhaDose {
   praga_nome_cientifico: string | null;
   dose_min: number; dose_max: number; dose_unidade: string;
   volume_calda_min: number | null; volume_calda_max: number | null; volume_calda_unidade: string | null;
+  volume_calda_outros: string | null;
   num_max_aplicacoes: number | null; intervalo_aplicacao: string | null;
   carencia_dias: number | null; carencia_texto: string | null;
   epoca_aplicacao: string | null;

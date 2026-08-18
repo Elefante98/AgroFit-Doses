@@ -51,9 +51,27 @@
    "intervalo_aplicacao": null,
    "carencia_dias": null,
    "carencia_texto": "Não estabelecido",
-   "epoca_aplicacao": "Aplicação única, o mais próximo possível da colheita, no ponto de maturação fisiológica. Tempo mínimo de exposição: 24h (ameixa, caqui, kiwi, maçã) ou 12h (demais culturas), em ambiente hermeticamente fechado. Obs.: bula também lista um segundo valor '20,0 **' na mesma linha da tabela, cujo significado não fica claro no texto (não convertido/assumido).",
+   "epoca_aplicacao": "Aplicação única, o mais próximo possível da colheita, no ponto de maturação fisiológica. Tempo mínimo de exposição: 24h (ameixa, caqui, kiwi, maçã) ou 12h (demais culturas), em ambiente hermeticamente fechado.",
    "fonte_pagina": 2,
-   "fonte_trecho": "Banana 0,7 a 6,0 / 20,0 **"
+   "fonte_trecho": "Banana 0,7 a 6,0"
+  },
+  {
+   "cultura": "Banana",
+   "praga_nome_comum": null,
+   "praga_nome_cientifico": null,
+   "dose_min": 20.0,
+   "dose_max": 20.0,
+   "dose_unidade": "mg/m3",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "num_max_aplicacoes": null,
+   "intervalo_aplicacao": null,
+   "carencia_dias": null,
+   "carencia_texto": "Não estabelecido",
+   "epoca_aplicacao": "Dose marcada com ** na tabela: a escolha da dose é feita de acordo com o intervalo entre a colheita e a aplicação, podendo ser realizada uma ou duas aplicações. Aplicação o mais próximo possível da colheita, no ponto de maturação fisiológica. Tempo mínimo de exposição: 12h, em ambiente hermeticamente fechado.",
+   "fonte_pagina": 2,
+   "fonte_trecho": "Banana 20,0 **"
   },
   {
    "cultura": "Caqui",
@@ -159,9 +177,27 @@
    "intervalo_aplicacao": null,
    "carencia_dias": null,
    "carencia_texto": "Não estabelecido",
-   "epoca_aplicacao": "Aplicação única, o mais próximo possível da colheita, no ponto de maturação fisiológica. Tempo mínimo de exposição: 24h (ameixa, caqui, kiwi, maçã) ou 12h (demais culturas), em ambiente hermeticamente fechado. Obs.: bula também lista um segundo valor '33,0 **' na mesma linha da tabela, cujo significado não fica claro no texto (não convertido/assumido).",
+   "epoca_aplicacao": "Aplicação única, o mais próximo possível da colheita, no ponto de maturação fisiológica. Tempo mínimo de exposição: 24h (ameixa, caqui, kiwi, maçã) ou 12h (demais culturas), em ambiente hermeticamente fechado.",
    "fonte_pagina": 2,
-   "fonte_trecho": "Mamão 3,0 a 6,0 / 33,0 **"
+   "fonte_trecho": "Mamão 3,0 a 6,0"
+  },
+  {
+   "cultura": "Mamão",
+   "praga_nome_comum": null,
+   "praga_nome_cientifico": null,
+   "dose_min": 33.0,
+   "dose_max": 33.0,
+   "dose_unidade": "mg/m3",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "num_max_aplicacoes": null,
+   "intervalo_aplicacao": null,
+   "carencia_dias": null,
+   "carencia_texto": "Não estabelecido",
+   "epoca_aplicacao": "Dose marcada com ** na tabela: a escolha da dose é feita de acordo com o intervalo entre a colheita e a aplicação, podendo ser realizada uma ou duas aplicações. Aplicação o mais próximo possível da colheita, no ponto de maturação fisiológica. Tempo mínimo de exposição: 12h, em ambiente hermeticamente fechado.",
+   "fonte_pagina": 2,
+   "fonte_trecho": "Mamão 33,0 **"
   },
   {
    "cultura": "Manga",

@@ -46,6 +46,7 @@ CREATE TABLE IF NOT EXISTS indicacoes (
   dose_unidade TEXT,
   volume_calda_min REAL, volume_calda_max REAL,  -- idem
   volume_calda_unidade TEXT,
+  volume_calda_outros TEXT,        -- volumes por modalidade quando a bula varia (texto literal)
   num_max_aplicacoes INTEGER,
   intervalo_aplicacao TEXT,
   carencia_dias INTEGER,                 -- NULL quando não numérico…

@@ -11,6 +11,7 @@
    "volume_calda_min": null,
    "volume_calda_max": null,
    "volume_calda_unidade": null,
+   "volume_calda_outros": "Terrestre: mínimo de 100 L/ha; Aérea (calda misturada em água): mínimo de 30 L/ha; Aérea (calda misturada em óleo, ultrabaixo volume): mínimo de 3 L/ha.",
    "num_max_aplicacoes": null,
    "intervalo_aplicacao": null,
    "carencia_dias": null,

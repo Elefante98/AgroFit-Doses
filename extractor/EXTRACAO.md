@@ -15,7 +15,11 @@ Executor: Claude (Code), em lotes por sessão. Custo: subscription — nunca API
 4. Valor único → min = max. Faixa "30-50" → min=30, max=50.
 5. `fonte_pagina` = número do marcador `=== PÁGINA N ===` de onde o dado saiu;
    `fonte_trecho` = linha da tabela/texto de origem (recortada, até ~120 chars).
-6. Carência: número em `carencia_dias`; texto ("UNA", "Não determinado…") em
+6. Volume de calda: número em `volume_calda_min/max` SÓ quando a bula dá um
+   volume único; quando varia por modalidade (terrestre/aérea/costal...), os
+   numéricos ficam null e o texto literal vai em `volume_calda_outros`
+   (ex: "Terrestre: 100-300 L/ha; Aérea: 30-50 L/ha").
+7. Carência: número em `carencia_dias`; texto ("UNA", "Não determinado…") em
    `carencia_texto` com `carencia_dias: null`.
 
 ## Formato de saída (contrato com import_db.py)
@@ -27,6 +31,7 @@ Executor: Claude (Code), em lotes por sessão. Custo: subscription — nunca API
       "cultura": "Uva", "praga_nome_comum": "Oídio", "praga_nome_cientifico": "Uncinula necator",
       "dose_min": 30, "dose_max": 30, "dose_unidade": "mL/100L",
       "volume_calda_min": 1000, "volume_calda_max": 1200, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
       "num_max_aplicacoes": null, "intervalo_aplicacao": "7 a 15 dias",
       "carencia_dias": 7, "carencia_texto": null,
       "epoca_aplicacao": "preventivo", "fonte_pagina": 4,
