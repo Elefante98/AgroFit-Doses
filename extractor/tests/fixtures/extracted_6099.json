@@ -1,0 +1,22 @@
+{
+  "numero_registro": "6099",
+  "registros": [
+    {
+      "cultura": "Uva", "praga_nome_comum": "Oídio", "praga_nome_cientifico": "Uncinula necator",
+      "dose_min": 30, "dose_max": 30, "dose_unidade": "mL/100L",
+      "volume_calda_min": 1000, "volume_calda_max": 1200, "volume_calda_unidade": "L/ha",
+      "num_max_aplicacoes": null, "intervalo_aplicacao": "7 a 15 dias",
+      "carencia_dias": 7, "carencia_texto": null,
+      "epoca_aplicacao": "preventivo", "fonte_pagina": 4,
+      "fonte_trecho": "UVA | Oídio | Uncinula necator | - | 30 | 1000 - 1200"
+    },
+    {
+      "cultura": "Uva", "praga_nome_comum": "Ferrugem", "praga_nome_cientifico": "Phakopsora euvitis",
+      "dose_min": 0, "dose_max": 50, "dose_unidade": "mL/100L",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "num_max_aplicacoes": null, "intervalo_aplicacao": null,
+      "carencia_dias": null, "carencia_texto": "UNA",
+      "epoca_aplicacao": null, "fonte_pagina": 4, "fonte_trecho": "UVA | Ferrugem | 50"
+    }
+  ]
+}
