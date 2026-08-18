@@ -945,8 +945,8 @@ def test_recarga_nao_duplica_nem_zera_flags(tmp_path):
 ```sql
 CREATE TABLE IF NOT EXISTS produtos (
   numero_registro TEXT PRIMARY KEY,
-  marca_comercial TEXT,            -- lista da API unida com "; "
-  marca_norm      TEXT,            -- normalizada, "; " preservado p/ match por marca
+  marca_comercial TEXT,            -- lista da API unida com "; " (exibição)
+  marca_norm      TEXT,            -- marcas normalizadas unidas com ";" SEM espaço (match)
   titular         TEXT,
   formulacao      TEXT,
   classificacao_toxicologica TEXT,
@@ -1048,9 +1048,10 @@ def conectar(caminho: Path) -> sqlite3.Connection:
 def _bula_de(produto: dict) -> str | None:
     vistos: set[str] = set()
     for doc in produto.get("documento_cadastrado") or []:
-        if doc.get("tipo_documento", "").strip().lower() == "bula" and doc["url"] not in vistos:
-            vistos.add(doc["url"])
-            return doc["url"]  # 1ª bula; multi_bula já foi logado pelo coletor
+        url = doc.get("url")
+        if doc.get("tipo_documento", "").strip().lower() == "bula" and url and url not in vistos:
+            vistos.add(url)
+            return url  # 1ª bula; multi_bula já foi logado pelo coletor
     return None
 
 
@@ -1501,6 +1502,11 @@ def carga_extracted(conn: sqlite3.Connection, dir_extracted: Path, unidades: set
     for arq in sorted(dir_extracted.glob("*.json")):
         dados = json.loads(arq.read_text(encoding="utf-8"))
         reg = dados["numero_registro"]
+        # extracted órfão (clone com extracted/ versionado + raw/ incompleto):
+        # sem o produto no banco o INSERT estouraria FK — pula com aviso
+        if not conn.execute("SELECT 1 FROM produtos WHERE numero_registro = ?", (reg,)).fetchone():
+            print(f"AVISO: extracted/{reg}.json sem produto em raw/ — pulado")
+            continue
         pares_api = conn.execute(
             "SELECT cultura_norm, praga_cientifico_norm, praga_comum_norm, praga_nome_cientifico"
             " FROM indicacoes_api WHERE produto_fk = ?", (reg,)
@@ -1784,12 +1790,14 @@ import { normalizar } from "../src/normalizar.ts";
 let db: Database.Database;
 
 function inserirProduto(reg: string, marca: string, opts: Partial<{
-  bula_arquivo: string | null; processada: number; incompleto: number;
+  bula_arquivo: string | null; processada: number; incompleto: number; marca_norm: string;
 }> = {}) {
+  // "in" e não "??": o caso 2 passa bula_arquivo null DE PROPÓSITO — ?? o engoliria
+  const bula = "bula_arquivo" in opts ? opts.bula_arquivo : `${reg}.pdf`;
   db.prepare(
     `INSERT INTO produtos (numero_registro, marca_comercial, marca_norm, bula_arquivo, bula_url, processada, incompleto)
      VALUES (?, ?, ?, ?, ?, ?, ?)`
-  ).run(reg, marca, normalizar(marca), opts.bula_arquivo ?? `${reg}.pdf`,
+  ).run(reg, marca, opts.marca_norm ?? normalizar(marca), bula,
         `https://mapa/bula${reg}.pdf`, opts.processada ?? 1, opts.incompleto ?? 0);
 }
 
@@ -1834,15 +1842,19 @@ before(() => {
   inserirProduto("3002", "SoReview");
   inserirParApi("3002", "Uva", "Uncinula necator", "Oídio");
   inserirIndicacao("3002", "Uva", "Oídio", "manual_review");
+  // multi-marca: pina o separador ";" sem espaço (regressão para "; " quebra a 2ª marca)
+  inserirProduto("4001", "Marca Um; Marca Dois", { marca_norm: "marca um;marca dois" });
+  inserirParApi("4001", "Uva", "Uncinula necator", "Oídio");
+  inserirIndicacao("4001", "Uva", "Oídio", "validado");
 });
 
 test("cultura+praga: classifica os 4 casos e resume cobertura", () => {
   const r = buscarDose(db, { cultura: "uva", praga: "oidio" });
   const porTipo = (t: string) => r.casos.filter(c => c.tipo === t).map(c => c.numero_registro);
-  assert.deepEqual(porTipo("dose").sort(), ["1001", "1002"]);
+  assert.deepEqual(porTipo("dose").sort(), ["1001", "1002", "4001"]);
   assert.deepEqual(porTipo("sem_bula"), ["2001"]);
   assert.deepEqual(porTipo("consulte_bula").sort(), ["3001", "3002"]);
-  assert.deepEqual(r.resumo_cobertura, { com_dose: 2, autorizados: 5 });
+  assert.deepEqual(r.resumo_cobertura, { com_dose: 3, autorizados: 6 });
 });
 
 test("dose validada com incompleto=1 sai como dose COM aviso (caso 3 não engole caso 1)", () => {
@@ -1870,6 +1882,11 @@ test("filtro por produto: resumo é null, matching por marca normalizada", () =>
 test("filtro por produto aceita numero_registro exato", () => {
   const r = buscarDose(db, { cultura: "Uva", produto: "3002" });
   assert.equal(r.casos[0]?.tipo, "consulte_bula");
+});
+
+test("produto multi-marca é encontrado pela SEGUNDA marca", () => {
+  const r = buscarDose(db, { cultura: "Uva", produto: "marca dois" });
+  assert.equal(r.casos[0]?.numero_registro, "4001");
 });
 
 test("praga casa também por nome científico", () => {
@@ -1914,12 +1931,17 @@ export function normalizar(s: string): string {
     .replace(/\p{M}/gu, "")
     .replace(/\s+/g, " ");
 }
+
+/** Espelho de sem_autor(): remove o parêntese FINAL (autor botânico) do nome científico. */
+export function semAutor(s: string): string {
+  return s.replace(/\s*\([^)]*\)\s*$/, "").trim();
+}
 ```
 
 `mcp-doses/src/queries.ts` (o pacote de tipos do better-sqlite3 usa `export =` — o tipo da instância é `Database.Database`, importado como default type):
 ```ts
 import type Database from "better-sqlite3";
-import { normalizar } from "./normalizar.ts";
+import { normalizar, semAutor } from "./normalizar.ts";
 
 export interface LinhaDose {
   cultura: string;
@@ -1963,9 +1985,13 @@ export function buscarDose(
     throw new Error("Informe ao menos um filtro além da cultura: praga ou produto.");
   }
   const cultura = normalizar(filtro.cultura);
-  const praga = filtro.praga ? normalizar(filtro.praga) : undefined;
+  // semAutor: consulta com científico + autor ("Uncinula necator (Schwein.)") deve casar
+  // o banco, que guarda o norm já sem autor (2c). Inócuo para nomes comuns.
+  const praga = filtro.praga ? normalizar(semAutor(filtro.praga)) : undefined;
 
   // universo: produtos autorizados para o filtro segundo a API (spec: indicacoes_api)
+  // better-sqlite3 rejeita chave de binding sem @param correspondente (e valor
+  // undefined) — o objeto de binding é montado só com o que o SQL usa.
   let produtos: ProdutoRow[];
   if (filtro.produto) {
     const q = normalizar(filtro.produto);
@@ -1975,7 +2001,9 @@ export function buscarDose(
          AND (p.numero_registro = @bruto OR ';' || p.marca_norm || ';' LIKE '%;' || @q || ';%'
               OR p.marca_norm = @q)
        ${praga ? FILTRO_PRAGA.replaceAll("praga_", "a.praga_") : ""}`,
-    ).all({ cultura, q, bruto: filtro.produto, praga }) as ProdutoRow[];
+    ).all(praga
+      ? { cultura, q, bruto: filtro.produto, praga }
+      : { cultura, q, bruto: filtro.produto }) as ProdutoRow[];
   } else {
     produtos = db.prepare(
       `SELECT DISTINCT p.* FROM produtos p JOIN indicacoes_api a ON a.produto_fk = p.numero_registro
@@ -1988,7 +2016,9 @@ export function buscarDose(
     const validadas = db.prepare(
       `SELECT * FROM indicacoes WHERE produto_fk = @reg AND cultura_norm = @cultura
          AND status = 'validado' ${praga ? FILTRO_PRAGA : ""}`,
-    ).all({ reg: p.numero_registro, cultura, praga }) as LinhaDose[];
+    ).all(praga
+      ? { reg: p.numero_registro, cultura, praga }
+      : { reg: p.numero_registro, cultura }) as LinhaDose[];
 
     if (validadas.length > 0) {
       casos.push({
@@ -2035,7 +2065,7 @@ export function listarPragas(db: Database.Database, cultura: string) {
 }
 ```
 
-- [ ] **Step 5: Rodar e ver passar** — `npm test` → 10 pass (9 originais + caso 4). `npm run check`.
+- [ ] **Step 5: Rodar e ver passar** — `npm test` → 11 pass (9 originais + caso 4 + multi-marca). `npm run check`.
 
 - [ ] **Step 6: Commit**
 ```bash
