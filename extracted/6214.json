@@ -1,0 +1,59 @@
+{
+ "numero_registro": "6214",
+ "registros": [
+  {
+   "cultura": "Banana",
+   "praga_nome_comum": "Antracnose",
+   "praga_nome_cientifico": "Colletotrichum musae",
+   "dose_min": 200,
+   "dose_max": 200,
+   "dose_unidade": "mL/100L",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "num_max_aplicacoes": 1,
+   "intervalo_aplicacao": null,
+   "carencia_dias": 3,
+   "carencia_texto": null,
+   "epoca_aplicacao": "Pós-colheita: imersão dos frutos na calda durante dois minutos, em uma única aplicação.",
+   "fonte_pagina": 2,
+   "fonte_trecho": "Utilizar a dose de 200 mL para cada 100 L de água (imersão dos frutos)."
+  },
+  {
+   "cultura": "Citros",
+   "praga_nome_comum": "Bolor-verde",
+   "praga_nome_cientifico": "Penicillum digitatum",
+   "dose_min": 200,
+   "dose_max": 200,
+   "dose_unidade": "mL/100L",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "num_max_aplicacoes": 1,
+   "intervalo_aplicacao": null,
+   "carencia_dias": 3,
+   "carencia_texto": null,
+   "epoca_aplicacao": "Pós-colheita: imersão dos frutos na calda durante dois minutos, em uma única aplicação.",
+   "fonte_pagina": 2,
+   "fonte_trecho": "Utilizar a dose de 200 mL para cada 100 L de água (imersão dos frutos)."
+  },
+  {
+   "cultura": "Melão",
+   "praga_nome_comum": "Antracnose",
+   "praga_nome_cientifico": "Colletotrichum orbiculare",
+   "dose_min": 200,
+   "dose_max": 200,
+   "dose_unidade": "mL/100L",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "num_max_aplicacoes": 1,
+   "intervalo_aplicacao": null,
+   "carencia_dias": 3,
+   "carencia_texto": null,
+   "epoca_aplicacao": "Pós-colheita: imersão dos frutos na calda durante dois minutos, em uma única aplicação.",
+   "fonte_pagina": 2,
+   "fonte_trecho": "Utilizar a dose de 200 mL para cada 100 L de água (imersão dos frutos)."
+  }
+ ]
+}

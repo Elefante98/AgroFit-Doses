@@ -1,0 +1,23 @@
+{
+ "numero_registro": "15418",
+ "registros": [
+  {
+   "cultura": "Culturas em que haja ocorrência do alvo biológico indicado",
+   "praga_nome_comum": "Lagarta-falsa-medideira",
+   "praga_nome_cientifico": "Chrysodeixis includens",
+   "dose_min": 50,
+   "dose_max": 200,
+   "dose_unidade": "mL/ha",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "num_max_aplicacoes": null,
+   "intervalo_aplicacao": null,
+   "carencia_dias": null,
+   "carencia_texto": "Não determinado em função da não necessidade de estipular o limite máximo de resíduo (LMR) para este ingrediente ativo.",
+   "epoca_aplicacao": "Aplicar no início da infestação, quando as lagartas estiverem entre 1º e 3º ínstar (1 a 11 mm).",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Lagarta-falsa-medideira | Chrysodeixis includens | 50 a 200 mL | 20,2 a 80,8 g.i.a."
+  }
+ ]
+}

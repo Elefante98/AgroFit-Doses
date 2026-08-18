@@ -1,0 +1,23 @@
+{
+ "numero_registro": "7815",
+ "registros": [
+  {
+   "cultura": "Todas as culturas em que haja ocorrência do alvo biológico indicado",
+   "praga_nome_comum": "Lagarta Helicoverpa",
+   "praga_nome_cientifico": "Helicoverpa armigera",
+   "dose_min": 50,
+   "dose_max": 200,
+   "dose_unidade": "mL/ha",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "num_max_aplicacoes": null,
+   "intervalo_aplicacao": null,
+   "carencia_dias": null,
+   "carencia_texto": "Não determinado em função da não necessidade de estipular o Limite Máximo de Resíduo (LMR) para este ingrediente ativo.",
+   "epoca_aplicacao": "Início da infestação, com lagartas de 1º a 2º ínstar (1-13 mm); menores doses em infestação baixa/homogênea (1-7mm), maiores doses com complexo de 2º-3º ínstar (7-13mm).",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Lagarta Helicoverpa | Helicoverpa armigera | Produto Comercial 50 a 200 mL | Ingrediente Ativo 20,2 a 80,8 g.i.a."
+  }
+ ]
+}
