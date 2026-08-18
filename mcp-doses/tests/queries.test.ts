@@ -30,6 +30,7 @@ function inserirParApi(reg: string, cultura: string, cientifico: string, comum: 
 
 function inserirIndicacao(reg: string, cultura: string, comum: string, status: string,
                           dose = 30, cientifico = "Uncinula necator") {
+  // status aceitos: validado | validado_bula | manual_review
   db.prepare(
     `INSERT INTO indicacoes (produto_fk, cultura, cultura_norm, praga_nome_comum, praga_comum_norm,
        praga_nome_cientifico, praga_cientifico_norm,
@@ -65,15 +66,19 @@ before(() => {
   inserirProduto("4001", "Marca Um; Marca Dois", { marca_norm: "marca um;marca dois" });
   inserirParApi("4001", "Uva", "Uncinula necator", "Oídio");
   inserirIndicacao("4001", "Uva", "Oídio", "validado");
+  // fonte-bula: dose sã cujo par só existe na bula (decisão 2026-08-18)
+  inserirProduto("5001", "FonteBula");
+  inserirParApi("5001", "Uva", "Uncinula necator", "Oídio");
+  inserirIndicacao("5001", "Uva", "Oídio", "validado_bula");
 });
 
 test("cultura+praga: classifica os 4 casos e resume cobertura", () => {
   const r = buscarDose(db, { cultura: "uva", praga: "oidio" });
   const porTipo = (t: string) => r.casos.filter(c => c.tipo === t).map(c => c.numero_registro);
-  assert.deepEqual(porTipo("dose").sort(), ["1001", "1002", "4001"]);
+  assert.deepEqual(porTipo("dose").sort(), ["1001", "1002", "4001", "5001"]);
   assert.deepEqual(porTipo("sem_bula"), ["2001"]);
   assert.deepEqual(porTipo("consulte_bula").sort(), ["3001", "3002"]);
-  assert.deepEqual(r.resumo_cobertura, { com_dose: 3, autorizados: 6 });
+  assert.deepEqual(r.resumo_cobertura, { com_dose: 4, autorizados: 7 });
 });
 
 test("caso 2 (sem_bula) inclui bula_url mesmo com bula_arquivo null (download falhou/formato .doc)", () => {
@@ -90,11 +95,18 @@ test("dose validada com incompleto=1 sai como dose COM aviso (caso 3 não engole
   assert.equal((c1002 as { aviso_incompleto: boolean }).aviso_incompleto, true);
 });
 
+test("validado_bula é servido como dose com confirmacao somente_bula", () => {
+  const r = buscarDose(db, { cultura: "Uva", produto: "5001" });
+  assert.equal(r.casos[0]?.tipo, "dose");
+  const linhas = (r.casos[0] as { indicacoes: { confirmacao: string }[] }).indicacoes;
+  assert.equal(linhas[0].confirmacao, "somente_bula");
+});
+
 test("registro manual_review NUNCA sai como dose", () => {
   const r = buscarDose(db, { cultura: "Uva", praga: "Oídio" });
   for (const caso of r.casos.filter(c => c.tipo === "dose")) {
     for (const ind of (caso as { indicacoes: { status: string }[] }).indicacoes) {
-      assert.equal(ind.status, "validado");
+      assert.notEqual(ind.status, "manual_review"); // validado e validado_bula podem
     }
   }
 });
@@ -134,13 +146,13 @@ test("limite trunca casos mas resumo cobre o total; dose vem primeiro", () => {
   const r = buscarDose(db, { cultura: "Uva", praga: "Oídio", limite: 2 });
   assert.equal(r.casos.length, 2);
   assert.ok(r.casos.every(c => c.tipo === "dose")); // ordenação: dose primeiro
-  assert.equal(r.casos_omitidos, 4); // 6 autorizados - 2 exibidos
-  assert.deepEqual(r.resumo_cobertura, { com_dose: 3, autorizados: 6 }); // total, não truncado
+  assert.equal(r.casos_omitidos, 5); // 7 autorizados - 2 exibidos
+  assert.deepEqual(r.resumo_cobertura, { com_dose: 4, autorizados: 7 }); // total, não truncado
 });
 
 test("sem limite explícito aplica default 20 e casos_omitidos 0 no fixture", () => {
   const r = buscarDose(db, { cultura: "Uva", praga: "Oídio" });
-  assert.equal(r.casos.length, 6);
+  assert.equal(r.casos.length, 7);
   assert.equal(r.casos_omitidos, 0);
 });
 

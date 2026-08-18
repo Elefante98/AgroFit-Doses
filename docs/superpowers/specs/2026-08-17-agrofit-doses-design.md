@@ -108,7 +108,7 @@ direta no SQLite é perdida no próximo import — por design.
   (A cascata também resolve a correção de um scan: criar `extracted/<reg>.json`
   à mão supera o `.scan` — o marcador não precisa ser removido.)
 - *Qualidade* (no banco): `indicacoes.status` por registro
-  (`validado | manual_review`), flag `produtos.incompleto` (validação inversa) e
+  (`validado | validado_bula | manual_review`), flag `produtos.incompleto` (validação inversa) e
   flag `produtos.processada` (proxy gravado pelo 2c: 1 = bula passou pelo
   import). `processada` existe para o MCP — que lê **só** o SQLite — distinguir
   "não processada" sem acoplar no `estado.json`.
@@ -119,7 +119,11 @@ direta no SQLite é perdida no próximo import — por design.
 Validações no import (cada uma com nível e destino declarados):
 - **Precisão** (nível registro): dose não numérica ou ≤ 0 → `manual_review`;
   unidade fora do vocabulário → `manual_review`; (cultura, praga) sem match no
-  `indicacao_uso` da API → `manual_review`.
+  `indicacao_uso` da API **mas com dose/unidade sãs e nomes presentes** →
+  `validado_bula` (decisão de 2026-08-18, medida no piloto: a bula — documento
+  registrado — autoriza pares que o índice estruturado da API não lista; o MCP
+  serve esses registros com `confirmacao: "somente_bula"` por linha). Sem
+  cultura ou sem nenhum nome de praga → `manual_review`.
 - **Recall / validação inversa** (nível produto): todo par de `indicacoes_api`
   **sem** registro extraído correspondente →
   `produtos.incompleto = true`. **Aceite: cobertura ≥ 90%** dos pares da API com

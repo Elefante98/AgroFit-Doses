@@ -22,7 +22,7 @@ def preparar(tmp_path):
 def test_import_parcial_valido_entra_reprovado_marca_review(tmp_path):
     conn, _ = preparar(tmp_path)
     resumo = carga_extracted(conn, tmp_path / "extracted", UNIDADES)
-    assert resumo == {"produtos": 1, "validados": 1, "manual_review": 1}
+    assert resumo == {"produtos": 1, "validados": 1, "validado_bula": 0, "manual_review": 1}
 
     linhas = conn.execute("SELECT praga_comum_norm, status FROM indicacoes ORDER BY status").fetchall()
     assert [(l["praga_comum_norm"], l["status"]) for l in linhas] == [

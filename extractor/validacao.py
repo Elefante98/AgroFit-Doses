@@ -1,7 +1,14 @@
 """Validação de precisão (nível registro) — spec Bloco 2c.
 
-Reprovado NUNCA é descartado: vira status manual_review e o humano corrige
-no extracted/<reg>.json (nunca no banco).
+Três saídas:
+- "validado": dose/unidade sãs E par (cultura, praga) confirmado no
+  indicacao_uso da API;
+- "validado_bula": dose/unidade sãs, par consta só na bula (a bula é o
+  documento registrado; a API não lista todos os cruzamentos) — decisão de
+  produto de 2026-08-18: servido pelo MCP com proveniência explícita;
+- "manual_review": dose/unidade inválidas ou nomes ausentes — retido.
+
+Reprovado NUNCA é descartado: o humano corrige no extracted/<reg>.json.
 """
 from numbers import Real
 
@@ -55,4 +62,8 @@ def validar_registro(reg: dict, unidades: set[str], pares_api: list) -> tuple[st
                 saida["praga_nome_cientifico"] = next(iter(matches.values()))["praga_nome_cientifico"]
             return "validado", saida  # científico da bula, se houver, é preservado
 
-    return "manual_review", saida  # nenhum nome casou (ou comum ambíguo/ausente)
+    # dose e unidade sãs, mas o par não consta na API: fonte é a bula
+    if reg.get("cultura") and (cientifico or comum):
+        return "validado_bula", saida
+
+    return "manual_review", saida  # sem cultura ou sem nenhum nome de praga

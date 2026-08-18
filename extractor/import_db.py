@@ -150,7 +150,7 @@ def _par_tem_dose(conn: sqlite3.Connection, produto: str, par: sqlite3.Row) -> b
 def carga_extracted(conn: sqlite3.Connection, dir_extracted: Path, unidades: set[str]) -> dict:
     from validacao import validar_registro
 
-    resumo = {"produtos": 0, "validados": 0, "manual_review": 0}
+    resumo = {"produtos": 0, "validados": 0, "validado_bula": 0, "manual_review": 0}
     for arq in sorted(dir_extracted.glob("*.json")):
         dados = json.loads(arq.read_text(encoding="utf-8"))
         reg = dados["numero_registro"]
@@ -171,7 +171,8 @@ def carga_extracted(conn: sqlite3.Connection, dir_extracted: Path, unidades: set
             cols = ", ".join(COLS_INDICACAO)
             marcadores = ", ".join(f":{c}" for c in COLS_INDICACAO)
             conn.execute(f"INSERT INTO indicacoes ({cols}) VALUES ({marcadores})", linha)
-            resumo["validados" if status == "validado" else "manual_review"] += 1
+            chave = {"validado": "validados", "validado_bula": "validado_bula"}.get(status, "manual_review")
+            resumo[chave] += 1
 
         # par sem NENHUM nome de praga não bloqueia (não há como casar contra ele)
         pares_nomeados = [p for p in pares_api

@@ -56,8 +56,16 @@ def test_volume_calda_com_unidade_valida():
     assert status == "validado"
 
 
-def test_par_sem_match_na_api_reprova():
+def test_par_sem_match_na_api_vira_validado_bula():
+    # decisão 2026-08-18: a bula é o documento registrado — par ausente da API
+    # com dose/unidade sãs entra como fonte-bula, não como reprovado
     status, _ = validar_registro(registro_base(cultura="Banana"), UNIDADES, PARES_UVA)
+    assert status == "validado_bula"
+
+
+def test_sem_nome_de_praga_continua_reprovando():
+    r = registro_base(praga_nome_comum=None, praga_nome_cientifico=None)
+    status, _ = validar_registro(r, UNIDADES, PARES_UVA)
     assert status == "manual_review"
 
 
@@ -68,12 +76,15 @@ def test_match_por_nome_comum_e_enriquece_cientifico():
     assert enriquecido["praga_nome_cientifico"] == "Uncinula necator"
 
 
-def test_comum_ambiguo_reprova():
+def test_comum_ambiguo_vira_validado_bula_sem_enriquecer():
+    # dois científicos possíveis p/ o mesmo comum: a linha da bula é fiel, mas
+    # não dá para cravar a espécie — entra como fonte-bula, científico fica null
     pares = PARES_UVA + [{"cultura_norm": "uva", "praga_cientifico_norm": "outra especie",
                           "praga_comum_norm": "oidio", "praga_nome_cientifico": "Outra especie"}]
     r = registro_base(praga_nome_cientifico=None)
-    status, _ = validar_registro(r, UNIDADES, pares)
-    assert status == "manual_review"
+    status, enriquecido = validar_registro(r, UNIDADES, pares)
+    assert status == "validado_bula"
+    assert enriquecido["praga_nome_cientifico"] is None
 
 
 def test_autor_botanico_nao_impede_match():

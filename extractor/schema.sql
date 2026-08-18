@@ -53,7 +53,7 @@ CREATE TABLE IF NOT EXISTS indicacoes (
   epoca_aplicacao TEXT,
   fonte_pagina INTEGER,
   fonte_trecho TEXT,
-  status TEXT NOT NULL CHECK (status IN ('validado', 'manual_review'))
+  status TEXT NOT NULL CHECK (status IN ('validado', 'validado_bula', 'manual_review'))
 );
 
 CREATE INDEX IF NOT EXISTS idx_ind_cultura_praga

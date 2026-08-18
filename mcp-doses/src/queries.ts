@@ -12,6 +12,7 @@ export interface LinhaDose {
   epoca_aplicacao: string | null;
   fonte_pagina: number | null; fonte_trecho: string | null;
   status: string;
+  confirmacao: "bula+api" | "somente_bula";  // proveniência por linha
 }
 
 type Caso =
@@ -75,12 +76,15 @@ export function buscarDose(
 
   const casos: Caso[] = [];
   for (const p of produtos) {
-    const validadas = db.prepare(
+    // decisão 2026-08-18: a bula é o documento registrado — validado_bula é
+    // servido, com a proveniência explícita por linha (confirmacao)
+    const validadas = (db.prepare(
       `SELECT * FROM indicacoes WHERE produto_fk = @reg AND cultura_norm = @cultura
-         AND status = 'validado' ${praga ? FILTRO_PRAGA : ""}`,
+         AND status IN ('validado', 'validado_bula') ${praga ? FILTRO_PRAGA : ""}`,
     ).all(praga
       ? { reg: p.numero_registro, cultura, praga }
-      : { reg: p.numero_registro, cultura }) as LinhaDose[];
+      : { reg: p.numero_registro, cultura }) as LinhaDose[])
+      .map(l => ({ ...l, confirmacao: (l.status === "validado" ? "bula+api" : "somente_bula") as LinhaDose["confirmacao"] }));
 
     if (validadas.length > 0) {
       casos.push({
