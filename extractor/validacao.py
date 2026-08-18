@@ -21,12 +21,17 @@ def validar_registro(reg: dict, unidades: set[str], pares_api: list) -> tuple[st
     if reg.get("dose_unidade") not in unidades:
         return "manual_review", saida
     # volume de calda é opcional, mas se veio precisa ser são
+    tem_volume_calda = any(reg.get(campo) is not None for campo in ("volume_calda_min", "volume_calda_max"))
     for campo in ("volume_calda_min", "volume_calda_max"):
         v = reg.get(campo)
         if v is not None and not _numero_positivo(v):
             return "manual_review", saida
     vcu = reg.get("volume_calda_unidade")
-    if vcu is not None and vcu not in unidades:
+    # se veio min/max, a unidade é obrigatória (dado numérico sem unidade não é
+    # "validado" — não dá pra saber se é 1000 L/ha ou 1000 mL/100L)
+    if tem_volume_calda and vcu not in unidades:
+        return "manual_review", saida
+    if not tem_volume_calda and vcu is not None and vcu not in unidades:
         return "manual_review", saida
 
     # matching contra os pares autorizados da API

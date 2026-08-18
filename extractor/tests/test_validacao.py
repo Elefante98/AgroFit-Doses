@@ -41,6 +41,21 @@ def test_unidade_fora_do_vocabulario_reprova():
     assert status == "manual_review"
 
 
+def test_volume_calda_sem_unidade_reprova():
+    # volume_calda_min/max numérico sem volume_calda_unidade não pode ser "validado":
+    # 1000 sem unidade pode ser 1000 L/ha ou 1000 mL/100L — dado ambíguo vira manual_review
+    status, _ = validar_registro(registro_base(volume_calda_min=1000, volume_calda_max=1000), UNIDADES, PARES_UVA)
+    assert status == "manual_review"
+
+
+def test_volume_calda_com_unidade_valida():
+    status, _ = validar_registro(
+        registro_base(volume_calda_min=1000, volume_calda_max=1000, volume_calda_unidade="L/ha"),
+        UNIDADES, PARES_UVA,
+    )
+    assert status == "validado"
+
+
 def test_par_sem_match_na_api_reprova():
     status, _ = validar_registro(registro_base(cultura="Banana"), UNIDADES, PARES_UVA)
     assert status == "manual_review"
