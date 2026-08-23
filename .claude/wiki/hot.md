@@ -1,6 +1,14 @@
 # hot.md — estado atual (AgroFit Doses)
 
-> Atualizado: 2026-08-22
+> Atualizado: 2026-08-23 01:30
+
+## Extração em massa — progresso
+
+- Preprocess v3 re-rodado: 3.999 bulas em `pre/`.
+- **Lote 1 fechado: 40 bulas extraídas** (sessão agendada de 00:37, encerrou por
+  limite às ~00:55; import+commit fechados depois). Banco: **70 produtos,
+  9.172 registros** (7.519 validado, 1.572 validado_bula, 81 manual_review = 0,9%).
+- Restam ~3.890 bulas. Contrato endurecido em `extractor/EXTRACAO.md` (regras a-j).
 
 ## Onde estamos
 
