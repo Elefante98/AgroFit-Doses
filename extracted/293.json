@@ -1,0 +1,62 @@
+{
+ "numero_registro": "293",
+ "registros": [
+  {
+   "cultura": "Fumo",
+   "praga_nome_comum": null,
+   "praga_nome_cientifico": null,
+   "dose_min": 3,
+   "dose_max": 4,
+   "dose_unidade": "L/ha",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": "250 L/ha ou 15 mL de calda/planta, considerando-se uma densidade de 16.666 plantas/ha. Para o caso de culturas muito vigorosas, 20 mL de calda/planta",
+   "num_max_aplicacoes": 1,
+   "intervalo_aplicacao": null,
+   "carencia_dias": null,
+   "carencia_texto": "UNA",
+   "epoca_aplicacao": "1 aplicação logo após a capação. PRIMEPLUS BR deve ser aplicado somente uma vez, imediatamente após a capação que normalmente ocorre no estádio de botões alongados, na abertura das primeiras flores.",
+   "fonte_pagina": 3,
+   "fonte_trecho": "FUMO | Redução da brotação lateral das plantas de fumo | 3 - 4 L/ha | 250 L/ha ou 15 mL de calda/planta... | 1 aplicação logo após a capação"
+  },
+  {
+   "cultura": "Fumo",
+   "praga_nome_comum": null,
+   "praga_nome_cientifico": null,
+   "dose_min": 1250,
+   "dose_max": 1250,
+   "dose_unidade": "mL/100L",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": "250 L/ha ou 15 mL de calda/planta, considerando-se uma densidade de 16.666 plantas/ha. Para o caso de culturas muito vigorosas, 20 mL de calda/planta",
+   "num_max_aplicacoes": 1,
+   "intervalo_aplicacao": null,
+   "carencia_dias": null,
+   "carencia_texto": "UNA",
+   "epoca_aplicacao": "1 aplicação logo após a capação. PRIMEPLUS BR deve ser aplicado somente uma vez, imediatamente após a capação que normalmente ocorre no estádio de botões alongados, na abertura das primeiras flores.",
+   "fonte_pagina": 3,
+   "fonte_trecho": "[dose herdada: FUMO | Redução da brotação lateral das plantas de fumo] 1250 mL/100 L de água ou 15 – 20 mL de calda/planta"
+  },
+  {
+   "cultura": "Fumo",
+   "praga_nome_comum": null,
+   "praga_nome_cientifico": null,
+   "dose_min": 15,
+   "dose_max": 20,
+   "dose_unidade": "mL/planta",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": "250 L/ha ou 15 mL de calda/planta, considerando-se uma densidade de 16.666 plantas/ha. Para o caso de culturas muito vigorosas, 20 mL de calda/planta",
+   "num_max_aplicacoes": 1,
+   "intervalo_aplicacao": null,
+   "carencia_dias": null,
+   "carencia_texto": "UNA",
+   "epoca_aplicacao": "1 aplicação logo após a capação. PRIMEPLUS BR deve ser aplicado somente uma vez, imediatamente após a capação que normalmente ocorre no estádio de botões alongados, na abertura das primeiras flores.",
+   "fonte_pagina": 3,
+   "fonte_trecho": "[dose herdada: FUMO | Redução da brotação lateral das plantas de fumo] 1250 mL/100 L de água ou 15 – 20 mL de calda/planta"
+  }
+ ]
+}

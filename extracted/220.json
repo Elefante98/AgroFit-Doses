@@ -1,0 +1,43 @@
+{
+ "numero_registro": "220",
+ "registros": [
+  {
+   "cultura": "Algodão",
+   "praga_nome_comum": "Pulgão-do-algodoeiro",
+   "praga_nome_cientifico": "Aphis gossypii",
+   "dose_min": 500,
+   "dose_max": 500,
+   "dose_unidade": "mL p.c./ha",
+   "volume_calda_min": 2.5,
+   "volume_calda_max": 2.5,
+   "volume_calda_unidade": "L/ha",
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": 3,
+   "intervalo_aplicacao": "7 dias",
+   "carencia_dias": 7,
+   "carencia_texto": null,
+   "epoca_aplicacao": "As pulverizações devem ser feitas no início do ataque das pragas relacionadas. No caso de pulgão, aplicar somente quando o nível de infestação atingir 10% das plantas da cultura. Recomenda-se efetuar no máximo 3 aplicações com intervalo de 7 dias entre elas.",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Algodão | Pulgão-do-algodoeiro (Aphis gossypii) | 500 mL p.c./ha | 2,5 L/ha | 3"
+  },
+  {
+   "cultura": "Algodão",
+   "praga_nome_comum": "Bicudo",
+   "praga_nome_cientifico": "Anthonomus grandis",
+   "dose_min": 1000,
+   "dose_max": 1000,
+   "dose_unidade": "mL p.c./ha",
+   "volume_calda_min": 2.5,
+   "volume_calda_max": 2.5,
+   "volume_calda_unidade": "L/ha",
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": 3,
+   "intervalo_aplicacao": "7 dias",
+   "carencia_dias": 7,
+   "carencia_texto": null,
+   "epoca_aplicacao": "As pulverizações devem ser feitas no início do ataque das pragas relacionadas. No caso de pulgão, aplicar somente quando o nível de infestação atingir 10% das plantas da cultura. Recomenda-se efetuar no máximo 3 aplicações com intervalo de 7 dias entre elas.",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Algodão | Bicudo (Anthonomus grandis) | 1000 mL p.c./ha | 2,5 L/ha | 3"
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "numero_registro": "116",
+ "registros": [
+  {
+   "cultura": "Batata",
+   "praga_nome_comum": "Requeima",
+   "praga_nome_cientifico": "Phytophthora infestans",
+   "dose_min": 2.5,
+   "dose_max": 3.0,
+   "dose_unidade": "L/ha",
+   "volume_calda_min": 600,
+   "volume_calda_max": 1000,
+   "volume_calda_unidade": "L/ha",
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": 6,
+   "intervalo_aplicacao": "7 dias",
+   "carencia_dias": 7,
+   "carencia_texto": null,
+   "epoca_aplicacao": "Aplicar preventivamente, quando houver condições climáticas propícias para o desenvolvimento da doença, ou imediatamente após os primeiros sintomas das doenças. Repetir a aplicação a cada 7 dias, se necessário. Em condições altamente favoráveis à doença (alta umidade e temperaturas amenas), recomenda-se aplicar a dose maior e reduzir o intervalo de aplicação. Utilizar maior ou menor volume de calda conforme o porte da cultura.",
+   "fonte_pagina": 2,
+   "fonte_trecho": "BATATA | Phytophthora infestans Requeima | 2,5 - 3,0 L/ha | 600 - 1000L/ha | 6"
+  },
+  {
+   "cultura": "Tomate",
+   "praga_nome_comum": "Requeima",
+   "praga_nome_cientifico": "Phytophthora infestans",
+   "dose_min": 0.25,
+   "dose_max": 0.3,
+   "dose_unidade": "L/100L de água",
+   "volume_calda_min": 600,
+   "volume_calda_max": 1000,
+   "volume_calda_unidade": "L/ha",
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": 4,
+   "intervalo_aplicacao": "7 dias",
+   "carencia_dias": 7,
+   "carencia_texto": null,
+   "epoca_aplicacao": "Aplicar preventivamente, quando houver condições climáticas propícias para o desenvolvimento da doença, ou imediatamente após os primeiros sintomas das doenças. Repetir a aplicação a cada 7 dias, se necessário. Em condições altamente favoráveis à doença (alta umidade e temperaturas amenas), recomenda-se aplicar a dose maior e reduzir o intervalo de aplicação. Utilizar maior ou menor volume de calda conforme o porte da cultura.",
+   "fonte_pagina": 2,
+   "fonte_trecho": "TOMATE | Phytophthora infestans Requeima | 0,25 - 0,3 L/100L de água | 600 - 1000L/ha | 4"
+  }
+ ]
+}

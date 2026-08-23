@@ -1,0 +1,62 @@
+{
+ "numero_registro": "107",
+ "registros": [
+  {
+   "cultura": "Café",
+   "praga_nome_comum": "Ácaro-da-leprose",
+   "praga_nome_cientifico": "Brevipalpus phoenicis",
+   "dose_min": 1.5,
+   "dose_max": 1.5,
+   "dose_unidade": "g/100 litros de água",
+   "volume_calda_min": 800,
+   "volume_calda_max": 1500,
+   "volume_calda_unidade": "L/ha",
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": 1,
+   "intervalo_aplicacao": "mínimo de 12 meses na mesma área",
+   "carencia_dias": 28,
+   "carencia_texto": null,
+   "epoca_aplicacao": "Realizar uma aplicação quando for constatado um máximo de 2% de infestação com o ácaro da leprose. Deverão ser considerados menores ou maiores volumes de calda de acordo com o porte da planta, para atingir o ponto de molhamento. A aplicação deve ser feita de maneira a se ter um perfeito molhamento da parte externa, e principalmente da parte interna da planta. Recomenda-se a adição de espalhante à calda.",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Café | Ácaro-da-leprose (Brevipalpus phoenicis) | 1,5 g/100 litros de água (800 a 1500 litros de calda por ha)"
+  },
+  {
+   "cultura": "Coco",
+   "praga_nome_comum": "Ácaro-da-necrose-do-coqueiro",
+   "praga_nome_cientifico": "Eriophyes guerreronis",
+   "dose_min": 3.0,
+   "dose_max": 3.0,
+   "dose_unidade": "g/100 litros de água",
+   "volume_calda_min": 2,
+   "volume_calda_max": 2,
+   "volume_calda_unidade": "L/planta",
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": null,
+   "intervalo_aplicacao": "mínimo de 12 meses na mesma área",
+   "carencia_dias": 3,
+   "carencia_texto": null,
+   "epoca_aplicacao": "Realizar aplicação dirigida aos frutos. A aplicação deve garantir molhamento adequado e para tanto o uso de espalhante é recomendado conforme orientação dos fabricantes. O controle do ácaro deve ser realizado no início da formação dos frutos, tão logo seja detectada a presença de indivíduos.",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Coco | Ácaro-da-necrose-do-coqueiro (Eriophyes guerreronis) | 3,0 g/100 litros de água (2 litros de calda por planta)"
+  },
+  {
+   "cultura": "Manga",
+   "praga_nome_comum": "Ácaro-da-mal-formação-das-gemas",
+   "praga_nome_cientifico": "Eriophyes mangiferae",
+   "dose_min": 3.0,
+   "dose_max": 3.0,
+   "dose_unidade": "g/100 litros de água",
+   "volume_calda_min": 2000,
+   "volume_calda_max": 2000,
+   "volume_calda_unidade": "L/ha",
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": 1,
+   "intervalo_aplicacao": "mínimo de 12 meses na mesma área",
+   "carencia_dias": 3,
+   "carencia_texto": null,
+   "epoca_aplicacao": "Realizar uma aplicação preventivamente no início do florescimento da cultura e usar espalhante na calda conforme recomendações dos fabricantes de maneira a garantir um bom molhamento das plantas.",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Manga | Ácaro-da-mal-formação-das-gemas (Eriophyes mangiferae) | 3,0 g/100 litros de água (2000 litros de calda por ha)"
+  }
+ ]
+}

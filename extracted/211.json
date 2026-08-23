@@ -1,0 +1,24 @@
+{
+ "numero_registro": "211",
+ "registros": [
+  {
+   "cultura": "Algodão",
+   "praga_nome_comum": "Pulgão",
+   "praga_nome_cientifico": "Aphis gossypii",
+   "dose_min": 400,
+   "dose_max": 500,
+   "dose_unidade": "mL p.c./ha",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": "Terrestre: 200 a 300 L/ha; Aérea: 10 a 40 L/ha",
+   "num_max_aplicacoes": 3,
+   "intervalo_aplicacao": "7 dias",
+   "carencia_dias": 7,
+   "carencia_texto": null,
+   "epoca_aplicacao": "Aplicar quando for observada a presença dos primeiros pulgões (2% de infestação), repetindo as aplicações a cada 7 dias caso seja necessário",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Algodão | Pulgão (Aphis gossypii) | 400 a 500 mL p.c./ha | 3 | Terrestre: 200 a 300 Aérea: 10 a 40"
+  }
+ ]
+}
