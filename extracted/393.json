@@ -1,0 +1,24 @@
+{
+ "numero_registro": "393",
+ "registros": [
+  {
+   "cultura": "Citros",
+   "praga_nome_comum": "Cochonilha-pardinha",
+   "praga_nome_cientifico": "Selenaspidus articulatus",
+   "dose_min": 2.0,
+   "dose_max": 2.0,
+   "dose_unidade": "L/100L",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": "3,0 a 4,0L de calda/planta em pomar jovem (menor que 5 anos); 8,0 a 10,0 L de calda/planta em pomar adulto (maior que 5 anos)",
+   "num_max_aplicacoes": null,
+   "intervalo_aplicacao": null,
+   "carencia_dias": null,
+   "carencia_texto": "Por ser um óleo vegetal, GRAXOL não deixa resíduos indesejáveis, o que possibilita a colheita sem intervalo de segurança.",
+   "epoca_aplicacao": "Aplicar GRAXOL, preferencialmente, na fase inicial de infestação das cochonilhas quando a praga estiver na forma jovem, o que possibilitará maior eficiência de controle. A aplicação poderá ser realizada antes ou após a florada.",
+   "fonte_pagina": 2,
+   "fonte_trecho": "Citros | Cochonilha pardinha (Selenaspidus articulatus) | 2,0L/100L de água | 3,0 a 4,0L de calda/planta pomar jovem ou 8,0 a 10,0 L/planta pomar adulto"
+  }
+ ]
+}

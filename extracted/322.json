@@ -1,0 +1,24 @@
+{
+ "numero_registro": "322",
+ "registros": [
+  {
+   "cultura": "Soja",
+   "praga_nome_comum": null,
+   "praga_nome_cientifico": null,
+   "dose_min": 1,
+   "dose_max": 1,
+   "dose_unidade": "L/ha",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": "Terrestre: 100 a 300 L/ha; Aérea: 10 a 40 L/ha",
+   "num_max_aplicacoes": 1,
+   "intervalo_aplicacao": null,
+   "carencia_dias": 7,
+   "carencia_texto": null,
+   "epoca_aplicacao": "Realizar 1 aplicação em área total sobre a cultura quando esta atingir a maturação fisiológica (estágio R7). Utilizar espalhante adesivo não iônico na dose de 0,5% v/v ou, a dose recomendada pelo fabricante.",
+   "fonte_pagina": 4,
+   "fonte_trecho": "Soja | 1 L p.c./ha | Terrestre: 100 a 300 L/ha; Aérea: 10 a 40 L/ha | 1 aplicação"
+  }
+ ]
+}
