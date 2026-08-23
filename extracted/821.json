@@ -376,7 +376,7 @@
    "carencia_dias": null,
    "carencia_texto": "Não determinado por ser de uso em pré e pós-emergência até três meses após o plantio ou corte.",
    "epoca_aplicacao": "pré-emergência — Pré-emergência: Aplicar o produto antes da germinação das plantas daninhas e da cultura, quando o solo ainda estiver úmido. Usar o produto somente em solo médio.",
-   "fonte_pagina": 4,
+   "fonte_pagina": 3,
    "fonte_trecho": "Poaia-branca, Poaia (Richardia brasiliensis) | [dose herdada: 3,5 L/ha]"
   },
   {
@@ -430,7 +430,7 @@
    "carencia_dias": null,
    "carencia_texto": "Não determinado por ser de uso em pré e pós-emergência até três meses após o plantio ou corte.",
    "epoca_aplicacao": "pré-emergência — Pré-emergência: Aplicar o produto antes da germinação das plantas daninhas e da cultura, quando o solo ainda estiver úmido. Usar o produto somente em solo médio.",
-   "fonte_pagina": 4,
+   "fonte_pagina": 3,
    "fonte_trecho": "Caruru-de-mancha (Amaranthus viridis) | [dose herdada: 3,5 L/ha]"
   },
   {
@@ -448,7 +448,7 @@
    "carencia_dias": null,
    "carencia_texto": "Não determinado por ser de uso em pré e pós-emergência até três meses após o plantio ou corte.",
    "epoca_aplicacao": "pré-emergência — Pré-emergência: Aplicar o produto antes da germinação das plantas daninhas e da cultura, quando o solo ainda estiver úmido. Usar o produto somente em solo médio.",
-   "fonte_pagina": 4,
+   "fonte_pagina": 3,
    "fonte_trecho": "Beldroega (Portulaca oleracea) | [dose herdada: 3,5 L/ha]"
   },
   {
@@ -466,7 +466,7 @@
    "carencia_dias": null,
    "carencia_texto": "Não determinado por ser de uso em pré e pós-emergência até três meses após o plantio ou corte.",
    "epoca_aplicacao": "pré-emergência — Pré-emergência: Aplicar o produto antes da germinação das plantas daninhas e da cultura, quando o solo ainda estiver úmido. Usar o produto somente em solo médio.",
-   "fonte_pagina": 4,
+   "fonte_pagina": 3,
    "fonte_trecho": "Falsa-serralha (Emilia sonchifolia) | [dose herdada: 3,5 L/ha]"
   },
   {
@@ -916,8 +916,26 @@
    "carencia_dias": null,
    "carencia_texto": "Não determinado por ser de uso até a fase de emborrachamento.",
    "epoca_aplicacao": "Pós-emergência das plantas daninhas. Aplicar o produto no período após o início do perfilhamento e antes do emborrachamento. Uma aplicação por ciclo da cultura.",
-   "fonte_pagina": 4,
+   "fonte_pagina": 5,
    "fonte_trecho": "Nabo-bravo, Nabiça, Nabo, Rabanete-de-cavalo (Raphanus raphanistrum) | [dose herdada: 1-1,5 L/ha]"
+  },
+  {
+   "cultura": "Cana-de-açúcar",
+   "praga_nome_comum": "Picão-branco, Fazendeiro",
+   "praga_nome_cientifico": "Galinsoga parviflora",
+   "dose_min": 1.5,
+   "dose_max": 1.5,
+   "dose_unidade": "L/ha",
+   "volume_calda_min": 150,
+   "volume_calda_max": 300,
+   "volume_calda_unidade": "L/ha",
+   "num_max_aplicacoes": null,
+   "intervalo_aplicacao": null,
+   "carencia_dias": null,
+   "carencia_texto": "Não determinado por ser de uso em pré e pós-emergência até três meses após o plantio ou corte.",
+   "epoca_aplicacao": "pré-emergência — Pré-emergência: Aplicar o produto antes da germinação das plantas daninhas e da cultura, quando o solo ainda estiver úmido. Usar o produto somente em solo médio.",
+   "fonte_pagina": 4,
+   "fonte_trecho": "Picão-branco, Fazendeiro (Galinsoga parviflora) | [dose herdada: 1,5 L/ha, célula iniciada em Falsa-serralha p.3]"
   }
  ]
 }

@@ -4,7 +4,7 @@
   {
    "cultura": "Abacate",
    "praga_nome_comum": null,
-   "praga_nome_cientifico": null,
+   "praga_nome_cientifico": "Persea americana",
    "dose_min": 18.0,
    "dose_max": 18.0,
    "dose_unidade": "mg/m3",
@@ -22,7 +22,7 @@
   {
    "cultura": "Ameixa",
    "praga_nome_comum": null,
-   "praga_nome_cientifico": null,
+   "praga_nome_cientifico": "Prunus salicina",
    "dose_min": 34.0,
    "dose_max": 34.0,
    "dose_unidade": "mg/m3",
@@ -40,7 +40,7 @@
   {
    "cultura": "Caqui",
    "praga_nome_comum": null,
-   "praga_nome_cientifico": null,
+   "praga_nome_cientifico": "Diospyrus kaki",
    "dose_min": 69.0,
    "dose_max": 69.0,
    "dose_unidade": "mg/m3",
@@ -58,7 +58,7 @@
   {
    "cultura": "Kiwi",
    "praga_nome_comum": null,
-   "praga_nome_cientifico": null,
+   "praga_nome_cientifico": "Actinidia deliciosa",
    "dose_min": 69.0,
    "dose_max": 69.0,
    "dose_unidade": "mg/m3",
@@ -76,7 +76,7 @@
   {
    "cultura": "Limão",
    "praga_nome_comum": null,
-   "praga_nome_cientifico": null,
+   "praga_nome_cientifico": "Citrus latifolia",
    "dose_min": 69.0,
    "dose_max": 69.0,
    "dose_unidade": "mg/m3",
@@ -94,7 +94,7 @@
   {
    "cultura": "Manga",
    "praga_nome_comum": null,
-   "praga_nome_cientifico": null,
+   "praga_nome_cientifico": "Mangifera indica",
    "dose_min": 50.0,
    "dose_max": 50.0,
    "dose_unidade": "mg/m3",
@@ -112,7 +112,7 @@
   {
    "cultura": "Melancia",
    "praga_nome_comum": null,
-   "praga_nome_cientifico": null,
+   "praga_nome_cientifico": "Citrullus lanatus",
    "dose_min": 40.0,
    "dose_max": 40.0,
    "dose_unidade": "mg/m3",
@@ -130,7 +130,7 @@
   {
    "cultura": "Melão",
    "praga_nome_comum": null,
-   "praga_nome_cientifico": null,
+   "praga_nome_cientifico": "Cucumis melo",
    "dose_min": 40.0,
    "dose_max": 40.0,
    "dose_unidade": "mg/m3",
@@ -148,7 +148,7 @@
   {
    "cultura": "Goiaba",
    "praga_nome_comum": null,
-   "praga_nome_cientifico": null,
+   "praga_nome_cientifico": "Psidium guajava",
    "dose_min": 20.0,
    "dose_max": 50.0,
    "dose_unidade": "mg/m3",
@@ -166,7 +166,7 @@
   {
    "cultura": "Tomate",
    "praga_nome_comum": null,
-   "praga_nome_cientifico": null,
+   "praga_nome_cientifico": "Lycopersicon esculentum",
    "dose_min": 17.0,
    "dose_max": 86.0,
    "dose_unidade": "mg/m3",
@@ -184,14 +184,14 @@
   {
    "cultura": "Maçã",
    "praga_nome_comum": null,
-   "praga_nome_cientifico": null,
+   "praga_nome_cientifico": "Malus domestica",
    "dose_min": 43.0,
    "dose_max": 86.0,
    "dose_unidade": "mg/m3",
    "volume_calda_min": null,
    "volume_calda_max": null,
    "volume_calda_unidade": null,
-   "num_max_aplicacoes": null,
+   "num_max_aplicacoes": 2,
    "intervalo_aplicacao": null,
    "carencia_dias": null,
    "carencia_texto": "Não estabelecido",
@@ -202,7 +202,7 @@
   {
    "cultura": "Banana",
    "praga_nome_comum": null,
-   "praga_nome_cientifico": null,
+   "praga_nome_cientifico": "Musa sp",
    "dose_min": 0.7,
    "dose_max": 6.0,
    "dose_unidade": "mg/m3",
@@ -220,7 +220,7 @@
   {
    "cultura": "Banana",
    "praga_nome_comum": null,
-   "praga_nome_cientifico": null,
+   "praga_nome_cientifico": "Musa sp",
    "dose_min": 20.0,
    "dose_max": 20.0,
    "dose_unidade": "mg/m3",
@@ -238,7 +238,7 @@
   {
    "cultura": "Mamão",
    "praga_nome_comum": null,
-   "praga_nome_cientifico": null,
+   "praga_nome_cientifico": "Carica papaya",
    "dose_min": 3.0,
    "dose_max": 6.0,
    "dose_unidade": "mg/m3",
@@ -256,7 +256,7 @@
   {
    "cultura": "Mamão",
    "praga_nome_comum": null,
-   "praga_nome_cientifico": null,
+   "praga_nome_cientifico": "Carica papaya",
    "dose_min": 33.0,
    "dose_max": 33.0,
    "dose_unidade": "mg/m3",
@@ -270,6 +270,24 @@
    "epoca_aplicacao": "Tratar o mais próximo possível da colheita, no ponto de maturação fisiológica, em ambiente hermeticamente fechado. Dose alternativa (nota **): variação conforme intervalo colheita-aplicação, podendo ser 1 ou 2 aplicações.",
    "fonte_pagina": 2,
    "fonte_trecho": "Mamão | Carica papaya | 33,0** | Realizar uma única aplicação"
+  },
+  {
+   "cultura": "Mamão",
+   "praga_nome_comum": null,
+   "praga_nome_cientifico": "Carica papaya",
+   "dose_min": 33.0,
+   "dose_max": 33.0,
+   "dose_unidade": "mg/m3",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "num_max_aplicacoes": null,
+   "intervalo_aplicacao": null,
+   "carencia_dias": null,
+   "carencia_texto": "Não estabelecido",
+   "epoca_aplicacao": "Tratar o mais próximo possível da colheita, no ponto de maturação fisiológica, em ambiente hermeticamente fechado.",
+   "fonte_pagina": 2,
+   "fonte_trecho": "Mamão | Carica papaya | 33,0** (** A escolha de dose é feita de acordo com o intervalo entre a colheita e a aplicação, podendo ser realizada uma ou duas aplicações)"
   }
  ]
 }

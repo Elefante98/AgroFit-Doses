@@ -58,7 +58,9 @@ def main() -> None:
             FROM indicacoes i JOIN produtos p ON p.numero_registro = i.produto_fk
             WHERE i.produto_fk IN ({marcadores})
             GROUP BY i.produto_fk, i.praga_nome_comum, i.praga_nome_cientifico,
-              i.dose_min, i.dose_max, i.dose_unidade, i.fonte_pagina
+              i.dose_min, i.dose_max, i.dose_unidade, i.fonte_pagina,
+              i.volume_calda_min, i.volume_calda_max, i.volume_calda_unidade,
+              i.volume_calda_outros, i.num_max_aplicacoes, i.intervalo_aplicacao
             ORDER BY i.produto_fk, i.fonte_pagina, i.praga_nome_comum""", regs).fetchall()
     destino = RAIZ / "extractor" / "piloto_conferencia.csv"
     with destino.open("w", newline="", encoding="utf-8-sig") as f:

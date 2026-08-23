@@ -17,7 +17,8 @@
    "carencia_texto": null,
    "epoca_aplicacao": "Aplicar no mínimo 7 dias antes da colheita.",
    "fonte_pagina": 2,
-   "fonte_trecho": "Batata 1,5 a 2,5 300 a 500 Aplicar no mínimo 7 dias antes da colheita."
+   "fonte_trecho": "Batata 1,5 a 2,5 300 a 500 Aplicar no mínimo 7 dias antes da colheita.",
+   "volume_calda_outros": "Pulverizador de barra tratorizado: 200 a 300 L de água/ha; aplicação aérea: 30 a 40 L de água/ha."
   },
   {
    "cultura": "Feijão",
@@ -35,7 +36,8 @@
    "carencia_texto": null,
    "epoca_aplicacao": "Aplicar quando o feijão estiver fisiologicamente maduro. Utilizar espalhante adesivo a 0,1% v/v.",
    "fonte_pagina": 2,
-   "fonte_trecho": "Feijão 1,5 a 2 300 a 400 Aplicar quando o feijão estiver fisiologicamente maduro."
+   "fonte_trecho": "Feijão 1,5 a 2 300 a 400 Aplicar quando o feijão estiver fisiologicamente maduro.",
+   "volume_calda_outros": "Pulverizador de barra tratorizado: 200 a 300 L de água/ha; aplicação aérea: 30 a 40 L de água/ha."
   },
   {
    "cultura": "Soja",
@@ -53,7 +55,8 @@
    "carencia_texto": null,
    "epoca_aplicacao": "Aplicar quando a soja estiver fisiologicamente madura. Utilizar espalhante adesivo a 0,1% v/v.",
    "fonte_pagina": 2,
-   "fonte_trecho": "Soja 1 a 2 200 a 400 Aplicar quando a soja estiver fisiologicamente madura."
+   "fonte_trecho": "Soja 1 a 2 200 a 400 Aplicar quando a soja estiver fisiologicamente madura.",
+   "volume_calda_outros": "Pulverizador de barra tratorizado: 200 a 300 L de água/ha; aplicação aérea: 30 a 40 L de água/ha."
   },
   {
    "cultura": "Café",
@@ -71,7 +74,8 @@
    "carencia_texto": null,
    "epoca_aplicacao": "Aplicar o produto nas fases iniciais de crescimento da planta infestante (5-15 cm) para o controle de plantas infestantes nas entrelinhas. Utilizar espalhante adesivo a 0,1% v/v.",
    "fonte_pagina": 3,
-   "fonte_trecho": "Café | 1,5 a 2,5 | 300 a 500 | Aplicar o produto nas fases iniciais de crescimento...entrelinhas."
+   "fonte_trecho": "Café | 1,5 a 2,5 | 300 a 500 | Aplicar o produto nas fases iniciais de crescimento...entrelinhas.",
+   "volume_calda_outros": "Pulverizador de barra tratorizado: 200 a 300 L de água/ha; aplicação aérea: 30 a 40 L de água/ha."
   },
   {
    "cultura": "Citros",
@@ -89,7 +93,8 @@
    "carencia_texto": null,
    "epoca_aplicacao": "Aplicar o produto nas fases iniciais de crescimento da planta infestante (5-15 cm) para o controle de plantas infestantes nas entrelinhas (mesma linha de dose do Café). Utilizar espalhante adesivo a 0,1% v/v.",
    "fonte_pagina": 3,
-   "fonte_trecho": "Citros entrelinhas. [dose compartilhada com a linha de Café: 1,5 a 2,5 L/ha / 300 a 500 g]"
+   "fonte_trecho": "Citros entrelinhas. [dose compartilhada com a linha de Café: 1,5 a 2,5 L/ha / 300 a 500 g]",
+   "volume_calda_outros": "Pulverizador de barra tratorizado: 200 a 300 L de água/ha; aplicação aérea: 30 a 40 L de água/ha."
   },
   {
    "cultura": "Feijão",
@@ -107,7 +112,8 @@
    "carencia_texto": null,
    "epoca_aplicacao": "Aplicação antes do plantio, nas fases iniciais de crescimento da planta infestante (5-15 cm). Reaplicar se ocorrer infestação. Utilizar espalhante adesivo a 0,1% v/v.",
    "fonte_pagina": 3,
-   "fonte_trecho": "Feijão | 1,5 a 2,0 | 300 a 400 | Aplicação antes do plantio, nas fases iniciais de crescimento..."
+   "fonte_trecho": "Feijão | 1,5 a 2,0 | 300 a 400 | Aplicação antes do plantio, nas fases iniciais de crescimento...",
+   "volume_calda_outros": "Pulverizador de barra tratorizado: 200 a 300 L de água/ha; aplicação aérea: 30 a 40 L de água/ha."
   }
  ]
 }

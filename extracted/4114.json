@@ -35,7 +35,8 @@
    "carencia_texto": null,
    "epoca_aplicacao": "1 (uma) aplicação em pré-emergência, de preferência logo após a emergência das plantas infestantes e da cultura.",
    "fonte_pagina": 3,
-   "fonte_trecho": "CANA-DE-AÇÚCAR | 3,0 – 4,0 | Pré-emergência | 200 – 400"
+   "fonte_trecho": "CANA-DE-AÇÚCAR | 3,0 – 4,0 | Pré-emergência | 200 – 400",
+   "volume_calda_outros": "Aplicação aérea: 20 L/ha."
   },
   {
    "cultura": "Tomate",
@@ -71,7 +72,8 @@
    "carencia_texto": "Intervalo de segurança não determinado devido à modalidade de emprego.",
    "epoca_aplicacao": "1 (uma) aplicação em pré-emergência das plantas infestantes e da cultura no plantio convencional, podendo ser também usado no plantio direto.",
    "fonte_pagina": 3,
-   "fonte_trecho": "SOJA | 0,75 – 1,0 | Pré-emergência | 200 – 400"
+   "fonte_trecho": "SOJA | 0,75 – 1,0 | Pré-emergência | 200 – 400",
+   "volume_calda_outros": "Aplicação aérea: 20 L/ha."
   }
  ]
 }

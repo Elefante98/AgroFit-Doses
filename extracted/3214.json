@@ -17,7 +17,8 @@
    "carencia_texto": "Intervalo de segurança não determinado devido à modalidade de emprego",
    "epoca_aplicacao": "tratamento de sementes antes do plantio",
    "fonte_pagina": 4,
-   "fonte_trecho": "Algodão | Lagarta-elasmo (Elasmopalpus lignosellus) | 150-200 | 1"
+   "fonte_trecho": "Algodão | Lagarta-elasmo (Elasmopalpus lignosellus) | 150-200 | 1",
+   "volume_calda_outros": "Se necessário, diluir 1 L do produto em 1 L de água. Utilizar 0,5 a 0,6 mL da calda para 100 kg de sementes."
   },
   {
    "cultura": "Arroz",
@@ -35,7 +36,8 @@
    "carencia_texto": "Intervalo de segurança não determinado devido à modalidade de emprego",
    "epoca_aplicacao": "tratamento de sementes antes do plantio",
    "fonte_pagina": 4,
-   "fonte_trecho": "Arroz | Bicheira-da-raiz (Oryzophagus oryzae) | 120-150"
+   "fonte_trecho": "Arroz | Bicheira-da-raiz (Oryzophagus oryzae) | 120-150",
+   "volume_calda_outros": "Se necessário, diluir 1 L do produto em 1 L de água. Utilizar 0,24 a 0,30 mL de calda para 100 kg de sementes."
   },
   {
    "cultura": "Feijão",
@@ -53,7 +55,8 @@
    "carencia_texto": "Intervalo de segurança não determinado devido à modalidade de emprego",
    "epoca_aplicacao": "tratamento de sementes antes do plantio",
    "fonte_pagina": 4,
-   "fonte_trecho": "Feijão | Vaquinha verde- amarela (Diabrotica speciosa) | 200"
+   "fonte_trecho": "Feijão | Vaquinha verde- amarela (Diabrotica speciosa) | 200",
+   "volume_calda_outros": "Se necessário, diluir 1 L do produto em 2 L de água. Utilizar 0,6 L de calda para 100 kg de sementes."
   },
   {
    "cultura": "Soja",
@@ -71,7 +74,8 @@
    "carencia_texto": "Intervalo de segurança não determinado devido à modalidade de emprego",
    "epoca_aplicacao": "tratamento de sementes antes do plantio",
    "fonte_pagina": 4,
-   "fonte_trecho": "Soja | Vaquinha verde- amarela (Diabrotica speciosa) | 200"
+   "fonte_trecho": "Soja | Vaquinha verde- amarela (Diabrotica speciosa) | 200",
+   "volume_calda_outros": "Se necessário, diluir 1 L do produto em 2 L de água. Utilizar 0,6 L de calda para 100 kg de sementes."
   },
   {
    "cultura": "Soja",
@@ -89,7 +93,8 @@
    "carencia_texto": "Intervalo de segurança não determinado devido à modalidade de emprego",
    "epoca_aplicacao": "tratamento de sementes antes do plantio",
    "fonte_pagina": 4,
-   "fonte_trecho": "Soja | Lagarta-elasmo (Elasmopalpus lignosellus ) | 200 (mesma linha da Vaquinha verde-amarela)"
+   "fonte_trecho": "Soja | Lagarta-elasmo (Elasmopalpus lignosellus ) | 200 (mesma linha da Vaquinha verde-amarela)",
+   "volume_calda_outros": "Se necessário, diluir 1 L do produto em 2 L de água. Utilizar 0,6 L de calda para 100 kg de sementes."
   },
   {
    "cultura": "Soja",
@@ -107,7 +112,8 @@
    "carencia_texto": "Intervalo de segurança não determinado devido à modalidade de emprego",
    "epoca_aplicacao": "tratamento de sementes antes do plantio",
    "fonte_pagina": 4,
-   "fonte_trecho": "Soja | Piolho-de-cobra (Porcellio laevis ) | 80"
+   "fonte_trecho": "Soja | Piolho-de-cobra (Porcellio laevis ) | 80",
+   "volume_calda_outros": "Utilizar 0,24 L de calda para 100 kg de sementes."
   },
   {
    "cultura": "Soja",
@@ -125,7 +131,8 @@
    "carencia_texto": "Intervalo de segurança não determinado devido à modalidade de emprego",
    "epoca_aplicacao": "tratamento de sementes antes do plantio",
    "fonte_pagina": 4,
-   "fonte_trecho": "Soja | Coró (Phyllophaga cuyabana ) | 100 (coró e torrãozinho)"
+   "fonte_trecho": "Soja | Coró (Phyllophaga cuyabana ) | 100 (coró e torrãozinho)",
+   "volume_calda_outros": "Utilizar 0,30 L da calda inseticida para 100 kg de sementes."
   },
   {
    "cultura": "Soja",
@@ -143,7 +150,8 @@
    "carencia_texto": "Intervalo de segurança não determinado devido à modalidade de emprego",
    "epoca_aplicacao": "tratamento de sementes antes do plantio",
    "fonte_pagina": 4,
-   "fonte_trecho": "Soja | Torrãozinho (Aracantus mourei) | 100 (coró e torrãozinho)"
+   "fonte_trecho": "Soja | Torrãozinho (Aracantus mourei) | 100 (coró e torrãozinho)",
+   "volume_calda_outros": "Utilizar 0,30 L da calda inseticida para 100 kg de sementes."
   },
   {
    "cultura": "Milho",
@@ -161,7 +169,8 @@
    "carencia_texto": "Intervalo de segurança não determinado devido à modalidade de emprego",
    "epoca_aplicacao": "tratamento de sementes antes do plantio",
    "fonte_pagina": 4,
-   "fonte_trecho": "Milho | Phyllophaga Coró (Phyllophaga cuyabana ) | 40-50"
+   "fonte_trecho": "Milho | Phyllophaga Coró (Phyllophaga cuyabana ) | 40-50",
+   "volume_calda_outros": "Se necessário, diluir 1 L do produto em 1 L de água. Utilizar 0,08 a 0,10 L de calda inseticida por hectare de milho."
   },
   {
    "cultura": "Pastagens",
@@ -179,7 +188,8 @@
    "carencia_texto": "Intervalo de segurança não determinado devido à modalidade de emprego",
    "epoca_aplicacao": "tratamento de sementes antes do plantio",
    "fonte_pagina": 4,
-   "fonte_trecho": "Pastagens | Cupim (Cornitermes cumulans ) | 40-60 mL/ha"
+   "fonte_trecho": "Pastagens | Cupim (Cornitermes cumulans ) | 40-60 mL/ha",
+   "volume_calda_outros": "Se necessário, diluir 1 L do produto em 6 L de água. Utilizar 0,4 a 0,6 L de calda inseticida por hectare."
   },
   {
    "cultura": "Trigo",
@@ -197,7 +207,8 @@
    "carencia_texto": "Intervalo de segurança não determinado devido à modalidade de emprego",
    "epoca_aplicacao": "tratamento de sementes antes do plantio",
    "fonte_pagina": 4,
-   "fonte_trecho": "Trigo | Pão-de-galinha (Diloboderus abderus) | 100-150"
+   "fonte_trecho": "Trigo | Pão-de-galinha (Diloboderus abderus) | 100-150",
+   "volume_calda_outros": "Se necessário, diluir 1 L do produto em 3 L de água. Utilizar 0,4 a 0,6 L da calda para 100 kg de sementes."
   }
  ]
 }

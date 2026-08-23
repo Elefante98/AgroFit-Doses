@@ -305,7 +305,8 @@
    "carencia_texto": "Uso não alimentar.",
    "epoca_aplicacao": "aplicação em touças/tocos — Aplicar em qualquer época do ano para erradicação de touças (tocos de eucalipto na reforma de áreas florestais). Aplicação terrestre no toco, imediatamente após o corte, utilizando de 200 a 250 mL da calda por toco, assegurando que o volume total de produto por área não ultrapasse 6,0 L/ha. Realizar no máximo 1 aplicação ao ano.",
    "fonte_pagina": 5,
-   "fonte_trecho": "Eucalipto | Touças (tocos) de Eucalipto | 3,0 - 7,0% (misturar de 3 a 7 litros do produto em 97 a 93 litros de água)"
+   "fonte_trecho": "Eucalipto | Touças (tocos) de Eucalipto | 3,0 - 7,0% (misturar de 3 a 7 litros do produto em 97 a 93 litros de água)",
+   "volume_calda_outros": "Aplicação terrestre no toco: utilizar 200 a 250 mL da calda por toco, imediatamente após o corte; o volume total de produto por área não deve ultrapassar 6,0 L/ha."
   },
   {
    "cultura": "Pastagem",
@@ -629,7 +630,8 @@
    "carencia_texto": "Uso não alimentar.",
    "epoca_aplicacao": "pulverização tratorizada de tocos — A aplicação no toco pode ser realizada em qualquer época do ano, até o ponto de escorrimento da calda no toco cortado, podendo molhar o solo ao redor do toco recém-cortado. Obs.: Utilizar as doses mais altas em plantas que já tenham sido roçadas anteriormente, pois apresentam maior resistência ao produto. Volume de produto por área não deve exceder 6,0 L/ha. Realizar no máximo 1 aplicação ao ano.",
    "fonte_pagina": 6,
-   "fonte_trecho": "Assa-peixe-roxo (Vernonia westiniana) | 3,0 - 4,0% (misturar de 3 a 4 litros do produto em 97 a 96 litros de água)"
+   "fonte_trecho": "Assa-peixe-roxo (Vernonia westiniana) | 3,0 - 4,0% (misturar de 3 a 4 litros do produto em 97 a 96 litros de água)",
+   "volume_calda_outros": "Aplicação terrestre no toco: aplicar imediatamente após o corte, com bom molhamento dos tocos; o volume de produto por área não deve exceder 6,0 L/ha."
   },
   {
    "cultura": "Pastagem",
@@ -647,7 +649,8 @@
    "carencia_texto": "Uso não alimentar.",
    "epoca_aplicacao": "pulverização tratorizada de tocos — A aplicação no toco pode ser realizada em qualquer época do ano, até o ponto de escorrimento da calda no toco cortado, podendo molhar o solo ao redor do toco recém-cortado. Obs.: Utilizar as doses mais altas em plantas que já tenham sido roçadas anteriormente, pois apresentam maior resistência ao produto. Volume de produto por área não deve exceder 6,0 L/ha. Realizar no máximo 1 aplicação ao ano.",
    "fonte_pagina": 6,
-   "fonte_trecho": "Unha-de-vaca (Bauhinia variegata) | [dose herdada: 3,0-4,0%]"
+   "fonte_trecho": "Unha-de-vaca (Bauhinia variegata) | [dose herdada: 3,0-4,0%]",
+   "volume_calda_outros": "Aplicação terrestre no toco: aplicar imediatamente após o corte, com bom molhamento dos tocos; o volume de produto por área não deve exceder 6,0 L/ha."
   },
   {
    "cultura": "Pastagem",
@@ -665,7 +668,8 @@
    "carencia_texto": "Uso não alimentar.",
    "epoca_aplicacao": "pulverização tratorizada de tocos — A aplicação no toco pode ser realizada em qualquer época do ano, até o ponto de escorrimento da calda no toco cortado, podendo molhar o solo ao redor do toco recém-cortado. Obs.: Utilizar as doses mais altas em plantas que já tenham sido roçadas anteriormente, pois apresentam maior resistência ao produto. Volume de produto por área não deve exceder 6,0 L/ha. Realizar no máximo 1 aplicação ao ano.",
    "fonte_pagina": 6,
-   "fonte_trecho": "Unha-de-boi (Bauhinia divaricata) | [dose herdada: 3,0-4,0%]"
+   "fonte_trecho": "Unha-de-boi (Bauhinia divaricata) | [dose herdada: 3,0-4,0%]",
+   "volume_calda_outros": "Aplicação terrestre no toco: aplicar imediatamente após o corte, com bom molhamento dos tocos; o volume de produto por área não deve exceder 6,0 L/ha."
   },
   {
    "cultura": "Pastagem",
@@ -683,7 +687,8 @@
    "carencia_texto": "Uso não alimentar.",
    "epoca_aplicacao": "pulverização tratorizada de tocos — A aplicação no toco pode ser realizada em qualquer época do ano, até o ponto de escorrimento da calda no toco cortado, podendo molhar o solo ao redor do toco recém-cortado. Obs.: Utilizar as doses mais altas em plantas que já tenham sido roçadas anteriormente, pois apresentam maior resistência ao produto. Volume de produto por área não deve exceder 6,0 L/ha. Realizar no máximo 1 aplicação ao ano.",
    "fonte_pagina": 6,
-   "fonte_trecho": "Jacarandá-de-espinho, Jacarandá-de-bico-de-pato (Machaerium aculeatum) | [dose herdada: 3,0-4,0%]"
+   "fonte_trecho": "Jacarandá-de-espinho, Jacarandá-de-bico-de-pato (Machaerium aculeatum) | [dose herdada: 3,0-4,0%]",
+   "volume_calda_outros": "Aplicação terrestre no toco: aplicar imediatamente após o corte, com bom molhamento dos tocos; o volume de produto por área não deve exceder 6,0 L/ha."
   },
   {
    "cultura": "Pastagem",
@@ -701,7 +706,8 @@
    "carencia_texto": "Uso não alimentar.",
    "epoca_aplicacao": "pulverização tratorizada de tocos — A aplicação no toco pode ser realizada em qualquer época do ano, até o ponto de escorrimento da calda no toco cortado, podendo molhar o solo ao redor do toco recém-cortado. Obs.: Utilizar as doses mais altas em plantas que já tenham sido roçadas anteriormente, pois apresentam maior resistência ao produto. Volume de produto por área não deve exceder 6,0 L/ha. Realizar no máximo 1 aplicação ao ano.",
    "fonte_pagina": 6,
-   "fonte_trecho": "Lobeira (Solanum lycocarpum) | [dose herdada: 3,0-4,0%]"
+   "fonte_trecho": "Lobeira (Solanum lycocarpum) | [dose herdada: 3,0-4,0%]",
+   "volume_calda_outros": "Aplicação terrestre no toco: aplicar imediatamente após o corte, com bom molhamento dos tocos; o volume de produto por área não deve exceder 6,0 L/ha."
   },
   {
    "cultura": "Pastagem",
@@ -719,7 +725,8 @@
    "carencia_texto": "Uso não alimentar.",
    "epoca_aplicacao": "pulverização tratorizada de tocos — A aplicação no toco pode ser realizada em qualquer época do ano, até o ponto de escorrimento da calda no toco cortado, podendo molhar o solo ao redor do toco recém-cortado. Obs.: Utilizar as doses mais altas em plantas que já tenham sido roçadas anteriormente, pois apresentam maior resistência ao produto. Volume de produto por área não deve exceder 6,0 L/ha. Realizar no máximo 1 aplicação ao ano.",
    "fonte_pagina": 6,
-   "fonte_trecho": "Roseta, Espinho-de-agulha (Randia armata) | [dose herdada: 3,0-4,0%]"
+   "fonte_trecho": "Roseta, Espinho-de-agulha (Randia armata) | [dose herdada: 3,0-4,0%]",
+   "volume_calda_outros": "Aplicação terrestre no toco: aplicar imediatamente após o corte, com bom molhamento dos tocos; o volume de produto por área não deve exceder 6,0 L/ha."
   },
   {
    "cultura": "Pastagem",
@@ -737,7 +744,8 @@
    "carencia_texto": "Uso não alimentar.",
    "epoca_aplicacao": "pulverização tratorizada de tocos — A aplicação no toco pode ser realizada em qualquer época do ano, até o ponto de escorrimento da calda no toco cortado, podendo molhar o solo ao redor do toco recém-cortado. Obs.: Utilizar as doses mais altas em plantas que já tenham sido roçadas anteriormente, pois apresentam maior resistência ao produto. Volume de produto por área não deve exceder 6,0 L/ha. Realizar no máximo 1 aplicação ao ano.",
    "fonte_pagina": 6,
-   "fonte_trecho": "Leiteira (Peschiera fuchsiaefolia) | 4,0% (misturar 4 litros do produto em 96 litros de água)"
+   "fonte_trecho": "Leiteira (Peschiera fuchsiaefolia) | 4,0% (misturar 4 litros do produto em 96 litros de água)",
+   "volume_calda_outros": "Aplicação terrestre no toco: aplicar imediatamente após o corte, com bom molhamento dos tocos; o volume de produto por área não deve exceder 6,0 L/ha."
   },
   {
    "cultura": "Pastagem",
@@ -755,7 +763,8 @@
    "carencia_texto": "Uso não alimentar.",
    "epoca_aplicacao": "pulverização tratorizada de tocos — A aplicação no toco pode ser realizada em qualquer época do ano, até o ponto de escorrimento da calda no toco cortado, podendo molhar o solo ao redor do toco recém-cortado. Obs.: Utilizar as doses mais altas em plantas que já tenham sido roçadas anteriormente, pois apresentam maior resistência ao produto. Volume de produto por área não deve exceder 6,0 L/ha. Realizar no máximo 1 aplicação ao ano.",
    "fonte_pagina": 6,
-   "fonte_trecho": "Aroeirinha (Schinus terebinthifolius) | [dose herdada: 4,0%]"
+   "fonte_trecho": "Aroeirinha (Schinus terebinthifolius) | [dose herdada: 4,0%]",
+   "volume_calda_outros": "Aplicação terrestre no toco: aplicar imediatamente após o corte, com bom molhamento dos tocos; o volume de produto por área não deve exceder 6,0 L/ha."
   },
   {
    "cultura": "Pastagem",
@@ -773,7 +782,8 @@
    "carencia_texto": "Uso não alimentar.",
    "epoca_aplicacao": "pulverização tratorizada de tocos — A aplicação no toco pode ser realizada em qualquer época do ano, até o ponto de escorrimento da calda no toco cortado, podendo molhar o solo ao redor do toco recém-cortado. Obs.: Utilizar as doses mais altas em plantas que já tenham sido roçadas anteriormente, pois apresentam maior resistência ao produto. Volume de produto por área não deve exceder 6,0 L/ha. Realizar no máximo 1 aplicação ao ano.",
    "fonte_pagina": 6,
-   "fonte_trecho": "Arranha-gato (Acacia plumosa) | [dose herdada: 4,0%]"
+   "fonte_trecho": "Arranha-gato (Acacia plumosa) | [dose herdada: 4,0%]",
+   "volume_calda_outros": "Aplicação terrestre no toco: aplicar imediatamente após o corte, com bom molhamento dos tocos; o volume de produto por área não deve exceder 6,0 L/ha."
   },
   {
    "cultura": "Pastagem",
@@ -791,7 +801,8 @@
    "carencia_texto": "Uso não alimentar.",
    "epoca_aplicacao": "pulverização tratorizada de tocos — A aplicação no toco pode ser realizada em qualquer época do ano, até o ponto de escorrimento da calda no toco cortado, podendo molhar o solo ao redor do toco recém-cortado. Obs.: Utilizar as doses mais altas em plantas que já tenham sido roçadas anteriormente, pois apresentam maior resistência ao produto. Volume de produto por área não deve exceder 6,0 L/ha. Realizar no máximo 1 aplicação ao ano.",
    "fonte_pagina": 6,
-   "fonte_trecho": "Unha-de-gato (Acacia paniculata) | [dose herdada: 4,0%]"
+   "fonte_trecho": "Unha-de-gato (Acacia paniculata) | [dose herdada: 4,0%]",
+   "volume_calda_outros": "Aplicação terrestre no toco: aplicar imediatamente após o corte, com bom molhamento dos tocos; o volume de produto por área não deve exceder 6,0 L/ha."
   },
   {
    "cultura": "Pastagem",
@@ -809,7 +820,8 @@
    "carencia_texto": "Uso não alimentar.",
    "epoca_aplicacao": "pulverização tratorizada de tocos — A aplicação no toco pode ser realizada em qualquer época do ano, até o ponto de escorrimento da calda no toco cortado, podendo molhar o solo ao redor do toco recém-cortado. Obs.: Utilizar as doses mais altas em plantas que já tenham sido roçadas anteriormente, pois apresentam maior resistência ao produto. Volume de produto por área não deve exceder 6,0 L/ha. Realizar no máximo 1 aplicação ao ano.",
    "fonte_pagina": 6,
-   "fonte_trecho": "Espinho-agulha (Barnadesia rosea) | [dose herdada: 4,0%]"
+   "fonte_trecho": "Espinho-agulha (Barnadesia rosea) | [dose herdada: 4,0%]",
+   "volume_calda_outros": "Aplicação terrestre no toco: aplicar imediatamente após o corte, com bom molhamento dos tocos; o volume de produto por área não deve exceder 6,0 L/ha."
   },
   {
    "cultura": "Pastagem",

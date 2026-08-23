@@ -39,7 +39,7 @@
   },
   {
    "cultura": "Cana-de-açúcar",
-   "praga_nome_comum": "Cigarrinha das pastagens",
+   "praga_nome_comum": "Cigarrinha das pastagens; Cigarrinha dos capinzais",
    "praga_nome_cientifico": "Deois flavopicta",
    "dose_min": 15.0,
    "dose_max": 15.0,
@@ -93,7 +93,7 @@
   },
   {
    "cultura": "Pastagens",
-   "praga_nome_comum": "Cigarrinha das pastagens",
+   "praga_nome_comum": "Cigarrinha das pastagens; Cigarrinha dos capinzais",
    "praga_nome_cientifico": "Deois flavopicta",
    "dose_min": 15.0,
    "dose_max": 15.0,
