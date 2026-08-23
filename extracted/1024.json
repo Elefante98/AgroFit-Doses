@@ -1,0 +1,43 @@
+{
+ "numero_registro": "1024",
+ "registros": [
+  {
+   "cultura": "Morango",
+   "praga_nome_comum": "Drosofila",
+   "praga_nome_cientifico": "Drosophila suzukii",
+   "dose_min": 150,
+   "dose_max": 400,
+   "dose_unidade": "mL/ha",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": "Na cultura de morango recomenda-se usar 800 litros de calda/ha",
+   "num_max_aplicacoes": 3,
+   "intervalo_aplicacao": "10 dias",
+   "carencia_dias": null,
+   "carencia_texto": "Não determinado em função da não necessidade de estipular o limite máximo de resíduo (LMR) para este ingrediente ativo.",
+   "epoca_aplicacao": "Aplicar HAKUDA no início da maturação da cultura, quando a infestação estiver no início. Repetir se necessário com intervalo de 10 dias, fazendo no máximo 3 aplicações.",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Morango | Drosofila (Drosophila suzukii) | 150 a 400 ml/ha | 36 a 96 ml/ha | 3"
+  },
+  {
+   "cultura": "Uva",
+   "praga_nome_comum": "Drosofila",
+   "praga_nome_cientifico": "Drosophila suzukii",
+   "dose_min": 150,
+   "dose_max": 250,
+   "dose_unidade": "mL/ha",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": "na uva de 500 litros/ha",
+   "num_max_aplicacoes": 3,
+   "intervalo_aplicacao": "14 dias",
+   "carencia_dias": null,
+   "carencia_texto": "Não determinado em função da não necessidade de estipular o limite máximo de resíduo (LMR) para este ingrediente ativo.",
+   "epoca_aplicacao": "Aplicar HAKUDA no início da maturação da cultura no início da infestação e repetir se necessário com intervalo de 14 dias. Fazer no máximo três aplicações.",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Uva | Drosofila (Drosophila suzukii) | 150 a 250 ml/ha | 36 a 60 ml/ha | 3"
+  }
+ ]
+}

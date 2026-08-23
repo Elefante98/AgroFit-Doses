@@ -1,0 +1,43 @@
+{
+ "numero_registro": "10120",
+ "registros": [
+  {
+   "cultura": "Em todas as culturas com ocorrência do alvo biológico",
+   "praga_nome_comum": "lagarta-falsa-medideira",
+   "praga_nome_cientifico": "Chrysodeixis includens",
+   "dose_min": 50,
+   "dose_max": 200,
+   "dose_unidade": "g/ha",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": "Preparo da calda: Utilizar 150 litros de calda por hectare.",
+   "num_max_aplicacoes": 2,
+   "intervalo_aplicacao": "Segunda aplicação: quatorze dias após a primeira, conforme o nível infestação da praga.",
+   "carencia_dias": null,
+   "carencia_texto": "Não determinado em função da não necessidade de estipular o Limite Máximo de Resíduo (LMR) para este ingrediente.",
+   "epoca_aplicacao": "Pulverização sobre a cultura agrícola quando observada a Incidência da praga no nível de dano econômico.",
+   "fonte_pagina": 2,
+   "fonte_trecho": "Em todas as culturas com ocorrência do alvo biológico. | (lagarta-falsa-medideira) Chrysodeixis includens | 50 a 200 g/ha | 2 aplicações"
+  },
+  {
+   "cultura": "Em todas as culturas com ocorrência do alvo biológico",
+   "praga_nome_comum": "lagarta-falsa-medideira",
+   "praga_nome_cientifico": "Rachiplusia nu",
+   "dose_min": 50,
+   "dose_max": 100,
+   "dose_unidade": "g/ha",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": "Preparo da calda: Utilizar 150 litros de calda por hectare.",
+   "num_max_aplicacoes": 3,
+   "intervalo_aplicacao": "2º aplicação: 7 dias após a primeira aplicação; e a 3º aplicação: 7 dias após a segunda aplicação.",
+   "carencia_dias": null,
+   "carencia_texto": "Não determinado em função da não necessidade de estipular o Limite Máximo de Resíduo (LMR) para este ingrediente.",
+   "epoca_aplicacao": "1º aplicação: quando observado a incidência no estádio reprodutivo.",
+   "fonte_pagina": 2,
+   "fonte_trecho": "Em todas as culturas com ocorrência do alvo biológico. | (lagarta-falsa-medideira) Rachiplusia nu | 50 a 100 g/ha | 3 aplicações"
+  }
+ ]
+}

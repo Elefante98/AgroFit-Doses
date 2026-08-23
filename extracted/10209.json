@@ -1,0 +1,62 @@
+{
+  "numero_registro": "10209",
+  "registros": [
+    {
+      "cultura": "Algodão",
+      "praga_nome_comum": null,
+      "praga_nome_cientifico": null,
+      "dose_min": 1.0,
+      "dose_max": 1.0,
+      "dose_unidade": "L/ha",
+      "volume_calda_min": null,
+      "volume_calda_max": null,
+      "volume_calda_unidade": null,
+      "volume_calda_outros": "Terrestre: 200 - 300 L/ha; Aéreo: 10 - 40 L/ha",
+      "num_max_aplicacoes": 1,
+      "intervalo_aplicacao": null,
+      "carencia_dias": 60,
+      "carencia_texto": null,
+      "epoca_aplicacao": "Aplicação em dose única: Aplicar em dose única quando for observada uma forte tendência para um crescimento vegetativo exagerado no desenvolvimento do algodoeiro. Neste caso fazer uma única aplicação de 1,0 L/ha, quando as plantas apresentarem de 8 a 10 flores abertas por metro linear nas ruas de algodão ou quando as plantas atingirem 60 cm de altura.",
+      "fonte_pagina": 4,
+      "fonte_trecho": "Algodão | 1,0 L/ha | 200 - 300 L/ha (terrestre) 10 - 40 L/ha (aéreo) | 01"
+    },
+    {
+      "cultura": "Algodão",
+      "praga_nome_comum": null,
+      "praga_nome_cientifico": null,
+      "dose_min": 0.5,
+      "dose_max": 0.5,
+      "dose_unidade": "L/ha",
+      "volume_calda_min": null,
+      "volume_calda_max": null,
+      "volume_calda_unidade": null,
+      "volume_calda_outros": "Terrestre: 200 - 300 L/ha; Aéreo: 10 - 40 L/ha",
+      "num_max_aplicacoes": 2,
+      "intervalo_aplicacao": "7 a 10 dias",
+      "carencia_dias": 60,
+      "carencia_texto": null,
+      "epoca_aplicacao": "Aplicação sequencial em 2 (duas) aplicações: Realizar duas aplicações de 0,5 L/ha sendo a primeira aplicação recomendada quando 50% das plantas apresentarem o primeiro botão floral em desenvolvimento (3 a 6 mm), somente se as plantas apresentarem condições normais de crescimento. Realizar a segunda aplicação quando houver retomada de crescimento, de 7 a 10 dias após a primeira aplicação.",
+      "fonte_pagina": 4,
+      "fonte_trecho": "Algodão | 0,5 L/ha | 200 - 300 L/ha (terrestre) 10 - 40 L/ha (aéreo) | 02"
+    },
+    {
+      "cultura": "Algodão",
+      "praga_nome_comum": null,
+      "praga_nome_cientifico": null,
+      "dose_min": 0.25,
+      "dose_max": 0.25,
+      "dose_unidade": "L/ha",
+      "volume_calda_min": null,
+      "volume_calda_max": null,
+      "volume_calda_unidade": null,
+      "volume_calda_outros": "Terrestre: 200 - 300 L/ha; Aéreo: 10 - 40 L/ha",
+      "num_max_aplicacoes": 4,
+      "intervalo_aplicacao": "7 a 10 dias",
+      "carencia_dias": 60,
+      "carencia_texto": null,
+      "epoca_aplicacao": "Aplicação sequencial em 4 (quatro) aplicações: Realizar quatro aplicações de 0,25 L/ha sendo a primeira aplicação recomendada quando 50% das plantas apresentarem o primeiro botão floral em desenvolvimento (3 a 6 mm), somente se as plantas apresentarem condições normais de crescimento. Realizar as demais aplicações quando houver retomada de crescimento, cerca de 7 a 10 dias após a aplicação anterior.",
+      "fonte_pagina": 4,
+      "fonte_trecho": "Algodão | 0,25 L/ha | 200 - 300 L/ha (terrestre) 10 - 40 L/ha (aéreo) | 04"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "numero_registro": "10124",
+  "registros": [
+    {
+      "cultura": "Em todas as culturas com ocorrência do alvo biológico",
+      "praga_nome_comum": "Nematoide-de-galhas",
+      "praga_nome_cientifico": "Meloidogyne incognita",
+      "dose_min": 500,
+      "dose_max": 1500,
+      "dose_unidade": "mL/ha",
+      "volume_calda_min": null,
+      "volume_calda_max": null,
+      "volume_calda_unidade": null,
+      "volume_calda_outros": "Terrestre: 150 L/ha; Aéreo: 30 - 50 L/ha",
+      "num_max_aplicacoes": 1,
+      "intervalo_aplicacao": null,
+      "carencia_dias": null,
+      "carencia_texto": "Não determinado em função da não necessidade de estipular o limite máximo de resíduo (LMR) para este ingrediente ativo.",
+      "epoca_aplicacao": "Aplicação Única (Foliar). Para o controle de Nematoide-de-galhas realizar uma única aplicação foliar.",
+      "fonte_pagina": 2,
+      "fonte_trecho": "Em todas as culturas com ocorrência do alvo biológico | Nematoide-de-galhas (Meloidogyne incognita) | 500 a 1500 mL p.c./ha | Terrestre: 150 Aéreo: 30 - 50"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+ "numero_registro": "1016",
+ "registros": [
+  {
+   "cultura": "Todos os cultivos onde há presença do alvo biológico",
+   "praga_nome_comum": "Lagarta-do-algodão",
+   "praga_nome_cientifico": "Helicoverpa armigera",
+   "dose_min": 50,
+   "dose_max": 200,
+   "dose_unidade": "mL/ha",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": "Aplicação terrestre: 100 a 200 L/ha (amendoim, arroz, feijão e soja); 200 a 400 L/ha (algodão, batata, café, milho, milheto, sorgo e girassol); 600 a 1000 L/ha (tomate); 1000 a 2000 L/ha (citros). Aplicação aérea: 30 a 50 L/ha.",
+   "num_max_aplicacoes": 4,
+   "intervalo_aplicacao": "8 dias",
+   "carencia_dias": null,
+   "carencia_texto": "Intervalo de segurança não determinado devido à característica microbiológica do ingrediente ativo.",
+   "epoca_aplicacao": "Aplicar sobre a cultura quando for observada a presença de ovos do alvo biológico indicado, na eclosão das primeiras lagartas. Realizar a segunda aplicação 8 dias após a primeira. Máximo de 4 aplicações num mesmo ciclo da cultura. Pulverização foliar.",
+   "fonte_pagina": 2,
+   "fonte_trecho": "Todos os cultivos onde há presença do alvo biológico | Helicoverpa armigera | Lagarta-do-algodão | 50 a 200 mL/ha | 4 | 8 dias"
+  }
+ ]
+}

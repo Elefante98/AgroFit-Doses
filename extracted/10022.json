@@ -1,0 +1,43 @@
+{
+ "numero_registro": "10022",
+ "registros": [
+  {
+   "cultura": "Trigo",
+   "praga_nome_comum": "Mancha-marrom",
+   "praga_nome_cientifico": "Bipolaris sorokiniana",
+   "dose_min": 100,
+   "dose_max": 100,
+   "dose_unidade": "mL/100kg sementes",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": "Vide Modo de Aplicação. Na operação de tratamento de sementes industrial não há necessidade de adição de água para a aplicação na semente. Se necessária a adição de água na calda não ultrapassar o volume total 100 mL/60.000 sementes ou a proporção de 1:1 em relação ao BAYTAN PRO.",
+   "num_max_aplicacoes": 1,
+   "intervalo_aplicacao": "Por se tratar de tratamento de sementes, é feita uma única aplicação antes do plantio.",
+   "carencia_dias": null,
+   "carencia_texto": "Não determinado por referir-se a tratamento de sementes.",
+   "epoca_aplicacao": "Tratamento de sementes em ambiente exclusivamente industrial, antes do plantio.",
+   "fonte_pagina": 2,
+   "fonte_trecho": "Trigo | Mancha-marrom | Bipolaris sorokiniana | 100 mL/100 Kg sementes | 1 | Vide Modo de Aplicação | Batelada Fluxo contínuo | ND*"
+  },
+  {
+   "cultura": "Trigo",
+   "praga_nome_comum": "Ferrugem-da-folha",
+   "praga_nome_cientifico": "Puccinia triticina",
+   "dose_min": 100,
+   "dose_max": 100,
+   "dose_unidade": "mL/100kg sementes",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": "Vide Modo de Aplicação. Na operação de tratamento de sementes industrial não há necessidade de adição de água para a aplicação na semente. Se necessária a adição de água na calda não ultrapassar o volume total 100 mL/60.000 sementes ou a proporção de 1:1 em relação ao BAYTAN PRO.",
+   "num_max_aplicacoes": 1,
+   "intervalo_aplicacao": "Por se tratar de tratamento de sementes, é feita uma única aplicação antes do plantio.",
+   "carencia_dias": null,
+   "carencia_texto": "Não determinado por referir-se a tratamento de sementes.",
+   "epoca_aplicacao": "Tratamento de sementes em ambiente exclusivamente industrial, antes do plantio.",
+   "fonte_pagina": 2,
+   "fonte_trecho": "Trigo | Ferrugem-da-folha | Puccinia triticina | 100 mL/100 Kg sementes | 1 | Vide Modo de Aplicação | Batelada Fluxo contínuo | ND*"
+  }
+ ]
+}
