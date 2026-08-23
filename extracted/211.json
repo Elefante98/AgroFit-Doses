@@ -7,7 +7,7 @@
    "praga_nome_cientifico": "Aphis gossypii",
    "dose_min": 400,
    "dose_max": 500,
-   "dose_unidade": "mL p.c./ha",
+   "dose_unidade": "mL/ha",
    "volume_calda_min": null,
    "volume_calda_max": null,
    "volume_calda_unidade": null,

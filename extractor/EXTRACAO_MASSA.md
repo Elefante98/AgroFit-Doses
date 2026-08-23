@@ -69,3 +69,12 @@ fumigação de ambiente, alguns biológicos): grave `cultura` com o literal
 Deixar `cultura: null` **quebra o `import_db.py`** (`NOT NULL constraint failed:
 indicacoes.cultura`) e derruba o lote inteiro. A observação de que a bula não
 indica cultura continua no `fonte_trecho`.
+
+## (l) Grafia canônica da unidade — sem qualificador "p.c."
+
+A bula escreve `L p.c./ha`, `g p.c./ha`, `mL p.c./100 kg de sementes`; o vocabulário
+fechado usa `L/ha`, `g/ha`, `mL/100kg sementes`. Grave a **grafia canônica** (regra 3
+do `EXTRACAO.md`) e deixe o literal da bula no `fonte_trecho`. Isso não é conversão —
+"p.c." só qualifica que a dose é de produto comercial, que é o padrão do campo.
+Escrever o qualificador na unidade joga o registro em `manual_review` à toa
+(aconteceu em 5 bulas da onda 1: 122, 123, 211, 217, 220 — 191 registros).
