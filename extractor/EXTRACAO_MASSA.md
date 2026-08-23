@@ -59,3 +59,13 @@ Nunca a confunda com dose de produto comercial nem com volume de calda.
   `manual_review` — é o comportamento correto).
 - Unidades só do vocabulário de `unidades.json`, sem converter.
 - Um arquivo de saída por bula **sempre**, mesmo vazio (é a retomabilidade).
+
+## (k) `cultura` nunca é null — o schema é NOT NULL
+
+Produto cuja tabela de uso **não atrela a cultura** (gafanhoto em área livre,
+fumigação de ambiente, alguns biológicos): grave `cultura` com o literal
+**`"Não Atrelado a Cultura"`** — é o valor canônico que o próprio AgroFit usa no
+`indicacao_uso` desses pares (visto no reg. 1848591, Dimilin/Rhammatocerus).
+Deixar `cultura: null` **quebra o `import_db.py`** (`NOT NULL constraint failed:
+indicacoes.cultura`) e derruba o lote inteiro. A observação de que a bula não
+indica cultura continua no `fonte_trecho`.

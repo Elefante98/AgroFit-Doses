@@ -1,0 +1,24 @@
+{
+  "numero_registro": "1568310",
+  "registros": [
+    {
+      "cultura": "Feijão",
+      "praga_nome_comum": "Ferrugem",
+      "praga_nome_cientifico": "Uromyces appendiculatus",
+      "dose_min": 0.5,
+      "dose_max": 0.8,
+      "dose_unidade": "kg/ha",
+      "volume_calda_min": 200,
+      "volume_calda_max": 500,
+      "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 2,
+      "intervalo_aplicacao": "10 dias (tratamento curativo)",
+      "carencia_dias": 21,
+      "carencia_texto": null,
+      "epoca_aplicacao": "Tratamento preventivo: 1ª aplicação: 20-25 dias após a germinação; 2ª aplicação: 4-5 dias após a floração. Tratamento curativo: aplicar a partir da aparição dos primeiros sintomas da doença e repetir se necessário com intervalos de 10 dias",
+      "fonte_pagina": 3,
+      "fonte_trecho": "Feijão | Uromyces appendiculatus | Ferrugem | 0,5 – 0,8 | 2 | 200 – 500 L"
+    }
+  ]
+}

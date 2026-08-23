@@ -1,0 +1,43 @@
+{
+  "numero_registro": "2048304",
+  "registros": [
+    {
+      "cultura": "Citros",
+      "praga_nome_comum": "Cochonilha-verde",
+      "praga_nome_cientifico": "Coccus viridis",
+      "dose_min": 1.0,
+      "dose_max": 2.0,
+      "dose_unidade": "L/100L",
+      "volume_calda_min": 2000,
+      "volume_calda_max": 2000,
+      "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 1,
+      "intervalo_aplicacao": null,
+      "carencia_dias": null,
+      "carencia_texto": "Não determinado em função da modalidade de emprego",
+      "epoca_aplicacao": "As aplicações devem ser feitas no início da infestação das pragas-alvo. Para isso, seguir as recomendações de um profissional habilitado, que determinará o momento adequado. Recomenda-se inspecionar o pomar quinzenalmente; exceto nos períodos de maior incidência da praga. Nesse caso, inspecionar a cada 7 dias.",
+      "fonte_pagina": 2,
+      "fonte_trecho": "Citros | Cochonilha-verde Coccus viridis | 1,0 a 2,0 | 2000 L/ha | 1"
+    },
+    {
+      "cultura": "Citros",
+      "praga_nome_comum": "Cochonilha-escama-farinha",
+      "praga_nome_cientifico": "Pinnaspis minor",
+      "dose_min": 1.0,
+      "dose_max": 2.0,
+      "dose_unidade": "L/100L",
+      "volume_calda_min": 2000,
+      "volume_calda_max": 2000,
+      "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 1,
+      "intervalo_aplicacao": null,
+      "carencia_dias": null,
+      "carencia_texto": "Não determinado em função da modalidade de emprego",
+      "epoca_aplicacao": "As aplicações devem ser feitas no início da infestação das pragas-alvo. Para isso, seguir as recomendações de um profissional habilitado, que determinará o momento adequado. Recomenda-se inspecionar o pomar quinzenalmente; exceto nos períodos de maior incidência da praga. Nesse caso, inspecionar a cada 7 dias.",
+      "fonte_pagina": 2,
+      "fonte_trecho": "Citros | Cochonilha-escama-farinha Pinnaspis minor | 1,0 a 2,0 | 2000 L/ha | 1"
+    }
+  ]
+}

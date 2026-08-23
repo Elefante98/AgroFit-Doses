@@ -1,0 +1,24 @@
+{
+  "numero_registro": "1878709",
+  "registros": [
+    {
+      "cultura": "Amendoim",
+      "praga_nome_comum": "Tombamento",
+      "praga_nome_cientifico": "Rhizoctonia solani",
+      "dose_min": 400,
+      "dose_max": 400,
+      "dose_unidade": "g/100kg sementes",
+      "volume_calda_min": null,
+      "volume_calda_max": null,
+      "volume_calda_unidade": null,
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 1,
+      "intervalo_aplicacao": null,
+      "carencia_dias": null,
+      "carencia_texto": "Não determinado devido à modalidade de emprego",
+      "epoca_aplicacao": "Única aplicação, antes do plantio",
+      "fonte_pagina": 2,
+      "fonte_trecho": "Amendoim | Rhizoctonia solani / Tombamento | 400g | 280g | Única aplicação, antes do plantio"
+    }
+  ]
+}

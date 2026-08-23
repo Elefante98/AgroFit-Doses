@@ -1,0 +1,62 @@
+{
+ "numero_registro": "2738704",
+ "registros": [
+  {
+   "cultura": "Fumo",
+   "praga_nome_comum": "Amarelão",
+   "praga_nome_cientifico": "Pythium ultimum var. ultimum",
+   "dose_min": 7.5,
+   "dose_max": 7.5,
+   "dose_unidade": "g/100L",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": "O volume de calda é de 1,0L/m2 de mudas.",
+   "num_max_aplicacoes": 2,
+   "intervalo_aplicacao": "25 dias",
+   "carencia_dias": null,
+   "carencia_texto": "UNA (Uso Não Alimentar)",
+   "epoca_aplicacao": "Preventiva: a primeira aplicação 25 dias após a semeadura e a segunda 25 dias após a primeira",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Fumo | Amarelão Pythium ultimum var. ultimum | 7,5 + 7,5 (preventiva) g/100L ÁGUA | 2"
+  },
+  {
+   "cultura": "Fumo",
+   "praga_nome_comum": "Amarelão",
+   "praga_nome_cientifico": "Pythium ultimum var. ultimum",
+   "dose_min": 7.5,
+   "dose_max": 15.0,
+   "dose_unidade": "g/100L",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": "O volume de calda é de 1,0L/m2 de mudas.",
+   "num_max_aplicacoes": 2,
+   "intervalo_aplicacao": "25 dias",
+   "carencia_dias": null,
+   "carencia_texto": "UNA (Uso Não Alimentar)",
+   "epoca_aplicacao": "Curativa: a primeira aplicação no início do aparecimento dos primeiros sintomas e a segunda 25 após a primeira",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Fumo | Amarelão Pythium ultimum var. ultimum | 15,0 + 7,5 (curativa) g/100L ÁGUA | 2"
+  },
+  {
+   "cultura": "Violeta",
+   "praga_nome_comum": "Podridão-de-Phytophthora",
+   "praga_nome_cientifico": "Phytophthora nicotianae var. parasitica",
+   "dose_min": 500,
+   "dose_max": 500,
+   "dose_unidade": "g/100L",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": "Aplicar 2,0 litros de calda a 0,5% (500 g de Terrazole 350 WP em 100 litros de água) por metro quadrado de superfície de solo/vasos a serem tratados.",
+   "num_max_aplicacoes": 3,
+   "intervalo_aplicacao": "1 mês",
+   "carencia_dias": null,
+   "carencia_texto": "UNA (Uso Não Alimentar)",
+   "epoca_aplicacao": "Aplicar logo após o plantio e repetir a aplicação, se necessário, a intervalos de 1 mês.",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Violeta | Podridão-de-Phytophthora Phytophthora nicotianae var. parasitica | 500 g/100L ÁGUA | 3"
+  }
+ ]
+}
