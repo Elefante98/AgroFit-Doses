@@ -1,0 +1,62 @@
+{
+  "numero_registro": "688604",
+  "registros": [
+    {
+      "praga_nome_comum": "Brusone",
+      "praga_nome_cientifico": "Pyricularia grisea",
+      "dose_min": 200,
+      "dose_max": 300,
+      "dose_unidade": "g/ha",
+      "volume_calda_min": null,
+      "volume_calda_max": null,
+      "volume_calda_unidade": null,
+      "volume_calda_outros": "Aplicação Terrestre: 200 a 300 L/ha; Aplicação Aérea: 30 a 50 L/ha",
+      "num_max_aplicacoes": 2,
+      "intervalo_aplicacao": "será determinado em função do progresso da doença",
+      "carencia_dias": 30,
+      "carencia_texto": null,
+      "epoca_aplicacao": "Brusone nas folhas do arroz: 1ª Aplicação na fase de completo perfilhamento; 2ª Aplicação nas regiões onde a incidência do fungo é intensa, 20 dias após a primeira. Brusone no pescoço, nó e panícula: 1ª Aplicação no final do emborrachamento, ou quando 5% das panículas tiverem emergido; 2ª Aplicação aproximadamente 15 dias após a primeira, ou quando 75% das panículas já tiverem emergido.",
+      "fonte_pagina": 4,
+      "cultura": "Arroz",
+      "fonte_trecho": "Arroz | Brusone (Pyricularia grisea) | 200 a 300 g/ha | Intervalo de segurança: Arroz (aplicação foliar) 30 dias"
+    },
+    {
+      "praga_nome_comum": "Brusone",
+      "praga_nome_cientifico": "Pyricularia grisea",
+      "dose_min": 200,
+      "dose_max": 300,
+      "dose_unidade": "g/ha",
+      "volume_calda_min": null,
+      "volume_calda_max": null,
+      "volume_calda_unidade": null,
+      "volume_calda_outros": "Aplicação Terrestre: 200 a 300 L/ha; Aplicação Aérea: 30 a 50 L/ha",
+      "num_max_aplicacoes": 2,
+      "intervalo_aplicacao": "será determinado em função do progresso da doença",
+      "carencia_dias": 30,
+      "carencia_texto": null,
+      "epoca_aplicacao": "Brusone nas folhas do arroz: 1ª Aplicação na fase de completo perfilhamento; 2ª Aplicação nas regiões onde a incidência do fungo é intensa, 20 dias após a primeira. Brusone no pescoço, nó e panícula: 1ª Aplicação no final do emborrachamento, ou quando 5% das panículas tiverem emergido; 2ª Aplicação aproximadamente 15 dias após a primeira, ou quando 75% das panículas já tiverem emergido.",
+      "fonte_pagina": 4,
+      "cultura": "Arroz Irrigado",
+      "fonte_trecho": "Arroz Irrigado | Brusone (Pyricularia grisea) | 200 a 300 g/ha | Intervalo de segurança: Arroz (aplicação foliar) 30 dias"
+    },
+    {
+      "cultura": "Tratamento de sementes",
+      "praga_nome_comum": "Brusone",
+      "praga_nome_cientifico": "Pyricularia grisea",
+      "dose_min": 250,
+      "dose_max": 300,
+      "dose_unidade": "g/100kg sementes",
+      "volume_calda_min": null,
+      "volume_calda_max": null,
+      "volume_calda_unidade": null,
+      "volume_calda_outros": "Molhamento das sementes: 1 L de água/100 kg de sementes, depois adiciona o produto. Molhamento do produto: 1 L de calda (água+produto)/100 kg de sementes.",
+      "num_max_aplicacoes": 1,
+      "intervalo_aplicacao": null,
+      "carencia_dias": null,
+      "carencia_texto": "Intervalo de segurança não determinado devido à modalidade de emprego.",
+      "epoca_aplicacao": "Tratamento de sementes: o produto deve ser misturado às sementes por via úmida.",
+      "fonte_pagina": 5,
+      "fonte_trecho": "Tratamento de sementes | Brusone (Pyricularia grisea) | 250 a 300 g/100 kg de sementes | coluna Cultura da bula traz 'Tratamento de sementes'"
+    }
+  ]
+}

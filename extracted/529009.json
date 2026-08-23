@@ -1,0 +1,62 @@
+{
+ "numero_registro": "529009",
+ "registros": [
+  {
+   "cultura": "Citros",
+   "praga_nome_comum": "Broca dos galhos da laranjeira, Broca do tronco",
+   "praga_nome_cientifico": "Diploschema rotundicolle",
+   "dose_min": 3,
+   "dose_max": 3,
+   "dose_unidade": "g/orifício",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": null,
+   "intervalo_aplicacao": null,
+   "carencia_dias": null,
+   "carencia_texto": "Não determinado devido á modalidade de emprego.",
+   "epoca_aplicacao": "GASTOXIN PASTA deve ser aplicado sempre que houver ocorrência (infestação) da praga na cultura. O produto deve ser aplicado em dose única por orifício produzido pela praga. Aplicar no máximo 30 gramas do produto por planta. Tempo de exposição: no mínimo 3 dias.",
+   "fonte_pagina": 2,
+   "fonte_trecho": "CITROS | Broca dos galhos da laranjeira, Broca do tronco | Diploschema rotundicolle || DOSE: 3 gramas de produto comercial por orifício, equivalente a 1 grama de fosfina por orifício."
+  },
+  {
+   "cultura": "Citros",
+   "praga_nome_comum": "Alerquim pequeno, Broca do tronco",
+   "praga_nome_cientifico": "Macropophora accentifer",
+   "dose_min": 3,
+   "dose_max": 3,
+   "dose_unidade": "g/orifício",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": null,
+   "intervalo_aplicacao": null,
+   "carencia_dias": null,
+   "carencia_texto": "Não determinado devido á modalidade de emprego.",
+   "epoca_aplicacao": "GASTOXIN PASTA deve ser aplicado sempre que houver ocorrência (infestação) da praga na cultura. O produto deve ser aplicado em dose única por orifício produzido pela praga. Aplicar no máximo 30 gramas do produto por planta. Tempo de exposição: no mínimo 3 dias.",
+   "fonte_pagina": 2,
+   "fonte_trecho": "CITROS | Alerquim pequeno, Broca do tronco | Macropophora accentifer || DOSE: 3 gramas de produto comercial por orifício, equivalente a 1 grama de fosfina por orifício."
+  },
+  {
+   "cultura": "Citros",
+   "praga_nome_comum": "Coleobroca dos citros",
+   "praga_nome_cientifico": "Trachyderes thoracicus",
+   "dose_min": 3,
+   "dose_max": 3,
+   "dose_unidade": "g/orifício",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": null,
+   "intervalo_aplicacao": null,
+   "carencia_dias": null,
+   "carencia_texto": "Não determinado devido á modalidade de emprego.",
+   "epoca_aplicacao": "GASTOXIN PASTA deve ser aplicado sempre que houver ocorrência (infestação) da praga na cultura. O produto deve ser aplicado em dose única por orifício produzido pela praga. Aplicar no máximo 30 gramas do produto por planta. Tempo de exposição: no mínimo 3 dias.",
+   "fonte_pagina": 2,
+   "fonte_trecho": "CITROS | Coleobroca dos citros | Trachyderes thoracicus || DOSE: 3 gramas de produto comercial por orifício, equivalente a 1 grama de fosfina por orifício."
+  }
+ ]
+}

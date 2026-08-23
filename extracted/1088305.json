@@ -1,0 +1,43 @@
+{
+  "numero_registro": "1088305",
+  "registros": [
+    {
+      "cultura": "Maçã",
+      "praga_nome_comum": "Sarna",
+      "praga_nome_cientifico": "Venturia inaequalis",
+      "dose_min": 70,
+      "dose_max": 100,
+      "dose_unidade": "mL/100L",
+      "volume_calda_min": 1000,
+      "volume_calda_max": 1500,
+      "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 3,
+      "intervalo_aplicacao": "15 dias; no caso de aplicações curativas, 7 dias",
+      "carencia_dias": 7,
+      "carencia_texto": null,
+      "epoca_aplicacao": "Iniciar as aplicações preventivamente a partir da brotação até a florada; aplicações curativas logo após o início da infecção",
+      "fonte_pagina": 3,
+      "fonte_trecho": "Maçã | Sarna (Venturia inaequalis) | 70 a 100 ml/100 L água | 1000 a 1500 | 3"
+    },
+    {
+      "cultura": "Pêssego",
+      "praga_nome_comum": "Podridão-parda",
+      "praga_nome_cientifico": "Monilinia fructicola",
+      "dose_min": 85,
+      "dose_max": 175,
+      "dose_unidade": "mL/100L",
+      "volume_calda_min": 1000,
+      "volume_calda_max": 1500,
+      "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 3,
+      "intervalo_aplicacao": "15 dias",
+      "carencia_dias": 7,
+      "carencia_texto": null,
+      "epoca_aplicacao": "Duas fases: a primeira iniciando pouco antes da brotação, e a segunda na abertura das pétalas florais",
+      "fonte_pagina": 3,
+      "fonte_trecho": "Pêssego | Podridão-parda (Monilinia fructicola) | 85 a 175 ml/100 L água | 1000 a 1500 | 3"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "numero_registro": "1388909",
+  "registros": [
+    {
+      "cultura": "Milho",
+      "praga_nome_comum": "Gorgulho",
+      "praga_nome_cientifico": "Sitophilus zeamais",
+      "dose_min": 10,
+      "dose_max": 20,
+      "dose_unidade": "mL/ton",
+      "volume_calda_min": 2.0,
+      "volume_calda_max": 2.0,
+      "volume_calda_unidade": "L/tonelada de grãos",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 1,
+      "intervalo_aplicacao": null,
+      "carencia_dias": 180,
+      "carencia_texto": null,
+      "epoca_aplicacao": "Tratamento preventivo dos grãos armazenados, no início do armazenamento",
+      "fonte_pagina": 3,
+      "fonte_trecho": "Milho | Gorgulho (Sitophilus zeamais) | 10 - 20 mL/ton. grãos | 2,0 | 1"
+    },
+    {
+      "cultura": "Trigo",
+      "praga_nome_comum": "Gorgulho",
+      "praga_nome_cientifico": "Sitophilus oryzae",
+      "dose_min": 10,
+      "dose_max": 20,
+      "dose_unidade": "mL/ton",
+      "volume_calda_min": 2.0,
+      "volume_calda_max": 2.0,
+      "volume_calda_unidade": "L/tonelada de grãos",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 1,
+      "intervalo_aplicacao": null,
+      "carencia_dias": 120,
+      "carencia_texto": null,
+      "epoca_aplicacao": "Tratamento preventivo dos grãos armazenados, no início do armazenamento",
+      "fonte_pagina": 3,
+      "fonte_trecho": "Trigo | Gorgulho (Sitophilus oryzae) | 10 - 20 mL/ton. grãos | 2,0 | 1"
+    }
+  ]
+}
