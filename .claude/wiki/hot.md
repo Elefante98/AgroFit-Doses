@@ -6,19 +6,21 @@
 
 - Preprocess **v3 re-rodado em todas as bulas** (`pre/*.txt` da v1 apagados):
   3.960 recortes + 39 marcadores `.scan`, 0 erros.
-- **190 bulas extraídas e importadas** (30 do piloto + 160 da massa).
-  Banco: **25.283 registros** — 21.120 `validado`, 3.704 `validado_bula`,
-  459 `manual_review` (**1,8%**, meta ≤15% ✅).
-- **Restam ~3.770 bulas** (`pre/*.txt` sem `extracted/*.json`).
+- **250 bulas extraídas e importadas** (30 do piloto + 220 da massa).
+  Banco: **32.377 registros** — 27.516 `validado`, 4.285 `validado_bula`,
+  576 `manual_review` (**1,8%**, meta ≤15% ✅).
+- **Restam ~3.710 bulas** (`pre/*.txt` sem `extracted/*.json`).
 - Ondas fechadas: lote 1 (40), onda 1 (30, regs 107-309), onda 2 (30, regs 310-521),
-  onda 3 (60, do topo da numeração para baixo). Onda 4 (60) em voo ao encerrar.
+  onda 3 (60) e onda 4 (60), estas duas descendo do maior nº de registro.
 
 ### Como retomar
 O pipeline deriva estado do disco: pegue os `pre/*.txt` sem `extracted/*.json`,
-lotes de ~5 por subagente, prompt em `extractor/EXTRACAO_MASSA.md` + `EXTRACAO.md`.
-**A onda 3 desceu a partir do maior nº de registro; a onda 2 subiu até 521.**
-Manter direções separadas evita colisão se duas sessões rodarem juntas
-(aconteceu nesta sessão: uma sessão sucessora commitou os arquivos órfãos da outra).
+lotes de ~5 por subagente, ~12 subagentes em paralelo. O prompt do subagente manda
+ler `extractor/EXTRACAO.md` + `extractor/EXTRACAO_MASSA.md` (regras a-l).
+**As ondas 3 e 4 desceram a partir do maior nº de registro (já foram até 419003);
+as ondas 1-2 subiram até 521.** Manter direções separadas evita colisão se duas
+sessões rodarem juntas — aconteceu nesta sessão: esta sessão foi suspensa às ~00:55
+com 40 arquivos órfãos e uma sessão sucessora os commitou e seguiu sozinha.
 
 ## Contrato endurecido — `extractor/EXTRACAO_MASSA.md`
 
@@ -30,28 +32,39 @@ Regras (a)-(j) da certificação + duas descobertas desta sessão:
 
 ## Débito aberto (precisa de decisão do Moisés)
 
-1. **Cobertura em 80,9%** dos pares da API nas 190 bulas (meta do piloto: ≥90%).
-   52 das 190 têm cobertura de 100%. Maior buraco isolado: **reg. 3078394**
-   (Glifosato Nortox) — 1.675 pares sem dose, ~41% do buraco total.
-   Causa: a seção de dose 1.2.1 lista **só plantas daninhas**, sem coluna de
-   cultura; o título dela ("em áreas de plantio direto…") não nomeia cultura, e a
-   seção 1.1 lista culturas de **várias modalidades diferentes** (perenes em capina
-   química, plantio direto, pastagem, eucalipto). Expandir para as 17 culturas da
-   API criaria pares falsos. Ficou como `"Não Atrelado a Cultura"` →
-   `validado_bula` (dose correta, servida com proveniência). **Decidir:** herbicida
-   de capina química merece regra própria de expansão?
-2. **Vocabulário de unidades** — a massa trouxe unidades reais de bula fora do
+1. **Cobertura em 81,4%** dos pares da API nas 250 bulas (meta do piloto: ≥90%).
+   Maior buraco isolado: **reg. 3078394** (Glifosato Nortox) — 1.675 pares sem dose.
+   Causa: a seção de dose 1.2.1 lista **só plantas daninhas**, sem coluna de cultura;
+   o título dela ("em áreas de plantio direto…") não nomeia cultura, e a seção 1.1
+   lista culturas de **várias modalidades diferentes** (perenes em capina química,
+   plantio direto, pastagem, eucalipto). Expandir para as 17 culturas da API criaria
+   pares falsos. Ficou `"Não Atrelado a Cultura"` → `validado_bula` (dose correta,
+   servida com proveniência). **Decidir:** herbicida de capina química merece regra
+   própria de expansão? Comparar com o reg. 898793 (Roundup), onde a seção de dose
+   TEM cabeçalho "CULTURAS: …" e a expansão foi feita (2.820 registros).
+2. **Identidade — 2 casos que a regra (a) não previu:**
+   - `1358490`: bula imprime `01358410` (1 dígito de diferença), marca confere
+     (HERBI-D 480, Adama) e `1358410` não existe no dataset. Extraído como **JSON
+     vazio** conforme a regra. Provável erro de digitação da bula → conferir.
+   - `1238703`: bula imprime `0123870003`. **Foi extraído** (7 registros) porque
+     marca (Larvin 350), titular (Bayer), i.a. (tiodicarbe 350 g/L) e **os 6 pares
+     cultura×praga da API batem exatamente**. É a única exceção aberta à regra (a);
+     ratificar ou reverter para JSON vazio.
+3. **Vocabulário de unidades** — a massa trouxe muitas unidades reais de bula fora do
    `unidades.json`, todas transcritas literais e retidas em `manual_review`
-   (comportamento correto, fail-closed): `adultos/ha` (biológico), `mL/L`, `mL/tonelada`,
-   `g/tonelada`, `pastilha/tonelada`, `pastilha/15 sacos de 60 kg`, `L/1000 covas`,
-   `L/100kg sementes`, `mL/kg de sementes`. Estender o vocabulário é decisão de spec.
-3. **Faixas por estádio**: piloto tem registro-por-coluna (8514) E faixa global
+   (fail-closed correto): `adultos/ha`, `mL/L`, `mL/ton`, `g/tonelada`,
+   `pastilha/tonelada`, `pastilha/15 sacos de 60 kg`, `L/1000 covas`, `g/orifício`,
+   `g/pé`, `mL/1000 plantas`, `mL/100m2`, `mL/1000m3`, `kg/100kg sementes`,
+   `L/100kg sementes`, `mL/kg de sementes`, `kg/100kg bulbilhos`. Estender o
+   vocabulário é decisão de spec (passa pelo gate de review).
+4. **Faixas por estádio**: piloto tem registro-por-coluna (8514) E faixa global
    (30723). A massa segue registro-por-faixa; decidir se re-normaliza o 30723.
-4. **50 manual_review do piloto** = produtos sem alvo biológico (reguladores/câmara)
+5. **50 manual_review do piloto** = produtos sem alvo biológico (reguladores/câmara)
    — modelagem "alvo = processo" pendente.
-5. **Repo renomeado no GitHub** para `Elefante98/AgroFit-Doses` (o push por
-   `FrutiT` ainda funciona por redirect). Trocar a URL do remote local pede
-   permissão que o classificador do auto mode nega.
+6. **Repo renomeado no GitHub** para `Elefante98/AgroFit-Doses` (push por `FrutiT`
+   ainda funciona por redirect). Trocar a URL do remote local pede permissão que o
+   classificador do auto mode nega — fazer à mão:
+   `git remote set-url origin https://github.com/Elefante98/AgroFit-Doses.git`
 
 ## Onde estamos
 
