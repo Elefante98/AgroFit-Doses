@@ -1,0 +1,43 @@
+{
+ "numero_registro": "1796",
+ "registros": [
+  {
+   "cultura": "Videira",
+   "praga_nome_comum": "Míldio da Videira",
+   "praga_nome_cientifico": "Plamopora viticola",
+   "volume_calda_min": 1000,
+   "volume_calda_max": 1000,
+   "volume_calda_unidade": "L/ha",
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": null,
+   "intervalo_aplicacao": "10 a 15 dias",
+   "carencia_dias": 7,
+   "carencia_texto": null,
+   "epoca_aplicacao": "Iniciar os tratamentos durante ou após a floração.",
+   "fonte_pagina": 2,
+   "dose_min": 1000,
+   "dose_max": 1000,
+   "dose_unidade": "g/100L",
+   "fonte_trecho": "Dosagem: 1.000 gramas de SULFATO DE COBRE AGRIMAR por 100 litros de água. Cerca de 1.000 litros de calda por hectare em cada aplicação"
+  },
+  {
+   "cultura": "Videira",
+   "praga_nome_comum": "Míldio da Videira",
+   "praga_nome_cientifico": "Plamopora viticola",
+   "volume_calda_min": 1000,
+   "volume_calda_max": 1000,
+   "volume_calda_unidade": "L/ha",
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": null,
+   "intervalo_aplicacao": "10 a 15 dias",
+   "carencia_dias": 7,
+   "carencia_texto": null,
+   "epoca_aplicacao": "Iniciar os tratamentos durante ou após a floração.",
+   "fonte_pagina": 2,
+   "dose_min": 10,
+   "dose_max": 10,
+   "dose_unidade": "kg/ha",
+   "fonte_trecho": "Dosagem: ...equivalente a 10 Kg de produto comercial por hectare"
+  }
+ ]
+}

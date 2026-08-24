@@ -1,0 +1,62 @@
+{
+  "numero_registro": "1725",
+  "registros": [
+    {
+      "cultura": "Em todas as culturas com ocorrência dos alvos biológicos",
+      "praga_nome_comum": "Cigarrinha-da-raiz",
+      "praga_nome_cientifico": "Mahanarva fimbriolata",
+      "dose_min": 500,
+      "dose_max": 500,
+      "dose_unidade": "g/ha",
+      "volume_calda_min": null,
+      "volume_calda_max": null,
+      "volume_calda_unidade": null,
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 2,
+      "intervalo_aplicacao": null,
+      "carencia_dias": null,
+      "carencia_texto": "Não determinado em função da não necessidade de estipular o limite máximo de resíduo (LMR) para este ingrediente ativo.",
+      "epoca_aplicacao": null,
+      "fonte_pagina": 2,
+      "fonte_trecho": "Cigarrinha-da-raiz (Mahanarva fimbriolata) | 500 g/ha | Realizar duas aplicacoes por ciclo de cultura"
+    },
+    {
+      "cultura": "Em todas as culturas com ocorrência dos alvos biológicos",
+      "praga_nome_comum": "Cigarrinha-das-pastagens",
+      "praga_nome_cientifico": "Zulia entreriana",
+      "dose_min": 500,
+      "dose_max": 500,
+      "dose_unidade": "g/ha",
+      "volume_calda_min": null,
+      "volume_calda_max": null,
+      "volume_calda_unidade": null,
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 2,
+      "intervalo_aplicacao": null,
+      "carencia_dias": null,
+      "carencia_texto": "Não determinado em função da não necessidade de estipular o limite máximo de resíduo (LMR) para este ingrediente ativo.",
+      "epoca_aplicacao": null,
+      "fonte_pagina": 2,
+      "fonte_trecho": "Cigarrinha-das-pastagens (Zulia entreriana) | 500 g/ha | Realizar duas aplicacoes por ano"
+    },
+    {
+      "cultura": "Em todas as culturas com ocorrência dos alvos biológicos",
+      "praga_nome_comum": "Cigarrinha-das-pastagens; Cigarrinha-dos-capinzais",
+      "praga_nome_cientifico": "Deois flavopicta",
+      "dose_min": 8,
+      "dose_max": 8,
+      "dose_unidade": "kg/ha",
+      "volume_calda_min": 300,
+      "volume_calda_max": 300,
+      "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": null,
+      "intervalo_aplicacao": null,
+      "carencia_dias": null,
+      "carencia_texto": "Não determinado em função da não necessidade de estipular o limite máximo de resíduo (LMR) para este ingrediente ativo.",
+      "epoca_aplicacao": null,
+      "fonte_pagina": 2,
+      "fonte_trecho": "Cigarrinha-das-pastagens; Cigarrinha-dos-capinzais (Deois flavopicta) | 8 kg/ha | volume de calda de 300 L/ha"
+    }
+  ]
+}

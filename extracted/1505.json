@@ -1,0 +1,31 @@
+{
+  "numero_registro": "1505",
+  "registros": [
+    {
+      "cultura": "Seringueira",
+      "praga_nome_comum": null,
+      "praga_nome_cientifico": "Hevea brasiliensis",
+      "dose_min": 2, "dose_max": 2, "dose_unidade": "g/planta",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": "Plantas nativas: não se recomenda diluir o produto comercial; aplicado sem diluição, com pincel.",
+      "num_max_aplicacoes": 11, "intervalo_aplicacao": "3 a 11 aplicações por ano, em intervalos nunca inferiores a 30 dias, durante o período vegetativo",
+      "carencia_dias": null, "carencia_texto": "U.N.A. (uso não alimentar)",
+      "epoca_aplicacao": "Plantas nativas: aplicar em sistemas de exploração em frequências de sangria reduzida (d/3, d/4, d/5 ou d/6, respectivamente em intervalos de 3, 4, 5 ou 6 dias). Aplicar uma camada do produto comercial ETHREL PA sem diluição, em uma faixa levemente raspada, logo abaixo do corte de sangria, com pincel chato.",
+      "fonte_pagina": 2,
+      "fonte_trecho": "Seringueira | Estimulante da produção de látex | Plantas nativas: 2g/planta | Pincel | máx 11 aplicações | U.N.A."
+    },
+    {
+      "cultura": "Seringueira",
+      "praga_nome_comum": null,
+      "praga_nome_cientifico": "Hevea brasiliensis",
+      "dose_min": 2, "dose_max": 2, "dose_unidade": "mL/planta",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": "Plantas cultivadas: diluir previamente 1 kg do produto comercial em 2 litros de água; aplicar 2 mL dessa calda/planta com pincel.",
+      "num_max_aplicacoes": 11, "intervalo_aplicacao": "3 a 11 aplicações por ano, em intervalos nunca inferiores a 30 dias, durante o período vegetativo; sangria em frequência baixa d/7 a d/14 (intervalos de 7 a 14 dias)",
+      "carencia_dias": null, "carencia_texto": "U.N.A. (uso não alimentar)",
+      "epoca_aplicacao": "Plantas cultivadas: recomenda-se a aplicação do produto ETHREL PA diluído em água. Fazer a diluição prévia de 1 kg de ETHREL PA para 2 litros de água, e aplicar 2 mL dessa calda/planta em sistemas de sangria especiais, como sangria por puntura, sangria ascendente em painel alto e sangria em frequência baixa (d/7 a d/14 - em intervalos de 7 a 14 dias).",
+      "fonte_pagina": 2,
+      "fonte_trecho": "Seringueira | Estimulante da produção de látex | Plantas cultivadas: 2mL/planta (1kg produto/2L água) | Pincel | máx 11 aplicações | U.N.A."
+    }
+  ]
+}

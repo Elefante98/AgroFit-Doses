@@ -1,0 +1,83 @@
+{
+  "numero_registro": "1506",
+  "registros": [
+    {
+      "cultura": "Trigo",
+      "praga_nome_comum": "Aveia preta",
+      "praga_nome_cientifico": "Avena strigosa",
+      "dose_min": 100, "dose_max": 150, "dose_unidade": "mL/ha",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": "Terrestre: 100 a 300 L/ha; Aérea: 30 a 50 L/ha",
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": "Realizar uma (1) aplicação por ciclo",
+      "carencia_dias": 60, "carencia_texto": null,
+      "epoca_aplicacao": "Estádio 1 a 2 perfilhos. Aplicação em pós-emergência das plantas infestantes e das culturas. Uma aplicação do herbicida é suficiente para atender às necessidades da cultura. Usar maior dose em solo com alto teor de matéria orgânica e/ou argila e alta pressão de plantas daninhas; menores doses em solos arenosos e menores infestações. Aplicar sempre adicionado de óleo mineral, na concentração de 0,5% v/v.",
+      "fonte_pagina": 3,
+      "fonte_trecho": "TRIGO | Aveia preta (Avena strigosa) | 1-2 perfilhos | 100-150 mL/ha | 1 aplicação/ciclo"
+    },
+    {
+      "cultura": "Trigo",
+      "praga_nome_comum": "Aveia",
+      "praga_nome_cientifico": "Avena sativa",
+      "dose_min": 100, "dose_max": 150, "dose_unidade": "mL/ha",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": "Terrestre: 100 a 300 L/ha; Aérea: 30 a 50 L/ha",
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": "Realizar uma (1) aplicação por ciclo",
+      "carencia_dias": 60, "carencia_texto": null,
+      "epoca_aplicacao": "Estádio 1 a 2 perfilhos (célula de estádio e dose mesclada com Aveia preta na tabela). Aplicação em pós-emergência das plantas infestantes e das culturas. Uma aplicação do herbicida é suficiente para atender às necessidades da cultura. Aplicar sempre adicionado de óleo mineral, na concentração de 0,5% v/v.",
+      "fonte_pagina": 3,
+      "fonte_trecho": "TRIGO | Aveia (Avena sativa) | estádio/dose mesclados com linha Aveia preta: 1-2 perfilhos, 100-150 mL/ha"
+    },
+    {
+      "cultura": "Trigo",
+      "praga_nome_comum": "Azevém",
+      "praga_nome_cientifico": "Lolium multiflorum",
+      "dose_min": 200, "dose_max": 250, "dose_unidade": "mL/ha",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": "Terrestre: 100 a 300 L/ha; Aérea: 30 a 50 L/ha",
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": "Realizar uma (1) aplicação por ciclo",
+      "carencia_dias": 60, "carencia_texto": null,
+      "epoca_aplicacao": "Estádio 1 a 2 perfilhos. Aplicação em pós-emergência das plantas infestantes e das culturas. Uma aplicação do herbicida é suficiente para atender às necessidades da cultura. Usar maior dose em solo com alto teor de matéria orgânica e/ou argila e alta pressão de plantas daninhas; menores doses em solos arenosos e menores infestações. Aplicar sempre adicionado de óleo mineral, na concentração de 0,5% v/v.",
+      "fonte_pagina": 3,
+      "fonte_trecho": "TRIGO | Azevém (Lolium multiflorum) | 1-2 perfilhos | 200-250 mL/ha | 1 aplicação/ciclo"
+    },
+    {
+      "cultura": "Soja",
+      "praga_nome_comum": "Capim-pé-de-galinha",
+      "praga_nome_cientifico": "Eleusine indica",
+      "dose_min": 200, "dose_max": 400, "dose_unidade": "mL/ha",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": "Terrestre: 100 a 300 L/ha; Aérea: 30 a 50 L/ha",
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": "Realizar uma (1) aplicação por ciclo",
+      "carencia_dias": 60, "carencia_texto": null,
+      "epoca_aplicacao": "Estádio 1 a 2 perfilhos. Aplicação em pós-emergência das plantas infestantes e das culturas. Uma aplicação do herbicida é suficiente para atender às necessidades da cultura. Usar maior dose em solo com alto teor de matéria orgânica e/ou argila e alta pressão de plantas daninhas; menores doses em solos arenosos e menores infestações. Aplicar sempre adicionado de óleo mineral, na concentração de 0,5% v/v.",
+      "fonte_pagina": 3,
+      "fonte_trecho": "SOJA | Capim-pé-de-galinha (Eleusine indica) | 1-2 perfilhos | 200-400 mL/ha | 1 aplicação/ciclo"
+    },
+    {
+      "cultura": "Soja",
+      "praga_nome_comum": "Capim-amargoso",
+      "praga_nome_cientifico": "Digitaria insularis",
+      "dose_min": 300, "dose_max": 400, "dose_unidade": "mL/ha",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": "Terrestre: 100 a 300 L/ha; Aérea: 30 a 50 L/ha",
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": "Realizar uma (1) aplicação por ciclo",
+      "carencia_dias": 60, "carencia_texto": null,
+      "epoca_aplicacao": "Estádio 1 perfilho. Aplicação em pós-emergência das plantas infestantes e das culturas. Uma aplicação do herbicida é suficiente para atender às necessidades da cultura. Usar maior dose em solo com alto teor de matéria orgânica e/ou argila e alta pressão de plantas daninhas; menores doses em solos arenosos e menores infestações. Aplicar sempre adicionado de óleo mineral, na concentração de 0,5% v/v.",
+      "fonte_pagina": 3,
+      "fonte_trecho": "SOJA | Capim-amargoso (Digitaria insularis) | 1 perfilho | 300-400 mL/ha | 1 aplicação/ciclo"
+    },
+    {
+      "cultura": "Soja",
+      "praga_nome_comum": "Milho",
+      "praga_nome_cientifico": "Zea mays",
+      "dose_min": 100, "dose_max": 200, "dose_unidade": "mL/ha",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": "Terrestre: 100 a 300 L/ha; Aérea: 30 a 50 L/ha",
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": "Realizar uma (1) aplicação por ciclo",
+      "carencia_dias": 60, "carencia_texto": null,
+      "epoca_aplicacao": "Estádio 2 a 4 folhas (controle de milho voluntário na cultura da soja). Aplicação em pós-emergência das plantas infestantes e das culturas. Uma aplicação do herbicida é suficiente para atender às necessidades da cultura. Aplicar sempre adicionado de óleo mineral, na concentração de 0,5% v/v.",
+      "fonte_pagina": 3,
+      "fonte_trecho": "SOJA | Milho (Zea mays) | 2-4 folhas | 100-200 mL/ha | 1 aplicação/ciclo"
+    }
+  ]
+}

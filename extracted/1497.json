@@ -1,0 +1,43 @@
+{
+ "numero_registro": "1497",
+ "registros": [
+  {
+   "cultura": "Não Atrelado a Cultura",
+   "praga_nome_comum": "Saúva-limão",
+   "praga_nome_cientifico": "Atta sexdens rubropilosa",
+   "dose_min": 10,
+   "dose_max": 10,
+   "dose_unidade": "g/m2",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": 2,
+   "intervalo_aplicacao": "Após 40-50 dias da primeira aplicação, fazer um repasse nos olheiros que apresentarem algum movimento de formigas.",
+   "carencia_dias": null,
+   "carencia_texto": "Intervalo de Segurança não determinado devido à modalidade de emprego (uso no controle de formigas).",
+   "epoca_aplicacao": "Aplicar de preferência quando existir movimentos de alimentação no formigueiro.",
+   "fonte_pagina": 2,
+   "fonte_trecho": "Saúva-limão | Atta sexdens rubropilosa | 10 g/m2 do formigueiro | 2 | Polvilhadeira"
+  },
+  {
+   "cultura": "Não Atrelado a Cultura",
+   "praga_nome_comum": "Quenquém-de-cisco",
+   "praga_nome_cientifico": "Acromyrmex crassispinus",
+   "dose_min": 10,
+   "dose_max": 10,
+   "dose_unidade": "g/m2",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": 2,
+   "intervalo_aplicacao": "Após 40-50 dias da primeira aplicação, fazer um repasse nos olheiros que apresentarem algum movimento de formigas.",
+   "carencia_dias": null,
+   "carencia_texto": "Intervalo de Segurança não determinado devido à modalidade de emprego (uso no controle de formigas).",
+   "epoca_aplicacao": "Aplicar de preferência quando existir movimentos de alimentação no formigueiro.",
+   "fonte_pagina": 2,
+   "fonte_trecho": "Quenquém-de-cisco | Acromyrmex crassispinus | 10 g/m2 do formigueiro | 2 | Polvilhadeira"
+  }
+ ]
+}

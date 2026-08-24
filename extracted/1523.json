@@ -1,0 +1,43 @@
+{
+ "numero_registro": "1523",
+ "registros": [
+  {
+   "cultura": "Todas as culturas com ocorrência do alvo biológico",
+   "praga_nome_comum": "Cigarrinha-das-pastagens; Cigarrinha-dos-capinzais",
+   "praga_nome_cientifico": "Deois flavopicta",
+   "dose_min": 100,
+   "dose_max": 100,
+   "dose_unidade": "g/ha",
+   "volume_calda_min": 200,
+   "volume_calda_max": 200,
+   "volume_calda_unidade": "L/ha",
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": 1,
+   "intervalo_aplicacao": null,
+   "carencia_dias": null,
+   "carencia_texto": "Não determinado em função da não necessidade de estipular o limite máximo de resíduo (LMR) para este ingrediente ativo",
+   "epoca_aplicacao": "Monitorar a presença de ninfas na pastagem, após as primeiras chuvas. Iniciar a aplicação após a detecção da praga (espumas com ninfas na base das touceiras). Realizar uma única aplicação",
+   "fonte_pagina": 2,
+   "fonte_trecho": "Todas as culturas com ocorrência do alvo biológico | Cigarrinha-das-pastagens; Cigarrinha-dos-capinzais | Deois flavopicta* | 100 g/ha"
+  },
+  {
+   "cultura": "Todas as culturas com ocorrência do alvo biológico",
+   "praga_nome_comum": "Percevejo marrom",
+   "praga_nome_cientifico": "Euschistus heros",
+   "dose_min": 150,
+   "dose_max": 150,
+   "dose_unidade": "g/ha",
+   "volume_calda_min": 200,
+   "volume_calda_max": 200,
+   "volume_calda_unidade": "L/ha",
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": 2,
+   "intervalo_aplicacao": "7 dias",
+   "carencia_dias": null,
+   "carencia_texto": "Não determinado em função da não necessidade de estipular o limite máximo de resíduo (LMR) para este ingrediente ativo",
+   "epoca_aplicacao": "Inspecionar periodicamente a lavoura com batida de pano após o florescimento e pulverizar quando forem encontrados quatro percevejos maiores que cinco milímetros por batida de pano na produção de grãos, ou dois na produção de sementes",
+   "fonte_pagina": 2,
+   "fonte_trecho": "Todas as culturas com ocorrência do alvo biológico | Percevejo marrom | Euschistus heros** | 150 g/ha | Realizar 2 aplicações, em intervalo de 7 dias"
+  }
+ ]
+}
