@@ -1,0 +1,195 @@
+{
+  "numero_registro": "1208",
+  "registros": [
+    {
+      "cultura": "Algodão", "praga_nome_comum": "Broca-do-algodoeiro", "praga_nome_cientifico": "Eutinobothurs brasiliensis",
+      "dose_min": 250, "dose_max": 300, "dose_unidade": "mL/100kg sementes",
+      "volume_calda_min": 0.50, "volume_calda_max": 0.60, "volume_calda_unidade": "L/100kg sementes",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": null, "carencia_texto": "Intervalo de segurança não determinado devido a modalidade de emprego.",
+      "epoca_aplicacao": "Tratamento de sementes antes da semeadura", "fonte_pagina": 2,
+      "fonte_trecho": "Algodão | Broca-do-algodoeiro Eutinobothurs brasiliensis | 250 - 300 mL/100 kg de sementes | 0,50 a 0,60 L/100 kg de sementes"
+    },
+    {
+      "cultura": "Algodão", "praga_nome_comum": "Tripes", "praga_nome_cientifico": "Frankliniella schultzei",
+      "dose_min": 250, "dose_max": 300, "dose_unidade": "mL/100kg sementes",
+      "volume_calda_min": 0.50, "volume_calda_max": 0.60, "volume_calda_unidade": "L/100kg sementes",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": null, "carencia_texto": "Intervalo de segurança não determinado devido a modalidade de emprego.",
+      "epoca_aplicacao": "Tratamento de sementes antes da semeadura", "fonte_pagina": 2,
+      "fonte_trecho": "Algodão | Tripes Frankliniella schultzei | (célula mesclada com a dose de Broca-do-algodoeiro acima)"
+    },
+    {
+      "cultura": "Arroz", "praga_nome_comum": "Bicheira-da-raiz-do-arroz", "praga_nome_cientifico": "Oryzophagus oryzae",
+      "dose_min": 100, "dose_max": 150, "dose_unidade": "mL/100kg sementes",
+      "volume_calda_min": 0.24, "volume_calda_max": 0.30, "volume_calda_unidade": "L/100kg sementes",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": null, "carencia_texto": "Intervalo de segurança não determinado devido a modalidade de emprego.",
+      "epoca_aplicacao": "Tratamento de sementes antes da semeadura", "fonte_pagina": 2,
+      "fonte_trecho": "Arroz | Bicheira-da-raiz-do-arroz Oryzophagus oryzae | 100 - 150 mL/100 kg de sementes | 0,24 a 0,30 L/100 kg de sementes"
+    },
+    {
+      "cultura": "Arroz", "praga_nome_comum": "Cupins", "praga_nome_cientifico": "Syntermes molestus e Procornitermes triacifer",
+      "dose_min": 200, "dose_max": 250, "dose_unidade": "mL/100kg sementes",
+      "volume_calda_min": 0.40, "volume_calda_max": 0.50, "volume_calda_unidade": "L/100kg sementes",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": null, "carencia_texto": "Intervalo de segurança não determinado devido a modalidade de emprego.",
+      "epoca_aplicacao": "Tratamento de sementes antes da semeadura", "fonte_pagina": 2,
+      "fonte_trecho": "Arroz | Cupins Syntermes molestus e Procornitermes triacifer | 200 - 250 mL/100 kg de sementes | 0,40 a 0,50 L/100 kg de sementes"
+    },
+    {
+      "cultura": "Cevada", "praga_nome_comum": "Pão-de-galinha", "praga_nome_cientifico": "Diloboderus abderus",
+      "dose_min": 100, "dose_max": 150, "dose_unidade": "mL/100kg sementes",
+      "volume_calda_min": 0.40, "volume_calda_max": 0.60, "volume_calda_unidade": "L/100kg sementes",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": null, "carencia_texto": "Intervalo de segurança não determinado devido a modalidade de emprego.",
+      "epoca_aplicacao": "Tratamento de sementes antes da semeadura", "fonte_pagina": 2,
+      "fonte_trecho": "Cevada | Pão-de-galinha Diloboderus abderus | 100 - 150 mL/100 kg de sementes | 0,40 a 0,60 L/100 kg de sementes"
+    },
+    {
+      "cultura": "Feijão", "praga_nome_comum": "Vaquinha-verde-amarela", "praga_nome_cientifico": "Diabrotica speciosa",
+      "dose_min": 200, "dose_max": 200, "dose_unidade": "mL/100kg sementes",
+      "volume_calda_min": 0.60, "volume_calda_max": 0.60, "volume_calda_unidade": "L/100kg sementes",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": null, "carencia_texto": "Intervalo de segurança não determinado devido a modalidade de emprego.",
+      "epoca_aplicacao": "Tratamento de sementes antes da semeadura", "fonte_pagina": 2,
+      "fonte_trecho": "Feijão | Vaquinha-verde-amarela Diabrotica speciosa | 200 mL/100 kg de sementes | 0,60 L/100 kg de sementes"
+    },
+    {
+      "cultura": "Feijão", "praga_nome_comum": "Tamanduá-da-soja", "praga_nome_cientifico": "Sternechus subsignatus",
+      "dose_min": 200, "dose_max": 200, "dose_unidade": "mL/100kg sementes",
+      "volume_calda_min": 0.60, "volume_calda_max": 0.60, "volume_calda_unidade": "L/100kg sementes",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": null, "carencia_texto": "Intervalo de segurança não determinado devido a modalidade de emprego.",
+      "epoca_aplicacao": "Tratamento de sementes antes da semeadura", "fonte_pagina": 2,
+      "fonte_trecho": "Feijão | Tamanduá-da-soja Sternechus subsignatus | (célula mesclada com a dose de Vaquinha-verde-amarela acima)"
+    },
+    {
+      "cultura": "Milho", "praga_nome_comum": "Lagarta Elasmo", "praga_nome_cientifico": "Elasmopalpus lignosellus",
+      "dose_min": 50, "dose_max": 200, "dose_unidade": "mL/ha",
+      "volume_calda_min": 0.08, "volume_calda_max": 0.10, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": null, "carencia_texto": "Intervalo de segurança não determinado devido a modalidade de emprego.",
+      "epoca_aplicacao": "Tratamento de sementes antes da semeadura", "fonte_pagina": 2,
+      "fonte_trecho": "Milho | Lagarta Elasmo Elasmopalpus lignosellus | 50 - 200 mL/ha | 0,08 a 0,10 L/ha"
+    },
+    {
+      "cultura": "Milho", "praga_nome_comum": "Coró", "praga_nome_cientifico": "Phyllophaga cuyabana",
+      "dose_min": 50, "dose_max": 200, "dose_unidade": "mL/ha",
+      "volume_calda_min": 0.08, "volume_calda_max": 0.10, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": null, "carencia_texto": "Intervalo de segurança não determinado devido a modalidade de emprego.",
+      "epoca_aplicacao": "Tratamento de sementes antes da semeadura", "fonte_pagina": 2,
+      "fonte_trecho": "Milho | Coró Phyllophaga cuyabana | (célula mesclada com a dose de Lagarta Elasmo acima)"
+    },
+    {
+      "cultura": "Milho", "praga_nome_comum": "Cupim", "praga_nome_cientifico": "Procornitermes triacifer",
+      "dose_min": 40, "dose_max": 80, "dose_unidade": "mL/ha",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": null, "carencia_texto": "Intervalo de segurança não determinado devido a modalidade de emprego.",
+      "epoca_aplicacao": "Tratamento de sementes antes da semeadura", "fonte_pagina": 2,
+      "fonte_trecho": "Milho | Cupim Procornitermes triacifer | 40 - 80 mL/ha | (volume não informado na bula)"
+    },
+    {
+      "cultura": "Pastagem", "praga_nome_comum": "Saúva-parda", "praga_nome_cientifico": "Atta capiguara",
+      "dose_min": 20, "dose_max": 40, "dose_unidade": "mL/ha",
+      "volume_calda_min": 0.20, "volume_calda_max": 0.40, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": null, "carencia_texto": "Intervalo de segurança não determinado devido a modalidade de emprego.",
+      "epoca_aplicacao": "Tratamento de sementes antes da semeadura", "fonte_pagina": 3,
+      "fonte_trecho": "Pastagem | Saúva-parda Atta capiguara | 20 - 40 mL/ha | 0,20 a 0,40 L/ha"
+    },
+    {
+      "cultura": "Pastagem", "praga_nome_comum": "Cupins", "praga_nome_cientifico": "Cornitermes cumulans",
+      "dose_min": 20, "dose_max": 40, "dose_unidade": "mL/ha",
+      "volume_calda_min": 0.20, "volume_calda_max": 0.40, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": null, "carencia_texto": "Intervalo de segurança não determinado devido a modalidade de emprego.",
+      "epoca_aplicacao": "Tratamento de sementes antes da semeadura", "fonte_pagina": 3,
+      "fonte_trecho": "Pastagem | Cupins Cornitermes cumulans | (célula mesclada com a dose de Saúva-parda acima)"
+    },
+    {
+      "cultura": "Soja", "praga_nome_comum": "Torrãozinho", "praga_nome_cientifico": "Aracantus mourei",
+      "dose_min": 100, "dose_max": 100, "dose_unidade": "mL/100kg sementes",
+      "volume_calda_min": 0.30, "volume_calda_max": 0.30, "volume_calda_unidade": "L/100kg sementes",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": null, "carencia_texto": "Intervalo de segurança não determinado devido a modalidade de emprego.",
+      "epoca_aplicacao": "Tratamento de sementes antes da semeadura", "fonte_pagina": 3,
+      "fonte_trecho": "Soja | Torrãozinho Aracantus mourei | 100 mL/100 kg de sementes | 0,30 L/100 kg de sementes"
+    },
+    {
+      "cultura": "Soja", "praga_nome_comum": "Vaquinha-verde-amarela", "praga_nome_cientifico": "Diabrotica speciosa",
+      "dose_min": 200, "dose_max": 200, "dose_unidade": "mL/100kg sementes",
+      "volume_calda_min": 0.60, "volume_calda_max": 0.60, "volume_calda_unidade": "L/100kg sementes",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": null, "carencia_texto": "Intervalo de segurança não determinado devido a modalidade de emprego.",
+      "epoca_aplicacao": "Tratamento de sementes antes da semeadura", "fonte_pagina": 3,
+      "fonte_trecho": "Soja | Vaquinha-verde-amarela Diabrotica speciosa | 200 mL/100 kg de sementes | 0,60 L/100 kg de sementes"
+    },
+    {
+      "cultura": "Soja", "praga_nome_comum": "Lagarta-elasmo", "praga_nome_cientifico": "Elasmopalpus lignosellus",
+      "dose_min": 200, "dose_max": 200, "dose_unidade": "mL/100kg sementes",
+      "volume_calda_min": 0.60, "volume_calda_max": 0.60, "volume_calda_unidade": "L/100kg sementes",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": null, "carencia_texto": "Intervalo de segurança não determinado devido a modalidade de emprego.",
+      "epoca_aplicacao": "Tratamento de sementes antes da semeadura", "fonte_pagina": 3,
+      "fonte_trecho": "Soja | Lagarta-elasmo Elasmopalpus lignosellus | 200 mL/100 kg de sementes | 0,60 L/100 kg de sementes"
+    },
+    {
+      "cultura": "Soja", "praga_nome_comum": "Coró", "praga_nome_cientifico": "Phyllophaga cuyabana",
+      "dose_min": 100, "dose_max": 100, "dose_unidade": "mL/100kg sementes",
+      "volume_calda_min": 0.30, "volume_calda_max": 0.30, "volume_calda_unidade": "L/100kg sementes",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": null, "carencia_texto": "Intervalo de segurança não determinado devido a modalidade de emprego.",
+      "epoca_aplicacao": "Tratamento de sementes antes da semeadura", "fonte_pagina": 3,
+      "fonte_trecho": "Soja | Coró Phyllophaga cuyabana | 100 mL/100 kg de sementes | 0,30 L/100 kg de sementes"
+    },
+    {
+      "cultura": "Soja", "praga_nome_comum": "Piolho-de-cobra", "praga_nome_cientifico": "Porcellio laevis",
+      "dose_min": 80, "dose_max": 80, "dose_unidade": "mL/100kg sementes",
+      "volume_calda_min": 0.24, "volume_calda_max": 0.24, "volume_calda_unidade": "L/100kg sementes",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": null, "carencia_texto": "Intervalo de segurança não determinado devido a modalidade de emprego.",
+      "epoca_aplicacao": "Tratamento de sementes antes da semeadura", "fonte_pagina": 3,
+      "fonte_trecho": "Soja | Piolho-de-cobra Porcellio laevis | 80 mL/100 kg de sementes | 0,24 L/100 kg de sementes"
+    },
+    {
+      "cultura": "Soja", "praga_nome_comum": "Tamanduá-da-soja", "praga_nome_cientifico": "Sternechus subsignatus",
+      "dose_min": 200, "dose_max": 200, "dose_unidade": "mL/100kg sementes",
+      "volume_calda_min": 0.60, "volume_calda_max": 0.60, "volume_calda_unidade": "L/100kg sementes",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": null, "carencia_texto": "Intervalo de segurança não determinado devido a modalidade de emprego.",
+      "epoca_aplicacao": "Tratamento de sementes antes da semeadura", "fonte_pagina": 3,
+      "fonte_trecho": "Soja | Tamanduá-da-soja Sternechus subsignatus | 200 mL/100 kg de sementes | 0,60 L/100 kg de sementes"
+    },
+    {
+      "cultura": "Trigo", "praga_nome_comum": "Pão-de-galinha", "praga_nome_cientifico": "Diloboderus abderus",
+      "dose_min": 100, "dose_max": 150, "dose_unidade": "mL/100kg sementes",
+      "volume_calda_min": 0.40, "volume_calda_max": 0.60, "volume_calda_unidade": "L/100kg sementes",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": null, "carencia_texto": "Intervalo de segurança não determinado devido a modalidade de emprego.",
+      "epoca_aplicacao": "Tratamento de sementes antes da semeadura", "fonte_pagina": 3,
+      "fonte_trecho": "Trigo | Pão-de-galinha Diloboderus abderus | 100 - 150 mL/100 kg de sementes | 0,40 a 0,60 L/100 kg de sementes"
+    }
+  ]
+}

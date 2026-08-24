@@ -1,0 +1,18 @@
+{
+ "numero_registro": "1302",
+ "registros": [
+  {
+   "cultura": "Qualquer cultura em que ocorra o alvo biológico indicado",
+   "praga_nome_comum": "broca-pequena-do-fruto, broca-pequena-do-tomateiro",
+   "praga_nome_cientifico": "Neoleucinodes elegantalis",
+   "dose_min": 4, "dose_max": 4, "dose_unidade": "armadilhas/ha",
+   "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": null, "intervalo_aplicacao": "Realize a troca do septo a cada 45 dias.",
+   "carencia_dias": null, "carencia_texto": "Não pertinente",
+   "epoca_aplicacao": "Instale as armadilhas a partir do florescimento e mantenha-as na área até o final do ciclo da cultura. As inspeções devem ser feitas semanalmente. No entanto, se houver suspeita de infestação, inspecione as armadilhas diariamente. Realize a troca do septo a cada 45 dias.",
+   "fonte_pagina": 2,
+   "fonte_trecho": "Qualquer cultura em que ocorra o alvo biológico indicado | Neoleucinodes elegantalis (broca-pequena-do-fruto, broca-pequena-do-tomateiro) | Para monitoramento utilizar 4 armadilhas por hectare, mantendo o distanciamento mínimo de 50 metros entre as armadilhas."
+  }
+ ]
+}

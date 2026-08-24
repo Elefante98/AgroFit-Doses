@@ -1,0 +1,43 @@
+{
+ "numero_registro": "924",
+ "registros": [
+  {
+   "cultura": "Em todas as culturas com ocorrência do alvo biológico.",
+   "praga_nome_comum": "Bicudo da cana-de-açúcar",
+   "praga_nome_cientifico": "Sphenophorus levis",
+   "dose_min": 100,
+   "dose_max": 300,
+   "dose_unidade": "g/ha",
+   "volume_calda_min": 100,
+   "volume_calda_max": 200,
+   "volume_calda_unidade": "L/ha",
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": null,
+   "intervalo_aplicacao": "pelo menos 3 pulverizações quando houver presença da praga",
+   "carencia_dias": null,
+   "carencia_texto": "Não determinado em função da não necessidade de estipular o limite máximo de resíduo (LMR) para este ingrediente ativo.",
+   "epoca_aplicacao": "A aplicação deve ser realizada com umidade relativa acima de 70%, sendo recomendado pelo menos 3 pulverizações quando houver presença da praga.",
+   "fonte_pagina": 2,
+   "fonte_trecho": "Em todas as culturas com ocorrência do alvo biológico. | Bicudo da cana-de-açúcar (Sphenophorus levis) | 100 – 300 g/ha | 100 – 200 L/ha"
+  },
+  {
+   "cultura": "Em todas as culturas com ocorrência do alvo biológico.",
+   "praga_nome_comum": "Broca-do-café",
+   "praga_nome_cientifico": "Hypothenemus hampei",
+   "dose_min": 75,
+   "dose_max": 200,
+   "dose_unidade": "g/ha",
+   "volume_calda_min": 400,
+   "volume_calda_max": 800,
+   "volume_calda_unidade": "L/ha",
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": null,
+   "intervalo_aplicacao": "pelo menos 3 pulverizações quando houver presença da praga",
+   "carencia_dias": null,
+   "carencia_texto": "Não determinado em função da não necessidade de estipular o limite máximo de resíduo (LMR) para este ingrediente ativo.",
+   "epoca_aplicacao": "A aplicação deve ser realizada com umidade relativa acima de 70%, sendo recomendado pelo menos 3 pulverizações quando houver presença da praga.",
+   "fonte_pagina": 2,
+   "fonte_trecho": "Em todas as culturas com ocorrência do alvo biológico. | Broca-do-café (Hypothenemus hampei) | 75 – 200 g/ha | 400 – 800 L/ha"
+  }
+ ]
+}

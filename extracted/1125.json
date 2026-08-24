@@ -1,0 +1,24 @@
+{
+ "numero_registro": "1125",
+ "registros": [
+  {
+   "cultura": "Em todas as culturas com ocorrência do alvo biológico",
+   "praga_nome_comum": "Mofo-branco",
+   "praga_nome_cientifico": "Sclerotinia sclerotiorum",
+   "dose_min": 0.4,
+   "dose_max": 0.4,
+   "dose_unidade": "kg/ha",
+   "volume_calda_min": 200,
+   "volume_calda_max": 200,
+   "volume_calda_unidade": "L/ha",
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": 2,
+   "intervalo_aplicacao": null,
+   "carencia_dias": null,
+   "carencia_texto": "Não determinado em função da não necessidade de estipular o limite máximo de resíduo (LMR) para este ingrediente ativo.",
+   "epoca_aplicacao": "Na cultura da soja realizar a primeira aplicação no estádio V3 (segundo trifólio aberto) e a segunda aplicação no estádio R1 (início do florescimento). Na cultura do feijão, realizar a aplicação no estádio V3 (primeira folha trifoliada aberta) e a segunda aplicação no estádio R5 (pré-florescimento). Eficiência agronômica comprovada nas culturas do feijão e da soja. As aplicações devem ser realizadas nas horas mais frescas do dia, preferencialmente, ao fim da tarde e em dias nublados.",
+   "fonte_pagina": 2,
+   "fonte_trecho": "Em todas as culturas com ocorrência do alvo biológico | Mofo-branco (Sclerotinia sclerotiorum) | Aplicar a dose de 0,4 kg/ha"
+  }
+ ]
+}

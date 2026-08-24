@@ -1,0 +1,125 @@
+{
+  "numero_registro": "1404",
+  "registros": [
+    {
+      "cultura": "Arroz", "praga_nome_comum": "Picão-preto", "praga_nome_cientifico": "Bidens pilosa",
+      "dose_min": 70, "dose_max": 70, "dose_unidade": "g/ha",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": "Terrestre: 200-300 L/ha; Aérea: 30-50 L/ha",
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": 60, "carencia_texto": null,
+      "epoca_aplicacao": "Aplicação pode ser realizada até o pleno perfilhamento da cultura. Realizar no máximo 01 aplicação por ciclo da cultura.", "fonte_pagina": 2,
+      "fonte_trecho": "Arroz | Picão-preto | Bidens pilosa | 70 + 0,3% de espalhante adesivo à base de lauril éter sulfato de sódio | 01 | Terrestre 200-300/Aérea 30-50 | 60"
+    },
+    {
+      "cultura": "Arroz", "praga_nome_comum": "Caruru", "praga_nome_cientifico": "Amaranthus retroflexus",
+      "dose_min": 70, "dose_max": 70, "dose_unidade": "g/ha",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": "Terrestre: 200-300 L/ha; Aérea: 30-50 L/ha",
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": 60, "carencia_texto": null,
+      "epoca_aplicacao": "Aplicação pode ser realizada até o pleno perfilhamento da cultura. Realizar no máximo 01 aplicação por ciclo da cultura.", "fonte_pagina": 2,
+      "fonte_trecho": "Arroz | Caruru | Amaranthus retroflexus | (dose agrupada com Picão-preto: 70 g p.c/ha) | 01 | Terrestre 200-300/Aérea 30-50 | 60"
+    },
+    {
+      "cultura": "Arroz", "praga_nome_comum": "Corda-de-viola", "praga_nome_cientifico": "Ipomoea grandifolia",
+      "dose_min": 100, "dose_max": 100, "dose_unidade": "g/ha",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": "Terrestre: 200-300 L/ha; Aérea: 30-50 L/ha",
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": 60, "carencia_texto": null,
+      "epoca_aplicacao": "Aplicação pode ser realizada até o pleno perfilhamento da cultura. Realizar no máximo 01 aplicação por ciclo da cultura.", "fonte_pagina": 2,
+      "fonte_trecho": "Arroz | Corda-de-viola | lpomoea grandifolia | 100 + 0,3% de espalhante adesivo à base de lauril éter sulfato de sódio | 01 | Terrestre 200-300/Aérea 30-50 | 60"
+    },
+    {
+      "cultura": "Cana-de-açúcar", "praga_nome_comum": "Picão-preto", "praga_nome_cientifico": "Bidens pilosa",
+      "dose_min": 200, "dose_max": 200, "dose_unidade": "g/ha",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": "Terrestre: 200-300 L/ha; Aérea: 30-50 L/ha",
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": 92, "carencia_texto": null,
+      "epoca_aplicacao": "Aplicar o produto quando a cultura apresentar-se com até 50 cm de altura. Realizar no máximo 01 aplicação por ciclo da cultura.", "fonte_pagina": 2,
+      "fonte_trecho": "Cana-de-açúcar | Picão-preto | Bidens pilosa | 200 + 0,3% de espalhante adesivo à base de lauril éter sulfato de sódio | 01 | Terrestre 200-300/Aérea 30-50 | 92"
+    },
+    {
+      "cultura": "Cana-de-açúcar", "praga_nome_comum": "Caruru", "praga_nome_cientifico": "Amaranthus retroflexus",
+      "dose_min": 200, "dose_max": 200, "dose_unidade": "g/ha",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": "Terrestre: 200-300 L/ha; Aérea: 30-50 L/ha",
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": 92, "carencia_texto": null,
+      "epoca_aplicacao": "Aplicar o produto quando a cultura apresentar-se com até 50 cm de altura. Realizar no máximo 01 aplicação por ciclo da cultura.", "fonte_pagina": 2,
+      "fonte_trecho": "Cana-de-açúcar | Caruru | Amaranthus retroflexus | (dose agrupada com Picão-preto: 200 g p.c/ha) | 01 | Terrestre 200-300/Aérea 30-50 | 92"
+    },
+    {
+      "cultura": "Cana-de-açúcar", "praga_nome_comum": "Corda-de-viola", "praga_nome_cientifico": "Ipomoea grandifolia",
+      "dose_min": 400, "dose_max": 400, "dose_unidade": "g/ha",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": "Terrestre: 200-300 L/ha; Aérea: 30-50 L/ha",
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": 92, "carencia_texto": null,
+      "epoca_aplicacao": "Aplicar o produto quando a cultura apresentar-se com até 50 cm de altura. Realizar no máximo 01 aplicação por ciclo da cultura.", "fonte_pagina": 2,
+      "fonte_trecho": "Cana-de-açúcar | Corda-de-viola | lpomoea grandifolia | 400 + 0,3% de espalhante adesivo à base de lauril éter sulfato de sódio | 01 | Terrestre 200-300/Aérea 30-50 | 92"
+    },
+    {
+      "cultura": "Trigo", "praga_nome_comum": "Picão-preto", "praga_nome_cientifico": "Bidens pilosa",
+      "dose_min": 70, "dose_max": 70, "dose_unidade": "g/ha",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": "Terrestre: 200-300 L/ha; Aérea: 30-50 L/ha",
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": 70, "carencia_texto": null,
+      "epoca_aplicacao": "Aplicar o produto em pós-emergência inicial e mediana das plantas daninhas. Realizar no máximo 01 aplicação por ciclo da cultura.", "fonte_pagina": 2,
+      "fonte_trecho": "Trigo | Picão-preto | Bidens pilosa | 70 + 0,3% de espalhante adesivo à base de lauril éter sulfato de sódio | 01 | Terrestre 200-300/Aérea 30-50 | 70"
+    },
+    {
+      "cultura": "Trigo", "praga_nome_comum": "Soja", "praga_nome_cientifico": "Glycine max",
+      "dose_min": 70, "dose_max": 70, "dose_unidade": "g/ha",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": "Terrestre: 200-300 L/ha; Aérea: 30-50 L/ha",
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": 70, "carencia_texto": null,
+      "epoca_aplicacao": "Aplicar o produto em pós-emergência inicial e mediana das plantas daninhas. Realizar no máximo 01 aplicação por ciclo da cultura.", "fonte_pagina": 2,
+      "fonte_trecho": "Trigo | Soja | Glycine max | (dose agrupada com Picão-preto: 70 g p.c/ha) | 01 | Terrestre 200-300/Aérea 30-50 | 70"
+    },
+    {
+      "cultura": "Trigo", "praga_nome_comum": "Nabiça", "praga_nome_cientifico": "Raphanus raphanistrum",
+      "dose_min": 70, "dose_max": 70, "dose_unidade": "g/ha",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": "Terrestre: 200-300 L/ha; Aérea: 30-50 L/ha",
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": 70, "carencia_texto": null,
+      "epoca_aplicacao": "Aplicar o produto em pós-emergência inicial e mediana das plantas daninhas. Realizar no máximo 01 aplicação por ciclo da cultura.", "fonte_pagina": 2,
+      "fonte_trecho": "Trigo | Nabiça | Raphanus raphanistrum | (dose agrupada com Picão-preto: 70 g p.c/ha) | 01 | Terrestre 200-300/Aérea 30-50 | 70"
+    },
+    {
+      "cultura": "Trigo", "praga_nome_comum": "Azevém", "praga_nome_cientifico": "Lolium multiflorum",
+      "dose_min": 70, "dose_max": 70, "dose_unidade": "g/ha",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": "Terrestre: 200-300 L/ha; Aérea: 30-50 L/ha",
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": 70, "carencia_texto": null,
+      "epoca_aplicacao": "Aplicar o produto em pós-emergência inicial e mediana das plantas daninhas. Realizar no máximo 01 aplicação por ciclo da cultura.", "fonte_pagina": 2,
+      "fonte_trecho": "Trigo | Azevém | Lolium multiflorum* | (dose agrupada com Picão-preto: 70 g p.c/ha; * ver manejo de resistência) | 01 | Terrestre 200-300/Aérea 30-50 | 70"
+    },
+    {
+      "cultura": "Trigo", "praga_nome_comum": "Aveia-preta", "praga_nome_cientifico": "Avena strigosa",
+      "dose_min": 100, "dose_max": 100, "dose_unidade": "g/ha",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": "Terrestre: 200-300 L/ha; Aérea: 30-50 L/ha",
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": 70, "carencia_texto": null,
+      "epoca_aplicacao": "Para o controle da Aveia-preta, realizar a aplicação até a fase de início do perfilhamento (1 perfilho). Realizar no máximo 01 aplicação por ciclo da cultura.", "fonte_pagina": 2,
+      "fonte_trecho": "Trigo | Aveia-preta | Avena strigosa | 100 + 0,3% de espalhante adesivo à base de lauril éter sulfato de sódio | 01 | Terrestre 200-300/Aérea 30-50 | 70"
+    },
+    {
+      "cultura": "Trigo", "praga_nome_comum": "Buva", "praga_nome_cientifico": "Conyza bonariensis",
+      "dose_min": 90, "dose_max": 100, "dose_unidade": "g/ha",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": "Terrestre: 200-300 L/ha; Aérea: 30-50 L/ha",
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": 70, "carencia_texto": null,
+      "epoca_aplicacao": "Para o controle da Buva, aplicar nos estádios de desenvolvimento de 2 a 4 folhas. Realizar no máximo 01 aplicação por ciclo da cultura.", "fonte_pagina": 2,
+      "fonte_trecho": "Trigo | Buva | Conyza bonariensis | 90 - 100 + 0,3% de espalhante adesivo à base de lauril éter sulfato de sódio | 01 | Terrestre 200-300/Aérea 30-50 | 70"
+    }
+  ]
+}

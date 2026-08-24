@@ -1,0 +1,62 @@
+{
+ "numero_registro": "1198",
+ "registros": [
+  {
+   "cultura": "Algodão",
+   "praga_nome_comum": null,
+   "praga_nome_cientifico": "Gossypium hirsutum",
+   "dose_min": 1.5,
+   "dose_max": 1.5,
+   "dose_unidade": "L/ha",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": "Terrestre: 150 - 200 L/ha; Aérea: 20 - 40 L/ha",
+   "num_max_aplicacoes": 1,
+   "intervalo_aplicacao": null,
+   "carencia_dias": 7,
+   "carencia_texto": null,
+   "epoca_aplicacao": "Recomenda-se a aplicação do produto quando mais de 90% das maçãs do algodoeiro estiverem fisiologicamente maduras. Realizar no máximo uma aplicação por ciclo da cultura. Não se recomenda a aplicação do FINISH® em temperaturas inferiores a 22 °C. [rótulo: temperatura média do período que antecede a aplicação maior que 30 °C]",
+   "fonte_pagina": 2,
+   "fonte_trecho": "Algodão | Antecipação/Uniformização da maturação e abertura das maçãs | 1,5 L/ha | Maior que 30°C | 1 | Terrestre: 150-200 Aérea: 20-40 | 7"
+  },
+  {
+   "cultura": "Algodão",
+   "praga_nome_comum": null,
+   "praga_nome_cientifico": "Gossypium hirsutum",
+   "dose_min": 2.0,
+   "dose_max": 2.0,
+   "dose_unidade": "L/ha",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": "Terrestre: 150 - 200 L/ha; Aérea: 20 - 40 L/ha",
+   "num_max_aplicacoes": 1,
+   "intervalo_aplicacao": null,
+   "carencia_dias": 7,
+   "carencia_texto": null,
+   "epoca_aplicacao": "Recomenda-se a aplicação do produto quando mais de 90% das maçãs do algodoeiro estiverem fisiologicamente maduras. Realizar no máximo uma aplicação por ciclo da cultura. Não se recomenda a aplicação do FINISH® em temperaturas inferiores a 22 °C. [rótulo: temperatura média do período que antecede a aplicação entre 25 e 30 °C]",
+   "fonte_pagina": 2,
+   "fonte_trecho": "Algodão | Antecipação/Uniformização da maturação e abertura das maçãs | 2,0 L/ha | 25-30°C | 1 | Terrestre: 150-200 Aérea: 20-40 | 7"
+  },
+  {
+   "cultura": "Algodão",
+   "praga_nome_comum": null,
+   "praga_nome_cientifico": "Gossypium hirsutum",
+   "dose_min": 2.5,
+   "dose_max": 2.5,
+   "dose_unidade": "L/ha",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": "Terrestre: 150 - 200 L/ha; Aérea: 20 - 40 L/ha",
+   "num_max_aplicacoes": 1,
+   "intervalo_aplicacao": null,
+   "carencia_dias": 7,
+   "carencia_texto": null,
+   "epoca_aplicacao": "Recomenda-se a aplicação do produto quando mais de 90% das maçãs do algodoeiro estiverem fisiologicamente maduras. Realizar no máximo uma aplicação por ciclo da cultura. Não se recomenda a aplicação do FINISH® em temperaturas inferiores a 22 °C. [rótulo: temperatura média do período que antecede a aplicação entre 22 e 25 °C]",
+   "fonte_pagina": 2,
+   "fonte_trecho": "Algodão | Antecipação/Uniformização da maturação e abertura das maçãs | 2,5 L/ha | 22-25°C | 1 | Terrestre: 150-200 Aérea: 20-40 | 7"
+  }
+ ]
+}
