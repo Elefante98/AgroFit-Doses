@@ -1,0 +1,62 @@
+{
+  "numero_registro": "524",
+  "registros": [
+    {
+      "cultura": "Citros",
+      "praga_nome_comum": "Bolor-verde",
+      "praga_nome_cientifico": "Penicillium digitatum",
+      "dose_min": 1.25,
+      "dose_max": 2.5,
+      "dose_unidade": "mL/L água",
+      "volume_calda_min": null,
+      "volume_calda_max": null,
+      "volume_calda_unidade": null,
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 1,
+      "intervalo_aplicacao": null,
+      "carencia_dias": null,
+      "carencia_texto": "Não é especificado devido à modalidade de emprego (Tratamento Pós-Colheita).",
+      "epoca_aplicacao": "tratamento pós-colheita, imersão, até 24h após a colheita, aplicação única",
+      "fonte_pagina": 3,
+      "fonte_trecho": "Citros | Bolor-verde (P. digitatum) Bolor-azul (P. italicum) | 1,25-2,5 mL/L água | Imersão"
+    },
+    {
+      "cultura": "Citros",
+      "praga_nome_comum": "Bolor-verde",
+      "praga_nome_cientifico": "Penicillium digitatum",
+      "dose_min": 10.0,
+      "dose_max": 15.0,
+      "dose_unidade": "mL/L cera",
+      "volume_calda_min": null,
+      "volume_calda_max": null,
+      "volume_calda_unidade": null,
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 1,
+      "intervalo_aplicacao": null,
+      "carencia_dias": null,
+      "carencia_texto": "Não é especificado devido à modalidade de emprego (Tratamento Pós-Colheita).",
+      "epoca_aplicacao": "tratamento pós-colheita, solução com cera, até 24h após a colheita, aplicação única",
+      "fonte_pagina": 3,
+      "fonte_trecho": "Citros | Bolor-verde (P. digitatum) Bolor-azul (P. italicum) | 10,0-15,0 mL/L cera | Solução com cera"
+    },
+    {
+      "cultura": "Citros",
+      "praga_nome_comum": "Bolor-verde",
+      "praga_nome_cientifico": "Penicillium digitatum",
+      "dose_min": 2.5,
+      "dose_max": 3.75,
+      "dose_unidade": "mL/L água",
+      "volume_calda_min": null,
+      "volume_calda_max": null,
+      "volume_calda_unidade": null,
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 1,
+      "intervalo_aplicacao": null,
+      "carencia_dias": null,
+      "carencia_texto": "Não é especificado devido à modalidade de emprego (Tratamento Pós-Colheita).",
+      "epoca_aplicacao": "tratamento pós-colheita, drench (esguicho), até 24h após a colheita, aplicação única",
+      "fonte_pagina": 3,
+      "fonte_trecho": "Citros | Bolor-verde (P. digitatum) Bolor-azul (P. italicum) | 2,5-3,75 mL/L água | Drench (esguicho)"
+    }
+  ]
+}

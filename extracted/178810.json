@@ -1,0 +1,24 @@
+{
+ "numero_registro": "178810",
+ "registros": [
+  {
+   "cultura": "Citros",
+   "praga_nome_comum": "Pulgão preto",
+   "praga_nome_cientifico": "Toxoptera citricida",
+   "dose_min": 150,
+   "dose_max": 150,
+   "dose_unidade": "mL/100L",
+   "volume_calda_min": 1200,
+   "volume_calda_max": 1200,
+   "volume_calda_unidade": "L/ha",
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": 2,
+   "intervalo_aplicacao": "30 dias",
+   "carencia_dias": 3,
+   "carencia_texto": null,
+   "epoca_aplicacao": "Iniciar o controle no aparecimento da praga. Reaplicar em caso de reinfestação com intervalo de 30 dias entre as aplicações.",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Citros | Pulgão preto Toxoptera citricida | 150 mL/100L de água | Terrestre: 1200 L/ha | 2 | 30"
+  }
+ ]
+}

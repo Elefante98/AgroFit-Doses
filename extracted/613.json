@@ -1,0 +1,62 @@
+{
+ "numero_registro": "613",
+ "registros": [
+  {
+   "cultura": "Em todas as culturas com ocorrência do alvo biológico. Eficiência agronômica comprovada para a cultura da cana-de-açúcar.",
+   "praga_nome_comum": "Cigarrinha-da-raiz",
+   "praga_nome_cientifico": "Mahanarva fimbriolata",
+   "dose_min": 0.0211,
+   "dose_max": 0.0211,
+   "dose_unidade": "kg/ha",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": "Completar o tanque com água até o volume de calda de 200 L/ha (Modo de Preparo da Calda).",
+   "num_max_aplicacoes": 2,
+   "intervalo_aplicacao": "Realizar 2 aplicações por ciclo da cultura.",
+   "carencia_dias": null,
+   "carencia_texto": "Não definido devido a natureza microbiológica do ingrediente ativo.",
+   "epoca_aplicacao": "Monitorar a presença de ninfas no campo após as primeiras chuvas. Iniciar a aplicação após a detecção da praga (espumas com ninfas na base das touceiras). Realizar 2 aplicações por ciclo da cultura.",
+   "fonte_pagina": 2,
+   "fonte_trecho": "Em todas as culturas com ocorrência do alvo biológico. Eficiência agronômica comprovada para a cultura da cana-de-açúcar. | Cigarrinha-da-raiz (Mahanarva fimbriolata) | Dose de aplicação: 0,0211 Kg p.c./ha (equivalente a 1x10^12 de conídios/ha)."
+  },
+  {
+   "cultura": "Em todas as culturas com ocorrência do alvo biológico. Eficiência agronômica comprovada em pastagens.",
+   "praga_nome_comum": "Cigarrinha-das-pastagens",
+   "praga_nome_cientifico": "Zulia entreriana",
+   "dose_min": 0.0211,
+   "dose_max": 0.0211,
+   "dose_unidade": "kg/ha",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": "Completar o tanque com água até o volume de calda de 200 L/ha (Modo de Preparo da Calda).",
+   "num_max_aplicacoes": 2,
+   "intervalo_aplicacao": "Realizar 2 aplicações por ano.",
+   "carencia_dias": null,
+   "carencia_texto": "Não definido devido a natureza microbiológica do ingrediente ativo.",
+   "epoca_aplicacao": "Monitorar a presença de ninfas no campo após as primeiras chuvas. Iniciar a aplicação após a detecção da praga (espumas com ninfas na base das touceiras). Realizar 2 aplicações por ano.",
+   "fonte_pagina": 2,
+   "fonte_trecho": "Em todas as culturas com ocorrência do alvo biológico. Eficiência agronômica comprovada em pastagens. | Cigarrinha-das-pastagens (Zulia entreriana) | Dose de aplicação: 0,0211 Kg p.c./ha (equivalente a 1x10^12 de conídios/ha)."
+  },
+  {
+   "cultura": "Em todas as culturas com ocorrência do alvo biológico. Eficiência agronômica comprovada em pastagens de capim-braquiária (Brachiaria decumbens).",
+   "praga_nome_comum": "Cigarrinha-das-pastagens; Cigarrinha-dos-capinzais",
+   "praga_nome_cientifico": "Deois flavopicta",
+   "dose_min": 0.337,
+   "dose_max": 0.337,
+   "dose_unidade": "kg/ha",
+   "volume_calda_min": 300,
+   "volume_calda_max": 300,
+   "volume_calda_unidade": "L/ha",
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": null,
+   "intervalo_aplicacao": null,
+   "carencia_dias": null,
+   "carencia_texto": "Não definido devido a natureza microbiológica do ingrediente ativo.",
+   "epoca_aplicacao": "Fazer a aplicação utilizando volume de calda de 300 L/ha.",
+   "fonte_pagina": 2,
+   "fonte_trecho": "Em todas as culturas com ocorrência do alvo biológico. Eficiência agronômica comprovada em pastagens de capim-braquiária (Brachiaria decumbens). | Cigarrinha-das-pastagens; Cigarrinha-dos-capinzais (Deois flavopicta) | Dose de aplicação: 0,337 Kg/ha (equivalente a 16x10^12 conídios viáveis/ha); volume de calda de 300 L/ha"
+  }
+ ]
+}

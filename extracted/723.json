@@ -1,0 +1,43 @@
+{
+  "numero_registro": "723",
+  "registros": [
+    {
+      "cultura": "Café",
+      "praga_nome_comum": "Bicho-mineiro-do-cafeeiro",
+      "praga_nome_cientifico": "Leucoptera coffeella",
+      "dose_min": 2.0,
+      "dose_max": 3.0,
+      "dose_unidade": "L/ha",
+      "volume_calda_min": null,
+      "volume_calda_max": null,
+      "volume_calda_unidade": null,
+      "volume_calda_outros": "Diluir a dose recomendada em volume de calda para aplicação de 50 mL/planta (25 mL de cada lado), calculado pelo nº de plantas/ha (drench no solo sob a copa).",
+      "num_max_aplicacoes": 1,
+      "intervalo_aplicacao": null,
+      "carencia_dias": 120,
+      "carencia_texto": null,
+      "epoca_aplicacao": "Realizar 1 aplicação de PRATICO SC no solo sob a copa do cafeeiro no período de outubro a dezembro, sempre após as primeiras chuvas.",
+      "fonte_pagina": 4,
+      "fonte_trecho": "Café | Bicho-mineiro-do-cafeeiro | Leucoptera coffeella | 2,0 a 3,0 L/ha | 50 mL/planta (drench) | max 1 por safra"
+    },
+    {
+      "cultura": "Café",
+      "praga_nome_comum": "Cigarra-do-cafeeiro",
+      "praga_nome_cientifico": "Quesada gigas",
+      "dose_min": 2.0,
+      "dose_max": 3.0,
+      "dose_unidade": "L/ha",
+      "volume_calda_min": null,
+      "volume_calda_max": null,
+      "volume_calda_unidade": null,
+      "volume_calda_outros": "Diluir a dose recomendada em volume de calda para aplicação de 50 mL/planta (25 mL de cada lado), calculado pelo nº de plantas/ha (drench no solo sob a copa).",
+      "num_max_aplicacoes": 1,
+      "intervalo_aplicacao": null,
+      "carencia_dias": 120,
+      "carencia_texto": null,
+      "epoca_aplicacao": "Realizar 1 aplicação de PRATICO SC no solo sob a copa do cafeeiro no período de outubro a dezembro (bloco compartilhado com Bicho-mineiro-do-cafeeiro).",
+      "fonte_pagina": 4,
+      "fonte_trecho": "Café | Cigarra-do-cafeeiro | Quesada gigas | 2,0 a 3,0 L/ha (bloco compartilhado) | 50 mL/planta (drench) | max 1 por safra"
+    }
+  ]
+}

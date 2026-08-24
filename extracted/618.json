@@ -1,0 +1,195 @@
+{
+  "numero_registro": "618",
+  "registros": [
+    {
+      "cultura": "Algodão", "praga_nome_comum": "Ramulária", "praga_nome_cientifico": "Ramularia areola",
+      "dose_min": 0.80, "dose_max": 1.00, "dose_unidade": "L/ha",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": "Terrestre: 200 L/ha; Aérea: 30 – 40 L/ha",
+      "num_max_aplicacoes": 3, "intervalo_aplicacao": "reaplicar a cada 15 dias, caso necessário",
+      "carencia_dias": 21, "carencia_texto": null,
+      "epoca_aplicacao": "iniciar as aplicações no 25º ao 35º dia após o plantio ou no aparecimento dos primeiros sintomas da doença", "fonte_pagina": 2,
+      "fonte_trecho": "ALGODÃO | Ramulária (Ramularia areola) | 0,80 – 1,00L/ha (100 – 125g ia/ha) | 200 (terrestre) 30 – 40 (aérea)"
+    },
+    {
+      "cultura": "Algodão", "praga_nome_comum": "Ramulose", "praga_nome_cientifico": "Colletotrichum gossypii var. cephalosporioides",
+      "dose_min": 0.80, "dose_max": 1.00, "dose_unidade": "L/ha",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": "Terrestre: 200 L/ha; Aérea: 30 – 40 L/ha",
+      "num_max_aplicacoes": 3, "intervalo_aplicacao": "reaplicar a cada 15 dias, caso necessário",
+      "carencia_dias": 21, "carencia_texto": null,
+      "epoca_aplicacao": "iniciar as aplicações no 25º ao 35º dia após o plantio ou no aparecimento dos primeiros sintomas da doença", "fonte_pagina": 2,
+      "fonte_trecho": "ALGODÃO | Ramulose (Colletotrichum gossypii var. cephalosporioides) | célula mesclada com Ramulária: 0,80 – 1,00L/ha (100 – 125g ia/ha) | 200 (terrestre) 30 – 40 (aérea)"
+    },
+    {
+      "cultura": "Aveia", "praga_nome_comum": "Ferrugem-da-folha", "praga_nome_cientifico": "Puccinia coronata var. avenae",
+      "dose_min": 0.75, "dose_max": 1.00, "dose_unidade": "L/ha",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": "Terrestre: 200 - 300 L/ha; Aérea: 30 – 40 L/ha",
+      "num_max_aplicacoes": 2, "intervalo_aplicacao": "reaplicar em 15 dias, caso necessário",
+      "carencia_dias": 14, "carencia_texto": null,
+      "epoca_aplicacao": "a primeira aplicação deve ser feita quando a ferrugem-da-folha apresentar o nível de infecção 5%", "fonte_pagina": 2,
+      "fonte_trecho": "AVEIA | Ferrugem-da-folha (Puccinia coronata var. avenae) | 0,75 – 1,00 L/ha (93,75 – 125g ia/ha) | 200 - 300 (terrestre) 30 – 40 (aérea)"
+    },
+    {
+      "cultura": "Banana", "praga_nome_comum": "Sigatoka-negra", "praga_nome_cientifico": "Mycosphaerella fijiensis",
+      "dose_min": 1.00, "dose_max": 1.50, "dose_unidade": "L/ha",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": "Terrestre: 15 – 20 L/ha; Aérea: 15 L/ha",
+      "num_max_aplicacoes": 4, "intervalo_aplicacao": "reaplicar em 30 dias, conforme monitoramento",
+      "carencia_dias": 3, "carencia_texto": null,
+      "epoca_aplicacao": "Aplicação Foliar: iniciar as aplicações preventivamente", "fonte_pagina": 2,
+      "fonte_trecho": "BANANA | Sigatoka-negra (Mycosphaerella fijiensis) | 1,00 – 1,50L/ha (125 – 187,5g ia/ha) | Aplicação Foliar | 15 – 20 (terrestre) 15 (aérea)"
+    },
+    {
+      "cultura": "Banana", "praga_nome_comum": "Sigatoka-negra", "praga_nome_cientifico": "Mycosphaerella fijiensis",
+      "dose_min": 2, "dose_max": 2, "dose_unidade": "mL/planta",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": "2mL/planta (max 5,0 L/ha) (terrestre); equivalente a 5,00L/ha ou 625g ia/ha para adensamento máximo de 2500 plantas/ha",
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": 60, "carencia_texto": null,
+      "epoca_aplicacao": "Aplicação Localizada: iniciar as aplicações preventivamente. Aplicar via axila da 2º folha", "fonte_pagina": 2,
+      "fonte_trecho": "BANANA | Sigatoka-negra (Mycosphaerella fijiensis) | 2 mL/planta (5,00L/ha ou 625g ia/ha para adensamento máximo de 2500 plantas/ha) | Aplicação Localizada | 2mL/planta (max 5,0 L/ha) (terrestre)"
+    },
+    {
+      "cultura": "Banana", "praga_nome_comum": "Sigatoka-amarela", "praga_nome_cientifico": "Mycosphaerella musicola",
+      "dose_min": 1.00, "dose_max": 1.25, "dose_unidade": "L/ha",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": "Terrestre: 15 - 20 L/ha; Aérea: 15 L/ha",
+      "num_max_aplicacoes": 4, "intervalo_aplicacao": "reaplicar em 14 dias, conforme monitoramento",
+      "carencia_dias": 3, "carencia_texto": null,
+      "epoca_aplicacao": "iniciar as aplicações preventivamente", "fonte_pagina": 2,
+      "fonte_trecho": "BANANA | Sigatoka-amarela (Mycosphaerella musicola) | 1,00 – 1,25L/ha (125 – 156,25g ia/ha) | 15 - 20 (terrestre) 15 (aérea)"
+    },
+    {
+      "cultura": "Batata", "praga_nome_comum": "Pinta-preta", "praga_nome_cientifico": "Alternaria solani",
+      "dose_min": 0.75, "dose_max": 1.00, "dose_unidade": "L/ha",
+      "volume_calda_min": 600, "volume_calda_max": 600, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 4, "intervalo_aplicacao": "reaplicar em 7 dias, conforme monitoramento",
+      "carencia_dias": 14, "carencia_texto": null,
+      "epoca_aplicacao": "iniciar a aplicação preventivamente ou no aparecimento dos primeiros sintomas da doença, a partir do final do desenvolvimento foliar, fase que coincide com o fechamento das linhas e início do desenvolvimento dos tubérculos", "fonte_pagina": 2,
+      "fonte_trecho": "BATATA | Pinta-preta (Alternaria solani) | 0,75 – 1,00L/ha (93,75 – 125g ia/ha) | 600 (terrestre)"
+    },
+    {
+      "cultura": "Café", "praga_nome_comum": "Ferrugem-do-cafeeiro", "praga_nome_cientifico": "Hemileia vastatrix",
+      "dose_min": 1.50, "dose_max": 2.00, "dose_unidade": "L/ha",
+      "volume_calda_min": 500, "volume_calda_max": 500, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 2, "intervalo_aplicacao": "reaplicar a cada 30 dias, se necessário, conforme monitoramento",
+      "carencia_dias": 30, "carencia_texto": null,
+      "epoca_aplicacao": "Aplicação Foliar: aplicar quando atingir o nível de infecção de 5%", "fonte_pagina": 2,
+      "fonte_trecho": "CAFÉ | Ferrugem-do-cafeeiro (Hemileia vastatrix) | 1,50 – 2,00 L/ha (187,5 – 250g ia/ha) | Aplicação Foliar | 500 (terrestre)"
+    },
+    {
+      "cultura": "Café", "praga_nome_comum": "Ferrugem-do-cafeeiro", "praga_nome_cientifico": "Hemileia vastatrix",
+      "dose_min": 3.50, "dose_max": 5.50, "dose_unidade": "L/ha",
+      "volume_calda_min": 50, "volume_calda_max": 50, "volume_calda_unidade": "mL/planta",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": 120, "carencia_texto": null,
+      "epoca_aplicacao": "Aplicação via Solo: realizar uma única aplicação, quando a cultura estiver no estádio de floração (BBCH 55) e quando o solo estiver úmido", "fonte_pagina": 3,
+      "fonte_trecho": "CAFÉ | Ferrugem-do-cafeeiro (Hemileia vastatrix) | 3,50 – 5,50L/ha (437,5 - 687,5g ia/ha) | Aplicação via Solo | 50mL/planta (terrestre)"
+    },
+    {
+      "cultura": "Feijão", "praga_nome_comum": "Mancha-angular", "praga_nome_cientifico": "Phaeoisariopsis griseola",
+      "dose_min": 0.50, "dose_max": 0.60, "dose_unidade": "L/ha",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": "Terrestre: 400 L/ha; Aérea: 30-40 L/ha",
+      "num_max_aplicacoes": 3, "intervalo_aplicacao": "reaplicar a cada 15 dias, de acordo com as condições climáticas e pressão da doença",
+      "carencia_dias": 14, "carencia_texto": null,
+      "epoca_aplicacao": "iniciar as aplicações preventivamente ao redor de 30 dias após a emergência da cultura", "fonte_pagina": 3,
+      "fonte_trecho": "FEIJÃO | Mancha-angular (Phaeoisariopsis griseola) | 0,50 – 0,60L/ha (62,5 – 75g ia/ha) | 400 (terrestre) 30-40 (aérea)"
+    },
+    {
+      "cultura": "Mamão", "praga_nome_comum": "Sarna", "praga_nome_cientifico": "Asperisporium caricae",
+      "dose_min": 1.00, "dose_max": 1.50, "dose_unidade": "L/ha",
+      "volume_calda_min": 0.2, "volume_calda_max": 0.2, "volume_calda_unidade": "L/planta",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 2, "intervalo_aplicacao": "reaplicar a cada 15 dias, conforme monitoramento",
+      "carencia_dias": 7, "carencia_texto": null,
+      "epoca_aplicacao": "aplicar preventivamente ou logo após o início dos primeiros sintomas nas folhas mais velhas ou nos frutos, dirigindo a pulverização para a face inferior destas folhas e para os frutos, sempre visando a completa cobertura das folhas e frutos", "fonte_pagina": 3,
+      "fonte_trecho": "MAMÃO | Sarna (Asperisporium caricae) | 1,00 – 1,50L/ha (125,00 – 187,50 g ia/ha) | 0,2 L/planta (Terrestre)"
+    },
+    {
+      "cultura": "Melão", "praga_nome_comum": "Oídio", "praga_nome_cientifico": "Sphaerotheca fuliginea",
+      "dose_min": 80, "dose_max": 160, "dose_unidade": "mL/100L",
+      "volume_calda_min": 1000, "volume_calda_max": 1000, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 3, "intervalo_aplicacao": "reaplicar a cada 7 dias, conforme monitoramento",
+      "carencia_dias": 10, "carencia_texto": null,
+      "epoca_aplicacao": "aplicar preventivamente ou no início dos primeiros sintomas. As menores doses devem ser aplicadas entre o início dos primeiros sintomas e as maiores doses quando as condições climáticas forem favoráveis à doença (clima seco com altas temperaturas)", "fonte_pagina": 3,
+      "fonte_trecho": "MELÃO | Oídio (Sphaerotheca fuliginea) | 80 – 160mL/100L de água (10 – 20g ia/100L de água) | 1000 (terrestre)"
+    },
+    {
+      "cultura": "Soja", "praga_nome_comum": "Mancha-púrpura-da-semente", "praga_nome_cientifico": "Cercospora kikuchii",
+      "dose_min": 0.80, "dose_max": 1.00, "dose_unidade": "L/ha",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": "Terrestre: 200 L/ha; Aérea: 30 – 40 L/ha",
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": 28, "carencia_texto": null,
+      "epoca_aplicacao": "aplicar de acordo com o aparecimento dos primeiros sintomas. Adicionar 0,5 a 1,0% de óleo mineral", "fonte_pagina": 3,
+      "fonte_trecho": "SOJA | Mancha-púrpura-da-semente (Cercospora kikuchii) | 0,80 – 1,00L/ha (100 - 125g ia/ha) Adicionar 0,5 a 1,0% de óleo mineral | 200 (terrestre) 30 – 40 (aérea)"
+    },
+    {
+      "cultura": "Soja", "praga_nome_comum": "Mancha-parda", "praga_nome_cientifico": "Septoria glycines",
+      "dose_min": 0.80, "dose_max": 1.00, "dose_unidade": "L/ha",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": "Terrestre: 200 L/ha; Aérea: 30 – 40 L/ha",
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": 28, "carencia_texto": null,
+      "epoca_aplicacao": "aplicar de acordo com o aparecimento dos primeiros sintomas. Adicionar 0,5 a 1,0% de óleo mineral", "fonte_pagina": 3,
+      "fonte_trecho": "SOJA | Mancha-parda (Septoria glycines) | célula mesclada com Mancha-púrpura-da-semente: 0,80 – 1,00L/ha | 200 (terrestre) 30 – 40 (aérea)"
+    },
+    {
+      "cultura": "Soja", "praga_nome_comum": "Oídio", "praga_nome_cientifico": "Microsphaera difusa",
+      "dose_min": 0.40, "dose_max": 0.60, "dose_unidade": "L/ha",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": "Terrestre: 200 L/ha; Aérea: 30 – 40 L/ha (célula de volume mesclada com a seção acima)",
+      "num_max_aplicacoes": 2, "intervalo_aplicacao": "reaplicar 20 dias após a primeira aplicação, conforme monitoramento",
+      "carencia_dias": 28, "carencia_texto": null,
+      "epoca_aplicacao": "iniciar a aplicação de acordo com o aparecimento dos primeiros sintomas. Adicionar 0,5 a 1,0% de óleo mineral", "fonte_pagina": 3,
+      "fonte_trecho": "SOJA | Oídio (Microsphaera difusa) | 0,40 – 0,60L/ha (50 – 75g ia/ha) Adicionar 0,5 a 1,0% de óleo mineral | (volume não repetido na célula; ver seção Soja)"
+    },
+    {
+      "cultura": "Tomate", "praga_nome_comum": "Pinta-preta", "praga_nome_cientifico": "Alternaria solani",
+      "dose_min": 0.75, "dose_max": 1.00, "dose_unidade": "L/ha",
+      "volume_calda_min": 1000, "volume_calda_max": 1000, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 4, "intervalo_aplicacao": "reaplicar a cada 7 dias",
+      "carencia_dias": 3, "carencia_texto": null,
+      "epoca_aplicacao": "iniciar a aplicação preventivamente ou no aparecimento dos primeiros sintomas", "fonte_pagina": 3,
+      "fonte_trecho": "TOMATE | Pinta-preta (Alternaria solani) | 0,75 – 1,00L/ha (93,75 – 125g ia/ha) | 1000 (terrestre)"
+    },
+    {
+      "cultura": "Trigo", "praga_nome_comum": "Mancha-marrom", "praga_nome_cientifico": "Bipolaris sorokiniana",
+      "dose_min": 1.00, "dose_max": 1.00, "dose_unidade": "L/ha",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": "Terrestre: 200 L/ha; Aérea: 30 – 40 L/ha",
+      "num_max_aplicacoes": 2, "intervalo_aplicacao": "reaplicar em 15 dias",
+      "carencia_dias": 20, "carencia_texto": null,
+      "epoca_aplicacao": "aplicar quando os sintomas das doenças atingirem os seguintes níveis de infecção: mancha-marrom: 5%; oídio: 10-20% e ferrugem-da-folha: 5%", "fonte_pagina": 4,
+      "fonte_trecho": "TRIGO | Mancha-marrom (Bipolaris sorokiniana) | 1,00L/ha (125g ia/ha) | 200 (terrestre) 30 – 40 (aérea)"
+    },
+    {
+      "cultura": "Trigo", "praga_nome_comum": "Oídio", "praga_nome_cientifico": "Blumeria graminis f.sp. tritici",
+      "dose_min": 0.75, "dose_max": 0.75, "dose_unidade": "L/ha",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": "Terrestre: 200 L/ha; Aérea: 30 – 40 L/ha (célula de volume mesclada com Mancha-marrom)",
+      "num_max_aplicacoes": 2, "intervalo_aplicacao": "reaplicar em 15 dias",
+      "carencia_dias": 20, "carencia_texto": null,
+      "epoca_aplicacao": "aplicar quando os sintomas das doenças atingirem os seguintes níveis de infecção: mancha-marrom: 5%; oídio: 10-20% e ferrugem-da-folha: 5%", "fonte_pagina": 4,
+      "fonte_trecho": "TRIGO | Oídio (Blumeria graminis f.sp. tritici) | 0,75L/ha (93,75g ia/ha) | célula de época/número/intervalo/volume mesclada com Mancha-marrom"
+    },
+    {
+      "cultura": "Trigo", "praga_nome_comum": "Ferrugem-da-folha", "praga_nome_cientifico": "Puccinia triticina",
+      "dose_min": 0.75, "dose_max": 0.75, "dose_unidade": "L/ha",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": "Terrestre: 200 L/ha; Aérea: 30 – 40 L/ha (célula de volume mesclada com Mancha-marrom/Oídio)",
+      "num_max_aplicacoes": 2, "intervalo_aplicacao": "reaplicar em 15 dias",
+      "carencia_dias": 20, "carencia_texto": null,
+      "epoca_aplicacao": "aplicar quando os sintomas das doenças atingirem os seguintes níveis de infecção: mancha-marrom: 5%; oídio: 10-20% e ferrugem-da-folha: 5%", "fonte_pagina": 4,
+      "fonte_trecho": "TRIGO | Ferrugem-da-folha (Puccinia triticina) | célula de dose mesclada com Oídio: 0,75L/ha (93,75g ia/ha) | célula de época/número/intervalo/volume mesclada com Mancha-marrom"
+    }
+  ]
+}

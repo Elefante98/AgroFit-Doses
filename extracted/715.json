@@ -1,0 +1,62 @@
+{
+  "numero_registro": "715",
+  "registros": [
+    {
+      "cultura": "Algodão",
+      "praga_nome_comum": null,
+      "praga_nome_cientifico": "Gossypium hirsutum",
+      "dose_min": 1.0,
+      "dose_max": 1.0,
+      "dose_unidade": "L/ha",
+      "volume_calda_min": null,
+      "volume_calda_max": null,
+      "volume_calda_unidade": null,
+      "volume_calda_outros": "Aplicação terrestre: 200 a 300 L/ha; Aplicação aérea: 40 a 50 L/ha",
+      "num_max_aplicacoes": 1,
+      "intervalo_aplicacao": null,
+      "carencia_dias": 60,
+      "carencia_texto": null,
+      "epoca_aplicacao": "Aplicação única, quando as plantas estiverem com 8 a 10 flores abertas por metro linear, ou porte de 60 cm de altura",
+      "fonte_pagina": 2,
+      "fonte_trecho": "Cultura | Dose (L p.c./ha) | Número de aplicações | Época... | Algodão | 1,0 | 1 | Realizar aplicação única, quando as plantas estiverem com 8 a 10 flores abertas por metro linear..."
+    },
+    {
+      "cultura": "Algodão",
+      "praga_nome_comum": null,
+      "praga_nome_cientifico": "Gossypium hirsutum",
+      "dose_min": 0.5,
+      "dose_max": 0.5,
+      "dose_unidade": "L/ha",
+      "volume_calda_min": null,
+      "volume_calda_max": null,
+      "volume_calda_unidade": null,
+      "volume_calda_outros": "Aplicação terrestre: 200 a 300 L/ha; Aplicação aérea: 40 a 50 L/ha",
+      "num_max_aplicacoes": 2,
+      "intervalo_aplicacao": "10 a 15 dias",
+      "carencia_dias": 60,
+      "carencia_texto": null,
+      "epoca_aplicacao": "Duas aplicações sequenciais; a 1ª quando 50% das plantas com o primeiro botão floral em desenvolvimento (3 a 6 mm)",
+      "fonte_pagina": 2,
+      "fonte_trecho": "Algodão | 0,5 | 2 | Tratamento com duas aplicações sequenciais de 0,5 L/ha; a 2ª aplicação 10 a 15 dias após a primeira."
+    },
+    {
+      "cultura": "Algodão",
+      "praga_nome_comum": null,
+      "praga_nome_cientifico": "Gossypium hirsutum",
+      "dose_min": 0.25,
+      "dose_max": 0.25,
+      "dose_unidade": "L/ha",
+      "volume_calda_min": null,
+      "volume_calda_max": null,
+      "volume_calda_unidade": null,
+      "volume_calda_outros": "Aplicação terrestre: 200 a 300 L/ha; Aplicação aérea: 40 a 50 L/ha",
+      "num_max_aplicacoes": 4,
+      "intervalo_aplicacao": "7 a 14 dias",
+      "carencia_dias": 60,
+      "carencia_texto": null,
+      "epoca_aplicacao": "Quatro aplicações sequenciais; a 1ª quando 50% das plantas com o primeiro botão floral em desenvolvimento (3 a 6 mm)",
+      "fonte_pagina": 2,
+      "fonte_trecho": "Algodão | 0,25 | 4 | Tratamento com quatro aplicações sequenciais de 0,25 L/ha; próximas aplicações 7 a 14 dias após a anterior."
+    }
+  ]
+}

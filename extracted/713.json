@@ -1,0 +1,24 @@
+{
+  "numero_registro": "713",
+  "registros": [
+    {
+      "cultura": "Em todas as culturas onde ocorra o avo",
+      "praga_nome_comum": "Broca-da-cana",
+      "praga_nome_cientifico": "Diatraea saccharalis",
+      "dose_min": 6000,
+      "dose_max": 6000,
+      "dose_unidade": "parasitóides/ha",
+      "volume_calda_min": null,
+      "volume_calda_max": null,
+      "volume_calda_unidade": null,
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": null,
+      "intervalo_aplicacao": "15 dias",
+      "carencia_dias": null,
+      "carencia_texto": "Sem restrições",
+      "epoca_aplicacao": "Liberação após levantamento prévio da praga (broca-da-cana); repetir se nova infestação for constatada (800 a 1000 lagartas/ha)",
+      "fonte_pagina": 2,
+      "fonte_trecho": "Em todas as culturas onde ocorra o avo | Diatraea saccharalis (Broca-da-cana) | 6.000 parasitóides/ha | Uma única liberação após levantamento prévio."
+    }
+  ]
+}

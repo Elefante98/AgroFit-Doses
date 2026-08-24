@@ -1,0 +1,43 @@
+{
+ "numero_registro": "51425",
+ "registros": [
+  {
+   "cultura": "Soja",
+   "praga_nome_comum": "Mancha-alvo",
+   "praga_nome_cientifico": "Corynespora cassiicola",
+   "dose_min": 300,
+   "dose_max": 600,
+   "dose_unidade": "mL/ha",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": "Aplicação Terrestre: 100 a 200 L/ha; Aplicação Aérea: 20 a 40 L/ha",
+   "num_max_aplicacoes": 2,
+   "intervalo_aplicacao": "até 14 dias",
+   "carencia_dias": 30,
+   "carencia_texto": null,
+   "epoca_aplicacao": "Iniciar as aplicações preventivamente",
+   "fonte_pagina": 3,
+   "fonte_trecho": "SOJA | Mancha-alvo Corynespora cassiicola | 300-600 mL p.c./ha | 2 | Terrestre: 100 a 200 L/ha; Aérea: 20 a 40 L/ha"
+  },
+  {
+   "cultura": "Soja",
+   "praga_nome_comum": "Ferrugem-asiática",
+   "praga_nome_cientifico": "Phakopsora pachyrhizi",
+   "dose_min": 300,
+   "dose_max": 600,
+   "dose_unidade": "mL/ha",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": "Aplicação Terrestre: 100 a 200 L/ha; Aplicação Aérea: 20 a 40 L/ha",
+   "num_max_aplicacoes": 2,
+   "intervalo_aplicacao": "até 14 dias",
+   "carencia_dias": 30,
+   "carencia_texto": null,
+   "epoca_aplicacao": "Iniciar as aplicações preventivamente",
+   "fonte_pagina": 3,
+   "fonte_trecho": "SOJA | Ferrugem-asiática Phakopsora pachyrhizi | 300-600 mL p.c./ha | 2 | Terrestre: 100 a 200 L/ha; Aérea: 20 a 40 L/ha"
+  }
+ ]
+}

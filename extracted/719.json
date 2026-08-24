@@ -1,0 +1,62 @@
+{
+  "numero_registro": "719",
+  "registros": [
+    {
+      "cultura": "Crisântemo",
+      "praga_nome_comum": "Ferrugem branca",
+      "praga_nome_cientifico": "Puccinia horiana",
+      "dose_min": 50,
+      "dose_max": 50,
+      "dose_unidade": "g/ha",
+      "volume_calda_min": 800,
+      "volume_calda_max": 800,
+      "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 6,
+      "intervalo_aplicacao": "7 dias",
+      "carencia_dias": null,
+      "carencia_texto": "UNA",
+      "epoca_aplicacao": "Preventivo, iniciar entre 10 a 15 dias após o transplantio",
+      "fonte_pagina": 3,
+      "fonte_trecho": "CRISÂNTEMO* | Ferrugem branca | Puccinia horiana | 50 | - | 800 L/ha | Iniciar de forma totalmente preventiva entre 10 a 15 dias após o transplantio. Reaplicar a cada 7 dias, totalizando 6 aplicações."
+    },
+    {
+      "cultura": "Eucalipto",
+      "praga_nome_comum": "Bacterioses",
+      "praga_nome_cientifico": "Xanthomonas axonopodis; Pseudomonas cichori",
+      "dose_min": 25,
+      "dose_max": 25,
+      "dose_unidade": "g/100L",
+      "volume_calda_min": null,
+      "volume_calda_max": null,
+      "volume_calda_unidade": null,
+      "volume_calda_outros": "20 mL/m2 ou 200 L/ha",
+      "num_max_aplicacoes": 8,
+      "intervalo_aplicacao": "7 dias",
+      "carencia_dias": null,
+      "carencia_texto": "UNA",
+      "epoca_aplicacao": "Preventivo, iniciar aos 15 dias após o estaqueamento",
+      "fonte_pagina": 3,
+      "fonte_trecho": "EUCALIPTO | Bacterioses | Xanthomonas axonopodis; Pseudomonas cichori | - | 25 | 20 mL/m2 ou 200 L/ha | Realizar 8 aplicações preventivamente iniciando aos 15 dias após o estaqueamento."
+    },
+    {
+      "cultura": "Plantas Ornamentais",
+      "praga_nome_comum": "Ferrugem branca",
+      "praga_nome_cientifico": "Puccinia horiana",
+      "dose_min": 50,
+      "dose_max": 50,
+      "dose_unidade": "g/ha",
+      "volume_calda_min": 800,
+      "volume_calda_max": 800,
+      "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 6,
+      "intervalo_aplicacao": "7 dias",
+      "carencia_dias": null,
+      "carencia_texto": "UNA",
+      "epoca_aplicacao": "Preventivo, iniciar entre 10 a 15 dias após o transplantio",
+      "fonte_pagina": 3,
+      "fonte_trecho": "PLANTAS ORNAMENTAIS* (1) | Ferrugem branca | Puccinia horiana | 50 | - | 800 L/ha | ... (1) considera-se plantas ornamentais todos os vegetais não-comestíveis cultivados com finalidade comercial."
+    }
+  ]
+}

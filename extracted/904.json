@@ -1,0 +1,43 @@
+{
+ "numero_registro": "904",
+ "registros": [
+  {
+   "cultura": "Citros",
+   "praga_nome_comum": "Ácaro-da-falsa-ferrugem",
+   "praga_nome_cientifico": "Phyllocoptruta oleivora",
+   "dose_min": 200,
+   "dose_max": 300,
+   "dose_unidade": "g/100L",
+   "volume_calda_min": 1000,
+   "volume_calda_max": 3200,
+   "volume_calda_unidade": "L/ha",
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": null,
+   "intervalo_aplicacao": null,
+   "carencia_dias": null,
+   "carencia_texto": "Sem restrições. Não é estabelecido para enxofre elementar.",
+   "epoca_aplicacao": "Efetuar inspeções periódicas no pomar e iniciar as pulverizações quando forem encontrados 20% de frutos ou folhas com a presença do ácaro (1 ou mais ácaros por campo visual / 1cm2), ou alternativamente quando forem encontrados 10% de frutos ou folhas com 20 ou mais ácaros/cm2. Tratar no início do ataque, antes do aparecimento dos sintomas. Se a praga já estiver presente em população alta, usar a dose maior.",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Citros | Ácaro-da-falsa-ferrugem | Phyllocoptruta oleivora | 200 a 300 g/100L | Volume de calda: 1000 a 3200 L/ha (de acordo com o porte das plantas)"
+  },
+  {
+   "cultura": "Café",
+   "praga_nome_comum": "Ácaro-vermelho",
+   "praga_nome_cientifico": "Oligonychus ilicis",
+   "dose_min": 2,
+   "dose_max": 3,
+   "dose_unidade": "kg/ha",
+   "volume_calda_min": 400,
+   "volume_calda_max": 400,
+   "volume_calda_unidade": "L/ha",
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": null,
+   "intervalo_aplicacao": "15 a 21 dias",
+   "carencia_dias": null,
+   "carencia_texto": "Sem restrições. Não é estabelecido para enxofre elementar.",
+   "epoca_aplicacao": "Tratar no início do ataque, antes do aparecimento dos sintomas. Se a praga já estiver presente em população alta, usar a dose maior. Monitorar após a aplicação e, em caso de re-infestação, reaplicar com intervalo de 15 a 21 dias.",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Café | Ácaro-vermelho | Oligonychus ilicis | 2 a 3 kg/ha | Volume de Calda: 400 L/ha"
+  }
+ ]
+}

@@ -1,0 +1,62 @@
+{
+  "numero_registro": "57725",
+  "registros": [
+    {
+      "cultura": "Algodão",
+      "praga_nome_comum": "Ramulária",
+      "praga_nome_cientifico": "Ramularia areola",
+      "dose_min": 800,
+      "dose_max": 1000,
+      "dose_unidade": "mL/ha",
+      "volume_calda_min": null,
+      "volume_calda_max": null,
+      "volume_calda_unidade": null,
+      "volume_calda_outros": "Aplicação Terrestre: 150 L/ha; Aplicação aérea: 30 – 40 L/ha",
+      "num_max_aplicacoes": 3,
+      "intervalo_aplicacao": "14 dias",
+      "carencia_dias": 30,
+      "carencia_texto": null,
+      "epoca_aplicacao": "Efetuar no máximo três aplicações por ciclo da cultura. Para o controle da Ramularia, realizar a 1ª aplicação de forma preventiva ou no início do aparecimento dos sintomas; reaplicar se necessário em intervalos de 14 dias",
+      "fonte_pagina": 3,
+      "fonte_trecho": "Algodão | Ramulária (Ramularia areola) | 800 - 1000 mL/ha | Aplicação Terrestre: 150 L/ha / Aplicação aérea: 30 – 40 L/ha | 3"
+    },
+    {
+      "cultura": "Soja",
+      "praga_nome_comum": "Ferrugem-asiática",
+      "praga_nome_cientifico": "Phakopsora phachyrhizi",
+      "dose_min": 500,
+      "dose_max": 1000,
+      "dose_unidade": "mL/ha",
+      "volume_calda_min": null,
+      "volume_calda_max": null,
+      "volume_calda_unidade": null,
+      "volume_calda_outros": "Aplicação Terrestre: 150 L/ha; Aplicação aérea: 30 – 40 L/ha",
+      "num_max_aplicacoes": 2,
+      "intervalo_aplicacao": "intervalo máximo de 14 dias",
+      "carencia_dias": 30,
+      "carencia_texto": null,
+      "epoca_aplicacao": "Iniciar a aplicação no início da infecção da doença ou após o início do estádio de florescimento (estádio fenológico R1), de forma a prevenir a evolução da doença",
+      "fonte_pagina": 3,
+      "fonte_trecho": "Soja | Ferrugem-asiática (Phakopsora phachyrhizi) | 500 - 1000 mL/ha | Aplicação Terrestre: 150 L/ha / Aplicação aérea: 30 – 40 L/ha | 2"
+    },
+    {
+      "cultura": "Trigo",
+      "praga_nome_comum": "Ferrugem-da-folha",
+      "praga_nome_cientifico": "Puccinia triticina",
+      "dose_min": 800,
+      "dose_max": 1000,
+      "dose_unidade": "mL/ha",
+      "volume_calda_min": null,
+      "volume_calda_max": null,
+      "volume_calda_unidade": null,
+      "volume_calda_outros": "Aplicação Terrestre: 150 L/ha; Aplicação aérea: 30 – 40 L/ha",
+      "num_max_aplicacoes": 2,
+      "intervalo_aplicacao": "15 dias",
+      "carencia_dias": 35,
+      "carencia_texto": null,
+      "epoca_aplicacao": "Realizar a primeira aplicação de forma preventiva ou a partir dos primeiros sintomas, até o máximo de 1% de incidência foliar",
+      "fonte_pagina": 3,
+      "fonte_trecho": "Trigo | Ferrugem-da-folha (Puccinia triticina) | 800 - 1000 mL/ha | Aplicação Terrestre: 150 L/ha / Aplicação aérea: 30 – 40 L/ha | 2"
+    }
+  ]
+}

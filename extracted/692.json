@@ -1,0 +1,71 @@
+{
+  "numero_registro": "692",
+  "registros": [
+    {
+      "cultura": "Arroz irrigado", "praga_nome_comum": "Junquinho", "praga_nome_cientifico": "Cyperus iria",
+      "dose_min": 180, "dose_max": 260, "dose_unidade": "mL/ha",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": "Terrestre: 150 a 200 L/ha; Aérea: 10 a 40 L/ha",
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": null, "carencia_texto": "Não determinado devido à modalidade de emprego (pré-emergência)",
+      "epoca_aplicacao": "Pré-emergência: 1 aplicação em pré-emergência total (pré-emergência da cultura e das plantas infestantes).",
+      "fonte_pagina": 3,
+      "fonte_trecho": "Junquinho (Cyperus iria) | 180 - 260 | Pré-emergência: 1 aplicação em pré-emergência total"
+    },
+    {
+      "cultura": "Arroz irrigado", "praga_nome_comum": "Junquinho", "praga_nome_cientifico": "Cyperus ferax, Cyperus iria",
+      "dose_min": 60, "dose_max": 80, "dose_unidade": "mL/ha",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": "Terrestre: 100 a 400 L/ha; Aérea: 10 a 40 L/ha",
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": 30, "carencia_texto": null,
+      "epoca_aplicacao": "Pós-emergência: 1 aplicação em pós-plantio do arroz e pós-emergência das plantas infestantes (2 a 3 folhas). Após aplicação, inundar em até 7 dias, lâmina de água ~12cm.",
+      "fonte_pagina": 3,
+      "fonte_trecho": "Junquinho (Cyperus ferax, Cyperus iria) | 60 - 80 | Pós-emergência"
+    },
+    {
+      "cultura": "Arroz irrigado", "praga_nome_comum": "Tiriricão", "praga_nome_cientifico": "Cyperus esculentus",
+      "dose_min": 60, "dose_max": 80, "dose_unidade": "mL/ha",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": "Terrestre: 100 a 400 L/ha; Aérea: 10 a 40 L/ha",
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": 30, "carencia_texto": null,
+      "epoca_aplicacao": "Pós-emergência: 1 aplicação em pós-plantio do arroz e pós-emergência das plantas infestantes (2 a 3 folhas). Após aplicação, inundar em até 7 dias, lâmina de água ~12cm.",
+      "fonte_pagina": 3,
+      "fonte_trecho": "Tiriricão (Cyperus esculentus) | 60 - 80 | Pós-emergência"
+    },
+    {
+      "cultura": "Arroz irrigado", "praga_nome_comum": "Cuminho", "praga_nome_cientifico": "Fimbristylis miliacea",
+      "dose_min": 60, "dose_max": 80, "dose_unidade": "mL/ha",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": "Terrestre: 100 a 400 L/ha; Aérea: 10 a 40 L/ha",
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": 30, "carencia_texto": null,
+      "epoca_aplicacao": "Pós-emergência: 1 aplicação em pós-plantio do arroz e pós-emergência das plantas infestantes (2 a 3 folhas). Após aplicação, inundar em até 7 dias, lâmina de água ~12cm.",
+      "fonte_pagina": 3,
+      "fonte_trecho": "Cuminho (Fimbristylis miliacea) | 60 - 80 | Pós-emergência"
+    },
+    {
+      "cultura": "Arroz irrigado", "praga_nome_comum": "Aguapé ou Chapéu-de-couro", "praga_nome_cientifico": "Sagittaria guyanensis",
+      "dose_min": 60, "dose_max": 80, "dose_unidade": "mL/ha",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": "Terrestre: 100 a 400 L/ha; Aérea: 10 a 40 L/ha",
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": 30, "carencia_texto": null,
+      "epoca_aplicacao": "Pós-emergência: 1 aplicação em pós-plantio do arroz e pós-emergência das plantas infestantes (2 a 3 folhas). Após aplicação, inundar em até 7 dias, lâmina de água ~12cm.",
+      "fonte_pagina": 3,
+      "fonte_trecho": "Aguapé ou Chapéu-de-couro (Sagittaria guyanensis) | 60 - 80 | Pós-emergência"
+    },
+    {
+      "cultura": "Arroz irrigado", "praga_nome_comum": "Aguapé-mirim", "praga_nome_cientifico": "Heteranthera reniformis",
+      "dose_min": 60, "dose_max": 80, "dose_unidade": "mL/ha",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": "Terrestre: 100 a 400 L/ha; Aérea: 10 a 40 L/ha",
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": 30, "carencia_texto": null,
+      "epoca_aplicacao": "Pós-emergência: 1 aplicação em pós-plantio do arroz e pós-emergência das plantas infestantes (2 a 3 folhas). Após aplicação, inundar em até 7 dias, lâmina de água ~12cm.",
+      "fonte_pagina": 3,
+      "fonte_trecho": "Aguapé-mirim (Heteranthera reniformis) | 60 - 80 | Pós-emergência"
+    }
+  ]
+}

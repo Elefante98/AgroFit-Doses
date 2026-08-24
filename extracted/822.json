@@ -1,0 +1,24 @@
+{
+ "numero_registro": "822",
+ "registros": [
+  {
+   "cultura": "Em todas as culturas com ocorrência do alvo biológico",
+   "praga_nome_comum": "Percevejo marrom da soja",
+   "praga_nome_cientifico": "Euschistus heros",
+   "dose_min": 6.5,
+   "dose_max": 6.5,
+   "dose_unidade": "mL/ha",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": 3,
+   "intervalo_aplicacao": "7 dias",
+   "carencia_dias": null,
+   "carencia_texto": "Não determinado devido à característica biológica do ingrediente ativo.",
+   "epoca_aplicacao": null,
+   "fonte_pagina": 2,
+   "fonte_trecho": "Em todas as culturas com ocorrência do alvo biológico* | Percevejo marrom da soja | Euschistus heros | 6,5 mL/ha | Realizar três liberações em intervalos de 7 dias"
+  }
+ ]
+}

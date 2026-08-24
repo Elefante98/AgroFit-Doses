@@ -1,0 +1,43 @@
+{
+ "numero_registro": "55525",
+ "registros": [
+  {
+   "cultura": "Soja",
+   "praga_nome_comum": "Ferrugem-da-soja",
+   "praga_nome_cientifico": "Phakopsora pachyrhizi",
+   "dose_min": 1.5,
+   "dose_max": 1.75,
+   "dose_unidade": "L/ha",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": "Terrestre: 150-200 L/ha; Aérea: 10 a 40 L/ha",
+   "num_max_aplicacoes": 2,
+   "intervalo_aplicacao": "14 dias",
+   "carencia_dias": 30,
+   "carencia_texto": null,
+   "epoca_aplicacao": "Iniciar as aplicações de forma preventiva, entre o final da fase vegetativa e o início da fase reprodutiva. Caso sejam observados sintomas da doença antes das fases citadas anteriormente, proceder aplicação imediata",
+   "fonte_pagina": 5,
+   "fonte_trecho": "Soja | Ferrugem-da-soja (Phakopsora pachyrhizi) | 1,5 a 1,75 L de p.c./ha | 2 | Terrestre: 150-200 Aérea: 10 a 40"
+  },
+  {
+   "cultura": "Soja",
+   "praga_nome_comum": "Mancha-alvo",
+   "praga_nome_cientifico": "Corynespora cassiicola",
+   "dose_min": 1.5,
+   "dose_max": 1.75,
+   "dose_unidade": "L/ha",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": "Terrestre: 150-200 L/ha; Aérea: 10 a 40 L/ha",
+   "num_max_aplicacoes": 2,
+   "intervalo_aplicacao": "14 dias",
+   "carencia_dias": 30,
+   "carencia_texto": null,
+   "epoca_aplicacao": "Iniciar as aplicações de forma preventiva, entre o final da fase vegetativa e o início da fase reprodutiva. Caso sejam observados sintomas da doença antes das fases citadas anteriormente, proceder aplicação imediata",
+   "fonte_pagina": 5,
+   "fonte_trecho": "Soja | Mancha-alvo (Corynespora cassiicola) | 1,5 a 1,75 L de p.c./ha | 2 | Terrestre: 150-200 Aérea: 10 a 40"
+  }
+ ]
+}
