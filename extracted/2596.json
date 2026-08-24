@@ -1,0 +1,24 @@
+{
+  "numero_registro": "2596",
+  "registros": [
+    {
+      "cultura": "Algodão",
+      "praga_nome_comum": "Bicudo",
+      "praga_nome_cientifico": "Anthonomus grandis",
+      "dose_min": 1,
+      "dose_max": 1,
+      "dose_unidade": "Tubo",
+      "volume_calda_min": null,
+      "volume_calda_max": null,
+      "volume_calda_unidade": null,
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": null,
+      "intervalo_aplicacao": "1 Tubo (TMB) a cada 30-50 metros no perímetro da cultura; a) uma aplicação no plantio; b) uma aplicação após a colheita. Intervalo geral de substituição: 30-35 dias, conforme potencial de infestação.",
+      "carencia_dias": null,
+      "carencia_texto": "Não estabelecido devido a modalidade de uso do produto.",
+      "epoca_aplicacao": "a) Uma aplicação no plantio, no perímetro da área em implantação da cultura; b) uma aplicação após a colheita, nos locais de refúgio da praga.",
+      "fonte_pagina": 2,
+      "fonte_trecho": "ALGODÃO | BICUDO | Anthonomus grandis | 1 Tubo cada 30-50 metros | a- Uma aplicação no plantio b- Uma aplicação após a colheita"
+    }
+  ]
+}

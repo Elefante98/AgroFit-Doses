@@ -1,0 +1,43 @@
+{
+ "numero_registro": "2421",
+ "registros": [
+  {
+   "cultura": "Soja",
+   "praga_nome_comum": "Ferrugem-asiática",
+   "praga_nome_cientifico": "Phakopsora pachyrhizi",
+   "dose_min": 1.5,
+   "dose_max": 3.0,
+   "dose_unidade": "kg/ha",
+   "volume_calda_min": 200,
+   "volume_calda_max": 200,
+   "volume_calda_unidade": "L/ha",
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": 3,
+   "intervalo_aplicacao": "7 a 14 dias",
+   "carencia_dias": null,
+   "carencia_texto": "Sem restrições.",
+   "epoca_aplicacao": "Realizar 3 aplicações. Iniciar as aplicações ao observar os primeiros sintomas da doença e reaplicar após 7 a 14 dias. A definição da dose e do intervalo entre as aplicações deve ser baseada no monitoramento da lavoura e da evolução da doença na região. Usar dose mais alta e intervalo menor entre aplicações em condições favoráveis ao desenvolvimento da doença ou alto nível de infecção.",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Soja | Ferrugem-asiática | Phakopsora pachyrhizi | 1,50 a 3,00 | 3 | 200"
+  },
+  {
+   "cultura": "Soja",
+   "praga_nome_comum": "Crestamento-foliar",
+   "praga_nome_cientifico": "Cercospora kikuchii",
+   "dose_min": 1.5,
+   "dose_max": 2.0,
+   "dose_unidade": "kg/ha",
+   "volume_calda_min": 200,
+   "volume_calda_max": 200,
+   "volume_calda_unidade": "L/ha",
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": 3,
+   "intervalo_aplicacao": "7 a 14 dias",
+   "carencia_dias": null,
+   "carencia_texto": "Sem restrições.",
+   "epoca_aplicacao": "Para o controle de Crestamento-foliar, iniciar a aplicação no início dos primeiros sintomas e reaplicar após 7 a 14 dias. Utilizar dose mais alta e até 3 aplicações, em condições favoráveis ao desenvolvimento da doença ou alto nível de infecção.",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Soja | Crestamento-foliar | Cercospora kikuchii | 1,50 a 2,00 | 3 | 200"
+  }
+ ]
+}

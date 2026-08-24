@@ -1,0 +1,62 @@
+{
+ "numero_registro": "2620",
+ "registros": [
+  {
+   "cultura": "Em todas as culturas com ocorrência destas pragas",
+   "praga_nome_comum": "Lesma",
+   "praga_nome_cientifico": "Vaginula langsdorfii",
+   "dose_min": 4.0,
+   "dose_max": 6.0,
+   "dose_unidade": "kg/ha",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": 2,
+   "intervalo_aplicacao": "sete dias",
+   "carencia_dias": null,
+   "carencia_texto": "LMR e Intervalo de Segurança não determinados devido à modalidade de emprego.",
+   "epoca_aplicacao": "É recomendada a realização de duas aplicações no início da infestação, em um intervalo de sete dias.",
+   "fonte_pagina": 2,
+   "fonte_trecho": "Lesma | Vaginula langsdorfii | 4,0 a 6,0 Kg/ha | duas aplicações no início da infestação, intervalo de 7 dias"
+  },
+  {
+   "cultura": "Em todas as culturas com ocorrência destas pragas",
+   "praga_nome_comum": "Caracol",
+   "praga_nome_cientifico": "Helix aspersa",
+   "dose_min": 4.0,
+   "dose_max": 6.0,
+   "dose_unidade": "kg/ha",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": 2,
+   "intervalo_aplicacao": "sete dias",
+   "carencia_dias": null,
+   "carencia_texto": "LMR e Intervalo de Segurança não determinados devido à modalidade de emprego.",
+   "epoca_aplicacao": "É recomendada a realização de duas aplicações no início da infestação, em um intervalo de sete dias.",
+   "fonte_pagina": 2,
+   "fonte_trecho": "Caracol | Helix aspersa | 4,0 a 6,0 Kg/ha | duas aplicações no início da infestação, intervalo de 7 dias"
+  },
+  {
+   "cultura": "Arroz irrigado pré-germinado",
+   "praga_nome_comum": "Caramujo-grande",
+   "praga_nome_cientifico": "Pomacea canaliculata",
+   "dose_min": 20.0,
+   "dose_max": 40.0,
+   "dose_unidade": "kg/ha",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": 1,
+   "intervalo_aplicacao": null,
+   "carencia_dias": null,
+   "carencia_texto": "LMR e Intervalo de Segurança não determinados devido à modalidade de emprego.",
+   "epoca_aplicacao": "É indicada a efetuação de uma aplicação no início da infestação. A dispersão da isca granulada deve ser efetuada após a emergência das plantas; densidade inicial recomendada de 20 kg/ha ao longo dos canais e áreas vizinhas, com aplicação nas demais áreas somente em caso de infestações muito fortes.",
+   "fonte_pagina": 2,
+   "fonte_trecho": "Arroz irrigado pré-germinado | Caramujo-grande | Pomacea canaliculata | 20,0 - 40,0 Kg/ha | uma aplicação no início da infestação"
+  }
+ ]
+}

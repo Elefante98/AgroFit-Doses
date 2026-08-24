@@ -1,0 +1,24 @@
+{
+  "numero_registro": "2602",
+  "registros": [
+    {
+      "cultura": "Arroz",
+      "praga_nome_comum": "Brusone",
+      "praga_nome_cientifico": "Pyricularia grisea",
+      "dose_min": 1.0,
+      "dose_max": 1.5,
+      "dose_unidade": "L/ha",
+      "volume_calda_min": null,
+      "volume_calda_max": null,
+      "volume_calda_unidade": null,
+      "volume_calda_outros": "Terrestre: 200 a 300 L/ha; Aérea: 30 a 40 L/ha",
+      "num_max_aplicacoes": 2,
+      "intervalo_aplicacao": "1ª aplicação: fim do perfilhamento ao início do emborrachamento; 2ª aplicação: fim do emborrachamento (15 a 20 dias após a 1ª), podendo ser 1 ou 2 aplicações nesta época, mesmas dosagens.",
+      "carencia_dias": 20,
+      "carencia_texto": null,
+      "epoca_aplicacao": "1ª aplicação: do fim do perfilhamento ao início do emborrachamento. 2ª aplicação: no fim do emborrachamento (15 a 20 dias após a 1ª época citada).",
+      "fonte_pagina": 3,
+      "fonte_trecho": "ARROZ | Brusone (Pyricularia grisea) | 1,0 – 1,5 L/ha | Terrestre 200 – 300 L Aérea 30 – 40 L | 2"
+    }
+  ]
+}

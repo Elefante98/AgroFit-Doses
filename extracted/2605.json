@@ -1,0 +1,43 @@
+{
+ "numero_registro": "2605",
+ "registros": [
+  {
+   "cultura": "Batata",
+   "praga_nome_comum": "Requeima",
+   "praga_nome_cientifico": "Phytophthora infestans",
+   "dose_min": 2.5,
+   "dose_max": 2.5,
+   "dose_unidade": "kg/ha",
+   "volume_calda_min": 600,
+   "volume_calda_max": 1000,
+   "volume_calda_unidade": "L/ha",
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": 3,
+   "intervalo_aplicacao": null,
+   "carencia_dias": 14,
+   "carencia_texto": null,
+   "epoca_aplicacao": "preventivo",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Batata | Requeima Phytophthora infestans | 2,5 | - | 600 - 1000 | 3"
+  },
+  {
+   "cultura": "Tomate",
+   "praga_nome_comum": "Requeima",
+   "praga_nome_cientifico": "Phytophthora infestans",
+   "dose_min": 400,
+   "dose_max": 400,
+   "dose_unidade": "g/100L",
+   "volume_calda_min": 700,
+   "volume_calda_max": 1300,
+   "volume_calda_unidade": "L/ha",
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": 3,
+   "intervalo_aplicacao": null,
+   "carencia_dias": 7,
+   "carencia_texto": null,
+   "epoca_aplicacao": "preventivo",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Tomate | Requeima Phytophthora infestans | - | 400 | 700 - 1300 | 3"
+  }
+ ]
+}

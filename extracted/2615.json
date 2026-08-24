@@ -1,0 +1,43 @@
+{
+ "numero_registro": "2615",
+ "registros": [
+  {
+   "cultura": "Em todas as culturas com ocorrência do alvo biológico",
+   "praga_nome_comum": "Bicho-do-fumo, Caruncho-do-fumo, Besouro-do-fumo",
+   "praga_nome_cientifico": "Lasioderma serricorne",
+   "dose_min": 1,
+   "dose_max": 1,
+   "dose_unidade": "armadilha/100m²",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": null,
+   "intervalo_aplicacao": null,
+   "carencia_dias": null,
+   "carencia_texto": "Sem restrições devido à natureza do produto.",
+   "epoca_aplicacao": "A cápsula com a isca atrativa atua de 4 a 6 semanas. Não há restrições quanto ao número máximo de utilizações destas armadilhas durante o armazenamento.",
+   "fonte_pagina": 2,
+   "fonte_trecho": "Em todas as culturas com ocorrência do alvo biológico. (*) | Lasioderma serricorne (Bicho-do-fumo, Caruncho-do-fumo, Besouro-do-fumo) | 1 armadilha/100m², ou 1 armadilha/contêiner | A cápsula com a isca atrativa atua de 4 a 6 semanas."
+  },
+  {
+   "cultura": "Em todas as culturas com ocorrência do alvo biológico",
+   "praga_nome_comum": "Bicho-do-fumo, Caruncho-do-fumo, Besouro-do-fumo",
+   "praga_nome_cientifico": "Lasioderma serricorne",
+   "dose_min": 1,
+   "dose_max": 1,
+   "dose_unidade": "armadilha/contêiner",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": null,
+   "intervalo_aplicacao": null,
+   "carencia_dias": null,
+   "carencia_texto": "Sem restrições devido à natureza do produto.",
+   "epoca_aplicacao": "A cápsula com a isca atrativa atua de 4 a 6 semanas. Não há restrições quanto ao número máximo de utilizações destas armadilhas durante o armazenamento.",
+   "fonte_pagina": 2,
+   "fonte_trecho": "Em todas as culturas com ocorrência do alvo biológico. (*) | Lasioderma serricorne (Bicho-do-fumo, Caruncho-do-fumo, Besouro-do-fumo) | 1 armadilha/100m², ou 1 armadilha/contêiner | A cápsula com a isca atrativa atua de 4 a 6 semanas."
+  }
+ ]
+}
