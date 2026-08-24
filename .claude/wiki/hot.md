@@ -13,6 +13,13 @@
 - Ondas fechadas: lote 1 (40), ondas 1-2 (60), ondas 3-4 (120, descendo do maior
   nº de registro), ondas 5-6 (120), onda 7 parcial (36), ondas 8-10 (180) e
   **ondas 11-13 (180, regs 2807-4024)**, todas subindo do menor nº do backlog.
+- **Onda 14 ficou parcial**: 5 de 60 bulas (4098, 4111, 4323, 4494, 4496) — a sessão
+  bateu no limite de uso e os 12 subagentes morreram por erro de API. As 55 bulas não
+  gravadas voltaram ao backlog sozinhas; nada a consertar. Essas 5 estão commitadas
+  mas **ainda não importadas** — rodar `python extractor/import_db.py` na retomada.
+- **LOOP AGENDADO DESATIVADO em 2026-08-24 a pedido do Moisés**
+  (`agrofit-extracao-massa-loop`, cron `0 */6 * * *`). Não reativar sem pedido
+  explícito dele.
 
 ### Como retomar
 O pipeline deriva estado do disco: pegue os `pre/*.txt` sem `extracted/*.json`,
