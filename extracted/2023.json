@@ -1,0 +1,24 @@
+{
+  "numero_registro": "2023",
+  "registros": [
+    {
+      "cultura": "Todos os cultivos onde há presença da praga",
+      "praga_nome_comum": "Lagarta-do-cartucho",
+      "praga_nome_cientifico": "Spodoptera frugiperda",
+      "dose_min": 50,
+      "dose_max": 300,
+      "dose_unidade": "mL/ha",
+      "volume_calda_min": null,
+      "volume_calda_max": null,
+      "volume_calda_unidade": null,
+      "volume_calda_outros": "Terrestre: 100 a 1000 L/ha; Aérea: 30 a 50 L/ha.",
+      "num_max_aplicacoes": 3,
+      "intervalo_aplicacao": "7 dias",
+      "carencia_dias": null,
+      "carencia_texto": "Intervalo de segurança não determinado devido à característica microbiológica do ingrediente ativo.",
+      "epoca_aplicacao": "início da infestação da praga",
+      "fonte_pagina": 2,
+      "fonte_trecho": "Todos os cultivos onde há presença da praga | Spodoptera frugiperda | Lagarta-do-cartucho | 50 a 300 | 3 | 7 dias"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "numero_registro": "1722",
+  "registros": [
+    {
+      "cultura": "Batata",
+      "praga_nome_comum": "Requeima",
+      "praga_nome_cientifico": "Phytophthora infestans",
+      "dose_min": 0.3,
+      "dose_max": 0.5,
+      "dose_unidade": "kg/ha",
+      "volume_calda_min": 500,
+      "volume_calda_max": 800,
+      "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 7,
+      "intervalo_aplicacao": "3 a 4 dias",
+      "carencia_dias": 7,
+      "carencia_texto": null,
+      "epoca_aplicacao": "preventivo",
+      "fonte_pagina": 3,
+      "fonte_trecho": "Batata | Requeima (Phytophthora infestans) | 0,3 – 0,5 kg/ha (135 a 225 g i.a./ha) | Repetir a cada 3 a 4 dias, máx. 7 aplicações"
+    },
+    {
+      "cultura": "Tomate",
+      "praga_nome_comum": "Requeima",
+      "praga_nome_cientifico": "Phytophthora infestans",
+      "dose_min": 0.3,
+      "dose_max": 0.5,
+      "dose_unidade": "kg/ha",
+      "volume_calda_min": 800,
+      "volume_calda_max": 1000,
+      "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 7,
+      "intervalo_aplicacao": "3 a 4 dias",
+      "carencia_dias": 7,
+      "carencia_texto": null,
+      "epoca_aplicacao": "preventivo",
+      "fonte_pagina": 3,
+      "fonte_trecho": "Tomate | Requeima (Phytophthora infestans) | 0,3 – 0,5 kg/ha (135 a 225 g i.a./ha) | Repetir a cada 3 a 4 dias, máx. 7 aplicações"
+    },
+    {
+      "cultura": "Uva",
+      "praga_nome_comum": "Míldio",
+      "praga_nome_cientifico": "Plasmopara viticola",
+      "dose_min": 0.4,
+      "dose_max": 0.5,
+      "dose_unidade": "kg/ha",
+      "volume_calda_min": 1000,
+      "volume_calda_max": 1000,
+      "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 7,
+      "intervalo_aplicacao": "3 a 4 dias",
+      "carencia_dias": 7,
+      "carencia_texto": null,
+      "epoca_aplicacao": "preventivo",
+      "fonte_pagina": 3,
+      "fonte_trecho": "Uva | Míldio (Plasmopara viticola) | 0,4 – 0,5 kg/ha (180 a 225 g i.a./ha) | Repetir a cada 3 a 4 dias, máx. 7 aplicações"
+    }
+  ]
+}

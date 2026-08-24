@@ -1,0 +1,109 @@
+{
+  "numero_registro": "2009",
+  "registros": [
+    {
+      "cultura": "Pastagem",
+      "praga_nome_comum": "cambará",
+      "praga_nome_cientifico": "Lantana camara",
+      "dose_min": 1.5, "dose_max": 2.0, "dose_unidade": "L/ha",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": "Terrestre: 200 a 400 L/ha; Aérea: 30 a 50 L/ha",
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": null, "carencia_texto": "Não determinado devido à modalidade de emprego.",
+      "epoca_aplicacao": "Aplicar na época em que as plantas estejam em intenso processo vegetativo, uma vez ao ano.",
+      "fonte_pagina": 3,
+      "fonte_trecho": "Pastagem | Lantana camara | cambará | 1,5 a 2,0 | 720 – 960(*) | 01 | ... | 200 a 400 L/ha"
+    },
+    {
+      "cultura": "Pastagem",
+      "praga_nome_comum": "erva-quente",
+      "praga_nome_cientifico": "Spermacoce alata",
+      "dose_min": 1.5, "dose_max": 2.0, "dose_unidade": "L/ha",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": "Terrestre: 200 a 400 L/ha; Aérea: 30 a 50 L/ha",
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": null, "carencia_texto": "Não determinado devido à modalidade de emprego.",
+      "epoca_aplicacao": "Aplicar na época em que as plantas estejam em intenso processo vegetativo, uma vez ao ano.",
+      "fonte_pagina": 3,
+      "fonte_trecho": "Spermacoce alata | erva-quente | (dose/volume da linha Pastagem acima)"
+    },
+    {
+      "cultura": "Pastagem",
+      "praga_nome_comum": "erva-quente",
+      "praga_nome_cientifico": "Spermacoce latifolia",
+      "dose_min": 1.5, "dose_max": 2.0, "dose_unidade": "L/ha",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": "Terrestre: 200 a 400 L/ha; Aérea: 30 a 50 L/ha",
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": null, "carencia_texto": "Não determinado devido à modalidade de emprego.",
+      "epoca_aplicacao": "Aplicar na época em que as plantas estejam em intenso processo vegetativo, uma vez ao ano.",
+      "fonte_pagina": 3,
+      "fonte_trecho": "Spermacoce latifolia | erva-quente | (dose/volume da linha Pastagem acima)"
+    },
+    {
+      "cultura": "Pastagem",
+      "praga_nome_comum": "jurubeba",
+      "praga_nome_cientifico": "Solanum paniculatum",
+      "dose_min": 1.5, "dose_max": 2.0, "dose_unidade": "L/ha",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": "Terrestre: 200 a 400 L/ha; Aérea: 30 a 50 L/ha",
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": null, "carencia_texto": "Não determinado devido à modalidade de emprego.",
+      "epoca_aplicacao": "Aplicar na época em que as plantas estejam em intenso processo vegetativo, uma vez ao ano.",
+      "fonte_pagina": 3,
+      "fonte_trecho": "Solanum paniculatum | jurubeba | (dose/volume da linha Pastagem acima)"
+    },
+    {
+      "cultura": "Pastagem",
+      "praga_nome_comum": "assa-peixe-branco",
+      "praga_nome_cientifico": "Vernonia polyanthes",
+      "dose_min": 1.5, "dose_max": 2.0, "dose_unidade": "L/ha",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": "Terrestre: 200 a 400 L/ha; Aérea: 30 a 50 L/ha",
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": null, "carencia_texto": "Não determinado devido à modalidade de emprego.",
+      "epoca_aplicacao": "Aplicar na época em que as plantas estejam em intenso processo vegetativo, uma vez ao ano.",
+      "fonte_pagina": 3,
+      "fonte_trecho": "Vernonia polyanthes | assa-peixe-branco | (dose/volume da linha Pastagem acima)"
+    },
+    {
+      "cultura": "Pastagem",
+      "praga_nome_comum": "aromita / espinheiro / esponjinha",
+      "praga_nome_cientifico": "Acacia farnesiana",
+      "dose_min": 1.5, "dose_max": 2.0, "dose_unidade": "L/ha",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": "Terrestre: 200 a 400 L/ha; Aérea: 30 a 50 L/ha",
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": null, "carencia_texto": "Não determinado devido à modalidade de emprego.",
+      "epoca_aplicacao": "Aplicar na época em que as plantas estejam em intenso processo vegetativo, uma vez ao ano.",
+      "fonte_pagina": 3,
+      "fonte_trecho": "Acacia farnesiana | aromita / espinheiro / esponjinha | (dose/volume da linha Pastagem acima)"
+    },
+    {
+      "cultura": "Pastagem",
+      "praga_nome_comum": "babaçu / coco-pindoba / palha branca",
+      "praga_nome_cientifico": "Orbignya phalerata",
+      "dose_min": 5, "dose_max": 5, "dose_unidade": "mL/planta",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": "Preparo 5% em óleo diesel: diluir 5 litros do produto em 95 litros de óleo diesel; aplicação com pistola de uso veterinário ou aplicador costal manual com dosador PJH Jacto, diretamente na gema apical.",
+      "num_max_aplicacoes": null, "intervalo_aplicacao": null,
+      "carencia_dias": null, "carencia_texto": "Não determinado devido à modalidade de emprego.",
+      "epoca_aplicacao": "plantas jovens",
+      "fonte_pagina": 3,
+      "fonte_trecho": "com a dose de 5 ml em plantas jovens ... diretamente na gema apical"
+    },
+    {
+      "cultura": "Pastagem",
+      "praga_nome_comum": "babaçu / coco-pindoba / palha branca",
+      "praga_nome_cientifico": "Orbignya phalerata",
+      "dose_min": 10, "dose_max": 10, "dose_unidade": "mL/planta",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": "Preparo 5% em óleo diesel: diluir 5 litros do produto em 95 litros de óleo diesel; aplicação com pistola de uso veterinário ou aplicador costal manual com dosador PJH Jacto, diretamente na gema apical.",
+      "num_max_aplicacoes": null, "intervalo_aplicacao": null,
+      "carencia_dias": null, "carencia_texto": "Não determinado devido à modalidade de emprego.",
+      "epoca_aplicacao": "plantas adultas",
+      "fonte_pagina": 3,
+      "fonte_trecho": "e 10 ml em plantas adultas diretamente na gema apical"
+    }
+  ]
+}

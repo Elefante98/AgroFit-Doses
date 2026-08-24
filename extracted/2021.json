@@ -1,0 +1,24 @@
+{
+  "numero_registro": "2021",
+  "registros": [
+    {
+      "cultura": "Em todas as culturas com ocorrência do alvo biológico",
+      "praga_nome_comum": "Lagarta-do-cartucho-do-milho",
+      "praga_nome_cientifico": "Spodoptera frugiperda",
+      "dose_min": 50,
+      "dose_max": 50,
+      "dose_unidade": "g/ha",
+      "volume_calda_min": 150,
+      "volume_calda_max": 150,
+      "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": null,
+      "intervalo_aplicacao": "1ª aplicação 10 a 15 dias após a germinação; reaplicar entre 17 e 22 dias após a germinação, se necessário",
+      "carencia_dias": null,
+      "carencia_texto": "Não determinado em função da não necessidade de estipular o limite máximo de resíduo (LMR) para este ingrediente ativo.",
+      "epoca_aplicacao": "pós-emergência",
+      "fonte_pagina": 2,
+      "fonte_trecho": "Em todas as culturas com ocorrência do alvo biológico | Lagarta-do-cartucho-do-milho (Spodoptera frugiperda) | 50 | 2"
+    }
+  ]
+}

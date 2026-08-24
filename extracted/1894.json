@@ -1,0 +1,18 @@
+{
+  "numero_registro": "1894",
+  "registros": [
+    {
+      "cultura": "Citros",
+      "praga_nome_comum": "Ácaro-da-leprose",
+      "praga_nome_cientifico": "Brevipalpus phoenicis",
+      "dose_min": 10, "dose_max": 10, "dose_unidade": "mL/100L",
+      "volume_calda_min": 2000, "volume_calda_max": 2000, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": 21, "carencia_texto": null,
+      "epoca_aplicacao": "Aplicar quando a infestação atingir o nível de dano econômico, ou seja, quando constatado a presença de ácaros em 3% de ramos ou frutos.",
+      "fonte_pagina": 3,
+      "fonte_trecho": "CITROS | Ácaro-da-leprose Brevipalpus phoenicis | 10mL/100L de água | 2.000L/ha | Aplicar quando a infestação atingir o nível de dano econômico... | 1"
+    }
+  ]
+}

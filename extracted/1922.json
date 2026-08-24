@@ -1,0 +1,24 @@
+{
+ "numero_registro": "1922",
+ "registros": [
+  {
+   "cultura": "Em todas as culturas com ocorrência do alvo biológico",
+   "praga_nome_comum": "Tripes",
+   "praga_nome_cientifico": "Franklinelia occidentalis",
+   "dose_min": 15000,
+   "dose_max": 20000,
+   "dose_unidade": "indivíduos/ha",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": null,
+   "intervalo_aplicacao": "15 dias",
+   "carencia_dias": null,
+   "carencia_texto": "Não determinado por ser agente biológico de controle.",
+   "epoca_aplicacao": "Primeiramente deve ser realizado um bom monitoramento para avaliar o nível populacional de tripes na área. A primeira liberação deve ser realizada no início da infestação. A eficiência de controle do alvo biológico (Frankliniella occidentalis) está relacionada com o momento certo da liberação (aplicação). A segunda aplicação deve ser realizada 15 dias depois. Dependendo região, variedade de planta e da pressão da praga, outras aplicações poderão ser realizadas. Eficiência agronômica comprovada para a cultura do crisântemo, plantado diretamente no solo, sob cultivo protegido.",
+   "fonte_pagina": 2,
+   "fonte_trecho": "Em todas as culturas com ocorrência do alvo biológico. | Franklinelia occidentalis (tripes) | aplicar 15.000 a 20.000 indivíduos/ha por aplicação"
+  }
+ ]
+}

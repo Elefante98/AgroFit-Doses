@@ -1,0 +1,109 @@
+{
+  "numero_registro": "1902",
+  "registros": [
+    {
+      "cultura": "Batata",
+      "praga_nome_comum": "Requeima",
+      "praga_nome_cientifico": "Phytophthora infestans",
+      "dose_min": 2.0, "dose_max": 2.0, "dose_unidade": "kg/ha",
+      "volume_calda_min": 1000, "volume_calda_max": 1000, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 7, "intervalo_aplicacao": "5 a 7 dias",
+      "carencia_dias": 7, "carencia_texto": null,
+      "epoca_aplicacao": "Realizar as aplicações sempre preventivamente, quando houver condições favoráveis à ocorrência da doença (temperaturas amenas e alta umidade). Utilizar o menor intervalo de aplicação em condições altamente favoráveis à doença.",
+      "fonte_pagina": 3,
+      "fonte_trecho": "Batata | Requeima (Phytophthora infestans) | 2,0 kg/ha ou 200 g/100 Litros de água | Realizar as aplicações sempre preventivamente..."
+    },
+    {
+      "cultura": "Batata",
+      "praga_nome_comum": "Requeima",
+      "praga_nome_cientifico": "Phytophthora infestans",
+      "dose_min": 200, "dose_max": 200, "dose_unidade": "g/100L",
+      "volume_calda_min": 1000, "volume_calda_max": 1000, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 7, "intervalo_aplicacao": "5 a 7 dias",
+      "carencia_dias": 7, "carencia_texto": null,
+      "epoca_aplicacao": "Realizar as aplicações sempre preventivamente, quando houver condições favoráveis à ocorrência da doença (temperaturas amenas e alta umidade). Utilizar o menor intervalo de aplicação em condições altamente favoráveis à doença.",
+      "fonte_pagina": 3,
+      "fonte_trecho": "Batata | Requeima (Phytophthora infestans) | 2,0 kg/ha ou 200 g/100 Litros de água | Realizar as aplicações sempre preventivamente..."
+    },
+    {
+      "cultura": "Cebola",
+      "praga_nome_comum": "Míldio",
+      "praga_nome_cientifico": "Peronospora destructor",
+      "dose_min": 2.0, "dose_max": 2.5, "dose_unidade": "kg/ha",
+      "volume_calda_min": 1000, "volume_calda_max": 1000, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 7, "intervalo_aplicacao": "5 a 7 dias",
+      "carencia_dias": 7, "carencia_texto": null,
+      "epoca_aplicacao": "Realizar as aplicações sempre que houver condições favoráveis ao míldio (temperaturas amenas e alta umidade). Utilizar a maior dose e o menor intervalo de aplicação em condições altamente favoráveis à doença.",
+      "fonte_pagina": 3,
+      "fonte_trecho": "Cebola | Míldio (Peronospora destructor) | 2,0 a 2,5 kg/ha ou 200 a 250 g/100 Litros de água | Realizar as aplicações sempre que houver condições favoráveis..."
+    },
+    {
+      "cultura": "Cebola",
+      "praga_nome_comum": "Míldio",
+      "praga_nome_cientifico": "Peronospora destructor",
+      "dose_min": 200, "dose_max": 250, "dose_unidade": "g/100L",
+      "volume_calda_min": 1000, "volume_calda_max": 1000, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 7, "intervalo_aplicacao": "5 a 7 dias",
+      "carencia_dias": 7, "carencia_texto": null,
+      "epoca_aplicacao": "Realizar as aplicações sempre que houver condições favoráveis ao míldio (temperaturas amenas e alta umidade). Utilizar a maior dose e o menor intervalo de aplicação em condições altamente favoráveis à doença.",
+      "fonte_pagina": 3,
+      "fonte_trecho": "Cebola | Míldio (Peronospora destructor) | 2,0 a 2,5 kg/ha ou 200 a 250 g/100 Litros de água | Realizar as aplicações sempre que houver condições favoráveis..."
+    },
+    {
+      "cultura": "Tomate",
+      "praga_nome_comum": "Requeima",
+      "praga_nome_cientifico": "Phytophthora infestans",
+      "dose_min": 2.0, "dose_max": 3.0, "dose_unidade": "kg/ha",
+      "volume_calda_min": 1000, "volume_calda_max": 1000, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 10, "intervalo_aplicacao": "5 a 7 dias",
+      "carencia_dias": 7, "carencia_texto": null,
+      "epoca_aplicacao": "Realizar as aplicações sempre preventivamente, quando houver condições favoráveis à ocorrência da doença (temperaturas amenas e alta umidade). Utilizar a maior dose e o menor intervalo de aplicação em condições altamente favoráveis à doença.",
+      "fonte_pagina": 3,
+      "fonte_trecho": "Tomate | Requeima (Phytophthora infestans) | 2,0 a 3,0 kg/ha ou 200 a 300 g/100 Litros de água | Realizar as aplicações sempre preventivamente..."
+    },
+    {
+      "cultura": "Tomate",
+      "praga_nome_comum": "Requeima",
+      "praga_nome_cientifico": "Phytophthora infestans",
+      "dose_min": 200, "dose_max": 300, "dose_unidade": "g/100L",
+      "volume_calda_min": 1000, "volume_calda_max": 1000, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 10, "intervalo_aplicacao": "5 a 7 dias",
+      "carencia_dias": 7, "carencia_texto": null,
+      "epoca_aplicacao": "Realizar as aplicações sempre preventivamente, quando houver condições favoráveis à ocorrência da doença (temperaturas amenas e alta umidade). Utilizar a maior dose e o menor intervalo de aplicação em condições altamente favoráveis à doença.",
+      "fonte_pagina": 3,
+      "fonte_trecho": "Tomate | Requeima (Phytophthora infestans) | 2,0 a 3,0 kg/ha ou 200 a 300 g/100 Litros de água | Realizar as aplicações sempre preventivamente..."
+    },
+    {
+      "cultura": "Uva",
+      "praga_nome_comum": "Míldio",
+      "praga_nome_cientifico": "Plasmopara vitícola",
+      "dose_min": 2.5, "dose_max": 3.5, "dose_unidade": "kg/ha",
+      "volume_calda_min": 1000, "volume_calda_max": 1000, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 7, "intervalo_aplicacao": "7 a 14 dias",
+      "carencia_dias": 7, "carencia_texto": null,
+      "epoca_aplicacao": "Realizar as aplicações no início do crescimento da brotação até o início da frutificação (bagas \"chumbinho\"). Utilizar o menor intervalo e maior dose sob condições mais favoráveis à doença. Em condições normais, utilizar intervalos de 7 a 14 dias.",
+      "fonte_pagina": 3,
+      "fonte_trecho": "Uva | Míldio (Plasmopara vitícola) | 2,5 a 3,5 kg/ha ou 250 a 350 g/100 Litros de água | Realizar as aplicações no início do crescimento da brotação..."
+    },
+    {
+      "cultura": "Uva",
+      "praga_nome_comum": "Míldio",
+      "praga_nome_cientifico": "Plasmopara vitícola",
+      "dose_min": 250, "dose_max": 350, "dose_unidade": "g/100L",
+      "volume_calda_min": 1000, "volume_calda_max": 1000, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 7, "intervalo_aplicacao": "7 a 14 dias",
+      "carencia_dias": 7, "carencia_texto": null,
+      "epoca_aplicacao": "Realizar as aplicações no início do crescimento da brotação até o início da frutificação (bagas \"chumbinho\"). Utilizar o menor intervalo e maior dose sob condições mais favoráveis à doença. Em condições normais, utilizar intervalos de 7 a 14 dias.",
+      "fonte_pagina": 3,
+      "fonte_trecho": "Uva | Míldio (Plasmopara vitícola) | 2,5 a 3,5 kg/ha ou 250 a 350 g/100 Litros de água | Realizar as aplicações no início do crescimento da brotação..."
+    }
+  ]
+}

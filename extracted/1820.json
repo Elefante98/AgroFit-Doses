@@ -1,0 +1,62 @@
+{
+ "numero_registro": "1820",
+ "registros": [
+  {
+   "cultura": "Em todas as culturas com ocorrência dos alvos biológicos",
+   "praga_nome_comum": "Podridão radicular",
+   "praga_nome_cientifico": "Rhizoctonia solani",
+   "dose_min": 40,
+   "dose_max": 60,
+   "dose_unidade": "g/100kg sementes",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": "Tratamento de sementes: diluir na proporção de 600 mL água/100 kg de sementes.",
+   "num_max_aplicacoes": 1,
+   "intervalo_aplicacao": null,
+   "carencia_dias": null,
+   "carencia_texto": "Não determinado em função da não necessidade de estipular o limite máximo de resíduo (LMR) para este ingrediente ativo.",
+   "epoca_aplicacao": "O produto deve ser aplicado uma única vez via tratamento de sementes.",
+   "fonte_pagina": 2,
+   "fonte_trecho": "Podridão radicular (Rhizoctonia solani) | 40 a 60g/100kg sementes | Nº máximo de aplicações: 1"
+  },
+  {
+   "cultura": "Em todas as culturas com ocorrência dos alvos biológicos",
+   "praga_nome_comum": "Mofo branco",
+   "praga_nome_cientifico": "Sclerotinia sclerotiorum",
+   "dose_min": 100,
+   "dose_max": 250,
+   "dose_unidade": "g/ha",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": "Aplicação foliar (costal ou barra): 100 L/ha. Aplicação aérea: vazão de 20 a 40 L/ha.",
+   "num_max_aplicacoes": 2,
+   "intervalo_aplicacao": "10 dias",
+   "carencia_dias": null,
+   "carencia_texto": "Não determinado em função da não necessidade de estipular o limite máximo de resíduo (LMR) para este ingrediente ativo.",
+   "epoca_aplicacao": "Aplicado duas vezes via foliar, preventivamente, antes do início dos primeiros sintomas e 10 dias após a primeira aplicação.",
+   "fonte_pagina": 2,
+   "fonte_trecho": "Mofo branco (Sclerotinia sclerotiorum) | 100 a 250g/ha | Nº máximo de aplicações: 2"
+  },
+  {
+   "cultura": "Em todas as culturas com ocorrência dos alvos biológicos",
+   "praga_nome_comum": "Antracnose",
+   "praga_nome_cientifico": "Colletotrichum lindemuthianum",
+   "dose_min": 150,
+   "dose_max": 250,
+   "dose_unidade": "g/ha",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": "Aplicação foliar (costal ou barra): 100 L/ha. Aplicação aérea: vazão de 20 a 40 L/ha.",
+   "num_max_aplicacoes": 2,
+   "intervalo_aplicacao": "7 dias",
+   "carencia_dias": null,
+   "carencia_texto": "Não determinado em função da não necessidade de estipular o limite máximo de resíduo (LMR) para este ingrediente ativo.",
+   "epoca_aplicacao": "Aplicado duas vezes via foliar, a primeira aplicação no aparecimento dos sintomas da doença e 7 dias após a primeira aplicação.",
+   "fonte_pagina": 2,
+   "fonte_trecho": "Antracnose (Colletotrichum lindemuthianum) | 150 a 250g/ha | Nº máximo de aplicações: 2"
+  }
+ ]
+}

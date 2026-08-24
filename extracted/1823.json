@@ -1,0 +1,96 @@
+{
+  "numero_registro": "1823",
+  "registros": [
+    {
+      "cultura": "Qualquer cultura com ocorrência do alvo biológico",
+      "praga_nome_comum": "Tombamento",
+      "praga_nome_cientifico": "Rhizoctonia solani",
+      "dose_min": 300, "dose_max": 300, "dose_unidade": "mL/ha",
+      "volume_calda_min": 300, "volume_calda_max": 300, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": null, "carencia_texto": "Não determinado em função da não necessidade de estipular o limite máximo de resíduo (LMR) para este ingrediente ativo.",
+      "epoca_aplicacao": "Aplicação no sulco de plantio ou diretamente no solo.",
+      "fonte_pagina": 2,
+      "fonte_trecho": "Qualquer cultura com ocorrência do alvo biológico | Rhizoctonia solani (Tombamento)1 | 300 ml/ha | Aplicação no sulco de plantio ou diretamente no solo. | 300 L/ha | 1"
+    },
+    {
+      "cultura": "Qualquer cultura com ocorrência do alvo biológico",
+      "praga_nome_comum": "Tombamento",
+      "praga_nome_cientifico": "Rhizoctonia solani",
+      "dose_min": 40, "dose_max": 40, "dose_unidade": "mL/ha",
+      "volume_calda_min": 300, "volume_calda_max": 300, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": null, "carencia_texto": "Não determinado em função da não necessidade de estipular o limite máximo de resíduo (LMR) para este ingrediente ativo.",
+      "epoca_aplicacao": "No sulco de plantio: nas culturas em que se utilizam tubérculos ou similares como material propagativo, aplicar nos sulcos de plantio, diretamente sobre os tubérculos.",
+      "fonte_pagina": 2,
+      "fonte_trecho": "No sulco de plantio: 40 mL/ha Sobre o camalhao 40 mL/ha Na amontoa 130 mL/ha | ... | 300 L/ha | 3"
+    },
+    {
+      "cultura": "Qualquer cultura com ocorrência do alvo biológico",
+      "praga_nome_comum": "Tombamento",
+      "praga_nome_cientifico": "Rhizoctonia solani",
+      "dose_min": 40, "dose_max": 40, "dose_unidade": "mL/ha",
+      "volume_calda_min": 300, "volume_calda_max": 300, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": null, "carencia_texto": "Não determinado em função da não necessidade de estipular o limite máximo de resíduo (LMR) para este ingrediente ativo.",
+      "epoca_aplicacao": "Sobre o camalhão: após cobrir os sulcos com solo, repetir aplicação sobre o camalhão.",
+      "fonte_pagina": 2,
+      "fonte_trecho": "No sulco de plantio: 40 mL/ha Sobre o camalhao 40 mL/ha Na amontoa 130 mL/ha | ... | 300 L/ha | 3"
+    },
+    {
+      "cultura": "Qualquer cultura com ocorrência do alvo biológico",
+      "praga_nome_comum": "Tombamento",
+      "praga_nome_cientifico": "Rhizoctonia solani",
+      "dose_min": 130, "dose_max": 130, "dose_unidade": "mL/ha",
+      "volume_calda_min": 300, "volume_calda_max": 300, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": null, "carencia_texto": "Não determinado em função da não necessidade de estipular o limite máximo de resíduo (LMR) para este ingrediente ativo.",
+      "epoca_aplicacao": "Na amontoa: a última aplicação deverá ser realizada na amontoa, também sobre o camalhão, com boa umidade do solo. Evitar as horas mais quentes do dia.",
+      "fonte_pagina": 2,
+      "fonte_trecho": "No sulco de plantio: 40 mL/ha Sobre o camalhao 40 mL/ha Na amontoa 130 mL/ha | ... | 300 L/ha | 3"
+    },
+    {
+      "cultura": "Qualquer cultura com ocorrência do alvo biológico",
+      "praga_nome_comum": "Tombamento",
+      "praga_nome_cientifico": "Rhizoctonia solani",
+      "dose_min": 150, "dose_max": 150, "dose_unidade": "mL/100kg sementes",
+      "volume_calda_min": 500, "volume_calda_max": 500, "volume_calda_unidade": "mL/100kg sementes",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": null, "carencia_texto": "Não determinado em função da não necessidade de estipular o limite máximo de resíduo (LMR) para este ingrediente ativo.",
+      "epoca_aplicacao": "Tratamento de sementes: nas culturas que se utilizam sementes como material propagativo, aplicar o produto sobre as sementes e reaplicar no sulco de semeadura.",
+      "fonte_pagina": 2,
+      "fonte_trecho": "Tratamento de sementes 150 mL/ 100kg de sementes Sulco de semeadura 150 mL/ha | ... | 500 mL/100 kg de sementes 300 L/ha | 2"
+    },
+    {
+      "cultura": "Qualquer cultura com ocorrência do alvo biológico",
+      "praga_nome_comum": "Tombamento",
+      "praga_nome_cientifico": "Rhizoctonia solani",
+      "dose_min": 150, "dose_max": 150, "dose_unidade": "mL/ha",
+      "volume_calda_min": 300, "volume_calda_max": 300, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": null, "carencia_texto": "Não determinado em função da não necessidade de estipular o limite máximo de resíduo (LMR) para este ingrediente ativo.",
+      "epoca_aplicacao": "Sulco de semeadura: reaplicar no sulco de semeadura, misturando TIVRA com o adubo de plantio.",
+      "fonte_pagina": 2,
+      "fonte_trecho": "Tratamento de sementes 150 mL/ 100kg de sementes Sulco de semeadura 150 mL/ha | ... | 500 mL/100 kg de sementes 300 L/ha | 2"
+    },
+    {
+      "cultura": "Qualquer cultura com ocorrência do alvo biológico",
+      "praga_nome_comum": "Murcha-de-fusarium",
+      "praga_nome_cientifico": "Fusarium oxysporum",
+      "dose_min": 2.0, "dose_max": 2.0, "dose_unidade": "L/ha",
+      "volume_calda_min": 210, "volume_calda_max": 210, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": null, "carencia_texto": "Não determinado em função da não necessidade de estipular o limite máximo de resíduo (LMR) para este ingrediente ativo.",
+      "epoca_aplicacao": "Aplicar imediatamente após o transplantio das mudas, em jato dirigido ao colo das plantas, evitando as horas mais quentes do dia.",
+      "fonte_pagina": 2,
+      "fonte_trecho": "Fusarium oxysporum (Murcha-de-fusarium)2 | 2,0 L/ha | Aplicar imediatamente após o transplantio das mudas... | 210 L/ha | 1"
+    }
+  ]
+}

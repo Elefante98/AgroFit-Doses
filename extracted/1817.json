@@ -1,0 +1,43 @@
+{
+ "numero_registro": "1817",
+ "registros": [
+  {
+   "cultura": "Qualquer cultura com ocorrência dos alvos biológicos descritos na tabela",
+   "praga_nome_comum": "Nematoide-das-galhas",
+   "praga_nome_cientifico": "Meloidogyne incognita",
+   "dose_min": 100,
+   "dose_max": 150,
+   "dose_unidade": "g/100kg sementes",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": null,
+   "intervalo_aplicacao": null,
+   "carencia_dias": null,
+   "carencia_texto": "Não determinado em função da não necessidade de estipular o limite máximo de resíduo (LMR) para este ingrediente ativo.",
+   "epoca_aplicacao": "Tratamento de sementes",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Nematoide-das-galhas | Meloidogyne incognita | 100 – 150 (g p.c./100kg de sementes)"
+  },
+  {
+   "cultura": "Qualquer cultura com ocorrência dos alvos biológicos descritos na tabela",
+   "praga_nome_comum": "Nematoide-das-lesões",
+   "praga_nome_cientifico": "Pratylenchus brachyurus",
+   "dose_min": 100,
+   "dose_max": 150,
+   "dose_unidade": "g/100kg sementes",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": null,
+   "intervalo_aplicacao": null,
+   "carencia_dias": null,
+   "carencia_texto": "Não determinado em função da não necessidade de estipular o limite máximo de resíduo (LMR) para este ingrediente ativo.",
+   "epoca_aplicacao": "Tratamento de sementes",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Nematoide-das-lesões | Pratylenchus brachyurus | 100– 150 (g p.c./100kg de sementes)"
+  }
+ ]
+}
