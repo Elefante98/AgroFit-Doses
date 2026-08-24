@@ -1,0 +1,38 @@
+{
+  "numero_registro": "3499",
+  "registros": [
+    {
+      "cultura": "Arroz Irrigado", "praga_nome_comum": "Bicheira-da-raiz-do-arroz", "praga_nome_cientifico": "Oryzophagus oryzae",
+      "dose_min": 10, "dose_max": 20, "dose_unidade": "kg/ha",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": null, "carencia_texto": "Intervalo de segurança não determinado devido à modalidade de emprego.",
+      "epoca_aplicacao": "Aplicar após a inundação e/ou ao aparecimento das pragas. Manter a água fechada por 48 horas. Aplicar uma única vez por ciclo.",
+      "fonte_pagina": 2,
+      "fonte_trecho": "ARROZ IRRIGADO | Bicheira-da-raíz-do-arroz (Oryzophagus oryzae) | 10-20 kg/ha"
+    },
+    {
+      "cultura": "Batata", "praga_nome_comum": "Vaquinha-verde-amarela", "praga_nome_cientifico": "Diabrotica speciosa",
+      "dose_min": 20, "dose_max": 20, "dose_unidade": "kg/ha",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 2, "intervalo_aplicacao": "aplicação dividida em duas vezes: no plantio e na amontoa",
+      "carencia_dias": null, "carencia_texto": "Intervalo de segurança não determinado devido à modalidade de emprego.",
+      "epoca_aplicacao": "Aplicar incorporado ao solo em duas vezes: a primeira no plantio e a segunda na realização da amontoa.",
+      "fonte_pagina": 2,
+      "fonte_trecho": "BATATA | Vaquinha-verde-amarela (Diabrotica speciosa) | 20 kg/ha"
+    },
+    {
+      "cultura": "Tomate", "praga_nome_comum": "Tripés", "praga_nome_cientifico": "Frankliniella shultzei",
+      "dose_min": 20, "dose_max": 20, "dose_unidade": "kg/ha",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": null, "carencia_texto": "Intervalo de segurança não determinado devido à modalidade de emprego.",
+      "epoca_aplicacao": "Aplicar uma única vez no plantio, incorporado ao solo.",
+      "fonte_pagina": 2,
+      "fonte_trecho": "TOMATE | Tripés (Frankliniella shultzei) | 20 kg/ha"
+    }
+  ]
+}

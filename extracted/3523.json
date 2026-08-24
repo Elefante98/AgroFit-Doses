@@ -1,0 +1,43 @@
+{
+  "numero_registro": "3523",
+  "registros": [
+    {
+      "cultura": "Em todas as culturas com ocorrência do alvo biológico",
+      "praga_nome_comum": "Percevejo marrom-da-soja",
+      "praga_nome_cientifico": "Euschistus heros",
+      "dose_min": 32,
+      "dose_max": 32,
+      "dose_unidade": "sachês/ha",
+      "volume_calda_min": null,
+      "volume_calda_max": null,
+      "volume_calda_unidade": null,
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 3,
+      "intervalo_aplicacao": "Realizar três liberações, em intervalos de 7 dias.",
+      "carencia_dias": null,
+      "carencia_texto": "Não determinado por ser agente biológico de controle.",
+      "epoca_aplicacao": "Aplicação Terrestre. A dose deve ser distribuída em 32 pontos equidistantes. Monitorar a população do percevejo, com batida de pano, a partir da fase vegetativa até a maturação fisiológica (R6). Deve-se proceder a coleta com batida de pano no período da manhã, quando ocorre maior exposição desses sugadores no topo das plantas. Realizar a primeira liberação quando forem encontrados dois percevejos por metro. Realizar as liberações em períodos de baixa intensidade solar e com ausência de chuvas. De forma preventiva, para controlar os percevejos migrantes das bordaduras, durante a fase vegetativa da cultura, pode-se realizar o monitoramento nas bordas das lavouras, e quando for detectado o alvo biológico, pode-se realizar as três liberações nestas áreas. As liberações nas bordaduras só devem ser realizadas se o ataque do percevejo não estiver generalizado por toda a lavoura.",
+      "fonte_pagina": 2,
+      "fonte_trecho": "Em todas as culturas | Euschistus heros | Aplicação Terrestre: 32 sachês/ha"
+    },
+    {
+      "cultura": "Em todas as culturas com ocorrência do alvo biológico",
+      "praga_nome_comum": "Percevejo marrom-da-soja",
+      "praga_nome_cientifico": "Euschistus heros",
+      "dose_min": 5,
+      "dose_max": 10,
+      "dose_unidade": "mL/ha",
+      "volume_calda_min": null,
+      "volume_calda_max": null,
+      "volume_calda_unidade": null,
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 3,
+      "intervalo_aplicacao": "Realizar três liberações, em intervalos de 7 dias.",
+      "carencia_dias": null,
+      "carencia_texto": "Não determinado por ser agente biológico de controle.",
+      "epoca_aplicacao": "Aplicação Aérea. Monitorar a população do percevejo, com batida de pano, a partir da fase vegetativa até a maturação fisiológica (R6). Deve-se proceder a coleta com batida de pano no período da manhã, quando ocorre maior exposição desses sugadores no topo das plantas. Realizar a primeira liberação quando forem encontrados dois percevejos por metro. Realizar as liberações em períodos de baixa intensidade solar e com ausência de chuvas. De forma preventiva, para controlar os percevejos migrantes das bordaduras, durante a fase vegetativa da cultura, pode-se realizar o monitoramento nas bordas das lavouras, e quando for detectado o alvo biológico, pode-se realizar as três liberações nestas áreas. As liberações nas bordaduras só devem ser realizadas se o ataque do percevejo não estiver generalizado por toda a lavoura.",
+      "fonte_pagina": 2,
+      "fonte_trecho": "Em todas as culturas | Euschistus heros | Aplicação Aérea: 5 a 10 mL/ha"
+    }
+  ]
+}

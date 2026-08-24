@@ -1,0 +1,43 @@
+{
+  "numero_registro": "3525",
+  "registros": [
+    {
+      "cultura": "Qualquer cultura com ocorrência do alvo biológico",
+      "praga_nome_comum": "Cigarrinha-das-pastagens; Cigarrinha-dos-capinzais",
+      "praga_nome_cientifico": "Deois flavopicta",
+      "dose_min": 0.5,
+      "dose_max": 0.5,
+      "dose_unidade": "kg/ha",
+      "volume_calda_min": 200,
+      "volume_calda_max": 200,
+      "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 1,
+      "intervalo_aplicacao": null,
+      "carencia_dias": null,
+      "carencia_texto": "Não determinado em função da não necessidade de estipular o limite máximo de resíduo (LMR) para este produto.",
+      "epoca_aplicacao": "Monitorar a presença de ninfas na pastagem, após as primeiras chuvas. Iniciar a aplicação após a detecção da praga (espumas com ninfas na base das touceiras). Realizar uma única aplicação com volume de calda de 200 litros por hectare.",
+      "fonte_pagina": 2,
+      "fonte_trecho": "Qualquer cultura com ocorrência do alvo biológico. | Cigarrinha-das-pastagens; Cigarrinha-dos-capinzais (Deois flavopicta) | 0,5 Kg/ha"
+    },
+    {
+      "cultura": "Qualquer cultura com ocorrência do alvo biológico",
+      "praga_nome_comum": "Percevejo-marrom",
+      "praga_nome_cientifico": "Euschistus heros",
+      "dose_min": 0.75,
+      "dose_max": 0.75,
+      "dose_unidade": "kg/ha",
+      "volume_calda_min": 200,
+      "volume_calda_max": 200,
+      "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 2,
+      "intervalo_aplicacao": "7 dias",
+      "carencia_dias": null,
+      "carencia_texto": "Não determinado em função da não necessidade de estipular o limite máximo de resíduo (LMR) para este produto.",
+      "epoca_aplicacao": "Realizar 2 aplicações, em intervalo de 7 dias, usando volume de calda de 200 litros por hectare. Inspecionar periodicamente a lavoura com batida de pano após o florescimento e pulverizar quando forem encontrados quatro percevejos maiores que cinco milímetros por batida de pano, na produção de grãos, ou dois percevejos maiores que cinco milímetros por batida de pano na produção de sementes.",
+      "fonte_pagina": 2,
+      "fonte_trecho": "Qualquer cultura com ocorrência do alvo biológico. | Percevejo-marrom (Euschistus heros) | 0,750 Kg/ha"
+    }
+  ]
+}

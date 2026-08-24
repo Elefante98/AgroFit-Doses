@@ -1,0 +1,43 @@
+{
+ "numero_registro": "3513",
+ "registros": [
+  {
+   "cultura": "Cana-de-açúcar",
+   "praga_nome_comum": "Nematoide-das-galhas",
+   "praga_nome_cientifico": "Meloidogyne javanica",
+   "dose_min": 4.0,
+   "dose_max": 5.0,
+   "dose_unidade": "L/ha",
+   "volume_calda_min": 200,
+   "volume_calda_max": 200,
+   "volume_calda_unidade": "L/ha",
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": 1,
+   "intervalo_aplicacao": null,
+   "carencia_dias": null,
+   "carencia_texto": "Não determinado devido à modalidade de emprego",
+   "epoca_aplicacao": "Aplicar no sulco de plantio sobre os toletes de cana; havendo necessidade de aplicação na cana-soca, alternar com outros inseticidas de grupos químicos diferentes (mecanismo de ação diferente) para manejo de resistência",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Cana-de-açúcar | Nematoide-das-galhas (Meloidogyne javanica) | 4,0 a 5,0 L/ha | 1 | Terrestre: 200 L/ha"
+  },
+  {
+   "cultura": "Cana-de-açúcar",
+   "praga_nome_comum": "Nematoide-das-lesões",
+   "praga_nome_cientifico": "Pratylenchus zeae",
+   "dose_min": 4.0,
+   "dose_max": 5.0,
+   "dose_unidade": "L/ha",
+   "volume_calda_min": 200,
+   "volume_calda_max": 200,
+   "volume_calda_unidade": "L/ha",
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": 1,
+   "intervalo_aplicacao": null,
+   "carencia_dias": null,
+   "carencia_texto": "Não determinado devido à modalidade de emprego",
+   "epoca_aplicacao": "Aplicar no sulco de plantio sobre os toletes de cana; havendo necessidade de aplicação na cana-soca, alternar com outros inseticidas de grupos químicos diferentes (mecanismo de ação diferente) para manejo de resistência",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Cana-de-açúcar | Nematoide-das-lesões (Pratylenchus zeae) | 4,0 a 5,0 L/ha | 1 | Terrestre: 200 L/ha"
+  }
+ ]
+}

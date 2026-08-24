@@ -1,0 +1,62 @@
+{
+  "numero_registro": "3401",
+  "registros": [
+    {
+      "cultura": "Qualquer cultura em que ocorram os alvos biológicos indicados",
+      "praga_nome_comum": "traça-do-cacau; traça-das-flores-do-coqueiro",
+      "praga_nome_cientifico": "Ephestia cautella",
+      "dose_min": null,
+      "dose_max": null,
+      "dose_unidade": null,
+      "volume_calda_min": null,
+      "volume_calda_max": null,
+      "volume_calda_unidade": null,
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": null,
+      "intervalo_aplicacao": "Trocar as armadilhas com feromônio a cada 30 dias.",
+      "carencia_dias": null,
+      "carencia_texto": "Não pertinente",
+      "epoca_aplicacao": "As armadilhas devem ser utilizadas o ano inteiro para se observar a presença de insetos.",
+      "fonte_pagina": 2,
+      "fonte_trecho": "Ephestia cautella (traça-do-cacau, traça-das-flores-do-coqueiro) | Para monitoramento utilizar 1 armadilha a cada 300 m2"
+    },
+    {
+      "cultura": "Qualquer cultura em que ocorram os alvos biológicos indicados",
+      "praga_nome_comum": "traça; traça-do-fumo",
+      "praga_nome_cientifico": "Ephestia elutella",
+      "dose_min": null,
+      "dose_max": null,
+      "dose_unidade": null,
+      "volume_calda_min": null,
+      "volume_calda_max": null,
+      "volume_calda_unidade": null,
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": null,
+      "intervalo_aplicacao": "Trocar as armadilhas com feromônio a cada 30 dias.",
+      "carencia_dias": null,
+      "carencia_texto": "Não pertinente",
+      "epoca_aplicacao": "As armadilhas devem ser utilizadas o ano inteiro para se observar a presença de insetos.",
+      "fonte_pagina": 2,
+      "fonte_trecho": "Ephestia elutella (traça, traça-do-fumo) | Para monitoramento utilizar 1 armadilha a cada 300 m2"
+    },
+    {
+      "cultura": "Qualquer cultura em que ocorram os alvos biológicos indicados",
+      "praga_nome_comum": "Traça-indiana-da-farinha; traça-dos-cereais",
+      "praga_nome_cientifico": "Plodia interpunctella",
+      "dose_min": null,
+      "dose_max": null,
+      "dose_unidade": null,
+      "volume_calda_min": null,
+      "volume_calda_max": null,
+      "volume_calda_unidade": null,
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": null,
+      "intervalo_aplicacao": "Trocar as armadilhas com feromônio a cada 30 dias.",
+      "carencia_dias": null,
+      "carencia_texto": "Não pertinente",
+      "epoca_aplicacao": "As armadilhas devem ser utilizadas o ano inteiro para se observar a presença de insetos.",
+      "fonte_pagina": 2,
+      "fonte_trecho": "Plodia interpunctella (Traça-indiana-da-farinha, traça-dos-cereais) | Para monitoramento utilizar 1 armadilha a cada 300 m2"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "numero_registro": "3301",
+  "registros": [
+    {
+      "cultura": "Não Atrelado a Cultura",
+      "praga_nome_comum": "Lagarta-enroladeira",
+      "praga_nome_cientifico": "Bonagota salubricola",
+      "dose_min": 1,
+      "dose_max": 1,
+      "dose_unidade": "unidade/0,04ha",
+      "volume_calda_min": null,
+      "volume_calda_max": null,
+      "volume_calda_unidade": null,
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": null,
+      "intervalo_aplicacao": "Adicione um novo septo ISCALURE BONAGOTA a cada 90 dias, substituindo a isca antiga por uma nova.",
+      "carencia_dias": null,
+      "carencia_texto": "Tendo em vista o tipo de produto (feromônio) e a modalidade de aplicação não é necessário se estabelecer intervalo de segurança.",
+      "epoca_aplicacao": "O produto é recomendado para monitoramento de Bonagota salubricola (lagarta enroladeira) através de armadilha Delta. Ajustar a densidade indicada de ISCALURE BONAGOTA de acordo com a densidade populacional da praga, conforme recomendação de técnico habilitado.",
+      "fonte_pagina": 1,
+      "fonte_trecho": "1.2. DOSES DE APLICAÇÃO: Aplique 1 unidade de ISCALURE BONAGOTA para cada 0,04 hectares, siga a recomendação de técnico habilitado para ajustar a densidade indicada."
+    }
+  ]
+}

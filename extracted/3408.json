@@ -1,0 +1,62 @@
+{
+ "numero_registro": "3408",
+ "registros": [
+  {
+   "cultura": "Algodão",
+   "praga_nome_comum": "Pulgão-das-inflorescências",
+   "praga_nome_cientifico": "Aphis gossypii",
+   "dose_min": 400,
+   "dose_max": 400,
+   "dose_unidade": "mL/ha",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": "200 - 500 L/ha (Terrestre); 10-20 L/ha (Aérea)",
+   "num_max_aplicacoes": 8,
+   "intervalo_aplicacao": null,
+   "carencia_dias": 60,
+   "carencia_texto": null,
+   "epoca_aplicacao": "Aplicar quando atingir o Nível de Controle (NC) de 3 a 40% de infestação, dependendo da variedade plantada (suscetibilidade a vírus). Manter a lavoura monitorada e reaplicar conforme a reinfestação.",
+   "fonte_pagina": 4,
+   "fonte_trecho": "ALGODÃO | Pulgão-das-inflorescências (Aphis gossypii) | 400mL/ha | 200 - 500 L/ha (Terrestre) 10-20 L/ha (Aérea) | 8"
+  },
+  {
+   "cultura": "Eucalipto",
+   "praga_nome_comum": "Vespa-da-galha",
+   "praga_nome_cientifico": "Leptocybe invasa",
+   "dose_min": 500,
+   "dose_max": 700,
+   "dose_unidade": "mL/ha",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": "200 L/ha (Terrestre); 10-20 L/ha (Aérea)",
+   "num_max_aplicacoes": 4,
+   "intervalo_aplicacao": null,
+   "carencia_dias": null,
+   "carencia_texto": "UNA (Uso Não Alimentar)",
+   "epoca_aplicacao": "Eucalipto (Campo). Aplicar logo após o início da infestação, procurando obter boa cobertura da parte aérea das plantas. Usar maior dose em alta infestação e menor dose na baixa. Aplicar a alto volume, procurando obter perfeita cobertura da parte interna e ponteiro das plantas. Manter a lavoura monitorada e reaplicar conforme a reinfestação.",
+   "fonte_pagina": 4,
+   "fonte_trecho": "EUCALIPTO (Campo) | Vespa-da-galha (Leptocybe invasa) | 500 – 700 mL/ha | 200 L/ha (Terrestre) 10-20 L/ha (Aérea) | 4"
+  },
+  {
+   "cultura": "Eucalipto",
+   "praga_nome_comum": "Vespa-da-galha",
+   "praga_nome_cientifico": "Leptocybe invasa",
+   "dose_min": 250,
+   "dose_max": 350,
+   "dose_unidade": "mL/100L",
+   "volume_calda_min": 20,
+   "volume_calda_max": 20,
+   "volume_calda_unidade": "mL/m2",
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": null,
+   "intervalo_aplicacao": null,
+   "carencia_dias": null,
+   "carencia_texto": "UNA (Uso Não Alimentar)",
+   "epoca_aplicacao": "Eucalipto (viveiro). Aplicar logo após o início da infestação, pelo sistema de rega das bandejas, utilizando um regador ou pulverizador costal. Usar maior dose em alta infestação e menor dose na baixa. Manter a lavoura monitorada e reaplicar conforme a reinfestação.",
+   "fonte_pagina": 4,
+   "fonte_trecho": "EUCALIPTO (viveiro) | Vespa-da-galha (Leptocybe invasa) | 250 – 350 mL/100L de água | 20 mL/m2 de bandeja (Terrestre)"
+  }
+ ]
+}

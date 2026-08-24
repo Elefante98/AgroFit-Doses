@@ -1,0 +1,93 @@
+{
+  "numero_registro": "3498",
+  "registros": [
+    {
+      "cultura": "Banana", "praga_nome_comum": "Antracnose", "praga_nome_cientifico": "Colletotrichum musae",
+      "dose_min": 200, "dose_max": 200, "dose_unidade": "mL/100L",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": "Aplicação por imersão dos frutos em pós-colheita (não há volume de calda por hectare); calda preparada em recipiente com capacidade conhecida, substituída integralmente após tratar 50 toneladas de frutos.",
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": 3, "carencia_texto": null,
+      "epoca_aplicacao": "Aplicado após a colheita dos frutos, através da imersão dos frutos na solução em uma única aplicação. O tempo de imersão dos frutos na calda preparada deve ser no máximo 2 minutos.",
+      "fonte_pagina": 2,
+      "fonte_trecho": "Banana | Antracnose (Colletotrichum musae) | 200 mL/100 L de água"
+    },
+    {
+      "cultura": "Citros", "praga_nome_comum": "Bolor-verde", "praga_nome_cientifico": "Penicillium digitatum",
+      "dose_min": 200, "dose_max": 200, "dose_unidade": "mL/100L",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": "Aplicação por imersão dos frutos em pós-colheita (não há volume de calda por hectare); calda preparada em recipiente com capacidade conhecida, substituída integralmente após tratar 50 toneladas de frutos.",
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": 3, "carencia_texto": null,
+      "epoca_aplicacao": "Aplicado após a colheita dos frutos, através da imersão dos frutos na solução em uma única aplicação. O tempo de imersão dos frutos na calda preparada deve ser no máximo 2 minutos.",
+      "fonte_pagina": 2,
+      "fonte_trecho": "Citros | Bolor-verde (Penicillium digitatum) | 200 mL/100 L de água"
+    },
+    {
+      "cultura": "Maçã", "praga_nome_comum": "Mancha-de-alternária", "praga_nome_cientifico": "Alternaria alternata",
+      "dose_min": 200, "dose_max": 200, "dose_unidade": "mL/100L",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": "Aplicação por imersão dos frutos em pós-colheita (não há volume de calda por hectare); calda preparada em recipiente com capacidade conhecida, substituída integralmente após tratar 50 toneladas de frutos.",
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": 3, "carencia_texto": null,
+      "epoca_aplicacao": "Aplicado após a colheita dos frutos, através da imersão dos frutos na solução em uma única aplicação. O tempo de imersão dos frutos na calda preparada deve ser no máximo 2 minutos.",
+      "fonte_pagina": 2,
+      "fonte_trecho": "Maçã | Mancha-de-alternária (Alternaria alternata) | 200 mL/100 L de água"
+    },
+    {
+      "cultura": "Maçã", "praga_nome_comum": "Bolor-azul", "praga_nome_cientifico": "Penicillium expansum",
+      "dose_min": 200, "dose_max": 200, "dose_unidade": "mL/100L",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": "Aplicação por imersão dos frutos em pós-colheita (não há volume de calda por hectare); calda preparada em recipiente com capacidade conhecida, substituída integralmente após tratar 50 toneladas de frutos.",
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": 3, "carencia_texto": null,
+      "epoca_aplicacao": "Aplicado após a colheita dos frutos, através da imersão dos frutos na solução em uma única aplicação. O tempo de imersão dos frutos na calda preparada deve ser no máximo 2 minutos.",
+      "fonte_pagina": 2,
+      "fonte_trecho": "Maçã | Bolor-azul (Penicillium expansum) | 200 mL/100 L de água"
+    },
+    {
+      "cultura": "Mamão", "praga_nome_comum": "Antracnose", "praga_nome_cientifico": "Colletotrichum gloeosporioides",
+      "dose_min": 200, "dose_max": 200, "dose_unidade": "mL/100L",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": "Aplicação por imersão dos frutos em pós-colheita (não há volume de calda por hectare); calda preparada em recipiente com capacidade conhecida, substituída integralmente após tratar 50 toneladas de frutos.",
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": 3, "carencia_texto": null,
+      "epoca_aplicacao": "Aplicado após a colheita dos frutos, através da imersão dos frutos na solução em uma única aplicação. O tempo de imersão dos frutos na calda preparada deve ser no máximo 2 minutos.",
+      "fonte_pagina": 2,
+      "fonte_trecho": "Mamão | Antracnose (Colletotrichum gloeosporioides) | 200 mL/100 L de água"
+    },
+    {
+      "cultura": "Manga", "praga_nome_comum": "Antracnose", "praga_nome_cientifico": "Colletotrichum gloeosporioides",
+      "dose_min": 200, "dose_max": 200, "dose_unidade": "mL/100L",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": "Aplicação por imersão dos frutos em pós-colheita (não há volume de calda por hectare); calda preparada em recipiente com capacidade conhecida, substituída integralmente após tratar 50 toneladas de frutos.",
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": 3, "carencia_texto": null,
+      "epoca_aplicacao": "Aplicado após a colheita dos frutos, através da imersão dos frutos na solução em uma única aplicação. O tempo de imersão dos frutos na calda preparada deve ser no máximo 2 minutos.",
+      "fonte_pagina": 2,
+      "fonte_trecho": "Manga | Antracnose (Colletotrichum gloeosporioides) | 200 mL/100 L de água"
+    },
+    {
+      "cultura": "Melão", "praga_nome_comum": "Antracnose", "praga_nome_cientifico": "Colletotrichum orbiculare",
+      "dose_min": 200, "dose_max": 200, "dose_unidade": "mL/100L",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": "Aplicação por imersão dos frutos em pós-colheita (não há volume de calda por hectare); calda preparada em recipiente com capacidade conhecida, substituída integralmente após tratar 50 toneladas de frutos.",
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": 3, "carencia_texto": null,
+      "epoca_aplicacao": "Aplicado após a colheita dos frutos, através da imersão dos frutos na solução em uma única aplicação. O tempo de imersão dos frutos na calda preparada deve ser no máximo 2 minutos.",
+      "fonte_pagina": 2,
+      "fonte_trecho": "Melão | Antracnose (Colletotrichum orbiculare) | 200 mL/100 L de água"
+    },
+    {
+      "cultura": "Melancia", "praga_nome_comum": "Antracnose", "praga_nome_cientifico": "Colletotrichum orbiculare",
+      "dose_min": 200, "dose_max": 200, "dose_unidade": "mL/100L",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": "Aplicação por imersão dos frutos em pós-colheita (não há volume de calda por hectare); calda preparada em recipiente com capacidade conhecida, substituída integralmente após tratar 50 toneladas de frutos.",
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": 3, "carencia_texto": null,
+      "epoca_aplicacao": "Aplicado após a colheita dos frutos, através da imersão dos frutos na solução em uma única aplicação. O tempo de imersão dos frutos na calda preparada deve ser no máximo 2 minutos.",
+      "fonte_pagina": 2,
+      "fonte_trecho": "Melancia | Antracnose (Colletotrichum orbiculare) | 200 mL/100 L de água"
+    }
+  ]
+}

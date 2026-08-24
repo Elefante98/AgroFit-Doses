@@ -1,0 +1,60 @@
+{
+  "numero_registro": "3502",
+  "registros": [
+    {
+      "cultura": "Batata", "praga_nome_comum": "Requeima", "praga_nome_cientifico": "Phytophthora infestans",
+      "dose_min": 2.0, "dose_max": 2.0, "dose_unidade": "L/ha",
+      "volume_calda_min": 600, "volume_calda_max": 600, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 3, "intervalo_aplicacao": "7 dias",
+      "carencia_dias": 7, "carencia_texto": null,
+      "epoca_aplicacao": "Utilizar sempre preventivamente, antes do aparecimento dos sintomas. Iniciar as aplicações no aparecimento dos primeiros sintomas e repetir se necessário, em intervalos de 7 dias, dependendo da evolução da doença, não ultrapassando o número de 3 aplicações por ciclo da cultura e respeitando-se o intervalo de segurança.",
+      "fonte_pagina": 2,
+      "fonte_trecho": "Batata | Requeima (Phytophthora infestans) | 2,0 L p.c./ha | 600 L/ha calda | 3"
+    },
+    {
+      "cultura": "Cebola", "praga_nome_comum": "Míldio", "praga_nome_cientifico": "Peronospora destructor",
+      "dose_min": 2.0, "dose_max": 2.5, "dose_unidade": "L/ha",
+      "volume_calda_min": 500, "volume_calda_max": 500, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 4, "intervalo_aplicacao": "7 dias",
+      "carencia_dias": 14, "carencia_texto": null,
+      "epoca_aplicacao": "Utilizar sempre preventivamente, antes do aparecimento dos sintomas. Iniciar as aplicações no aparecimento dos primeiros sintomas e repetir se necessário, em intervalos de 7 dias, dependendo da evolução da doença, não ultrapassando o número de 4 aplicações por ciclo da cultura e respeitando-se o intervalo de segurança.",
+      "fonte_pagina": 2,
+      "fonte_trecho": "Cebola | Míldio (Peronospora destructor) | 2,0 – 2,5 L p.c./ha | 500 L/ha calda | 4"
+    },
+    {
+      "cultura": "Melão", "praga_nome_comum": "Míldio", "praga_nome_cientifico": "Pseudoperonospora cubensis",
+      "dose_min": 2.0, "dose_max": 2.5, "dose_unidade": "L/ha",
+      "volume_calda_min": 600, "volume_calda_max": 600, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 3, "intervalo_aplicacao": "12 dias",
+      "carencia_dias": 14, "carencia_texto": null,
+      "epoca_aplicacao": "Utilizar sempre preventivamente, antes do aparecimento dos sintomas. Iniciar as aplicações no aparecimento dos primeiros sintomas e repetir se necessário, em intervalos de 12 dias, dependendo da evolução da doença, não ultrapassando o número de 3 aplicações por ciclo da cultura e respeitando-se o intervalo de segurança.",
+      "fonte_pagina": 2,
+      "fonte_trecho": "Melão | Míldio (Pseudoperonospora cubensis) | 2,0 – 2,5 L p.c./ha | 600 L/ha calda | 3"
+    },
+    {
+      "cultura": "Tomate", "praga_nome_comum": "Requeima", "praga_nome_cientifico": "Phytophthora infestans",
+      "dose_min": 300, "dose_max": 300, "dose_unidade": "mL/100L",
+      "volume_calda_min": 1000, "volume_calda_max": 1000, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 4, "intervalo_aplicacao": "7 dias",
+      "carencia_dias": 14, "carencia_texto": null,
+      "epoca_aplicacao": "Utilizar sempre preventivamente, antes do aparecimento dos sintomas. Iniciar as aplicações no aparecimento dos primeiros sintomas e repetir se necessário, em intervalos de 7 dias, dependendo da evolução da doença, não ultrapassando o número de 4 aplicações por ciclo da cultura e respeitando-se o intervalo de segurança.",
+      "fonte_pagina": 3,
+      "fonte_trecho": "Tomate | Requeima (Phytophthora infestans) | 300 mL p.c./100 L d'água | 1000 L/ha calda | 4"
+    },
+    {
+      "cultura": "Plantas Ornamentais", "praga_nome_comum": "Míldio", "praga_nome_cientifico": "Peronospora sparsa",
+      "dose_min": 300, "dose_max": 300, "dose_unidade": "mL/100L",
+      "volume_calda_min": 1000, "volume_calda_max": 1000, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": "Utilizar volumes de calda conforme o porte da planta ornamental.",
+      "num_max_aplicacoes": null, "intervalo_aplicacao": "7 dias",
+      "carencia_dias": null, "carencia_texto": "UNA (Uso Não Alimentar) - número de aplicações não definido para cultivos ornamentais.",
+      "epoca_aplicacao": "Em ambientes aberto ou protegidos, iniciar as aplicações preventivamente e repetir caso necessário com intervalos de 7 dias dependendo da evolução da doença. Alternar produtos de modo de ação distintos.",
+      "fonte_pagina": 3,
+      "fonte_trecho": "Plantas Ornamentais | Míldio (Peronospora sparsa) | 300 mL p.c./100 L d'água | 1000 L/ha calda | UNA"
+    }
+  ]
+}

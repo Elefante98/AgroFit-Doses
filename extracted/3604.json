@@ -1,0 +1,24 @@
+{
+  "numero_registro": "3604",
+  "registros": [
+    {
+      "cultura": "Citros",
+      "praga_nome_comum": "Ácaro da Ferrugem",
+      "praga_nome_cientifico": "Phyllocoptruta oleivora",
+      "dose_min": 1000,
+      "dose_max": 1000,
+      "dose_unidade": "mL/100L",
+      "volume_calda_min": null,
+      "volume_calda_max": null,
+      "volume_calda_unidade": null,
+      "volume_calda_outros": "1.500 a 2.500 L de calda/hectare (7 a 8 L de calda/planta, conforme idade e tamanho da copa)",
+      "num_max_aplicacoes": null,
+      "intervalo_aplicacao": "30 dias (ação preventiva) ou 45 dias (infestações próximas ao nível de dano econômico)",
+      "carencia_dias": null,
+      "carencia_texto": "Sem restrições",
+      "epoca_aplicacao": "O controle do Ácaro da Ferrugem é feito após o florescimento mediante inspeções quinzenais com lente de 10 aumentos em 5 frutos por árvore; localiza-se a visada em áreas não expostas diretamente aos raios solares. A pulverização deverá ter início quando a população de Ácaros atingir o limite de infestação economicamente prejudicial, ou seja: 10% dos frutos inspecionados apresentarem: até 30 ácaros por árvore, quando a fruta é destinada ao mercado interno e à indústria; de 1 a 30 Ácaros por árvore, quando a fruta é destinada à exportação. PURESPRAY 15E é pulverizado observando-se o manejo do pomar, isto é, inspeções mais frequentes e mais rigorosas quanto mais próximo do nível de dano econômico. É comum 2 a 3 tratamentos ao ano, espaçados de 30 ou 45 dias, para controle do Ácaro da Ferrugem.",
+      "fonte_pagina": 2,
+      "fonte_trecho": "Dose Recomendada: 1.000 ml de PURESPRAY 15E em 100 litros de água. Cultura de Citros, Ácaro da Ferrugem Phyllocoptruta o"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "numero_registro": "3396",
+  "registros": [
+    {
+      "cultura": "Banana",
+      "praga_nome_comum": "Sigatoka-amarela",
+      "praga_nome_cientifico": "Mycosphaerella musicola",
+      "dose_min": 0.625,
+      "dose_max": 0.625,
+      "dose_unidade": "L/ha",
+      "volume_calda_min": null,
+      "volume_calda_max": null,
+      "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": "Terrestre: 30 a 40 L/ha; Aérea: 12 a 15 L/ha",
+      "num_max_aplicacoes": 5,
+      "intervalo_aplicacao": "Fazer 4 a 5 aplicações anuais iniciadas nos meses de setembro/outubro e encerradas nos meses abril/maio, podendo se estender por mais de 5 conforme o clima. Reaplicar o produto a cada 30-35 dias.",
+      "carencia_dias": 3,
+      "carencia_texto": null,
+      "epoca_aplicacao": null,
+      "fonte_pagina": 2,
+      "fonte_trecho": "Banana | Sigatoka-amarela (Mycosphaerella musicola) | 0,625 | 125 | 30 a 40 L/ha | 12 a 15 L/ha | 5"
+    }
+  ]
+}

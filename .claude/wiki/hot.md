@@ -1,24 +1,18 @@
 # hot.md — estado atual (AgroFit Doses)
 
-> Atualizado: 2026-08-24 (sessão agendada de extração em massa — ondas 5, 6 e 7 parcial)
+> Atualizado: 2026-08-24 (sessão agendada de extração em massa — ondas 8-11)
 
 ## Extração em massa — progresso
 
 - Preprocess **v3 re-rodado em todas as bulas** (`pre/*.txt` da v1 apagados):
   3.960 recortes + 39 marcadores `.scan`, 0 erros.
-- **441 bulas extraídas e importadas** (30 do piloto + 411 da massa).
-  Banco: **40.879 registros** — 34.121 `validado`, 5.796 `validado_bula`,
-  962 `manual_review` (**2,4%**, meta ≤15% ✅).
-- **Restam 3.519 bulas** (`pre/*.txt` sem `extracted/*.json`).
-- Ondas fechadas: lote 1 (40), onda 1 (30, regs 107-309), onda 2 (30, regs 310-521),
-  onda 3 (60) e onda 4 (60) descendo do maior nº de registro, onda 5 (60, regs
-  522-908) e onda 6 (60, regs 912-1423) subindo do menor nº do backlog.
-- **Onda 7 ficou parcial**: 36 de 60 bulas (regs 1424-1794). A sessão foi
-  interrompida no meio — 6 subagentes negados no prompt de permissão e 1 morto
-  por erro de API. As 24 bulas não gravadas voltaram ao backlog sozinhas
-  (1510, 1612, 1613, 1621, 1622, 1696, 1699, 1703, 1704, 1706, 1709, 1710,
-  1714, 1720, 1721, 1722, 1798, 1800, 1802, 1803, 1804, 1806, 1810, 1812) —
-  nada a consertar, o estado é derivado do disco.
+- **689 bulas extraídas e importadas** (30 do piloto + 659 da massa).
+  Banco: **59.143 registros** — 48.632 `validado`, 9.329 `validado_bula`,
+  1.182 `manual_review` (**2,0%**, meta ≤15% ✅).
+- **Restam 3.271 bulas** (`pre/*.txt` sem `extracted/*.json`).
+- Ondas fechadas: lote 1 (40), ondas 1-2 (60), ondas 3-4 (120, descendo do maior
+  nº de registro), ondas 5-6 (120), onda 7 parcial (36), ondas 8-10 (180) e
+  **onda 11 (60, regs 2807-3223)**, todas subindo do menor nº do backlog.
 
 ### Como retomar
 O pipeline deriva estado do disco: pegue os `pre/*.txt` sem `extracted/*.json`,
@@ -27,7 +21,7 @@ ler `extractor/EXTRACAO.md` + `extractor/EXTRACAO_MASSA.md` (regras a-l) e **nã
 rodar `import_db.py` (o coordenador roda uma vez no fim da onda — subagentes rodando
 em paralelo batem em `database is locked`).
 **As ondas 3 e 4 desceram a partir do maior nº de registro (já foram até 419003);
-as ondas 1-2 e 5-7 subiram, chegando ao reg. 1794.** Manter direções separadas evita
+as demais subiram, chegando ao reg. 3223 (onda 11).** Manter direções separadas evita
 colisão se duas sessões rodarem juntas.
 
 ## Contrato endurecido — `extractor/EXTRACAO_MASSA.md`

@@ -1,0 +1,62 @@
+{
+ "numero_registro": "3613",
+ "registros": [
+  {
+   "cultura": "Café",
+   "praga_nome_comum": "Ferrugem-do-cafeeiro",
+   "praga_nome_cientifico": "Hemileia vastatrix",
+   "dose_min": 2.0,
+   "dose_max": 3.0,
+   "dose_unidade": "L/ha",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": "Diluir a dose recomendada por hectare em volume de calda suficiente para aplicação de 50 mL/planta (25 mL em cada lado da planta); o volume total é obtido multiplicando o volume por planta pelo número de plantas por hectare.",
+   "num_max_aplicacoes": 1,
+   "intervalo_aplicacao": null,
+   "carencia_dias": 120,
+   "carencia_texto": null,
+   "epoca_aplicacao": "Realizar 1 (uma) aplicação de PRATICO no solo sob a copa do cafeeiro no período de outubro a dezembro, sempre após as primeiras chuvas. Aplicar a calda em jato contínuo em ambos os lados da planta diretamente no solo sob a copa do cafeeiro, com o solo limpo, livre de palha, folhas e plantas infestantes. Recomenda-se aplicar a maior dose quando ocorrerem condições favoráveis à alta ocorrência dos alvos e/ou em anos de carga pendente alta. Após o término do efeito residual, se houver reincidência, fazer aplicação foliar com outro fungicida recomendado. Realizar no máximo 1 (uma) aplicação por safra da cultura.",
+   "fonte_pagina": 4,
+   "fonte_trecho": "CAFÉ | Ferrugem -do- cafeeiro | Hemileia vastatrix | 2,0 a 3,0 L/ha"
+  },
+  {
+   "cultura": "Café",
+   "praga_nome_comum": "Bicho-mineiro-do-cafeeiro",
+   "praga_nome_cientifico": "Leucoptera coffeella",
+   "dose_min": 2.0,
+   "dose_max": 3.0,
+   "dose_unidade": "L/ha",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": "Diluir a dose recomendada por hectare em volume de calda suficiente para aplicação de 50 mL/planta (25 mL em cada lado da planta); o volume total é obtido multiplicando o volume por planta pelo número de plantas por hectare.",
+   "num_max_aplicacoes": 1,
+   "intervalo_aplicacao": null,
+   "carencia_dias": 120,
+   "carencia_texto": null,
+   "epoca_aplicacao": "Realizar 1 (uma) aplicação de PRATICO no solo sob a copa do cafeeiro no período de outubro a dezembro, sempre após as primeiras chuvas. Aplicar a calda em jato contínuo em ambos os lados da planta diretamente no solo sob a copa do cafeeiro, com o solo limpo, livre de palha, folhas e plantas infestantes. Recomenda-se aplicar a maior dose quando ocorrerem condições favoráveis à alta ocorrência dos alvos e/ou em anos de carga pendente alta. Após o término do efeito residual, se houver reincidência, fazer aplicação foliar com outro inseticida recomendado. Realizar no máximo 1 (uma) aplicação por safra da cultura.",
+   "fonte_pagina": 4,
+   "fonte_trecho": "CAFÉ | Bicho-mineiro-do-cafeeiro | Leucoptera coffeella | 2,0 a 3,0 L/ha (dose compartilhada com Hemileia vastatrix)"
+  },
+  {
+   "cultura": "Café",
+   "praga_nome_comum": "Cigarra-do-cafeeiro",
+   "praga_nome_cientifico": "Quesada gigas",
+   "dose_min": 2.0,
+   "dose_max": 3.0,
+   "dose_unidade": "L/ha",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": "Diluir a dose recomendada por hectare em volume de calda suficiente para aplicação de 50 mL/planta (25 mL em cada lado da planta); o volume total é obtido multiplicando o volume por planta pelo número de plantas por hectare.",
+   "num_max_aplicacoes": 1,
+   "intervalo_aplicacao": null,
+   "carencia_dias": 120,
+   "carencia_texto": null,
+   "epoca_aplicacao": "Realizar 1 (uma) aplicação de PRATICO no solo sob a copa do cafeeiro no período de outubro a dezembro, sempre após as primeiras chuvas. Aplicar a calda em jato contínuo em ambos os lados da planta diretamente no solo sob a copa do cafeeiro, com o solo limpo, livre de palha, folhas e plantas infestantes. Recomenda-se aplicar a maior dose quando ocorrerem condições favoráveis à alta ocorrência dos alvos e/ou em anos de carga pendente alta. Realizar no máximo 1 (uma) aplicação por safra da cultura.",
+   "fonte_pagina": 4,
+   "fonte_trecho": "CAFÉ | Cigarra-do-cafeeiro | Quesada gigas | 2,0 a 3,0 L/ha (dose compartilhada com Hemileia vastatrix)"
+  }
+ ]
+}

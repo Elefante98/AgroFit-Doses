@@ -1,0 +1,24 @@
+{
+ "numero_registro": "3413",
+ "registros": [
+  {
+   "cultura": "Batata",
+   "praga_nome_comum": "Rhizoctoniose",
+   "praga_nome_cientifico": "Rhizoctonia solani",
+   "dose_min": 2.0,
+   "dose_max": 3.0,
+   "dose_unidade": "L/ha",
+   "volume_calda_min": 200,
+   "volume_calda_max": 300,
+   "volume_calda_unidade": "L/ha",
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": 1,
+   "intervalo_aplicacao": null,
+   "carencia_dias": null,
+   "carencia_texto": "Intervalo de Segurança não determinado devido à modalidade de emprego",
+   "epoca_aplicacao": "Efetuar uma aplicação em jato dirigido no sulco de plantio sobre as batatas-sementes, na ocasião do plantio.",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Batata | Rhizoctoniose (Rhizoctonia solani) | 2,0 a 3,0 L de p.c./ha | 1 | Terrestre: 200 a 300 L/ha"
+  }
+ ]
+}

@@ -1,0 +1,80 @@
+{
+  "numero_registro": "3323",
+  "registros": [
+    {
+      "cultura": "Em todas as culturas com ocorrência do alvo biológico",
+      "praga_nome_comum": "Tombamento ou dumping-off",
+      "praga_nome_cientifico": "Rhizoctonia solani",
+      "dose_min": 0.84, "dose_max": 0.84, "dose_unidade": "L/ha",
+      "volume_calda_min": 300, "volume_calda_max": 300, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": null,
+      "intervalo_aplicacao": null,
+      "carencia_dias": null,
+      "carencia_texto": "Não determinado em função da não necessidade de estipular o limite máximo de resíduo (LMR) para este ingrediente ativo.",
+      "epoca_aplicacao": "Uso preventivo",
+      "fonte_pagina": 2,
+      "fonte_trecho": "Rhizoctonia solani (tombamento ou dumping-off) | Dose p.c. (L/ha) 0,84 | Uso preventivo"
+    },
+    {
+      "cultura": "Em todas as culturas com ocorrência do alvo biológico",
+      "praga_nome_comum": "Tombamento ou dumping-off",
+      "praga_nome_cientifico": "Rhizoctonia solani",
+      "dose_min": 0.12, "dose_max": 0.12, "dose_unidade": "L/ha",
+      "volume_calda_min": 300, "volume_calda_max": 300, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": null,
+      "intervalo_aplicacao": null,
+      "carencia_dias": null,
+      "carencia_texto": "Não determinado em função da não necessidade de estipular o limite máximo de resíduo (LMR) para este ingrediente ativo.",
+      "epoca_aplicacao": "Nas culturas com tubérculos como material propagativo: aplicação diretamente sobre os tubérculos nos sulcos de plantio",
+      "fonte_pagina": 2,
+      "fonte_trecho": "Dose 0,12 | Nas culturas que utilizam tubérculos, aplicar diretamente sobre os tubérculos nos sulcos de plantio"
+    },
+    {
+      "cultura": "Em todas as culturas com ocorrência do alvo biológico",
+      "praga_nome_comum": "Tombamento ou dumping-off",
+      "praga_nome_cientifico": "Rhizoctonia solani",
+      "dose_min": 0.42, "dose_max": 0.42, "dose_unidade": "L/ha",
+      "volume_calda_min": 300, "volume_calda_max": 300, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": null,
+      "intervalo_aplicacao": null,
+      "carencia_dias": null,
+      "carencia_texto": "Não determinado em função da não necessidade de estipular o limite máximo de resíduo (LMR) para este ingrediente ativo.",
+      "epoca_aplicacao": "Na amontoa, sobre o camalhão, com boa umidade do solo",
+      "fonte_pagina": 2,
+      "fonte_trecho": "Dose 0,42 | Cobrir os sulcos com solo e aplicar sobre o camalhão. Na amontoa, sobre o camalhão, com boa umidade do solo"
+    },
+    {
+      "cultura": "Em todas as culturas com ocorrência do alvo biológico",
+      "praga_nome_comum": "Tombamento ou dumping-off",
+      "praga_nome_cientifico": "Rhizoctonia solani",
+      "dose_min": 0.36, "dose_max": 0.36, "dose_unidade": "L/100kg sementes",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": null,
+      "intervalo_aplicacao": null,
+      "carencia_dias": null,
+      "carencia_texto": "Não determinado em função da não necessidade de estipular o limite máximo de resíduo (LMR) para este ingrediente ativo.",
+      "epoca_aplicacao": "Nas culturas com sementes como material propagativo: tratamento de sementes, misturar a dosagem ao adubo imediatamente antes da aplicação no sulco de plantio",
+      "fonte_pagina": 2,
+      "fonte_trecho": "Dose 0,36 L/100 kg de sementes | Na semeadura, misturar a dosagem ao adubo, imediatamente antes da aplicação no sulco de plantio"
+    },
+    {
+      "cultura": "Em todas as culturas com ocorrência do alvo biológico",
+      "praga_nome_comum": "Murcha-de-fusarium",
+      "praga_nome_cientifico": "Fusarium oxysporum",
+      "dose_min": 5.6, "dose_max": 5.6, "dose_unidade": "L/ha",
+      "volume_calda_min": 210, "volume_calda_max": 210, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 2,
+      "intervalo_aplicacao": null,
+      "carencia_dias": null,
+      "carencia_texto": "Não determinado em função da não necessidade de estipular o limite máximo de resíduo (LMR) para este ingrediente ativo.",
+      "epoca_aplicacao": "Monitorar a presença de ninfas no campo após as primeiras chuvas. Iniciar a aplicação após a detecção da praga (espumas com ninfas na base das touceiras). Realizar 2 aplicações por ano.",
+      "fonte_pagina": 2,
+      "fonte_trecho": "Fusarium oxysporum (murcha-de-fusarium) | Dose 5,6 L/ha | iniciar aplicação após detecção da praga, realizar 2 aplicações por ano"
+    }
+  ]
+}

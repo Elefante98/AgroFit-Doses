@@ -1,0 +1,43 @@
+{
+ "numero_registro": "3620",
+ "registros": [
+  {
+   "cultura": "Em todas as culturas com ocorrência do alvo biológico",
+   "praga_nome_comum": "Mosca-branca",
+   "praga_nome_cientifico": "Bemisia tabaci",
+   "dose_min": 5,
+   "dose_max": 20,
+   "dose_unidade": "mL/m2",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": null,
+   "intervalo_aplicacao": "14 a 21 dias, em caso de reinfestação",
+   "carencia_dias": null,
+   "carencia_texto": "Não se aplica para o caso de agentes biológicos de controle (organismos vivos).",
+   "epoca_aplicacao": "Aplicar no início da infestação da mosca-branca (Bemisia tabaci) na cultura.",
+   "fonte_pagina": 2,
+   "fonte_trecho": "Mosca-branca (Bemisia tabaci) | 5 - 20 mL/m² (50 - 200 ácaros vivos/m²)"
+  },
+  {
+   "cultura": "Em todas as culturas com ocorrência do alvo biológico",
+   "praga_nome_comum": "Mosca-branca",
+   "praga_nome_cientifico": "Bemisia tabaci",
+   "dose_min": 50,
+   "dose_max": 200,
+   "dose_unidade": "L/ha",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": null,
+   "intervalo_aplicacao": "14 a 21 dias, em caso de reinfestação",
+   "carencia_dias": null,
+   "carencia_texto": "Não se aplica para o caso de agentes biológicos de controle (organismos vivos).",
+   "epoca_aplicacao": "Aplicar no início da infestação da mosca-branca (Bemisia tabaci) na cultura.",
+   "fonte_pagina": 2,
+   "fonte_trecho": "Mosca-branca (Bemisia tabaci) | 50 - 200 L/ha (5x10^5 - 2x10^6 ácaros vivos/ha)"
+  }
+ ]
+}

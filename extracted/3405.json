@@ -1,0 +1,43 @@
+{
+  "numero_registro": "3405",
+  "registros": [
+    {
+      "cultura": "Maçã",
+      "praga_nome_comum": "mariposa oriental",
+      "praga_nome_cientifico": "Grapholita molesta",
+      "dose_min": null,
+      "dose_max": null,
+      "dose_unidade": null,
+      "volume_calda_min": null,
+      "volume_calda_max": null,
+      "volume_calda_unidade": null,
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": null,
+      "intervalo_aplicacao": "Renove a ISCALURE GRAFOLITA a cada 28 dias, removendo o septo vencido e substituindo por um novo.",
+      "carencia_dias": null,
+      "carencia_texto": "Não é necessário se estabelecer intervalo de segurança (feromônio).",
+      "epoca_aplicacao": null,
+      "fonte_pagina": 1,
+      "fonte_trecho": "Na cultura da maçã, use 1 unidade de ISCALURE GRAFOLITA por armadilha para cada 5-7 hectares, no mínimo 2 armadilhas por área monitorada"
+    },
+    {
+      "cultura": "Pêssego",
+      "praga_nome_comum": "mariposa oriental",
+      "praga_nome_cientifico": "Grapholita molesta",
+      "dose_min": null,
+      "dose_max": null,
+      "dose_unidade": null,
+      "volume_calda_min": null,
+      "volume_calda_max": null,
+      "volume_calda_unidade": null,
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": null,
+      "intervalo_aplicacao": "Renove a ISCALURE GRAFOLITA a cada 28 dias, removendo o septo vencido e substituindo por um novo.",
+      "carencia_dias": null,
+      "carencia_texto": "Não é necessário se estabelecer intervalo de segurança (feromônio).",
+      "epoca_aplicacao": null,
+      "fonte_pagina": 1,
+      "fonte_trecho": "Na cultura do pêssego, aplique 1 unidade de ISCALURE GRAFOLITA para cada 5-7 hectares, no mínimo 2 armadilhas por área"
+    }
+  ]
+}

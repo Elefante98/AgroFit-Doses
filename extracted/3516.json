@@ -1,0 +1,24 @@
+{
+  "numero_registro": "3516",
+  "registros": [
+    {
+      "cultura": "Soja",
+      "praga_nome_comum": "Ausente",
+      "praga_nome_cientifico": "Dessecação da Cultura",
+      "dose_min": 1.0,
+      "dose_max": 2.0,
+      "dose_unidade": "L/ha",
+      "volume_calda_min": null,
+      "volume_calda_max": null,
+      "volume_calda_unidade": null,
+      "volume_calda_outros": "Pulverização: Costal: 200L/ha. Barra tratorizado: 200 a 300 L/ha. Aérea: 30 a 40 L/ha",
+      "num_max_aplicacoes": 1,
+      "intervalo_aplicacao": null,
+      "carencia_dias": 7,
+      "carencia_texto": null,
+      "epoca_aplicacao": "Aplicação de dessecação na pré-colheita da cultura de soja quando as plantas estiverem fisiologicamente maduras.",
+      "fonte_pagina": 2,
+      "fonte_trecho": "SOJA | 1,0 – 2,0 L/ha | Aplicação de dessecação na pré-colheita... | Pulverização: Costal 200L/ha; Barra 200-300 L/ha; Aérea 30-40 L/ha"
+    }
+  ]
+}

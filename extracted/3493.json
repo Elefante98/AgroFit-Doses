@@ -1,0 +1,236 @@
+{
+  "numero_registro": "3493",
+  "registros": [
+    {
+      "cultura": "Abacate", "praga_nome_comum": "Tripes-do-cacaueiro", "praga_nome_cientifico": "Selenothrips rubrocinctus",
+      "dose_min": 100, "dose_max": 100, "dose_unidade": "g/100L",
+      "volume_calda_min": 1000, "volume_calda_max": 1000, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 2, "intervalo_aplicacao": "mínimo 14 dias",
+      "carencia_dias": 21, "carencia_texto": null,
+      "epoca_aplicacao": "Aplique no início da infestação e reaplique se necessário, com intervalo mínimo de 14 dias.",
+      "fonte_pagina": 2,
+      "fonte_trecho": "Abacate | Tripes-do-cacaueiro (Selenothrips rubrocinctus) | 100 g/100 L de água | Aplique 1.000 L de calda/ha. | 2"
+    },
+    {
+      "cultura": "Abóbora", "praga_nome_comum": "Tripes", "praga_nome_cientifico": "Thrips palmi",
+      "dose_min": 100, "dose_max": 100, "dose_unidade": "g/100L",
+      "volume_calda_min": 1000, "volume_calda_max": 1000, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 3, "intervalo_aplicacao": "mínimo 7 dias",
+      "carencia_dias": 7, "carencia_texto": null,
+      "epoca_aplicacao": "Aplique no início da infestação e reaplique se necessário, com intervalo mínimo de 7 dias.",
+      "fonte_pagina": 2,
+      "fonte_trecho": "Abóbora | Tripes (Thrips palmi) | 100 g/100 L de água | Aplique 1.000 L de calda/ha. | 3"
+    },
+    {
+      "cultura": "Abobrinha", "praga_nome_comum": "Tripes", "praga_nome_cientifico": "Thrips palmi",
+      "dose_min": 100, "dose_max": 100, "dose_unidade": "g/100L",
+      "volume_calda_min": 1000, "volume_calda_max": 1000, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 3, "intervalo_aplicacao": "mínimo 7 dias",
+      "carencia_dias": 7, "carencia_texto": null,
+      "epoca_aplicacao": "Aplique no início da infestação e reaplique se necessário, com intervalo mínimo de 7 dias.",
+      "fonte_pagina": 2,
+      "fonte_trecho": "Abobrinha | Tripes (Thrips palmi) | 100 g/100 L de água | Aplique 1.000 L de calda/ha. | 3"
+    },
+    {
+      "cultura": "Alface", "praga_nome_comum": "Tripes", "praga_nome_cientifico": "Frankliniella schultzei",
+      "dose_min": 100, "dose_max": 100, "dose_unidade": "g/100L",
+      "volume_calda_min": 500, "volume_calda_max": 500, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": "Adicione açúcar na proporção de 1% (1,0 kg/100 L de calda).",
+      "num_max_aplicacoes": 2, "intervalo_aplicacao": "5 dias após a primeira aplicação",
+      "carencia_dias": 25, "carencia_texto": null,
+      "epoca_aplicacao": "Realize a primeira aplicação após o transplante, logo no início da infestação e reaplique aos 5 dias após a primeira aplicação. Aplique via pulverização foliar em área total, de maneira que a calda de pulverização assegure uma boa penetração e cobertura de todas as partes das plantas.",
+      "fonte_pagina": 2,
+      "fonte_trecho": "Alface | Tripes (Frankliniella schultzei) | 100 g/100 L de água | Aplique 500 L de calda/ha. | 2"
+    },
+    {
+      "cultura": "Alho", "praga_nome_comum": "Tripes", "praga_nome_cientifico": "Thrips tabaci",
+      "dose_min": 1.0, "dose_max": 1.0, "dose_unidade": "kg/ha",
+      "volume_calda_min": 1000, "volume_calda_max": 1000, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": "Adicione açúcar na proporção de 1% (1,0 kg/100 L de calda).",
+      "num_max_aplicacoes": 3, "intervalo_aplicacao": "mínimo 7 dias",
+      "carencia_dias": 7, "carencia_texto": null,
+      "epoca_aplicacao": "Aplique no início da infestação e reaplique se necessário, com intervalo mínimo de 7 dias.",
+      "fonte_pagina": 2,
+      "fonte_trecho": "Alho | Tripes (Thrips tabaci) | 1,0 kg/ha | Aplique 1.000 L de calda/ha. | 3"
+    },
+    {
+      "cultura": "Batata", "praga_nome_comum": "Tripes", "praga_nome_cientifico": "Thrips palmi",
+      "dose_min": 0.6, "dose_max": 1.0, "dose_unidade": "kg/ha",
+      "volume_calda_min": 800, "volume_calda_max": 800, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": "Adicione açúcar na proporção de 1% (1,0 kg/100 L de calda).",
+      "num_max_aplicacoes": 3, "intervalo_aplicacao": "mínimo 5 dias",
+      "carencia_dias": 21, "carencia_texto": null,
+      "epoca_aplicacao": "Aplique no início da infestação e reaplique se necessário, com intervalo mínimo de 5 dias.",
+      "fonte_pagina": 3,
+      "fonte_trecho": "Batata | Tripes (Thrips palmi) | 0,6 a 1,0 kg/ha | Aplique 800 litros de calda/ha. | 3"
+    },
+    {
+      "cultura": "Cacau", "praga_nome_comum": "Tripes-do-cacaueiro", "praga_nome_cientifico": "Selenothrips rubrocinctus",
+      "dose_min": 100, "dose_max": 100, "dose_unidade": "g/100L",
+      "volume_calda_min": 1000, "volume_calda_max": 1000, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 2, "intervalo_aplicacao": "mínimo 14 dias",
+      "carencia_dias": 21, "carencia_texto": null,
+      "epoca_aplicacao": "Aplique no início da infestação e reaplique se necessário, com intervalo mínimo de 14 dias.",
+      "fonte_pagina": 3,
+      "fonte_trecho": "Cacau | Tripes-do-cacaueiro (Selenothrips rubrocinctus) | 100 g/100 L de água | Aplique 1.000 L de calda/ha. | 2"
+    },
+    {
+      "cultura": "Citros", "praga_nome_comum": "Ácaro-da-falsa-ferrugem", "praga_nome_cientifico": "Phyllocoptruta oleivora",
+      "dose_min": 15, "dose_max": 25, "dose_unidade": "g/100L",
+      "volume_calda_min": 2000, "volume_calda_max": 4000, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 2, "intervalo_aplicacao": null,
+      "carencia_dias": 21, "carencia_texto": null,
+      "epoca_aplicacao": "Frutos para consumo in natura: pulverize quando numa visada de lupa forem observados ácaros em 20% dos frutos examinados. Frutos para uso industrial: pulverize quando com uma visada de lupa forem observados ácaros em 30% dos frutos examinados.",
+      "fonte_pagina": 3,
+      "fonte_trecho": "Citros | Ácaro-da-falsa-ferrugem (Phyllocoptruta oleivora) | 15 a 25 g/100 L de água | Aplique 2.000 a 4.000 L de calda/ha. | 2"
+    },
+    {
+      "cultura": "Citros", "praga_nome_comum": "Psilídeo", "praga_nome_cientifico": "Diaphorina citri",
+      "dose_min": 15, "dose_max": 20, "dose_unidade": "g/100L",
+      "volume_calda_min": 2, "volume_calda_max": 2, "volume_calda_unidade": "L/planta",
+      "volume_calda_outros": "Aplique 2 litros de calda por planta com 2 m de altura; para plantas maiores, ajuste o volume de calda.",
+      "num_max_aplicacoes": null, "intervalo_aplicacao": "mínimo 7 dias",
+      "carencia_dias": 21, "carencia_texto": null,
+      "epoca_aplicacao": "Inicie a aplicação logo quando for constatada a presença da praga no pomar. Reaplique quando houver reinfestação, a intervalo mínimo de 7 dias.",
+      "fonte_pagina": 3,
+      "fonte_trecho": "Citros | Psilídeo (Diaphorina citri) | 15 a 20 g/100 L de água | Aplique 2 litros de calda por planta com 2 m de altura. | -"
+    },
+    {
+      "cultura": "Cebola", "praga_nome_comum": "Tripes", "praga_nome_cientifico": "Thrips tabaci",
+      "dose_min": 1.0, "dose_max": 1.0, "dose_unidade": "kg/ha",
+      "volume_calda_min": 1000, "volume_calda_max": 1000, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": "Adicione açúcar na proporção de 1% (1,0 kg/100 L de calda).",
+      "num_max_aplicacoes": 3, "intervalo_aplicacao": "mínimo 7 dias",
+      "carencia_dias": 7, "carencia_texto": null,
+      "epoca_aplicacao": "Aplique no início da infestação e reaplique se necessário, com intervalo mínimo de 7 dias.",
+      "fonte_pagina": 3,
+      "fonte_trecho": "Cebola | Tripes (Thrips tabaci) | 1,0 kg/ha | Aplique 1.000 L de calda/ha. | 3"
+    },
+    {
+      "cultura": "Plantas Ornamentais", "praga_nome_comum": "Tripes", "praga_nome_cientifico": "Thrips palmi",
+      "dose_min": 150, "dose_max": 150, "dose_unidade": "g/100L",
+      "volume_calda_min": 900, "volume_calda_max": 900, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": null, "intervalo_aplicacao": null,
+      "carencia_dias": null, "carencia_texto": "Uso Não Alimentar (U.N.A)",
+      "epoca_aplicacao": "Aplique no início da infestação e reaplique se necessário.",
+      "fonte_pagina": 3,
+      "fonte_trecho": "Plantas Ornamentais | Tripes (Thrips palmi) | 150 g/100 L de água | Utilize 900 L de calda/ha. | -"
+    },
+    {
+      "cultura": "Feijão", "praga_nome_comum": "Tripes", "praga_nome_cientifico": "Thrips palmi",
+      "dose_min": 0.6, "dose_max": 1.0, "dose_unidade": "kg/ha",
+      "volume_calda_min": 400, "volume_calda_max": 400, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": "Adicione açúcar na proporção de 1% (1,0 kg/100 L de calda).",
+      "num_max_aplicacoes": 3, "intervalo_aplicacao": "mínimo 7 dias",
+      "carencia_dias": 21, "carencia_texto": null,
+      "epoca_aplicacao": "Aplique no início da infestação e reaplique se necessário, com intervalo mínimo de 7 dias.",
+      "fonte_pagina": 3,
+      "fonte_trecho": "Feijão | Tripes (Thrips palmi) | 0,6 a 1,0 kg/ha | Aplique 400 litros de calda/ha. | 3"
+    },
+    {
+      "cultura": "Mamão", "praga_nome_comum": "Tripes", "praga_nome_cientifico": "Thrips palmi; Thrips tabaci",
+      "dose_min": 100, "dose_max": 100, "dose_unidade": "g/100L",
+      "volume_calda_min": 500, "volume_calda_max": 500, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 4, "intervalo_aplicacao": "14 dias entre aplicações",
+      "carencia_dias": 21, "carencia_texto": null,
+      "epoca_aplicacao": "Aplique no início da infestação e reaplique se necessário, a intervalos de 14 dias entre aplicações.",
+      "fonte_pagina": 4,
+      "fonte_trecho": "Mamão | Tripes (Thrips palmi) (Thrips tabaci) | 100 g/100 L de água | Aplique 500 L de calda/ha. | 4"
+    },
+    {
+      "cultura": "Manga", "praga_nome_comum": "Tripes-do-cacaueiro", "praga_nome_cientifico": "Selenothrips rubrocinctus",
+      "dose_min": 50, "dose_max": 125, "dose_unidade": "g/100L",
+      "volume_calda_min": 800, "volume_calda_max": 1000, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": "Adicione açúcar na proporção de 1% (1,0 kg/100 L de calda), e um espalhante-adesivo não iônico, na dose recomendada em bula.",
+      "num_max_aplicacoes": 2, "intervalo_aplicacao": "mínimo 7 dias entre as aplicações",
+      "carencia_dias": 80, "carencia_texto": null,
+      "epoca_aplicacao": "Aplique via pulverização foliar, a partir do início da floração e até a fase de chumbinho, quando em 10% das panículas e/ou frutos forem encontrados 10 ou mais tripes, fazendo-se a batedura de 4 panículas novas por planta (uma por quadrante), para contagem dos tripes. Reaplique se necessário, com intervalo mínimo de 7 dias entre as aplicações. Faça alternância com outros produtos recomendados para a praga e cultura.",
+      "fonte_pagina": 4,
+      "fonte_trecho": "Manga | Tripes-do-cacaueiro (Selenothrips rubrocinctus) | 50 a 125 g/100 L de água | Aplique 800 a 1.000 L de calda/ha. | 2"
+    },
+    {
+      "cultura": "Melancia", "praga_nome_comum": "Tripes", "praga_nome_cientifico": "Thrips palmi",
+      "dose_min": 125, "dose_max": 125, "dose_unidade": "g/100L",
+      "volume_calda_min": 1000, "volume_calda_max": 1000, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": "Adicione açúcar na proporção de 1% (1,0 kg/100 L de calda).",
+      "num_max_aplicacoes": 3, "intervalo_aplicacao": "mínimo 7 dias",
+      "carencia_dias": 7, "carencia_texto": null,
+      "epoca_aplicacao": "Aplique no início da infestação e reaplique se necessário, com intervalo mínimo de 7 dias.",
+      "fonte_pagina": 4,
+      "fonte_trecho": "Melancia | Tripes (Thrips palmi) | 125 g/100 L de água | Aplique 1.000 litros de calda/ha. | 3"
+    },
+    {
+      "cultura": "Melão", "praga_nome_comum": "Tripes", "praga_nome_cientifico": "Thrips palmi",
+      "dose_min": 75, "dose_max": 150, "dose_unidade": "g/100L",
+      "volume_calda_min": 500, "volume_calda_max": 500, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 3, "intervalo_aplicacao": "mínimo 7 dias",
+      "carencia_dias": 7, "carencia_texto": null,
+      "epoca_aplicacao": "Aplique no início da infestação e reaplique se necessário, com intervalo mínimo de 7 dias.",
+      "fonte_pagina": 4,
+      "fonte_trecho": "Melão | Tripes (Thrips palmi) | 75-150 g/100 L de água | Aplique 500 L de calda/ha. | 3"
+    },
+    {
+      "cultura": "Maracujá", "praga_nome_comum": "Tripes", "praga_nome_cientifico": "Thrips palmi; Thrips tabaci",
+      "dose_min": 100, "dose_max": 100, "dose_unidade": "g/100L",
+      "volume_calda_min": 500, "volume_calda_max": 500, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 4, "intervalo_aplicacao": "mínimos 14 dias",
+      "carencia_dias": 21, "carencia_texto": null,
+      "epoca_aplicacao": "Aplique no início da infestação e reaplique se necessário, a intervalos mínimos de 14 dias.",
+      "fonte_pagina": 4,
+      "fonte_trecho": "Maracujá | Tripes (Thrips palmi) (Thrips tabaci) | 100 g/100 L de água | Aplique 500 L de calda/ha. | 4"
+    },
+    {
+      "cultura": "Pepino", "praga_nome_comum": "Tripes", "praga_nome_cientifico": "Thrips palmi",
+      "dose_min": 100, "dose_max": 100, "dose_unidade": "g/100L",
+      "volume_calda_min": 1000, "volume_calda_max": 1000, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 3, "intervalo_aplicacao": "mínimo 7 dias",
+      "carencia_dias": 7, "carencia_texto": null,
+      "epoca_aplicacao": "Aplique no início da infestação e reaplique se necessário, com intervalo mínimo de 7 dias.",
+      "fonte_pagina": 4,
+      "fonte_trecho": "Pepino | Tripes (Thrips palmi) | 100 g/100 L de água | Aplique 1.000 L de calda/ha. | 3"
+    },
+    {
+      "cultura": "Pimentão", "praga_nome_comum": "Tripes", "praga_nome_cientifico": "Thrips palmi",
+      "dose_min": 100, "dose_max": 100, "dose_unidade": "g/100L",
+      "volume_calda_min": 1000, "volume_calda_max": 1000, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": "Adicione açúcar na proporção de 1% (1,0 kg/100 L de calda).",
+      "num_max_aplicacoes": 3, "intervalo_aplicacao": "mínimo 7 dias",
+      "carencia_dias": 3, "carencia_texto": null,
+      "epoca_aplicacao": "Aplique no início da infestação e reaplique se necessário, com intervalo mínimo de 7 dias. Intervalo de segurança: 3 dias.",
+      "fonte_pagina": 4,
+      "fonte_trecho": "Pimentão | Tripes (Thrips palmi) | 100 g/100 L de água | Aplique 1.000 litros de calda/ha. | 3"
+    },
+    {
+      "cultura": "Tomate", "praga_nome_comum": "Ácaro rajado", "praga_nome_cientifico": "Tetranychus urticae",
+      "dose_min": 100, "dose_max": 100, "dose_unidade": "g/100L",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": "Utilizar volume de calda adequado ao estádio fenológico e área foliar, visando boa cobertura foliar da cultura.",
+      "num_max_aplicacoes": 3, "intervalo_aplicacao": "mínimo 7 dias",
+      "carencia_dias": 7, "carencia_texto": null,
+      "epoca_aplicacao": "Aplique no início da infestação e reaplique se necessário, com intervalo mínimo de 7 dias.",
+      "fonte_pagina": 5,
+      "fonte_trecho": "Tomate | Ácaro rajado (Tetranychus urticae) | 100 g/ 100 L de água | ** | 3"
+    },
+    {
+      "cultura": "Tomate", "praga_nome_comum": "Tripes", "praga_nome_cientifico": "Thrips palmi; Frankliniella schultzei",
+      "dose_min": 100, "dose_max": 100, "dose_unidade": "g/100L",
+      "volume_calda_min": 1000, "volume_calda_max": 1000, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 3, "intervalo_aplicacao": "mínimo 7 dias",
+      "carencia_dias": 7, "carencia_texto": null,
+      "epoca_aplicacao": "Aplique no início da infestação e reaplique se necessário, com intervalo mínimo de 7 dias.",
+      "fonte_pagina": 5,
+      "fonte_trecho": "Tomate | Tripes (Thrips palmi) (Frankliniella schultzei) | 100 g/ 100 L de água | Aplique 1.000 L de calda/ha. | 3"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "numero_registro": "3421",
+  "registros": [
+    {
+      "cultura": "Em todas as culturas com ocorrência do alvo biológico",
+      "praga_nome_comum": "Cigarrinha-da-raiz",
+      "praga_nome_cientifico": "Mahanarva fimbriolata",
+      "dose_min": 0.5,
+      "dose_max": 0.5,
+      "dose_unidade": "kg/ha",
+      "volume_calda_min": null,
+      "volume_calda_max": null,
+      "volume_calda_unidade": null,
+      "volume_calda_outros": "Preparo da calda: utilizar 200 litros de calda por hectare.",
+      "num_max_aplicacoes": 2,
+      "intervalo_aplicacao": null,
+      "carencia_dias": null,
+      "carencia_texto": "Não determinado em função da não necessidade de estipular o limite máximo de resíduo (LMR) para este ingrediente ativo.",
+      "epoca_aplicacao": "Iniciar a aplicação após a detecção da praga (espumas com ninfas na base das touceiras). Monitorar a presença de ninfas no campo após as primeiras chuvas. Realizar duas aplicações por ciclo da cultura.",
+      "fonte_pagina": 2,
+      "fonte_trecho": "Mahanarva fimbriolata (cigarrinha-da-raiz) | 0,5 kg/ha Realizar duas aplicações por ciclo da cultura"
+    },
+    {
+      "cultura": "Em todas as culturas com ocorrência do alvo biológico",
+      "praga_nome_comum": "Cigarrinha-das-pastagens",
+      "praga_nome_cientifico": "Zulia entreriana",
+      "dose_min": 0.5,
+      "dose_max": 0.5,
+      "dose_unidade": "kg/ha",
+      "volume_calda_min": null,
+      "volume_calda_max": null,
+      "volume_calda_unidade": null,
+      "volume_calda_outros": "Preparo da calda: utilizar 200 litros de calda por hectare.",
+      "num_max_aplicacoes": 2,
+      "intervalo_aplicacao": null,
+      "carencia_dias": null,
+      "carencia_texto": "Não determinado em função da não necessidade de estipular o limite máximo de resíduo (LMR) para este ingrediente ativo.",
+      "epoca_aplicacao": "Iniciar a aplicação após a detecção da praga (espumas com ninfas na base das touceiras). Monitorar a presença de ninfas no campo após as primeiras chuvas. Realizar duas aplicações por ano.",
+      "fonte_pagina": 2,
+      "fonte_trecho": "Zulia entreriana (cigarrinha-das-pastagens) | 0,5 kg/ha Realizar duas aplicações por ano"
+    },
+    {
+      "cultura": "Em todas as culturas com ocorrência do alvo biológico",
+      "praga_nome_comum": "Cigarrinha-das-pastagens; cigarrinha-dos-capinzais",
+      "praga_nome_cientifico": "Deois flavopicta",
+      "dose_min": 8.0,
+      "dose_max": 8.0,
+      "dose_unidade": "kg/ha",
+      "volume_calda_min": 300,
+      "volume_calda_max": 300,
+      "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": null,
+      "intervalo_aplicacao": null,
+      "carencia_dias": null,
+      "carencia_texto": "Não determinado em função da não necessidade de estipular o limite máximo de resíduo (LMR) para este ingrediente ativo.",
+      "epoca_aplicacao": "Fazer a aplicação utilizando volume de calda de 300 l/ha.",
+      "fonte_pagina": 2,
+      "fonte_trecho": "Deois flavopicta (cigarrinha-das-pastagens; cigarrinha-dos-capinzais) | 8,0 kg/ha | Fazer a aplicação utilizando volume de calda de 300 l/ha"
+    }
+  ]
+}

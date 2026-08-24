@@ -1,0 +1,62 @@
+{
+ "numero_registro": "3606",
+ "registros": [
+  {
+   "cultura": "Cebola",
+   "praga_nome_comum": "Mancha-púrpura",
+   "praga_nome_cientifico": "Alternaria porri",
+   "dose_min": 240,
+   "dose_max": 280,
+   "dose_unidade": "g/100L",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": "Melão e cebola: 500 a 1.000 L de calda/ha dependendo do estádio de desenvolvimento das plantas.",
+   "num_max_aplicacoes": 2,
+   "intervalo_aplicacao": "7 dias",
+   "carencia_dias": 7,
+   "carencia_texto": null,
+   "epoca_aplicacao": "O produto deve ser aplicado preventivamente. Utilizar as doses mais baixas em condições menos favoráveis ao desenvolvimento da doença e doses mais altas em condições mais favoráveis. Realizar no máximo 2 aplicações por ciclo da cultura, com intervalo de 7 dias, reaplicando conforme necessário e considerando a lavagem do produto por chuvas fortes.",
+   "fonte_pagina": 2,
+   "fonte_trecho": "Cebola | Mancha-púrpura (Alternaria porri) | 240 a 280 g/100 L de água"
+  },
+  {
+   "cultura": "Citros",
+   "praga_nome_comum": "Melanose",
+   "praga_nome_cientifico": "Diaporthe citri",
+   "dose_min": 240,
+   "dose_max": 300,
+   "dose_unidade": "g/100L",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": "Citros: 2.000 L de calda/ha.",
+   "num_max_aplicacoes": 2,
+   "intervalo_aplicacao": "14 dias",
+   "carencia_dias": 7,
+   "carencia_texto": null,
+   "epoca_aplicacao": "O produto deve ser aplicado preventivamente, priorizando o florescimento e a brotação (tecidos tenros mais suscetíveis à melanose). Utilizar as doses mais baixas em condições menos favoráveis e doses mais altas em condições mais favoráveis ao desenvolvimento da doença. Realizar no máximo 2 aplicações por ciclo da cultura, com intervalo de 14 dias.",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Citros | Melanose (Diaporthe citri) | 240 a 300 g/100 L de água"
+  },
+  {
+   "cultura": "Melão",
+   "praga_nome_comum": "Antracnose",
+   "praga_nome_cientifico": "Colletotrichum orbiculare",
+   "dose_min": 220,
+   "dose_max": 250,
+   "dose_unidade": "g/100L",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": "Melão e cebola: 500 a 1.000 L de calda/ha dependendo do estádio de desenvolvimento das plantas.",
+   "num_max_aplicacoes": 2,
+   "intervalo_aplicacao": "7 dias",
+   "carencia_dias": 1,
+   "carencia_texto": null,
+   "epoca_aplicacao": "O produto deve ser aplicado preventivamente. Utilizar as doses mais baixas em condições menos favoráveis e doses mais altas em condições mais favoráveis ao desenvolvimento da doença. Realizar no máximo 2 aplicações por ciclo da cultura, com intervalo de 7 dias.",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Melão | Antracnose (Colletotrichum orbiculare) | 220 a 250 g/100 L de água"
+  }
+ ]
+}
