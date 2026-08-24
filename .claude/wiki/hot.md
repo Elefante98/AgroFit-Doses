@@ -1,18 +1,18 @@
 # hot.md — estado atual (AgroFit Doses)
 
-> Atualizado: 2026-08-24 (sessão agendada de extração em massa — ondas 8-11)
+> Atualizado: 2026-08-24 (sessão agendada de extração em massa — ondas 8-13)
 
 ## Extração em massa — progresso
 
 - Preprocess **v3 re-rodado em todas as bulas** (`pre/*.txt` da v1 apagados):
   3.960 recortes + 39 marcadores `.scan`, 0 erros.
-- **689 bulas extraídas e importadas** (30 do piloto + 659 da massa).
-  Banco: **59.143 registros** — 48.632 `validado`, 9.329 `validado_bula`,
-  1.182 `manual_review` (**2,0%**, meta ≤15% ✅).
-- **Restam 3.271 bulas** (`pre/*.txt` sem `extracted/*.json`).
+- **809 bulas extraídas e importadas** (30 do piloto + 779 da massa).
+  Banco: **70.942 registros** — 58.421 `validado`, 11.253 `validado_bula`,
+  1.268 `manual_review` (**1,8%**, meta ≤15% ✅).
+- **Restam 3.151 bulas** (`pre/*.txt` sem `extracted/*.json`).
 - Ondas fechadas: lote 1 (40), ondas 1-2 (60), ondas 3-4 (120, descendo do maior
   nº de registro), ondas 5-6 (120), onda 7 parcial (36), ondas 8-10 (180) e
-  **onda 11 (60, regs 2807-3223)**, todas subindo do menor nº do backlog.
+  **ondas 11-13 (180, regs 2807-4024)**, todas subindo do menor nº do backlog.
 
 ### Como retomar
 O pipeline deriva estado do disco: pegue os `pre/*.txt` sem `extracted/*.json`,
@@ -21,7 +21,7 @@ ler `extractor/EXTRACAO.md` + `extractor/EXTRACAO_MASSA.md` (regras a-l) e **nã
 rodar `import_db.py` (o coordenador roda uma vez no fim da onda — subagentes rodando
 em paralelo batem em `database is locked`).
 **As ondas 3 e 4 desceram a partir do maior nº de registro (já foram até 419003);
-as demais subiram, chegando ao reg. 3223 (onda 11).** Manter direções separadas evita
+as demais subiram, chegando ao reg. 4024 (onda 13).** Manter direções separadas evita
 colisão se duas sessões rodarem juntas.
 
 ## Contrato endurecido — `extractor/EXTRACAO_MASSA.md`

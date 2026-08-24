@@ -1,0 +1,24 @@
+{
+ "numero_registro": "3901",
+ "registros": [
+  {
+   "cultura": "Qualquer cultura em que ocorra o alvo biológico indicado",
+   "praga_nome_comum": "Mosca-das-frutas; Mosca-do-mediterrâneo",
+   "praga_nome_cientifico": "Ceratitis capitata",
+   "dose_min": null,
+   "dose_max": null,
+   "dose_unidade": null,
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": null,
+   "intervalo_aplicacao": "Trocar o feromônio (sachê) e o piso adesivo da armadilha a cada 6 semanas.",
+   "carencia_dias": null,
+   "carencia_texto": "Não pertinente.",
+   "epoca_aplicacao": "Monitoramento: manter as armadilhas ao longo de todo o ano (regiões quentes) ou durante Primavera, Verão e Outono (regiões frias).",
+   "fonte_pagina": 2,
+   "fonte_trecho": "Qualquer cultura em que ocorra o alvo biológico indicado | Ceratitis capitata | Para monitoramento em áreas regulares utilizar 1 armadilha para cada 3 hectares. Em áreas irregulares usar 1 armadilha para cada hectare."
+  }
+ ]
+}

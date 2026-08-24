@@ -1,0 +1,310 @@
+{
+ "numero_registro": "3994",
+ "registros": [
+  {
+   "cultura": "Alface", "praga_nome_comum": "Podridão-de-Sclerotinia", "praga_nome_cientifico": "Sclerotinia sclerotiorum",
+   "dose_min": 100, "dose_max": 150, "dose_unidade": "g/100L",
+   "volume_calda_min": 1000, "volume_calda_max": 1000, "volume_calda_unidade": "L/ha", "volume_calda_outros": null,
+   "num_max_aplicacoes": 3, "intervalo_aplicacao": "7 dias",
+   "carencia_dias": 3, "carencia_texto": null,
+   "epoca_aplicacao": "Iniciar as aplicações 7 dias após o transplantio, repetindo-se a cada 7 dias, fazendo no máximo 3 aplicações.",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Alface | Podridão-de-Sclerotinia (Sclerotinia sclerotiorum) | 100 - 150 g/100 L de água | 1.000 L/ha | - | 3"
+  },
+  {
+   "cultura": "Alface", "praga_nome_comum": "Podridão-de-Sclerotinia", "praga_nome_cientifico": "Sclerotinia sclerotiorum",
+   "dose_min": 1.0, "dose_max": 1.5, "dose_unidade": "kg/ha",
+   "volume_calda_min": 1000, "volume_calda_max": 1000, "volume_calda_unidade": "L/ha", "volume_calda_outros": null,
+   "num_max_aplicacoes": 3, "intervalo_aplicacao": "7 dias",
+   "carencia_dias": 3, "carencia_texto": null,
+   "epoca_aplicacao": "Iniciar as aplicações 7 dias após o transplantio, repetindo-se a cada 7 dias, fazendo no máximo 3 aplicações.",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Alface | Podridão-de-Sclerotinia (Sclerotinia sclerotiorum) | ou 1,0 - 1,5 kg/ha | 1.000 L/ha | - | 3"
+  },
+  {
+   "cultura": "Algodão", "praga_nome_comum": "Mofo-branco", "praga_nome_cientifico": "Sclerotinia sclerotiorum",
+   "dose_min": 1.5, "dose_max": 2.0, "dose_unidade": "kg/ha",
+   "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+   "volume_calda_outros": "Terrestre: 200 a 300 L/ha; Aéreo: 20 a 40 L/ha.",
+   "num_max_aplicacoes": 3, "intervalo_aplicacao": "10 dias",
+   "carencia_dias": 30, "carencia_texto": null,
+   "epoca_aplicacao": "Aplicação foliar: fazer aplicações preventivamente, assim que surgirem as primeiras flores no 5º ramo (estádio fenológico F5). Realizar no máximo três aplicações, rotacionando-se com outros fungicidas de diferentes grupos químicos. Aplicar dose maior em área com histórico de alta infecção da doença e condições propícias ao desenvolvimento do fungo.",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Algodão | Mofo-branco (Sclerotinia sclerotiorum) | 1,5 - 2,0 kg/ha | 200 a 300 L/ha | 20 a 40 L/ha | 3"
+  },
+  {
+   "cultura": "Alho", "praga_nome_comum": "Podridão-branca", "praga_nome_cientifico": "Sclerotium cepivorum",
+   "dose_min": 200, "dose_max": 200, "dose_unidade": "g/100kg bulbilhos",
+   "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null, "volume_calda_outros": null,
+   "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+   "carencia_dias": null, "carencia_texto": "Intervalo de segurança não determinado devido à modalidade de emprego.",
+   "epoca_aplicacao": "Tratar os bulbilhos antes do plantio, umedecendo-os para maior aderência do produto. Fazer apenas 1 aplicação.",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Alho | Podridão-branca (Sclerotium cepivorum) | 200 g/100 kg de bulbilhos | - | - | 1"
+  },
+  {
+   "cultura": "Batata", "praga_nome_comum": "Pinta-preta", "praga_nome_cientifico": "Alternaria solani",
+   "dose_min": 75, "dose_max": 150, "dose_unidade": "g/100L",
+   "volume_calda_min": 1000, "volume_calda_max": 1000, "volume_calda_unidade": "L/ha", "volume_calda_outros": null,
+   "num_max_aplicacoes": 2, "intervalo_aplicacao": "7 dias",
+   "carencia_dias": 7, "carencia_texto": null,
+   "epoca_aplicacao": "Aplicação foliar: deverá ser feita até duas aplicações logo aos primeiros sintomas do aparecimento das doenças, com intervalo de 7 dias.",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Batata | Pinta-preta (Alternaria solani) | 75 - 150 g/100 L de água | 1.000 L/ha | - | 2"
+  },
+  {
+   "cultura": "Batata", "praga_nome_comum": "Pinta-preta", "praga_nome_cientifico": "Alternaria solani",
+   "dose_min": 0.5, "dose_max": 1.0, "dose_unidade": "kg/ha",
+   "volume_calda_min": 1000, "volume_calda_max": 1000, "volume_calda_unidade": "L/ha", "volume_calda_outros": null,
+   "num_max_aplicacoes": 2, "intervalo_aplicacao": "7 dias",
+   "carencia_dias": 7, "carencia_texto": null,
+   "epoca_aplicacao": "Aplicação foliar: deverá ser feita até duas aplicações logo aos primeiros sintomas do aparecimento das doenças, com intervalo de 7 dias.",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Batata | Pinta-preta (Alternaria solani) | ou 0,5 - 1,0 kg/ha | 1.000 L/ha | - | 2"
+  },
+  {
+   "cultura": "Batata", "praga_nome_comum": "Mofo-branco", "praga_nome_cientifico": "Sclerotinia sclerotiorum",
+   "dose_min": 1.0, "dose_max": 1.5, "dose_unidade": "kg/ha",
+   "volume_calda_min": 1000, "volume_calda_max": 1000, "volume_calda_unidade": "L/ha", "volume_calda_outros": null,
+   "num_max_aplicacoes": 2, "intervalo_aplicacao": "7 dias",
+   "carencia_dias": 7, "carencia_texto": null,
+   "epoca_aplicacao": "Aplicação foliar, com intervalo de 7 dias. Considerando-se que o mofo-branco é um fungo presente no solo, dar cobertura uniforme em todas as partes aéreas das plantas, dirigindo o jato de pulverização para a região do colo das plantas.",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Batata | Mofo-branco (Sclerotinia sclerotiorum) | 1,0 - 1,5 kg/ha | 1.000 L/ha | - | 2"
+  },
+  {
+   "cultura": "Batata", "praga_nome_comum": "Mofo-branco", "praga_nome_cientifico": "Sclerotinia sclerotiorum",
+   "dose_min": 2.0, "dose_max": 2.0, "dose_unidade": "kg/ha",
+   "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+   "volume_calda_outros": "Aplicação via 'Pivot Central' junto com a água de irrigação (sem volume de calda definido).",
+   "num_max_aplicacoes": null, "intervalo_aplicacao": null,
+   "carencia_dias": null, "carencia_texto": "Não especificado para aplicação via Pivot Central",
+   "epoca_aplicacao": "Pode-se fazer a aplicação na dose de 2,0 kg/ha via 'Pivot Central' junto com a água de irrigação.",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Batata | Mofo-branco (Sclerotinia sclerotiorum) | e/ou 2 kg/ha - via \"Pivot central\" | 1.000 L/ha | - | 2"
+  },
+  {
+   "cultura": "Batata", "praga_nome_comum": "Rhizoctoniose", "praga_nome_cientifico": "Rhizoctonia solani",
+   "dose_min": 2.0, "dose_max": 3.0, "dose_unidade": "kg/ha",
+   "volume_calda_min": 300, "volume_calda_max": 600, "volume_calda_unidade": "L/ha", "volume_calda_outros": null,
+   "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+   "carencia_dias": 100, "carencia_texto": null,
+   "epoca_aplicacao": "Aplicação no sulco de plantio, em uma única aplicação, sobre a batata-semente.",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Batata | Rhizoctoniose (Rhizoctonia solani) | 2,0 - 3,0 kg/ha no sulco de plantio | 300 a 600 L/ha | - | 1"
+  },
+  {
+   "cultura": "Batata", "praga_nome_comum": "Rhizoctoniose", "praga_nome_cientifico": "Rhizoctonia solani",
+   "dose_min": 1.5, "dose_max": 1.5, "dose_unidade": "kg/ha",
+   "volume_calda_min": 300, "volume_calda_max": 600, "volume_calda_unidade": "L/ha", "volume_calda_outros": null,
+   "num_max_aplicacoes": 2, "intervalo_aplicacao": null,
+   "carencia_dias": 100, "carencia_texto": null,
+   "epoca_aplicacao": "Aplicação parcelada no sulco de plantio: 1ª aplicação no sulco de plantio sobre a batata-semente (1,5 kg/ha); 2ª aplicação antes da amontoa (1,5 kg/ha).",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Batata | Rhizoctoniose (Rhizoctonia solani) | ou 1,5 kg/ha no sulco de plantio + 1,5 kg/ha - antes da amontoa | 300 a 600 L/ha | - | 1"
+  },
+  {
+   "cultura": "Cebola", "praga_nome_comum": "Mancha-púrpura", "praga_nome_cientifico": "Alternaria porri",
+   "dose_min": 100, "dose_max": 150, "dose_unidade": "g/100L",
+   "volume_calda_min": 1000, "volume_calda_max": 1000, "volume_calda_unidade": "L/ha", "volume_calda_outros": null,
+   "num_max_aplicacoes": 3, "intervalo_aplicacao": "7 dias",
+   "carencia_dias": 3, "carencia_texto": null,
+   "epoca_aplicacao": "Os tratamentos deverão ser iniciados logo aos primeiros sintomas do aparecimento das doenças, prosseguindo-se as pulverizações com intervalos de 7 dias, conforme a necessidade. Realizar no máximo 3 aplicações.",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Cebola | Mancha-púrpura (Alternaria porri) | 100 - 150 g/100 L de água | 1.000 L/ha | - | 3"
+  },
+  {
+   "cultura": "Cebola", "praga_nome_comum": "Mancha-púrpura", "praga_nome_cientifico": "Alternaria porri",
+   "dose_min": 1.0, "dose_max": 1.5, "dose_unidade": "kg/ha",
+   "volume_calda_min": 1000, "volume_calda_max": 1000, "volume_calda_unidade": "L/ha", "volume_calda_outros": null,
+   "num_max_aplicacoes": 3, "intervalo_aplicacao": "7 dias",
+   "carencia_dias": 3, "carencia_texto": null,
+   "epoca_aplicacao": "Os tratamentos deverão ser iniciados logo aos primeiros sintomas do aparecimento das doenças, prosseguindo-se as pulverizações com intervalos de 7 dias, conforme a necessidade. Realizar no máximo 3 aplicações.",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Cebola | Mancha-púrpura (Alternaria porri) | ou 1,0 - 1,5 kg/ha | 1.000 L/ha | - | 3"
+  },
+  {
+   "cultura": "Cebola", "praga_nome_comum": "Queima-das-pontas", "praga_nome_cientifico": "Botrytis cinerea",
+   "dose_min": 100, "dose_max": 150, "dose_unidade": "g/100L",
+   "volume_calda_min": 1000, "volume_calda_max": 1000, "volume_calda_unidade": "L/ha", "volume_calda_outros": null,
+   "num_max_aplicacoes": 3, "intervalo_aplicacao": "7 dias",
+   "carencia_dias": 3, "carencia_texto": null,
+   "epoca_aplicacao": "Os tratamentos deverão ser iniciados logo aos primeiros sintomas do aparecimento das doenças, prosseguindo-se as pulverizações com intervalos de 7 dias, conforme a necessidade. Realizar no máximo 3 aplicações.",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Cebola | Queima-das-pontas (Botrytis cinerea) | [dose herdada da linha Mancha-púrpura] 100 - 150 g/100 L de água | 1.000 L/ha | - | 3"
+  },
+  {
+   "cultura": "Cebola", "praga_nome_comum": "Queima-das-pontas", "praga_nome_cientifico": "Botrytis cinerea",
+   "dose_min": 1.0, "dose_max": 1.5, "dose_unidade": "kg/ha",
+   "volume_calda_min": 1000, "volume_calda_max": 1000, "volume_calda_unidade": "L/ha", "volume_calda_outros": null,
+   "num_max_aplicacoes": 3, "intervalo_aplicacao": "7 dias",
+   "carencia_dias": 3, "carencia_texto": null,
+   "epoca_aplicacao": "Os tratamentos deverão ser iniciados logo aos primeiros sintomas do aparecimento das doenças, prosseguindo-se as pulverizações com intervalos de 7 dias, conforme a necessidade. Realizar no máximo 3 aplicações.",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Cebola | Queima-das-pontas (Botrytis cinerea) | [dose herdada da linha Mancha-púrpura] ou 1,0 - 1,5 kg/ha | 1.000 L/ha | - | 3"
+  },
+  {
+   "cultura": "Cenoura", "praga_nome_comum": "Queima-das-folhas", "praga_nome_cientifico": "Alternaria dauci",
+   "dose_min": 100, "dose_max": 150, "dose_unidade": "g/100L",
+   "volume_calda_min": 800, "volume_calda_max": 800, "volume_calda_unidade": "L/ha", "volume_calda_outros": null,
+   "num_max_aplicacoes": 3, "intervalo_aplicacao": "7 dias",
+   "carencia_dias": 7, "carencia_texto": null,
+   "epoca_aplicacao": "Os tratamentos deverão ser iniciados logo aos primeiros sintomas do aparecimento das doenças, prosseguindo-se as pulverizações com intervalos de 7 dias, conforme a necessidade. Realizar no máximo 3 aplicações.",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Cenoura | Queima-das-folhas (Alternaria dauci) | 100 - 150 g/100 L de água | 800 L/ha | - | 3"
+  },
+  {
+   "cultura": "Cenoura", "praga_nome_comum": "Queima-das-folhas", "praga_nome_cientifico": "Alternaria dauci",
+   "dose_min": 0.8, "dose_max": 1.2, "dose_unidade": "kg/ha",
+   "volume_calda_min": 800, "volume_calda_max": 800, "volume_calda_unidade": "L/ha", "volume_calda_outros": null,
+   "num_max_aplicacoes": 3, "intervalo_aplicacao": "7 dias",
+   "carencia_dias": 7, "carencia_texto": null,
+   "epoca_aplicacao": "Os tratamentos deverão ser iniciados logo aos primeiros sintomas do aparecimento das doenças, prosseguindo-se as pulverizações com intervalos de 7 dias, conforme a necessidade. Realizar no máximo 3 aplicações.",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Cenoura | Queima-das-folhas (Alternaria dauci) | ou 0,8 - 1,2 kg/ha | 800 L/ha | - | 3"
+  },
+  {
+   "cultura": "Feijão", "praga_nome_comum": "Mofo-branco", "praga_nome_cientifico": "Sclerotinia sclerotiorum",
+   "dose_min": 1.0, "dose_max": 1.5, "dose_unidade": "kg/ha",
+   "volume_calda_min": 1000, "volume_calda_max": 1000, "volume_calda_unidade": "L/ha", "volume_calda_outros": null,
+   "num_max_aplicacoes": 2, "intervalo_aplicacao": "7 dias",
+   "carencia_dias": 14, "carencia_texto": null,
+   "epoca_aplicacao": "Os tratamentos deverão ser iniciados logo aos primeiros sintomas do aparecimento das doenças, prosseguindo-se as pulverizações com intervalos de 7 dias, conforme a necessidade. Realizar no máximo 2 aplicações. Considerando-se que o mofo-branco é um fungo presente no solo, dar cobertura uniforme em todas as partes aéreas das plantas, dirigindo o jato de pulverização para a região do colo das plantas.",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Feijão | Mofo-branco (Sclerotinia sclerotiorum) | 1,0 - 1,5 kg/ha | 1.000 L/ha | - | 2"
+  },
+  {
+   "cultura": "Feijão", "praga_nome_comum": "Mofo-branco", "praga_nome_cientifico": "Sclerotinia sclerotiorum",
+   "dose_min": 2.0, "dose_max": 2.0, "dose_unidade": "kg/ha",
+   "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+   "volume_calda_outros": "Aplicação via 'Pivot Central' junto com a água de irrigação (sem volume de calda definido).",
+   "num_max_aplicacoes": null, "intervalo_aplicacao": null,
+   "carencia_dias": null, "carencia_texto": "Não especificado para aplicação via Pivot Central",
+   "epoca_aplicacao": "Pode-se fazer a aplicação na dose de 2,0 kg/ha via 'Pivot Central' junto com a água de irrigação.",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Feijão | Mofo-branco (Sclerotinia sclerotiorum) | e/ou 2 kg/ha - via \"Pivot central\" | 1.000 L/ha | - | 2"
+  },
+  {
+   "cultura": "Melancia", "praga_nome_comum": "Crestamento-gomoso-do-caule", "praga_nome_cientifico": "Didymella bryoniae",
+   "dose_min": 100, "dose_max": 150, "dose_unidade": "g/100L",
+   "volume_calda_min": 250, "volume_calda_max": 350, "volume_calda_unidade": "L/ha", "volume_calda_outros": null,
+   "num_max_aplicacoes": 3, "intervalo_aplicacao": "7 dias",
+   "carencia_dias": 7, "carencia_texto": null,
+   "epoca_aplicacao": "As aplicações devem ser iniciadas preventivamente ou logo no aparecimento dos primeiros sintomas do cancro-das-hastes e repetidas conforme a necessidade, em intervalo de 7 dias. Fazer no máximo 3 aplicações.",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Melancia | Crestamento-gomoso-do-caule (Didymella bryoniae) | 100 - 150 g/100 L de água | 250 a 350 L/ha | - | 3"
+  },
+  {
+   "cultura": "Melão", "praga_nome_comum": "Crestamento-gomoso-do-caule", "praga_nome_cientifico": "Didymella bryoniae",
+   "dose_min": 100, "dose_max": 150, "dose_unidade": "g/100L",
+   "volume_calda_min": 800, "volume_calda_max": 1000, "volume_calda_unidade": "L/ha", "volume_calda_outros": null,
+   "num_max_aplicacoes": 3, "intervalo_aplicacao": "7 dias",
+   "carencia_dias": 14, "carencia_texto": null,
+   "epoca_aplicacao": "As aplicações devem ser iniciadas preventivamente ou logo no aparecimento dos primeiros sintomas do cancro-das-hastes e repetidas conforme a necessidade, em intervalo de 7 dias. Fazer no máximo 3 aplicações. Em ambiente protegido, aplicar cobrindo toda a área foliar, utilizando 800 - 1000 L/ha de calda.",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Melão | Crestamento-gomoso-do-caule (Didymella bryoniae) | 100 - 150 g/100 L de água | 800 a 1.000 L/ha | - | 3"
+  },
+  {
+   "cultura": "Morango", "praga_nome_comum": "Mofo-cinzento", "praga_nome_cientifico": "Botrytis cinerea",
+   "dose_min": 50, "dose_max": 100, "dose_unidade": "g/100L",
+   "volume_calda_min": 1000, "volume_calda_max": 1000, "volume_calda_unidade": "L/ha", "volume_calda_outros": null,
+   "num_max_aplicacoes": 3, "intervalo_aplicacao": "7 dias",
+   "carencia_dias": 1, "carencia_texto": null,
+   "epoca_aplicacao": "Fazer aplicações semanais, a partir do florescimento, repetindo-se se necessário. Realizar no máximo 3 aplicações.",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Morango | Mofo-cinzento (Botrytis cinerea) | 50 - 100 g/100 L de água | 1.000 L/ha | - | 3"
+  },
+  {
+   "cultura": "Morango", "praga_nome_comum": "Mofo-cinzento", "praga_nome_cientifico": "Botrytis cinerea",
+   "dose_min": 0.5, "dose_max": 1.0, "dose_unidade": "kg/ha",
+   "volume_calda_min": 1000, "volume_calda_max": 1000, "volume_calda_unidade": "L/ha", "volume_calda_outros": null,
+   "num_max_aplicacoes": 3, "intervalo_aplicacao": "7 dias",
+   "carencia_dias": 1, "carencia_texto": null,
+   "epoca_aplicacao": "Fazer aplicações semanais, a partir do florescimento, repetindo-se se necessário. Realizar no máximo 3 aplicações.",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Morango | Mofo-cinzento (Botrytis cinerea) | ou 0,5 - 1,0 kg/ha | 1.000 L/ha | - | 3"
+  },
+  {
+   "cultura": "Rosa", "praga_nome_comum": "Mofo-das-flores", "praga_nome_cientifico": "Botrytis cinerea",
+   "dose_min": 100, "dose_max": 150, "dose_unidade": "g/100L",
+   "volume_calda_min": 500, "volume_calda_max": 1000, "volume_calda_unidade": "L/ha", "volume_calda_outros": null,
+   "num_max_aplicacoes": 2, "intervalo_aplicacao": null,
+   "carencia_dias": null, "carencia_texto": "U.N.A. (Uso Não Alimentar)",
+   "epoca_aplicacao": "Efetuar uma aplicação na fase de \"grão de arroz\" e outra um dia antes da colheita.",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Rosa | Mofo-das-flores (Botrytis cinerea) | 100 - 150 g/100 L de água | 500 a 1.000 L/ha | - | 2"
+  },
+  {
+   "cultura": "Soja", "praga_nome_comum": "Mofo-branco", "praga_nome_cientifico": "Sclerotinia sclerotiorum",
+   "dose_min": 1.0, "dose_max": 1.0, "dose_unidade": "kg/ha",
+   "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+   "volume_calda_outros": "Terrestre: 200 L/ha; Aéreo: 20 a 40 L/ha.",
+   "num_max_aplicacoes": 2, "intervalo_aplicacao": "10 a 12 dias",
+   "carencia_dias": 30, "carencia_texto": null,
+   "epoca_aplicacao": "As aplicações devem ser iniciadas de forma preventiva, ou logo aos primeiros sintomas do aparecimento da doença. Fazer duas aplicações: a primeira no início do florescimento e a segunda de 10 a 12 dias após a primeira, dando cobertura uniforme em todas as partes aéreas das plantas e dirigindo o jato de pulverização para a região do colo das plantas. Recomenda-se intercalar com produtos de modo de ação diferente.",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Soja | Mofo-branco (Sclerotinia sclerotiorum) | 1,0 kg/ha | 200 L/ha | 20 a 40 L/ha | 2"
+  },
+  {
+   "cultura": "Tomate", "praga_nome_comum": "Pinta-preta", "praga_nome_cientifico": "Alternaria solani",
+   "dose_min": 100, "dose_max": 150, "dose_unidade": "g/100L",
+   "volume_calda_min": 1000, "volume_calda_max": 1000, "volume_calda_unidade": "L/ha", "volume_calda_outros": null,
+   "num_max_aplicacoes": 3, "intervalo_aplicacao": "7 dias",
+   "carencia_dias": 3, "carencia_texto": null,
+   "epoca_aplicacao": "Os tratamentos deverão ser iniciados logo aos primeiros sintomas do aparecimento das doenças, prosseguindo-se as pulverizações com intervalos de 7 dias, conforme a necessidade. Realizar no máximo 3 aplicações.",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Tomate | Pinta-preta (Alternaria solani) | 100 - 150 g/100 L de água | 1.000 L/ha | - | 3"
+  },
+  {
+   "cultura": "Tomate", "praga_nome_comum": "Pinta-preta", "praga_nome_cientifico": "Alternaria solani",
+   "dose_min": 1.0, "dose_max": 1.5, "dose_unidade": "kg/ha",
+   "volume_calda_min": 1000, "volume_calda_max": 1000, "volume_calda_unidade": "L/ha", "volume_calda_outros": null,
+   "num_max_aplicacoes": 3, "intervalo_aplicacao": "7 dias",
+   "carencia_dias": 3, "carencia_texto": null,
+   "epoca_aplicacao": "Os tratamentos deverão ser iniciados logo aos primeiros sintomas do aparecimento das doenças, prosseguindo-se as pulverizações com intervalos de 7 dias, conforme a necessidade. Realizar no máximo 3 aplicações.",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Tomate | Pinta-preta (Alternaria solani) | ou 1,0 - 1,5 kg/ha | 1.000 L/ha | - | 3"
+  },
+  {
+   "cultura": "Tomate", "praga_nome_comum": "Podridão", "praga_nome_cientifico": "Sclerotinia sclerotiorum",
+   "dose_min": 1.0, "dose_max": 1.5, "dose_unidade": "kg/ha",
+   "volume_calda_min": 1000, "volume_calda_max": 1000, "volume_calda_unidade": "L/ha", "volume_calda_outros": null,
+   "num_max_aplicacoes": 3, "intervalo_aplicacao": "7 dias",
+   "carencia_dias": 3, "carencia_texto": null,
+   "epoca_aplicacao": "Os tratamentos deverão ser iniciados logo aos primeiros sintomas do aparecimento das doenças, prosseguindo-se as pulverizações com intervalos de 7 dias, conforme a necessidade. Realizar no máximo 3 aplicações.",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Tomate | Podridão (Sclerotinia sclerotiorum) | [dose herdada da linha Pinta-preta] 1,0 - 1,5 kg/ha | 1.000 L/ha | - | 3"
+  },
+  {
+   "cultura": "Tomate", "praga_nome_comum": "Podridão", "praga_nome_cientifico": "Sclerotinia sclerotiorum",
+   "dose_min": 2.0, "dose_max": 2.0, "dose_unidade": "kg/ha",
+   "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+   "volume_calda_outros": "Aplicação via 'Pivot Central' junto com a água de irrigação (cultivo rasteiro; sem volume de calda definido).",
+   "num_max_aplicacoes": null, "intervalo_aplicacao": null,
+   "carencia_dias": null, "carencia_texto": "Não especificado para aplicação via Pivot Central",
+   "epoca_aplicacao": "Para o Tomate rasteiro, pode-se fazer a aplicação na dose de 2,0 kg/ha via 'Pivot Central' junto com a água de irrigação.",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Tomate | Podridão (Sclerotinia sclerotiorum) | e/ou 2 kg/ha - via \"Pivot Central\" | 1.000 L/ha | - | 3"
+  },
+  {
+   "cultura": "Uva", "praga_nome_comum": "Mofo-cinzento", "praga_nome_cientifico": "Botrytis cinerea",
+   "dose_min": 150, "dose_max": 200, "dose_unidade": "g/100L",
+   "volume_calda_min": 1000, "volume_calda_max": 1000, "volume_calda_unidade": "L/ha", "volume_calda_outros": null,
+   "num_max_aplicacoes": 2, "intervalo_aplicacao": null,
+   "carencia_dias": 7, "carencia_texto": null,
+   "epoca_aplicacao": "Fazer as aplicações visando à proteção do cacho. Fazer no máximo duas aplicações na fase de pré-maturação.",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Uva | Mofo-cinzento (Botrytis cinerea) | 150 - 200 g/100 L de água | 1.000 L/ha | - | 2"
+  },
+  {
+   "cultura": "Uva", "praga_nome_comum": "Mofo-cinzento", "praga_nome_cientifico": "Botrytis cinerea",
+   "dose_min": 1.5, "dose_max": 2.0, "dose_unidade": "L/planta",
+   "volume_calda_min": 1000, "volume_calda_max": 1000, "volume_calda_unidade": "L/ha", "volume_calda_outros": null,
+   "num_max_aplicacoes": 2, "intervalo_aplicacao": null,
+   "carencia_dias": 7, "carencia_texto": null,
+   "epoca_aplicacao": "Fazer as aplicações visando à proteção do cacho. Fazer no máximo duas aplicações na fase de pré-maturação.",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Uva | Mofo-cinzento (Botrytis cinerea) | ou 1,5 - 2,0 L/planta | 1.000 L/ha | - | 2"
+  }
+ ]
+}

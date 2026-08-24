@@ -1,0 +1,24 @@
+{
+  "numero_registro": "3919",
+  "registros": [
+    {
+      "cultura": "Em todas as culturas com ocorrência dos alvos biológicos",
+      "praga_nome_comum": "Mofo-branco",
+      "praga_nome_cientifico": "Sclerotinia sclerotiorum",
+      "dose_min": 1,
+      "dose_max": 1,
+      "dose_unidade": "frasco/15 ha",
+      "volume_calda_min": null,
+      "volume_calda_max": null,
+      "volume_calda_unidade": null,
+      "volume_calda_outros": "Pulverizador tratorizado de 600L: Volume de calda de 200L/ha; Pulverizador tratorizado de 2000L: Volume de calda de 200L/ha",
+      "num_max_aplicacoes": 6,
+      "intervalo_aplicacao": "5 a 7 dias",
+      "carencia_dias": null,
+      "carencia_texto": "Intervalo de Segurança não determinado devido a não determinação LMR para esse produto.",
+      "epoca_aplicacao": "1ª aplicação no estágio V1",
+      "fonte_pagina": 2,
+      "fonte_trecho": "Em todas as culturas com ocorrência dos alvos biológicos. (*) | Sclerotinia sclerotiorum (mofo-branco) | 1 frasco/15 ha | 6 aplicações 1ª aplicação no estágio V1 e as demais no intervalo de 5 a 7 dias."
+    }
+  ]
+}

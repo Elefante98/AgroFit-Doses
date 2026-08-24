@@ -1,0 +1,76 @@
+{
+ "numero_registro": "3995",
+ "registros": [
+  {
+   "cultura": "Arroz irrigado", "praga_nome_comum": "Ausente", "praga_nome_cientifico": "Oryza sativa",
+   "dose_min": 10, "dose_max": 10, "dose_unidade": "g/50kg sementes",
+   "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+   "volume_calda_outros": "1,5 L de água / 50 kg de sementes.",
+   "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+   "carencia_dias": null, "carencia_texto": "Não determinado devido à sua ocorrência natural em culturas alimentares.",
+   "epoca_aplicacao": "Fazer uma única aplicação antes do plantio das sementes. Pulverizar 50 kg de sementes de arroz com uma solução contendo 10 gramas de ProGibb® em 1,5 litros d'água. Acrescentar à solução 0,05% do corante Brillant Blue.",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Arroz irrigado* | 10 g/50 kg de sementes | 1 | 1,5 L/50 kg de sementes"
+  },
+  {
+   "cultura": "Batata", "praga_nome_comum": "Ausente", "praga_nome_cientifico": "Solanum tuberosum",
+   "dose_min": 10, "dose_max": 10, "dose_unidade": "g/100L",
+   "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null, "volume_calda_outros": null,
+   "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+   "carencia_dias": null, "carencia_texto": "Não determinado devido à sua ocorrência natural em culturas alimentares.",
+   "epoca_aplicacao": "Uma única aplicação na fase de quebra de dormência. Imergir a batata-semente em solução contendo 10 gramas de ProGibb® em 100 litros d'água, por 10 minutos, para facilitar a brotação e a maior produção (cultivares Itararé e Achat).",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Batata-semente | 10 g/100 L de água | - | -"
+  },
+  {
+   "cultura": "Cana-de-açúcar", "praga_nome_comum": "Ausente", "praga_nome_cientifico": "Saccharum officinarum",
+   "dose_min": 30, "dose_max": 30, "dose_unidade": "g/ha",
+   "volume_calda_min": 200, "volume_calda_max": 200, "volume_calda_unidade": "L/ha", "volume_calda_outros": null,
+   "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+   "carencia_dias": null, "carencia_texto": "Não determinado devido à sua ocorrência natural em culturas alimentares.",
+   "epoca_aplicacao": "Fazer uma única aplicação a partir dos 90 dias após o plantio (1º internódio formado) até no máximo a formação do 3º internódio, ou durante a formação do primeiro internódio. Utilizar espalhante adesivo não iônico (0,25% v/v).",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Cana-de-açúcar** | 30 g/ha | 200 L/ha"
+  },
+  {
+   "cultura": "Citros", "praga_nome_comum": "Ausente", "praga_nome_cientifico": "Citrus sinensis",
+   "dose_min": 400, "dose_max": 400, "dose_unidade": "g/2000L água",
+   "volume_calda_min": 20, "volume_calda_max": 20, "volume_calda_unidade": "L/planta", "volume_calda_outros": null,
+   "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+   "carencia_dias": null, "carencia_texto": "Não determinado devido à sua ocorrência natural em culturas alimentares.",
+   "epoca_aplicacao": "[Laranja Pêra] Fazer uma única aplicação. O momento ideal é em abril, quando os frutos estão verdes e não atrativos à oviposição da mosca-das-frutas (Anastrepha fraterculus e Ceratitis capitata). Pulverizar 400 gramas de ProGibb®, adicionando-se 0,1% de espalhante adesivo não iônico, em 2000 litros d'água, uniformemente na copa das árvores, até os frutos atingirem o ponto de escorrimento, para retardar a maturação dos frutos e reduzir o ataque de mosca-das-frutas.",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Citros | Laranja Pêra** | 400 g/2000 L de água | 20 L/planta"
+  },
+  {
+   "cultura": "Citros", "praga_nome_comum": "Ausente", "praga_nome_cientifico": "Citrus latifolia",
+   "dose_min": 40, "dose_max": 40, "dose_unidade": "g/100L",
+   "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null, "volume_calda_outros": null,
+   "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+   "carencia_dias": null, "carencia_texto": "Não determinado devido à sua ocorrência natural em culturas alimentares.",
+   "epoca_aplicacao": "[Limão Tahiti] Uma única aplicação, logo após a colheita dos frutos, controla a maturação, retardando o aparecimento da coloração amarela. Imergir o limão em solução contendo 40 gramas de ProGibb® em 100 litros d'água, por 15 segundos, para retardar a maturação dos frutos colhidos.",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Citros | Limão Tahiti | 40 g/100 L de água | -"
+  },
+  {
+   "cultura": "Uva", "praga_nome_comum": "Ausente", "praga_nome_cientifico": "Vitis vinifera",
+   "dose_min": 20, "dose_max": 30, "dose_unidade": "g/100L",
+   "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null, "volume_calda_outros": null,
+   "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+   "carencia_dias": null, "carencia_texto": "Não determinado devido à sua ocorrência natural em culturas alimentares.",
+   "epoca_aplicacao": "[Variedade Centennial Seedless (sem sementes)] Fazer a imersão das inflorescências ou cachos por 03 (três) segundos em solução contendo 20 a 30 gramas de ProGibb® em 100 litros d'água, adicionando-se 0,1% de espalhante adesivo não iônico. Fazer uma única aplicação, após o florescimento, para aumentar o tamanho e o peso dos cachos e bagas.",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Uva** | Sem sementes (variedade Centennial Seedless) | 20 a 30 g/100 L de água | -"
+  },
+  {
+   "cultura": "Uva", "praga_nome_comum": "Ausente", "praga_nome_cientifico": "Vitis vinifera",
+   "dose_min": 400, "dose_max": 800, "dose_unidade": "g/100L",
+   "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null, "volume_calda_outros": null,
+   "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+   "carencia_dias": null, "carencia_texto": "Não determinado devido à sua ocorrência natural em culturas alimentares.",
+   "epoca_aplicacao": "[Variedade Maria = IAC 514-6 (com sementes)] Fazer a imersão das inflorescências ou cachos por 03 (três) segundos em solução contendo 400 a 800 gramas de ProGibb® em 100 litros d'água, adicionando-se 0,1% de espalhante adesivo não iônico. Fazer uma única aplicação, após o florescimento, para aumentar o tamanho e o peso dos cachos e bagas.",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Uva** | Com sementes (variedade Maria = IAC 514-6) | 400 a 800 g/100 L de água | -"
+  }
+ ]
+}

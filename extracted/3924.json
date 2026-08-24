@@ -1,0 +1,27 @@
+{
+ "numero_registro": "3924",
+ "registros": [
+  {
+   "cultura": "Uva", "praga_nome_comum": "Ausente", "praga_nome_cientifico": "Vitis vinifera",
+   "dose_min": 0.20, "dose_max": 1.00, "dose_unidade": "mL/100L",
+   "volume_calda_min": 500, "volume_calda_max": 1000, "volume_calda_unidade": "L/ha",
+   "volume_calda_outros": "Aplicação aérea: o produto poderá ser aplicado a baixo volume – UBV (< 400 L/ha).",
+   "num_max_aplicacoes": 5, "intervalo_aplicacao": "4 dias entre a 1ª e a 2ª aplicação",
+   "carencia_dias": null, "carencia_texto": "Não determinado em função da modalidade de emprego",
+   "epoca_aplicacao": "[Cultivar ARRA 15] 1ª aplicação: brotos com 5-7 cm; 2ª aplicação: 4 dias após primeira aplicação.",
+   "fonte_pagina": 2,
+   "fonte_trecho": "UVA – Cultivar ARRA 15 | 1ª e 2ª aplicações | 0,20 a 1,00 ml/100 L água | 500 a 1000 L/ha | 5"
+  },
+  {
+   "cultura": "Uva", "praga_nome_comum": "Ausente", "praga_nome_cientifico": "Vitis vinifera",
+   "dose_min": 1.50, "dose_max": 4.30, "dose_unidade": "mL/100L",
+   "volume_calda_min": 500, "volume_calda_max": 1000, "volume_calda_unidade": "L/ha",
+   "volume_calda_outros": "Aplicação aérea: o produto poderá ser aplicado a baixo volume – UBV (< 400 L/ha).",
+   "num_max_aplicacoes": 5, "intervalo_aplicacao": "4 dias entre cada aplicação (3ª, 4ª e 5ª)",
+   "carencia_dias": null, "carencia_texto": "Não determinado em função da modalidade de emprego",
+   "epoca_aplicacao": "[Cultivar ARRA 15] 3ª aplicação: bagas com 2 mm; 4ª aplicação: 4 dias após a terceira aplicação; 5ª aplicação: 4 dias após a quarta aplicação.",
+   "fonte_pagina": 2,
+   "fonte_trecho": "UVA – Cultivar ARRA 15 | 3ª, 4ª e 5ª aplicações | 1,50 a 4,30 ml/100 L água | 500 a 1000 L/ha | 5"
+  }
+ ]
+}

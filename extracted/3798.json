@@ -1,0 +1,53 @@
+{
+ "numero_registro": "3798",
+ "registros": [
+  {
+   "cultura": "Arroz",
+   "praga_nome_comum": "Capim-arroz, jervão",
+   "praga_nome_cientifico": "Echinochloa crusgalli",
+   "dose_min": 4.5, "dose_max": 4.5, "dose_unidade": "kg/ha",
+   "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+   "volume_calda_outros": "Terrestre: 400 a 600 L/ha; Aérea: 30-50 L/ha",
+   "num_max_aplicacoes": null, "intervalo_aplicacao": null,
+   "carencia_dias": 80, "carencia_texto": null,
+   "epoca_aplicacao": null, "fonte_pagina": 3,
+   "fonte_trecho": "Capim-arroz, jervão (Echinochloa crusgalli) | 4,5 | 400 a 600 | STAM 800 WG deve ser aplicado quando as plantas tiverem germinado e crescido, estágio de 2 a 3 folhas."
+  },
+  {
+   "cultura": "Arroz",
+   "praga_nome_comum": "Capim-arroz, canevão",
+   "praga_nome_cientifico": "Echinochloa cruspavonis",
+   "dose_min": 4.5, "dose_max": 4.5, "dose_unidade": "kg/ha",
+   "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+   "volume_calda_outros": "Terrestre: 400 a 600 L/ha; Aérea: 30-50 L/ha",
+   "num_max_aplicacoes": null, "intervalo_aplicacao": null,
+   "carencia_dias": 80, "carencia_texto": null,
+   "epoca_aplicacao": null, "fonte_pagina": 3,
+   "fonte_trecho": "Capim-arroz, canevão (Echinochloa cruspavonis) | 4,5 | 400 a 600 L/ha"
+  },
+  {
+   "cultura": "Arroz",
+   "praga_nome_comum": "Capim-arroz, capim-coloninho",
+   "praga_nome_cientifico": "Echinochloa colona",
+   "dose_min": 4.5, "dose_max": 4.5, "dose_unidade": "kg/ha",
+   "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+   "volume_calda_outros": "Terrestre: 400 a 600 L/ha; Aérea: 30-50 L/ha",
+   "num_max_aplicacoes": null, "intervalo_aplicacao": null,
+   "carencia_dias": 80, "carencia_texto": null,
+   "epoca_aplicacao": null, "fonte_pagina": 3,
+   "fonte_trecho": "Capim-arroz, capim-coloninho (Echinochloa colona) | 4,5 | 400 a 600 L/ha"
+  },
+  {
+   "cultura": "Arroz",
+   "praga_nome_comum": "Pinheirinho, angiquinho, maricazinho",
+   "praga_nome_cientifico": "Aeschynomene rudis",
+   "dose_min": 4.5, "dose_max": 4.5, "dose_unidade": "kg/ha",
+   "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+   "volume_calda_outros": "Terrestre: 400 a 600 L/ha; Aérea: 30-50 L/ha",
+   "num_max_aplicacoes": null, "intervalo_aplicacao": null,
+   "carencia_dias": 80, "carencia_texto": null,
+   "epoca_aplicacao": null, "fonte_pagina": 3,
+   "fonte_trecho": "Pinheirinho, angiquinho, maricazinho (Aeschynomene rudis) | 4,5 | 400 a 600 L/ha; recomenda-se 2ª aplicação se reincidência."
+  }
+ ]
+}

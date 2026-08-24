@@ -1,0 +1,24 @@
+{
+  "numero_registro": "4006",
+  "registros": [
+    {
+      "cultura": "Banana",
+      "praga_nome_comum": "Tripes-da-ferrugem-das-frutas",
+      "praga_nome_cientifico": "Caliothirps bicinctus",
+      "dose_min": 1,
+      "dose_max": 1,
+      "dose_unidade": "saco/cacho",
+      "volume_calda_min": null,
+      "volume_calda_max": null,
+      "volume_calda_unidade": null,
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 1,
+      "intervalo_aplicacao": null,
+      "carencia_dias": null,
+      "carencia_texto": "Intervalo de segurança não determinado devido à modalidade de emprego",
+      "epoca_aplicacao": "Envolver o cacho de banana, logo após a sua emissão, com um saco do inseticida BIFLEX TREEBAGS, amarrando as extremidades; manter até a colheita",
+      "fonte_pagina": 3,
+      "fonte_trecho": "BANANA | Tripes-da-ferrugem-das-frutas (Caliothirps bicinctus) | Um saco por cacho | A utilização de apenas um saco do inseticida BIFLEX TREEBAGS por cacho é suficiente"
+    }
+  ]
+}

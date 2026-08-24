@@ -1,0 +1,43 @@
+{
+ "numero_registro": "3902",
+ "registros": [
+  {
+   "cultura": "Maçã",
+   "praga_nome_comum": null,
+   "praga_nome_cientifico": "Malus domestica",
+   "dose_min": 208,
+   "dose_max": 622,
+   "dose_unidade": "g/ha",
+   "volume_calda_min": 1000,
+   "volume_calda_max": 1000,
+   "volume_calda_unidade": "L/ha",
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": 2,
+   "intervalo_aplicacao": null,
+   "carencia_dias": 7,
+   "carencia_texto": null,
+   "epoca_aplicacao": "Frutificação Efetiva — florescimento: 1ª aplicação quando 60% a 80% das flores estiverem abertas (estágio F2, BBCH 65); 2ª aplicação no início da queda de pétalas (início de H, BBCH 67). Não adicionar surfactante na florada.",
+   "fonte_pagina": 2,
+   "fonte_trecho": "Maçã | Frutificação Efetiva | 208 a 622* | 1.000 | - | 2"
+  },
+  {
+   "cultura": "Maçã",
+   "praga_nome_comum": null,
+   "praga_nome_cientifico": "Malus domestica",
+   "dose_min": 415,
+   "dose_max": 830,
+   "dose_unidade": "g/ha",
+   "volume_calda_min": 1000,
+   "volume_calda_max": 1000,
+   "volume_calda_unidade": "L/ha",
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": 1,
+   "intervalo_aplicacao": null,
+   "carencia_dias": 7,
+   "carencia_texto": null,
+   "epoca_aplicacao": "Atraso da maturação dos frutos — pré-colheita, entre 7 e 28 dias antes da colheita: aos 28 dias antes, aplicar 830 g/ha; aos 7 dias antes, aplicar entre 415 e 830 g/ha (doses mais altas = maior atraso). Adicionar espalhante siliconado não iônico na dose de 0,05%.",
+   "fonte_pagina": 2,
+   "fonte_trecho": "Maçã | Atraso da maturação dos frutos | 415 a 830** | 1.000 | - | 1"
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+  "numero_registro": "3698",
+  "registros": [
+    {
+      "cultura": "Algodão",
+      "praga_nome_comum": "Algodão",
+      "praga_nome_cientifico": "Gossypium hirsutum",
+      "dose_min": 0.4,
+      "dose_max": 0.5,
+      "dose_unidade": "L/ha",
+      "volume_calda_min": null,
+      "volume_calda_max": null,
+      "volume_calda_unidade": null,
+      "volume_calda_outros": "Terrestre: 100 - 200 L/ha; Aérea: 30 - 50 L/ha",
+      "num_max_aplicacoes": 1,
+      "intervalo_aplicacao": null,
+      "carencia_dias": 7,
+      "carencia_texto": null,
+      "epoca_aplicacao": "Recomenda-se uma aplicação na cultura do algodoeiro antes da colheita quando 60 a 80% das maçãs estiverem abertas, visando a desfolha e consequentemente acelerar a maturação do fruto e a abertura dos capulhos, facilitando assim a operação de colheita. Realizar no máximo 01 aplicação por ciclo da cultura.",
+      "fonte_pagina": 2,
+      "fonte_trecho": "Algodão | Gossypium hirsutum | 0,4 a 0,5 | 1 | Terrestre: 100 - 200 Aérea: 30 - 50 | Avião Barra Costa | 07"
+    }
+  ]
+}

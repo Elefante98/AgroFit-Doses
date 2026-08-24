@@ -1,0 +1,53 @@
+{
+ "numero_registro": "3799",
+ "registros": [
+  {
+   "cultura": "Alho",
+   "praga_nome_comum": "Mofo-cinzento",
+   "praga_nome_cientifico": "Botrytis cinerea",
+   "dose_min": 1500, "dose_max": 2000, "dose_unidade": "g/ha",
+   "volume_calda_min": 600, "volume_calda_max": 600, "volume_calda_unidade": "L/ha",
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": 3, "intervalo_aplicacao": "7 a 10 dias",
+   "carencia_dias": 14, "carencia_texto": null,
+   "epoca_aplicacao": null, "fonte_pagina": 2,
+   "fonte_trecho": "Alho e Cebola | Mofo-cinzento | Botrytis cinerea | 1.500 a 2.000 g/ha (1.125 a 1.500 g i.a./ha) | 600 L/ha | 3"
+  },
+  {
+   "cultura": "Cebola",
+   "praga_nome_comum": "Mofo-cinzento",
+   "praga_nome_cientifico": "Botrytis cinerea",
+   "dose_min": 1500, "dose_max": 2000, "dose_unidade": "g/ha",
+   "volume_calda_min": 600, "volume_calda_max": 600, "volume_calda_unidade": "L/ha",
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": 3, "intervalo_aplicacao": "7 a 10 dias",
+   "carencia_dias": 14, "carencia_texto": null,
+   "epoca_aplicacao": null, "fonte_pagina": 2,
+   "fonte_trecho": "Alho e Cebola | Mofo-cinzento | Botrytis cinerea | 1.500 a 2.000 g/ha (1.125 a 1.500 g i.a./ha) | 600 L/ha | 3"
+  },
+  {
+   "cultura": "Pêssego",
+   "praga_nome_comum": "Podridão-parda",
+   "praga_nome_cientifico": "Monilinia fruticola",
+   "dose_min": 150, "dose_max": 150, "dose_unidade": "g/100L",
+   "volume_calda_min": 1000, "volume_calda_max": 1000, "volume_calda_unidade": "L/ha",
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": 3, "intervalo_aplicacao": "7 dias",
+   "carencia_dias": 1, "carencia_texto": null,
+   "epoca_aplicacao": "Aplicação foliar", "fonte_pagina": 2,
+   "fonte_trecho": "Pêssego – (aplicação foliar) | Podridão-parda | Monilinia fruticola | 150 g/100 L (112,5 g i.a.) | 1.000 L/ha | 3"
+  },
+  {
+   "cultura": "Pêssego",
+   "praga_nome_comum": "Podridão-mole",
+   "praga_nome_cientifico": "Rhizopus stolonifer",
+   "dose_min": 100, "dose_max": 120, "dose_unidade": "g/100L",
+   "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+   "carencia_dias": 1, "carencia_texto": null,
+   "epoca_aplicacao": "Pós-colheita", "fonte_pagina": 2,
+   "fonte_trecho": "Pêssego – (tratamento pós-colheita) | Podridão-mole | Rhizopus stolonifer | 100 a 120 g/100 L (75 a 90 g i.a./100 L) | - | 1"
+  }
+ ]
+}

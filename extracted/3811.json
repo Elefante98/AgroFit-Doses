@@ -1,0 +1,24 @@
+{
+  "numero_registro": "3811",
+  "registros": [
+    {
+      "cultura": "Todas as culturas com ocorrência da Mariposa-oriental ou Broca-dos-ponteiros",
+      "praga_nome_comum": "Mariposa-oriental ou Broca-dos-ponteiros",
+      "praga_nome_cientifico": "Grapholita molesta",
+      "dose_min": 500,
+      "dose_max": 500,
+      "dose_unidade": "unidades (dispensers)/ha",
+      "volume_calda_min": null,
+      "volume_calda_max": null,
+      "volume_calda_unidade": null,
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 1,
+      "intervalo_aplicacao": null,
+      "carencia_dias": null,
+      "carencia_texto": "Não se aplica devido às características do produto (feromônio inserido em dispensers).",
+      "epoca_aplicacao": "A partir do aparecimento das primeiras brotações, ou no aparecimento dos primeiros adultos do inseto-alvo, antes do período em que possa ocorrer a cópula e consequente aumento da população do inseto. Realizar uma única aplicação por ciclo da cultura.",
+      "fonte_pagina": 2,
+      "fonte_trecho": "Mariposa-oriental ou Broca-dos-ponteiros (Grapholita molesta) | 500"
+    }
+  ]
+}

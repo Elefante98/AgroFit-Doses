@@ -1,0 +1,137 @@
+{
+ "numero_registro": "3923",
+ "registros": [
+  {
+   "cultura": "Pastagem", "praga_nome_comum": "Assa-peixe-roxo", "praga_nome_cientifico": "Vernonia westiniana",
+   "dose_min": 100, "dose_max": 100, "dose_unidade": "g/100L",
+   "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+   "volume_calda_outros": "Aplicação Localizada: o volume do produto diluído na calda não deverá exceder 600 g/ha.",
+   "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+   "carencia_dias": null, "carencia_texto": "UNA",
+   "epoca_aplicacao": "Navius deve ser aplicado uma única vez, quando as plantas infestantes a serem controladas estiverem em pleno estádio de desenvolvimento vegetativo (antes do florescimento). Utilize a maior dosagem em plantas infestantes que tenham sido roçadas ou quando as plantas infestantes já tenham terminado seu processo de desenvolvimento vegetativo (final do período chuvoso).",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Aplicação Localizada | Pastagem | Assa-peixe-roxo (Vernonia westiniana) | 100 (g/100 L)"
+  },
+  {
+   "cultura": "Pastagem", "praga_nome_comum": "Assa-peixe-branco", "praga_nome_cientifico": "Vernonia polyanthes",
+   "dose_min": 100, "dose_max": 100, "dose_unidade": "g/100L",
+   "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+   "volume_calda_outros": "Aplicação Localizada: o volume do produto diluído na calda não deverá exceder 600 g/ha.",
+   "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+   "carencia_dias": null, "carencia_texto": "UNA",
+   "epoca_aplicacao": "Navius deve ser aplicado uma única vez, quando as plantas infestantes a serem controladas estiverem em pleno estádio de desenvolvimento vegetativo (antes do florescimento). Utilize a maior dosagem em plantas infestantes que tenham sido roçadas ou quando as plantas infestantes já tenham terminado seu processo de desenvolvimento vegetativo (final do período chuvoso).",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Aplicação Localizada | Pastagem | Assa-peixe-branco (Vernonia polyanthes) | 100 (g/100 L)"
+  },
+  {
+   "cultura": "Pastagem", "praga_nome_comum": "Capa-bode", "praga_nome_cientifico": "Bauhinia mollis",
+   "dose_min": 100, "dose_max": 100, "dose_unidade": "g/100L",
+   "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+   "volume_calda_outros": "Aplicação Localizada: o volume do produto diluído na calda não deverá exceder 600 g/ha.",
+   "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+   "carencia_dias": null, "carencia_texto": "UNA",
+   "epoca_aplicacao": "Navius deve ser aplicado uma única vez, quando as plantas infestantes a serem controladas estiverem em pleno estádio de desenvolvimento vegetativo (antes do florescimento). Utilize a maior dosagem em plantas infestantes que tenham sido roçadas ou quando as plantas infestantes já tenham terminado seu processo de desenvolvimento vegetativo (final do período chuvoso).",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Aplicação Localizada | Pastagem | Capa-bode (Bauhinia mollis) | 100 (g/100 L)"
+  },
+  {
+   "cultura": "Pastagem", "praga_nome_comum": "Casadinha", "praga_nome_cientifico": "Eupatorium squalidum",
+   "dose_min": 100, "dose_max": 100, "dose_unidade": "g/100L",
+   "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+   "volume_calda_outros": "Aplicação Localizada: o volume do produto diluído na calda não deverá exceder 600 g/ha.",
+   "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+   "carencia_dias": null, "carencia_texto": "UNA",
+   "epoca_aplicacao": "Navius deve ser aplicado uma única vez, quando as plantas infestantes a serem controladas estiverem em pleno estádio de desenvolvimento vegetativo (antes do florescimento). Utilize a maior dosagem em plantas infestantes que tenham sido roçadas ou quando as plantas infestantes já tenham terminado seu processo de desenvolvimento vegetativo (final do período chuvoso).",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Aplicação Localizada | Pastagem | Casadinha (Eupatorium squalidum) | 100 (g/100 L)"
+  },
+  {
+   "cultura": "Pastagem", "praga_nome_comum": "Leiteiro", "praga_nome_cientifico": "Peschiera fuchsiaefolia",
+   "dose_min": 100, "dose_max": 150, "dose_unidade": "g/100L",
+   "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+   "volume_calda_outros": "Aplicação Localizada: o volume do produto diluído na calda não deverá exceder 600 g/ha.",
+   "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+   "carencia_dias": null, "carencia_texto": "UNA",
+   "epoca_aplicacao": "Navius deve ser aplicado uma única vez, quando as plantas infestantes a serem controladas estiverem em pleno estádio de desenvolvimento vegetativo (antes do florescimento). Utilize a maior dosagem em plantas infestantes que tenham sido roçadas ou quando as plantas infestantes já tenham terminado seu processo de desenvolvimento vegetativo (final do período chuvoso).",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Aplicação Localizada | Pastagem | Leiteiro (Peschiera fuchsiaefolia) | 100 a 150 (g/100 L)"
+  },
+  {
+   "cultura": "Pastagem", "praga_nome_comum": "Pata-de-vaca", "praga_nome_cientifico": "Bauhinia ungulata",
+   "dose_min": 100, "dose_max": 150, "dose_unidade": "g/100L",
+   "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+   "volume_calda_outros": "Aplicação Localizada: o volume do produto diluído na calda não deverá exceder 600 g/ha.",
+   "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+   "carencia_dias": null, "carencia_texto": "UNA",
+   "epoca_aplicacao": "Navius deve ser aplicado uma única vez, quando as plantas infestantes a serem controladas estiverem em pleno estádio de desenvolvimento vegetativo (antes do florescimento). Utilize a maior dosagem em plantas infestantes que tenham sido roçadas ou quando as plantas infestantes já tenham terminado seu processo de desenvolvimento vegetativo (final do período chuvoso).",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Aplicação Localizada | Pastagem | Pata-de-vaca (Bauhinia ungulata) | 100 a 150 (g/100 L)"
+  },
+  {
+   "cultura": "Pastagem", "praga_nome_comum": "Unha-de-cabrito", "praga_nome_cientifico": "Bauhinia curvula",
+   "dose_min": 100, "dose_max": 150, "dose_unidade": "g/100L",
+   "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+   "volume_calda_outros": "Aplicação Localizada: o volume do produto diluído na calda não deverá exceder 600 g/ha.",
+   "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+   "carencia_dias": null, "carencia_texto": "UNA",
+   "epoca_aplicacao": "Navius deve ser aplicado uma única vez, quando as plantas infestantes a serem controladas estiverem em pleno estádio de desenvolvimento vegetativo (antes do florescimento). Utilize a maior dosagem em plantas infestantes que tenham sido roçadas ou quando as plantas infestantes já tenham terminado seu processo de desenvolvimento vegetativo (final do período chuvoso).",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Aplicação Localizada | Pastagem | Unha-de-cabrito (Bauhinia curvula) | 100 a 150 (g/100 L)"
+  },
+  {
+   "cultura": "Pastagem", "praga_nome_comum": "Erva-quente", "praga_nome_cientifico": "Spermacoce latifolia",
+   "dose_min": 70, "dose_max": 70, "dose_unidade": "g/ha",
+   "volume_calda_min": 200, "volume_calda_max": 300, "volume_calda_unidade": "L/ha",
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+   "carencia_dias": null, "carencia_texto": "UNA",
+   "epoca_aplicacao": "Navius deve ser aplicado uma única vez, quando as plantas infestantes a serem controladas estiverem em pleno estádio de desenvolvimento vegetativo (antes do florescimento). Utilize a maior dosagem em plantas infestantes que tenham sido roçadas ou quando as plantas infestantes já tenham terminado seu processo de desenvolvimento vegetativo (final do período chuvoso).",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Aplicação em Área Total | Pastagem | Erva-quente (Spermacoce latifolia) | 70 (g/ha)"
+  },
+  {
+   "cultura": "Pastagem", "praga_nome_comum": "Fedegoso-branco", "praga_nome_cientifico": "Senna obtusifolia",
+   "dose_min": 70, "dose_max": 90, "dose_unidade": "g/ha",
+   "volume_calda_min": 200, "volume_calda_max": 300, "volume_calda_unidade": "L/ha",
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+   "carencia_dias": null, "carencia_texto": "UNA",
+   "epoca_aplicacao": "Navius deve ser aplicado uma única vez, quando as plantas infestantes a serem controladas estiverem em pleno estádio de desenvolvimento vegetativo (antes do florescimento). Utilize a maior dosagem em plantas infestantes que tenham sido roçadas ou quando as plantas infestantes já tenham terminado seu processo de desenvolvimento vegetativo (final do período chuvoso).",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Aplicação em Área Total | Pastagem | Fedegoso-branco (Senna obtusifolia) | 70 a 90 (g/ha)"
+  },
+  {
+   "cultura": "Pastagem", "praga_nome_comum": "Gervão-branco", "praga_nome_cientifico": "Croton grandulosus",
+   "dose_min": 70, "dose_max": 100, "dose_unidade": "g/ha",
+   "volume_calda_min": 200, "volume_calda_max": 300, "volume_calda_unidade": "L/ha",
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+   "carencia_dias": null, "carencia_texto": "UNA",
+   "epoca_aplicacao": "Navius deve ser aplicado uma única vez, quando as plantas infestantes a serem controladas estiverem em pleno estádio de desenvolvimento vegetativo (antes do florescimento). Utilize a maior dosagem em plantas infestantes que tenham sido roçadas ou quando as plantas infestantes já tenham terminado seu processo de desenvolvimento vegetativo (final do período chuvoso).",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Aplicação em Área Total | Pastagem | Gervão-branco (Croton grandulosus) | 70 a 100 (g/ha)"
+  },
+  {
+   "cultura": "Pastagem", "praga_nome_comum": "Malva-branca", "praga_nome_cientifico": "Sida cordifolia",
+   "dose_min": 70, "dose_max": 100, "dose_unidade": "g/ha",
+   "volume_calda_min": 200, "volume_calda_max": 300, "volume_calda_unidade": "L/ha",
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+   "carencia_dias": null, "carencia_texto": "UNA",
+   "epoca_aplicacao": "Navius deve ser aplicado uma única vez, quando as plantas infestantes a serem controladas estiverem em pleno estádio de desenvolvimento vegetativo (antes do florescimento). Utilize a maior dosagem em plantas infestantes que tenham sido roçadas ou quando as plantas infestantes já tenham terminado seu processo de desenvolvimento vegetativo (final do período chuvoso).",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Aplicação em Área Total | Pastagem | Malva-branca (Sida cordifolia) | 70 a 100 (g/ha) [dose herdada da linha Gervão-branco]"
+  },
+  {
+   "cultura": "Pastagem", "praga_nome_comum": "Guanxuma", "praga_nome_cientifico": "Sida santaremnensis",
+   "dose_min": 70, "dose_max": 100, "dose_unidade": "g/ha",
+   "volume_calda_min": 200, "volume_calda_max": 300, "volume_calda_unidade": "L/ha",
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+   "carencia_dias": null, "carencia_texto": "UNA",
+   "epoca_aplicacao": "Navius deve ser aplicado uma única vez, quando as plantas infestantes a serem controladas estiverem em pleno estádio de desenvolvimento vegetativo (antes do florescimento). Utilize a maior dosagem em plantas infestantes que tenham sido roçadas ou quando as plantas infestantes já tenham terminado seu processo de desenvolvimento vegetativo (final do período chuvoso).",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Aplicação em Área Total | Pastagem | Guanxuma (Sida santaremnensis) | 70 a 100 (g/ha) [dose herdada da linha Gervão-branco]"
+  }
+ ]
+}

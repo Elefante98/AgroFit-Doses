@@ -1,0 +1,27 @@
+{
+ "numero_registro": "3925",
+ "registros": [
+  {
+   "cultura": "Citros", "praga_nome_comum": "Pinta-preta", "praga_nome_cientifico": "Phylosticta citricarpa",
+   "dose_min": 10.0, "dose_max": 10.0, "dose_unidade": "g/100L",
+   "volume_calda_min": 2000, "volume_calda_max": 2000, "volume_calda_unidade": "L/ha",
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": 3, "intervalo_aplicacao": "28 a 30 dias",
+   "carencia_dias": 14, "carencia_texto": null,
+   "epoca_aplicacao": "Fazer no máximo 03 aplicações intercalando com fungicidas de mecanismos de ação diferentes. Primeira aplicação quando 2/3 das pétalas da florada principal tiverem caído; continua-se com mais 4 pulverizações durante a fase de frutificação, em intervalos de 28 a 30 dias, quando os frutos estiverem com tamanho de cerca de 1,5 cm (2ª pulverização), 2,7 cm (3ª), 3,8 cm (4ª) e 4,3 cm (5ª). Acrescentar à calda óleo vegetal a 0,5%.",
+   "fonte_pagina": 3,
+   "fonte_trecho": "CITROS | Phylosticta citricarpa | Pinta-preta | 10,0 (p.c. g/100L) | 03 | 2000 L/ha"
+  },
+  {
+   "cultura": "Citros", "praga_nome_comum": "Verrugose", "praga_nome_cientifico": "Elsinoe fawcetti",
+   "dose_min": 10.0, "dose_max": 10.0, "dose_unidade": "g/100L",
+   "volume_calda_min": 2000, "volume_calda_max": 2000, "volume_calda_unidade": "L/ha",
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": 2, "intervalo_aplicacao": null,
+   "carencia_dias": 14, "carencia_texto": null,
+   "epoca_aplicacao": "Para o controle da verrugose são necessárias apenas as 2 aplicações iniciais (2/3 das pétalas da florada principal caídas e frutos com cerca de 1,5 cm). Acrescentar à calda óleo vegetal a 0,5%.",
+   "fonte_pagina": 3,
+   "fonte_trecho": "CITROS | Elsinoe fawcetti | Verrugose | 10,0 (p.c. g/100L) | 03 | 2000 L/ha [texto: apenas 2 aplicações iniciais para verrugose]"
+  }
+ ]
+}
