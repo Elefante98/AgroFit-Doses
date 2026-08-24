@@ -1,0 +1,62 @@
+{
+ "numero_registro": "3092",
+ "registros": [
+  {
+   "cultura": "Algodão",
+   "praga_nome_comum": null,
+   "praga_nome_cientifico": "Gossypium hirsutum",
+   "dose_min": 2.0,
+   "dose_max": 2.0,
+   "dose_unidade": "L/ha",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": "Terrestre: 200 a 500 litros de calda/ha; Aérea: 30 litros/ha.",
+   "num_max_aplicacoes": null,
+   "intervalo_aplicacao": null,
+   "carencia_dias": 7,
+   "carencia_texto": null,
+   "epoca_aplicacao": "Temperatura maior que 30°C. Aplicar quando mais de 90% das maçãs do algodoeiro estiverem fisiologicamente maduras.",
+   "fonte_pagina": 2,
+   "fonte_trecho": "Temperatura maior que 30°C aplicar 2,0 L/ha de produto comercial."
+  },
+  {
+   "cultura": "Algodão",
+   "praga_nome_comum": null,
+   "praga_nome_cientifico": "Gossypium hirsutum",
+   "dose_min": 2.5,
+   "dose_max": 2.5,
+   "dose_unidade": "L/ha",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": "Terrestre: 200 a 500 litros de calda/ha; Aérea: 30 litros/ha.",
+   "num_max_aplicacoes": null,
+   "intervalo_aplicacao": null,
+   "carencia_dias": 7,
+   "carencia_texto": null,
+   "epoca_aplicacao": "Temperatura entre 25°C e 30°C. Aplicar quando mais de 90% das maçãs do algodoeiro estiverem fisiologicamente maduras.",
+   "fonte_pagina": 2,
+   "fonte_trecho": "Temperatura entre 25°C e 30°C aplicar 2,5 L/ha de produto comercial."
+  },
+  {
+   "cultura": "Algodão",
+   "praga_nome_comum": null,
+   "praga_nome_cientifico": "Gossypium hirsutum",
+   "dose_min": 3.0,
+   "dose_max": 3.0,
+   "dose_unidade": "L/ha",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": "Terrestre: 200 a 500 litros de calda/ha; Aérea: 30 litros/ha.",
+   "num_max_aplicacoes": null,
+   "intervalo_aplicacao": null,
+   "carencia_dias": 7,
+   "carencia_texto": null,
+   "epoca_aplicacao": "Temperatura entre 22°C e 25°C. Aplicar quando mais de 90% das maçãs do algodoeiro estiverem fisiologicamente maduras.",
+   "fonte_pagina": 2,
+   "fonte_trecho": "Temperatura entre 22°C e 25°C aplicar 3,0 L/ha de produto comercial."
+  }
+ ]
+}

@@ -1,0 +1,62 @@
+{
+  "numero_registro": "2799",
+  "registros": [
+    {
+      "cultura": "Arroz",
+      "praga_nome_comum": "Capim-arroz",
+      "praga_nome_cientifico": "Echinochloa crusgalli",
+      "dose_min": 0.8,
+      "dose_max": 1.0,
+      "dose_unidade": "L/ha",
+      "volume_calda_min": null,
+      "volume_calda_max": null,
+      "volume_calda_unidade": null,
+      "volume_calda_outros": "Terrestre: 200 L/ha; Aérea: 30-40 L/ha",
+      "num_max_aplicacoes": 1,
+      "intervalo_aplicacao": null,
+      "carencia_dias": 80,
+      "carencia_texto": null,
+      "epoca_aplicacao": "Pós-emergência precoce da cultura e das gramíneas anuais, 10 a 20 dias após a emergência do arroz. Estádio da cultura: 2 folhas a 1 perfilho. Estádio das plantas daninhas: 2 folhas a 1 perfilho",
+      "fonte_pagina": 2,
+      "fonte_trecho": "Arroz | Capim-arroz | Echinochloa crusgalli | 0,8 a 1,0 | 1 | Terrestre: 200 Aérea: 30-40 | 80"
+    },
+    {
+      "cultura": "Arroz",
+      "praga_nome_comum": "Capim-macho",
+      "praga_nome_cientifico": "Ischaemum rugosum",
+      "dose_min": 0.8,
+      "dose_max": 1.0,
+      "dose_unidade": "L/ha",
+      "volume_calda_min": null,
+      "volume_calda_max": null,
+      "volume_calda_unidade": null,
+      "volume_calda_outros": "Terrestre: 200 L/ha; Aérea: 30-40 L/ha",
+      "num_max_aplicacoes": 1,
+      "intervalo_aplicacao": null,
+      "carencia_dias": 80,
+      "carencia_texto": null,
+      "epoca_aplicacao": "Pós-emergência precoce da cultura e das gramíneas anuais, 10 a 20 dias após a emergência do arroz. Estádio da cultura: 2 folhas a 1 perfilho. Estádio das plantas daninhas: 2 folhas a 1 perfilho",
+      "fonte_pagina": 2,
+      "fonte_trecho": "Arroz | Capim-macho | Ischaemum rugosum | 0,8 a 1,0 | 1 | Terrestre: 200 Aérea: 30-40 | 80"
+    },
+    {
+      "cultura": "Arroz",
+      "praga_nome_comum": "Capim-marmelada",
+      "praga_nome_cientifico": "Brachiaria plantaginea",
+      "dose_min": 0.8,
+      "dose_max": 1.0,
+      "dose_unidade": "L/ha",
+      "volume_calda_min": null,
+      "volume_calda_max": null,
+      "volume_calda_unidade": null,
+      "volume_calda_outros": "Terrestre: 200 L/ha; Aérea: 30-40 L/ha",
+      "num_max_aplicacoes": 1,
+      "intervalo_aplicacao": null,
+      "carencia_dias": 80,
+      "carencia_texto": null,
+      "epoca_aplicacao": "Pós-emergência precoce da cultura e das gramíneas anuais, 10 a 20 dias após a emergência do arroz. Estádio da cultura: 2 folhas a 1 perfilho. Estádio das plantas daninhas: 2 folhas a 1 perfilho",
+      "fonte_pagina": 2,
+      "fonte_trecho": "Arroz | Capim-marmelada | Brachiaria plantaginea | 0,8 a 1,0 | 1 | Terrestre: 200 Aérea: 30-40 | 80"
+    }
+  ]
+}

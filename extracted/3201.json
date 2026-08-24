@@ -1,0 +1,24 @@
+{
+ "numero_registro": "3201",
+ "registros": [
+  {
+   "cultura": "Tomate",
+   "praga_nome_comum": "Traça-do-tomateiro",
+   "praga_nome_cientifico": "Tuta absoluta",
+   "dose_min": null,
+   "dose_max": null,
+   "dose_unidade": null,
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": "Produto de monitoramento (feromônio): 1 unidade ISCALURE TUTA por armadilha Delta; recomenda-se 2 armadilhas Delta por área protegida de plantio, ou 4 armadilhas por hectare; adicionar novo septo a cada 20 dias.",
+   "num_max_aplicacoes": null,
+   "intervalo_aplicacao": "20 dias (troca do septo)",
+   "carencia_dias": null,
+   "carencia_texto": "Tendo em vista o tipo de produto (feromônio) e a modalidade de aplicação não é necessário se estabelecer intervalo de segurança.",
+   "epoca_aplicacao": "monitoramento contínuo via armadilha Delta",
+   "fonte_pagina": 1,
+   "fonte_trecho": "Aplique 1 unidade de ISCALURE TUTA para cada armadilha Delta. Recomenda-se o uso de 2 armadilhas Delta por área protegida de plantio, ou 4 armadilhas por hectare."
+  }
+ ]
+}

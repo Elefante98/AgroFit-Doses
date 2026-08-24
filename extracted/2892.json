@@ -1,0 +1,43 @@
+{
+ "numero_registro": "2892",
+ "registros": [
+  {
+   "cultura": "Citros",
+   "praga_nome_comum": "Ácaro-da-leprose",
+   "praga_nome_cientifico": "Brevipalpus phoenicis",
+   "dose_min": 250,
+   "dose_max": 300,
+   "dose_unidade": "mL/100L",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": null,
+   "intervalo_aplicacao": "Repetir quando necessário",
+   "carencia_dias": null,
+   "carencia_texto": "Sem restrições",
+   "epoca_aplicacao": "Iniciar a aplicação assim que for atingido o nível de dano econômico. Repetir quando necessário.",
+   "fonte_pagina": 2,
+   "fonte_trecho": "Citros | Ácaro-da-leprose (Brevipalpus phoenicis) | 250 – 300 mL/100 L de calda"
+  },
+  {
+   "cultura": "Citros",
+   "praga_nome_comum": "Ácaro-da-falsa-ferrugem",
+   "praga_nome_cientifico": "Phyllocoptruta oleivora",
+   "dose_min": 250,
+   "dose_max": 300,
+   "dose_unidade": "mL/100L",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": null,
+   "intervalo_aplicacao": "Repetir quando necessário",
+   "carencia_dias": null,
+   "carencia_texto": "Sem restrições",
+   "epoca_aplicacao": "Iniciar a aplicação assim que for atingido o nível de dano econômico. Repetir quando necessário.",
+   "fonte_pagina": 2,
+   "fonte_trecho": "Citros | Ácaro-da-falsa-ferrugem (Phyllocoptruta oleivora) | 250 – 300 mL/100 L de calda"
+  }
+ ]
+}

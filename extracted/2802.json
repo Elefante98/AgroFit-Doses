@@ -1,0 +1,43 @@
+{
+  "numero_registro": "2802",
+  "registros": [
+    {
+      "cultura": "Fumo",
+      "praga_nome_comum": null,
+      "praga_nome_cientifico": "Nicotiana tabacum",
+      "dose_min": 10,
+      "dose_max": 14,
+      "dose_unidade": "L/ha",
+      "volume_calda_min": 500,
+      "volume_calda_max": 500,
+      "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 2,
+      "intervalo_aplicacao": "5 a 7 dias",
+      "carencia_dias": 7,
+      "carencia_texto": null,
+      "epoca_aplicacao": "Dentro de 2 dias após a capação do fumo (entre o estádio final de botão e o estádio inicial de floração)",
+      "fonte_pagina": 3,
+      "fonte_trecho": "Fumo | 10 – 14 L/ha 30 – 35 mL de calda por planta (aplicação costal) | Dentro de 2 dias após a capação do fumo | 2 | 5 – 7 dias | 500 L/ha"
+    },
+    {
+      "cultura": "Fumo",
+      "praga_nome_comum": null,
+      "praga_nome_cientifico": "Nicotiana tabacum",
+      "dose_min": 30,
+      "dose_max": 35,
+      "dose_unidade": "mL/planta",
+      "volume_calda_min": 500,
+      "volume_calda_max": 500,
+      "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 2,
+      "intervalo_aplicacao": "5 a 7 dias",
+      "carencia_dias": 7,
+      "carencia_texto": null,
+      "epoca_aplicacao": "Dentro de 2 dias após a capação do fumo (entre o estádio final de botão e o estádio inicial de floração); dose de 30-35 mL de calda por planta quando aplicação costal",
+      "fonte_pagina": 3,
+      "fonte_trecho": "Fumo | 10 – 14 L/ha 30 – 35 mL de calda por planta (aplicação costal) | Dentro de 2 dias após a capação do fumo | 2 | 5 – 7 dias | 500 L/ha"
+    }
+  ]
+}

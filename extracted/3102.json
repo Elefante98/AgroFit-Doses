@@ -1,0 +1,24 @@
+{
+ "numero_registro": "3102",
+ "registros": [
+  {
+   "cultura": "Qualquer cultura em que ocorra o alvo biológico indicado",
+   "praga_nome_comum": "Bicudo",
+   "praga_nome_cientifico": "Rhynchophorus palmarum",
+   "dose_min": 1,
+   "dose_max": 1,
+   "dose_unidade": "armadilha/2ha",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": null,
+   "intervalo_aplicacao": "45 dias (troca do sachê)",
+   "carencia_dias": null,
+   "carencia_texto": "Não pertinente.",
+   "epoca_aplicacao": "Visando o monitoramento, utilizar durante o ano inteiro. Adicionar novo sachê a cada 45 dias.",
+   "fonte_pagina": 2,
+   "fonte_trecho": "Qualquer cultura em que ocorra o alvo biológico indicado | Rhynchophorus palmarum (bicudo, broca-do-olho-do-coqueiro) | Para monitoramento utilizar 1 armadilha com o sachê de feromônio a cada 2 hectares."
+  }
+ ]
+}

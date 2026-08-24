@@ -1,0 +1,62 @@
+{
+ "numero_registro": "2996",
+ "registros": [
+  {
+   "cultura": "Não Atrelado a Cultura",
+   "praga_nome_comum": "Saúva-cabeça-de-vidro",
+   "praga_nome_cientifico": "Atta laevigata",
+   "dose_min": 6.0,
+   "dose_max": 10,
+   "dose_unidade": "g/m2",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": 2,
+   "intervalo_aplicacao": "90 dias",
+   "carencia_dias": null,
+   "carencia_texto": "Não estabelecido devido à modalidade de emprego do produto.",
+   "epoca_aplicacao": "Iniciar as aplicações sempre que forem localizados formigueiros em atividade. O produto pode ser aplicado em qualquer época do ano. Aplicar o produto com tempo seco e ao entardecer, para evitar umedecimento e interrupção noturna do trabalho de carregamento das iscas pelas formigas. Normalmente uma única aplicação é suficiente para o controle. Em caso de necessidade de repasse, repetir a aplicação 90 dias após a primeira aplicação. Forma de aplicação: Terrestre.",
+   "fonte_pagina": 2,
+   "fonte_trecho": "Atta laevigatta (saúva cabeça-de-vidro); Atta sexdens rubropilosa (saúva limão) | Doses (em g/m2 de terra solta do formigueiro): Produto Comercial 6,0-10 g; Ingrediente Ativo 0,018-0,03 g (descartado, regra i) | Nº máximo de aplicações/intervalo: 2/90 dias | Forma de Aplicação: Terrestre"
+  },
+  {
+   "cultura": "Não Atrelado a Cultura",
+   "praga_nome_comum": "Saúva-limão",
+   "praga_nome_cientifico": "Atta sexdens rubropilosa",
+   "dose_min": 6.0,
+   "dose_max": 10,
+   "dose_unidade": "g/m2",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": 2,
+   "intervalo_aplicacao": "90 dias",
+   "carencia_dias": null,
+   "carencia_texto": "Não estabelecido devido à modalidade de emprego do produto.",
+   "epoca_aplicacao": "Iniciar as aplicações sempre que forem localizados formigueiros em atividade. O produto pode ser aplicado em qualquer época do ano. Aplicar o produto com tempo seco e ao entardecer, para evitar umedecimento e interrupção noturna do trabalho de carregamento das iscas pelas formigas. Normalmente uma única aplicação é suficiente para o controle. Em caso de necessidade de repasse, repetir a aplicação 90 dias após a primeira aplicação. Forma de aplicação: Terrestre.",
+   "fonte_pagina": 2,
+   "fonte_trecho": "Atta laevigatta (saúva cabeça-de-vidro); Atta sexdens rubropilosa (saúva limão) | Doses (em g/m2 de terra solta do formigueiro): Produto Comercial 6,0-10 g; Ingrediente Ativo 0,018-0,03 g (descartado, regra i) | Nº máximo de aplicações/intervalo: 2/90 dias | Forma de Aplicação: Terrestre"
+  },
+  {
+   "cultura": "Não Atrelado a Cultura",
+   "praga_nome_comum": "Saúva-parda",
+   "praga_nome_cientifico": "Atta capiguara",
+   "dose_min": 8.0,
+   "dose_max": 10,
+   "dose_unidade": "g/m2",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": 2,
+   "intervalo_aplicacao": "90 dias",
+   "carencia_dias": null,
+   "carencia_texto": "Não estabelecido devido à modalidade de emprego do produto.",
+   "epoca_aplicacao": "Iniciar as aplicações sempre que forem localizados formigueiros em atividade. O produto pode ser aplicado em qualquer época do ano. Aplicar o produto com tempo seco e ao entardecer, para evitar umedecimento e interrupção noturna do trabalho de carregamento das iscas pelas formigas. Normalmente uma única aplicação é suficiente para o controle. Em caso de necessidade de repasse, repetir a aplicação 90 dias após a primeira aplicação. Forma de aplicação: Terrestre. Para o cálculo da área de terra solta de Atta capiguara, incluir as rosetas e discos existentes ao lado dos montes de terra solta.",
+   "fonte_pagina": 2,
+   "fonte_trecho": "Atta capiguara (saúva parda) | Doses (em g/m2 de terra solta do formigueiro): Produto Comercial 8,0-10 g; Ingrediente Ativo 0,024-0,03 g (descartado, regra i) | Nº máximo de aplicações/intervalo: 2/90 dias | Forma de Aplicação: Terrestre"
+  }
+ ]
+}

@@ -1,0 +1,62 @@
+{
+ "numero_registro": "3023",
+ "registros": [
+  {
+   "cultura": "Cana-de-açúcar",
+   "praga_nome_comum": null,
+   "praga_nome_cientifico": "Saccharum officinarum",
+   "dose_min": 0.8,
+   "dose_max": 1.2,
+   "dose_unidade": "L/ha",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": "Terrestre: 100 a 250 L de calda/ha; Aérea: 30 a 40 L de calda/ha.",
+   "num_max_aplicacoes": 1,
+   "intervalo_aplicacao": null,
+   "carencia_dias": 34,
+   "carencia_texto": null,
+   "epoca_aplicacao": "Aplicar entre 40 e 60 dias antes do corte previsto, na fase final do desenvolvimento vegetativo pleno.",
+   "fonte_pagina": 4,
+   "fonte_trecho": "Cana-de-açúcar | 0,8 - 1,2L de p.c./ha (200 – 300g de i.a./ha) | 1 aplicação"
+  },
+  {
+   "cultura": "Cevada",
+   "praga_nome_comum": null,
+   "praga_nome_cientifico": "Hordeum vulgare",
+   "dose_min": 0.4,
+   "dose_max": 0.5,
+   "dose_unidade": "L/ha",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": "Terrestre: 100 a 250 L de calda/ha; Aérea: 30 a 40 L de calda/ha.",
+   "num_max_aplicacoes": 1,
+   "intervalo_aplicacao": null,
+   "carencia_dias": null,
+   "carencia_texto": "Não determinado devido à modalidade de emprego.",
+   "epoca_aplicacao": "Aplicar na época da elongação da cultura (1º nó visível), plantas com 25 a 35cm de altura.",
+   "fonte_pagina": 4,
+   "fonte_trecho": "Cevada | 0,4 - 0,5L de p.c./ha (100 – 125g de i.a./ha) | 1 aplicação"
+  },
+  {
+   "cultura": "Trigo",
+   "praga_nome_comum": null,
+   "praga_nome_cientifico": "Triticum aestivum",
+   "dose_min": 0.4,
+   "dose_max": 0.5,
+   "dose_unidade": "L/ha",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": "Terrestre: 100 a 250 L de calda/ha; Aérea: 30 a 40 L de calda/ha.",
+   "num_max_aplicacoes": 1,
+   "intervalo_aplicacao": null,
+   "carencia_dias": null,
+   "carencia_texto": "Não determinado devido à modalidade de emprego.",
+   "epoca_aplicacao": "Aplicar na época da elongação da cultura (1º nó visível), plantas com 25 a 35cm de altura.",
+   "fonte_pagina": 4,
+   "fonte_trecho": "Trigo | 0,4 - 0,5L de p.c./ha (100 – 125g de i.a./ha) | 1 aplicação"
+  }
+ ]
+}

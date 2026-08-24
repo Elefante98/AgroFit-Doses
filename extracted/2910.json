@@ -1,0 +1,24 @@
+{
+  "numero_registro": "2910",
+  "registros": [
+    {
+      "cultura": "Cana-de-açúcar",
+      "praga_nome_comum": "Acelerar a maturação e incrementar os parâmetros relacionados à qualidade da cana-de-açúcar (maturador)",
+      "praga_nome_cientifico": "Saccharum officinarum",
+      "dose_min": 0.10,
+      "dose_max": 0.15,
+      "dose_unidade": "L/ha",
+      "volume_calda_min": 20,
+      "volume_calda_max": 50,
+      "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 1,
+      "intervalo_aplicacao": null,
+      "carencia_dias": 20,
+      "carencia_texto": null,
+      "epoca_aplicacao": "40 a 60 dias antes da colheita, aplicação aérea, em lavouras com boas condições de sanidade e desenvolvimento vegetativo, sem estresse. Não adicionar adjuvante de nenhuma natureza.",
+      "fonte_pagina": 4,
+      "fonte_trecho": "Cana-de-açúcar | Acelerar a maturação... | 40 a 60 dias antes da colheita | 0,10 a 0,15 | 1 | 20 a 50 L/ha (aérea)"
+    }
+  ]
+}

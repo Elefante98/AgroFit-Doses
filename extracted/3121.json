@@ -1,0 +1,101 @@
+{
+ "numero_registro": "3121",
+ "registros": [
+  {
+   "cultura": "Em todas as culturas com ocorrência do alvo biológico",
+   "praga_nome_comum": "Nematoide-de-cistos",
+   "praga_nome_cientifico": "Heterodera glycines",
+   "dose_min": 100, "dose_max": 800, "dose_unidade": "mL/ha",
+   "volume_calda_min": 60, "volume_calda_max": 60, "volume_calda_unidade": "L/ha",
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+   "carencia_dias": null, "carencia_texto": "Não determinado em função da não necessidade de estipular o limite máximo de resíduo (LMR) para este produto.",
+   "epoca_aplicacao": "1 aplicação no sulco de plantio", "fonte_pagina": 3,
+   "fonte_trecho": "Nematoide-de-cistos (Heterodera glycines) | 100 a 800 mL p.c./ha | Sulco: 60 L/ha | 1 aplicação no sulco de plantio"
+  },
+  {
+   "cultura": "Em todas as culturas com ocorrência do alvo biológico",
+   "praga_nome_comum": "Podridão-cinzenta-do-caule",
+   "praga_nome_cientifico": "Macrophomina phaseolina",
+   "dose_min": 100, "dose_max": 800, "dose_unidade": "mL/ha",
+   "volume_calda_min": 60, "volume_calda_max": 60, "volume_calda_unidade": "L/ha",
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+   "carencia_dias": null, "carencia_texto": "Não determinado em função da não necessidade de estipular o limite máximo de resíduo (LMR) para este produto.",
+   "epoca_aplicacao": "1 aplicação no sulco de plantio", "fonte_pagina": 3,
+   "fonte_trecho": "Podridão-cinzenta-do-caule (Macrophomina phaseolina) | 100 a 800 mL p.c./ha | célula mesclada c/ linha Nematoide-de-cistos: Sulco 60 L/ha"
+  },
+  {
+   "cultura": "Em todas as culturas com ocorrência do alvo biológico",
+   "praga_nome_comum": "Nematoide-das-lesões",
+   "praga_nome_cientifico": "Pratylenchus brachyurus",
+   "dose_min": 100, "dose_max": 800, "dose_unidade": "mL/ha",
+   "volume_calda_min": 60, "volume_calda_max": 60, "volume_calda_unidade": "L/ha",
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+   "carencia_dias": null, "carencia_texto": "Não determinado em função da não necessidade de estipular o limite máximo de resíduo (LMR) para este produto.",
+   "epoca_aplicacao": "1 aplicação no sulco de plantio", "fonte_pagina": 3,
+   "fonte_trecho": "Nematoide-das-lesões (Pratylenchus brachyurus) | 100 a 800 mL p.c./ha | célula mesclada c/ linha Nematoide-de-cistos: Sulco 60 L/ha"
+  },
+  {
+   "cultura": "Em todas as culturas com ocorrência do alvo biológico",
+   "praga_nome_comum": "Nematoide-das-lesões",
+   "praga_nome_cientifico": "Pratylenchus zeae",
+   "dose_min": 100, "dose_max": 800, "dose_unidade": "mL/ha",
+   "volume_calda_min": 200, "volume_calda_max": 200, "volume_calda_unidade": "L/ha",
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+   "carencia_dias": null, "carencia_texto": "Não determinado em função da não necessidade de estipular o limite máximo de resíduo (LMR) para este produto.",
+   "epoca_aplicacao": "1 aplicação no sulco de plantio", "fonte_pagina": 3,
+   "fonte_trecho": "Nematoide-das-lesões (Pratylenchus zeae) | 100 a 800 mL p.c./ha | Sulco: 200 L/ha | (época mesclada c/ grupo sulco)"
+  },
+  {
+   "cultura": "Em todas as culturas com ocorrência do alvo biológico",
+   "praga_nome_comum": "Tombamento",
+   "praga_nome_cientifico": "Rhizoctonia solani",
+   "dose_min": 100, "dose_max": 800, "dose_unidade": "mL/ha",
+   "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+   "volume_calda_outros": "Terrestre: 200 L/ha; Aérea: 30 – 50 L/ha",
+   "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+   "carencia_dias": null, "carencia_texto": "Não determinado em função da não necessidade de estipular o limite máximo de resíduo (LMR) para este produto.",
+   "epoca_aplicacao": "1 aplicação em área total", "fonte_pagina": 3,
+   "fonte_trecho": "Tombamento (Rhizoctonia solani) | 100 a 800 mL p.c./ha | Terrestre: 200 L/ha Aérea: 30 – 50 L/ha | 1 aplicação em área total"
+  },
+  {
+   "cultura": "Em todas as culturas com ocorrência do alvo biológico",
+   "praga_nome_comum": "Nematoide-das-lesões",
+   "praga_nome_cientifico": "Pratylenchus zeae",
+   "dose_min": 100, "dose_max": 800, "dose_unidade": "mL/ha",
+   "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+   "volume_calda_outros": "Drench: 60mL/planta (30 mL em cada lado da planta) ou 200 L/ha.",
+   "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+   "carencia_dias": null, "carencia_texto": "Não determinado em função da não necessidade de estipular o limite máximo de resíduo (LMR) para este produto.",
+   "epoca_aplicacao": "1 aplicação no drench", "fonte_pagina": 3,
+   "fonte_trecho": "Nematoide-das-lesões (Pratylenchus zeae) | 100 a 800 mL p.c./ha | Drench: 60mL/planta (30 mL em cada lado da planta) ou 200 L/ha. | 1 aplicação no drench"
+  },
+  {
+   "cultura": "Em todas as culturas com ocorrência do alvo biológico",
+   "praga_nome_comum": "Nematoide-das-galhas",
+   "praga_nome_cientifico": "Meloidogyne paranaensis",
+   "dose_min": 100, "dose_max": 800, "dose_unidade": "mL/ha",
+   "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+   "volume_calda_outros": "Drench: 60mL/planta (30 mL em cada lado da planta) ou 200 L/ha.",
+   "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+   "carencia_dias": null, "carencia_texto": "Não determinado em função da não necessidade de estipular o limite máximo de resíduo (LMR) para este produto.",
+   "epoca_aplicacao": "1 aplicação no drench", "fonte_pagina": 3,
+   "fonte_trecho": "Nematoide-das-galhas (Meloidogyne paranaensis) | 100 a 800 mL p.c./ha | célula mesclada c/ linha acima: Drench 60mL/planta ou 200L/ha"
+  },
+  {
+   "cultura": "Em todas as culturas com ocorrência do alvo biológico",
+   "praga_nome_comum": "Murcha de fusário",
+   "praga_nome_cientifico": "Fusarium solani",
+   "dose_min": 100, "dose_max": 800, "dose_unidade": "mL/ha",
+   "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+   "volume_calda_outros": "Drench: 60mL/planta (30 mL em cada lado da planta) ou 200 L/ha.",
+   "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+   "carencia_dias": null, "carencia_texto": "Não determinado em função da não necessidade de estipular o limite máximo de resíduo (LMR) para este produto.",
+   "epoca_aplicacao": "1 aplicação no drench", "fonte_pagina": 3,
+   "fonte_trecho": "Murcha de fusário (Fusarium solani) | 100 a 800 mL p.c./ha | célula mesclada c/ linha acima: Drench 60mL/planta ou 200L/ha"
+  }
+ ]
+}

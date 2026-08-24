@@ -1,0 +1,43 @@
+{
+ "numero_registro": "2922",
+ "registros": [
+  {
+   "cultura": "Não Atrelado a Cultura",
+   "praga_nome_comum": "Lagarta-parda",
+   "praga_nome_cientifico": "Thyrinteina arnobia",
+   "dose_min": 4,
+   "dose_max": 12,
+   "dose_unidade": "cartelas/ha",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": 3,
+   "intervalo_aplicacao": "30 dias entre liberações; o número de liberações varia conforme a infestação da praga, podendo chegar a até 3 liberações",
+   "carencia_dias": null,
+   "carencia_texto": "Não se aplica (agente biológico de controle)",
+   "epoca_aplicacao": "Aplicação Terrestre. Em todas as culturas com ocorrência dos alvos biológicos (eficiência agronômica comprovada na cultura do eucalipto). Cartelas distribuídas em pontos equidistantes de 23 m a 26 m. A primeira liberação deverá ser realizada no início de infestação da praga, após as larvas atingirem o 3º instar até a fase de pupa.",
+   "fonte_pagina": 2,
+   "fonte_trecho": "Em todas as culturas com ocorrência dos alvos biológicos | Lagarta-parda (Thyrinteina arnobia) | Aplicação Terrestre: 4, 6, 8, 10 e 12 cartelas/ha"
+  },
+  {
+   "cultura": "Não Atrelado a Cultura",
+   "praga_nome_comum": "Lagarta-parda",
+   "praga_nome_cientifico": "Thyrinteina arnobia",
+   "dose_min": 8,
+   "dose_max": 15,
+   "dose_unidade": "mL/ha",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": 3,
+   "intervalo_aplicacao": "30 dias entre liberações; o número de liberações varia conforme a infestação da praga, podendo chegar a até 3 liberações",
+   "carencia_dias": null,
+   "carencia_texto": "Não se aplica (agente biológico de controle)",
+   "epoca_aplicacao": "Aplicação Aérea, com tubos liberadores (drone ou avião). Em todas as culturas com ocorrência dos alvos biológicos (eficiência agronômica comprovada na cultura do eucalipto). A primeira liberação deverá ser realizada no início de infestação da praga, após as larvas atingirem o 3º instar até a fase de pupa.",
+   "fonte_pagina": 2,
+   "fonte_trecho": "Em todas as culturas com ocorrência dos alvos biológicos | Lagarta-parda (Thyrinteina arnobia) | Aplicação Aérea: 8 a 15 mL/ha"
+  }
+ ]
+}

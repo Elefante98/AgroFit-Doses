@@ -1,0 +1,62 @@
+{
+ "numero_registro": "3223",
+ "registros": [
+  {
+   "cultura": "Cana-de-açúcar",
+   "praga_nome_comum": "Cupins",
+   "praga_nome_cientifico": "Heterotermes tenuis, Procornitermes triacifer",
+   "dose_min": 1.7,
+   "dose_max": 2.1,
+   "dose_unidade": "L/ha",
+   "volume_calda_min": 200,
+   "volume_calda_max": 200,
+   "volume_calda_unidade": "L/ha",
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": 1,
+   "intervalo_aplicacao": null,
+   "carencia_dias": null,
+   "carencia_texto": "Não determinado devido à modalidade de emprego.",
+   "epoca_aplicacao": "Aplicação dirigida ao solo no sulco de plantio. Plantios novos: aplicar o produto no solo juntamente com a semeadura no sulco do plantio. Renovação do Canavial: a aplicação deve ser realizada sobre os \"toletes\" colocados no sulco de plantio. Cobrir imediatamente o sulco após a aplicação. Não aplicar durante o período de floração.",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Cupins (Heterotermes tenuis, Procornitermes triacifer) | 1,7 - 2,1 L/ha | 200 L/ha | 1"
+  },
+  {
+   "cultura": "Cana-de-açúcar",
+   "praga_nome_comum": "Cupins",
+   "praga_nome_cientifico": "Procornitermes triacifer",
+   "dose_min": 1.7,
+   "dose_max": 2.1,
+   "dose_unidade": "L/ha",
+   "volume_calda_min": 200,
+   "volume_calda_max": 200,
+   "volume_calda_unidade": "L/ha",
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": 1,
+   "intervalo_aplicacao": null,
+   "carencia_dias": null,
+   "carencia_texto": "Não determinado devido à modalidade de emprego.",
+   "epoca_aplicacao": "Aplicação dirigida ao solo no sulco de plantio. Plantios novos: aplicar o produto no solo juntamente com a semeadura no sulco do plantio. Renovação do Canavial: a aplicação deve ser realizada sobre os \"toletes\" colocados no sulco de plantio. Cobrir imediatamente o sulco após a aplicação. Não aplicar durante o período de floração.",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Cupins (Procornitermes triacifer) | [dose mesclada: 1,7 - 2,1 L/ha] | 200 L/ha | 1"
+  },
+  {
+   "cultura": "Cana-de-açúcar",
+   "praga_nome_comum": "Migdolus",
+   "praga_nome_cientifico": "Migdolus frianus",
+   "dose_min": 2.1,
+   "dose_max": 2.1,
+   "dose_unidade": "L/ha",
+   "volume_calda_min": 200,
+   "volume_calda_max": 200,
+   "volume_calda_unidade": "L/ha",
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": 1,
+   "intervalo_aplicacao": null,
+   "carencia_dias": null,
+   "carencia_texto": "Não determinado devido à modalidade de emprego.",
+   "epoca_aplicacao": "Aplicação dirigida ao solo no sulco de plantio. Plantios novos: aplicar o produto no solo juntamente com a semeadura no sulco do plantio. Renovação do Canavial: a aplicação deve ser realizada sobre os \"toletes\" colocados no sulco de plantio. Cobrir imediatamente o sulco após a aplicação. Não aplicar durante o período de floração.",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Migdolus (Migdolus frianus) | 2,1 L/ha | 200 L/ha | 1"
+  }
+ ]
+}

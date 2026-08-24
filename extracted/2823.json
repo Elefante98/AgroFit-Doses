@@ -1,0 +1,43 @@
+{
+  "numero_registro": "2823",
+  "registros": [
+    {
+      "cultura": "Maçã",
+      "praga_nome_comum": null,
+      "praga_nome_cientifico": "Malus domestica",
+      "dose_min": 0.50,
+      "dose_max": 1.25,
+      "dose_unidade": "kg/ha",
+      "volume_calda_min": 1000,
+      "volume_calda_max": 1000,
+      "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 1,
+      "intervalo_aplicacao": null,
+      "carencia_dias": null,
+      "carencia_texto": "Não determinado em função da não necessidade de estipular o limite máximo de resíduo (LMR) para este ingrediente ativo",
+      "epoca_aplicacao": "Fazer uma única aplicação entre a queda de pétalas (BBCH 67) e frutos com 25 mm de diâmetro (BBCH 73)",
+      "fonte_pagina": 2,
+      "fonte_trecho": "Maçã* | 0,50 a 1,25 kg/ha | 1.000 L/ha | Fazer uma única aplicação entre a queda de pétalas e frutos com 25 mm de diâmetro"
+    },
+    {
+      "cultura": "Uva",
+      "praga_nome_comum": null,
+      "praga_nome_cientifico": "Vitis vinifera",
+      "dose_min": 50,
+      "dose_max": 125,
+      "dose_unidade": "g/100L",
+      "volume_calda_min": null,
+      "volume_calda_max": null,
+      "volume_calda_unidade": null,
+      "volume_calda_outros": "Direcionada ao cacho: 400 a 800 L/ha (terrestre); Direcionada à copa toda: 1.000 L/ha",
+      "num_max_aplicacoes": 1,
+      "intervalo_aplicacao": null,
+      "carencia_dias": null,
+      "carencia_texto": "Não determinado em função da não necessidade de estipular o limite máximo de resíduo (LMR) para este ingrediente ativo",
+      "epoca_aplicacao": "Fazer uma única aplicação (terrestre), direcionada ao cacho ou à copa toda, 7 dias após o início do veraison (BBCH 81)",
+      "fonte_pagina": 2,
+      "fonte_trecho": "Uva | 50 a 125 g/100 Litros | Direcionada ao cacho: 400-800 L/ha; Direcionada à copa toda: 1.000 L/ha"
+    }
+  ]
+}
