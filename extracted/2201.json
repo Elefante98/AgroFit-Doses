@@ -1,0 +1,62 @@
+{
+ "numero_registro": "2201",
+ "registros": [
+  {
+   "cultura": "Algodão",
+   "praga_nome_comum": null,
+   "praga_nome_cientifico": "Gossypium hirsutum",
+   "dose_min": 0.2,
+   "dose_max": 0.2,
+   "dose_unidade": "L/ha",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": "Aplicação terrestre tratorizada: 200-300 L/ha; Aplicação aérea: 40 litros/ha (bicos D-6 a D-10)",
+   "num_max_aplicacoes": 1,
+   "intervalo_aplicacao": null,
+   "carencia_dias": 60,
+   "carencia_texto": null,
+   "epoca_aplicacao": "Aplicação única: quando houver uma forte tendência a um desenvolvimento vegetativo exagerado, pode-se fazer uma aplicação única de 0,2 L/ha, quando as plantas apresentarem de 8 a 10 flores abertas por metro linear ou quando as plantas atingirem 60 cm de altura. Para o controle do desenvolvimento vegetativo e maior retenção dos botões florais e de maçãs.",
+   "fonte_pagina": 2,
+   "fonte_trecho": "ALGODÃO | Aplicação única | Nº 01 | Dose 0,2 L/ha | Volume 200-300 L/ha"
+  },
+  {
+   "cultura": "Algodão",
+   "praga_nome_comum": null,
+   "praga_nome_cientifico": "Gossypium hirsutum",
+   "dose_min": 0.1,
+   "dose_max": 0.1,
+   "dose_unidade": "L/ha",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": "Aplicação terrestre tratorizada: 200-300 L/ha; Aplicação aérea: 40 litros/ha (bicos D-6 a D-10)",
+   "num_max_aplicacoes": 2,
+   "intervalo_aplicacao": "10 a 15 dias",
+   "carencia_dias": 60,
+   "carencia_texto": null,
+   "epoca_aplicacao": "Aplicação sequencial (2 aplicações de 0,1 L de produto comercial por ha): a primeira aplicação é recomendada quando 50% das plantas apresentarem o primeiro botão floral em desenvolvimento (3 a 6 mm), desde que a planta apresente condições normais de crescimento. A segunda aplicação ocorrerá 10 a 15 dias após a primeira quando houver retomada de crescimento da planta.",
+   "fonte_pagina": 2,
+   "fonte_trecho": "ALGODÃO | Aplicação sequencial | Nº 02 | Dose 0,1 L/ha | Volume 200-300 L/ha"
+  },
+  {
+   "cultura": "Algodão",
+   "praga_nome_comum": null,
+   "praga_nome_cientifico": "Gossypium hirsutum",
+   "dose_min": 0.05,
+   "dose_max": 0.05,
+   "dose_unidade": "L/ha",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": "Aplicação terrestre tratorizada: 200-300 L/ha; Aplicação aérea: 40 litros/ha (bicos D-6 a D-10)",
+   "num_max_aplicacoes": 4,
+   "intervalo_aplicacao": "7 a 14 dias",
+   "carencia_dias": 60,
+   "carencia_texto": null,
+   "epoca_aplicacao": "Aplicação sequencial (4 aplicações de 0,05 L de produto comercial por ha): a primeira aplicação é recomendada quando 50% das plantas apresentarem o primeiro botão em desenvolvimento (3 a 6 mm), desde que a planta apresente condições normais de crescimento. As aplicações subsequentes devem ser realizadas cerca de 7 a 14 dias após a aplicação anterior, quando houver retomada de crescimento.",
+   "fonte_pagina": 2,
+   "fonte_trecho": "ALGODÃO | Aplicação sequencial | Nº 04 | Dose 0,05 L/ha | Volume 200-300 L/ha"
+  }
+ ]
+}

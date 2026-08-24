@@ -1,0 +1,75 @@
+{
+  "numero_registro": "2310",
+  "registros": [
+    {
+      "cultura": "Pastagem", "praga_nome_comum": "Gervão-branco", "praga_nome_cientifico": "Croton glandulosus",
+      "dose_min": 1.5, "dose_max": 3.0, "dose_unidade": "L/ha",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": "Aplicação terrestre: 200 - 400 L/ha; Aplicação aérea: 50 L/ha.",
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": "1 aplicação ao ano",
+      "carencia_dias": null, "carencia_texto": "Uso não alimentar",
+      "epoca_aplicacao": "época quente, quando as plantas daninhas estiverem em pleno desenvolvimento vegetativo", "fonte_pagina": 4,
+      "fonte_trecho": "Pastagem | Gervão-branco (Croton glandulosus) | 1,5 - 3,0 | Deve-se fazer uma aplicação ao ano"
+    },
+    {
+      "cultura": "Pastagem", "praga_nome_comum": "Bamburral", "praga_nome_cientifico": "Hyptis suaveolens",
+      "dose_min": 1.5, "dose_max": 3.0, "dose_unidade": "L/ha",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": "Aplicação terrestre: 200 - 400 L/ha; Aplicação aérea: 50 L/ha.",
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": "1 aplicação ao ano",
+      "carencia_dias": null, "carencia_texto": "Uso não alimentar",
+      "epoca_aplicacao": "época quente, quando as plantas daninhas estiverem em pleno desenvolvimento vegetativo", "fonte_pagina": 4,
+      "fonte_trecho": "Pastagem | Bamburral (Hyptis suaveolens) | 1,5 - 3,0"
+    },
+    {
+      "cultura": "Pastagem", "praga_nome_comum": "Fedegoso-branco", "praga_nome_cientifico": "Senna obtusifolia",
+      "dose_min": 1.5, "dose_max": 3.0, "dose_unidade": "L/ha",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": "Aplicação terrestre: 200 - 400 L/ha; Aplicação aérea: 50 L/ha.",
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": "1 aplicação ao ano",
+      "carencia_dias": null, "carencia_texto": "Uso não alimentar",
+      "epoca_aplicacao": "época quente, quando as plantas daninhas estiverem em pleno desenvolvimento vegetativo", "fonte_pagina": 4,
+      "fonte_trecho": "Pastagem | Fedegoso-branco (Senna obtusifolia) | 1,5 - 3,0"
+    },
+    {
+      "cultura": "Pastagem", "praga_nome_comum": "Malva-branca", "praga_nome_cientifico": "Sida cordifolia",
+      "dose_min": 1.5, "dose_max": 3.0, "dose_unidade": "L/ha",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": "Aplicação terrestre: 200 - 400 L/ha; Aplicação aérea: 50 L/ha.",
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": "1 aplicação ao ano",
+      "carencia_dias": null, "carencia_texto": "Uso não alimentar",
+      "epoca_aplicacao": "época quente, quando as plantas daninhas estiverem em pleno desenvolvimento vegetativo", "fonte_pagina": 4,
+      "fonte_trecho": "Pastagem | Malva-branca (Sida cordifolia) | 1,5 - 3,0"
+    },
+    {
+      "cultura": "Pastagem", "praga_nome_comum": "Guanxuma-branca", "praga_nome_cientifico": "Sida glaziovii",
+      "dose_min": 3.0, "dose_max": 3.0, "dose_unidade": "L/ha",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": "Aplicação terrestre: 200 - 400 L/ha; Aplicação aérea: 50 L/ha.",
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": "1 aplicação ao ano",
+      "carencia_dias": null, "carencia_texto": "Uso não alimentar",
+      "epoca_aplicacao": "época quente, quando as plantas daninhas estiverem em pleno desenvolvimento vegetativo", "fonte_pagina": 4,
+      "fonte_trecho": "Pastagem | Guanxuma-branca (Sida glaziovii) | 3,0"
+    },
+    {
+      "cultura": "Pastagem", "praga_nome_comum": "Guanxuma", "praga_nome_cientifico": "Sida rhombifolia",
+      "dose_min": 2.0, "dose_max": 3.0, "dose_unidade": "L/ha",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": "Aplicação terrestre: 200 - 400 L/ha; Aplicação aérea: 50 L/ha.",
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": "1 aplicação ao ano",
+      "carencia_dias": null, "carencia_texto": "Uso não alimentar",
+      "epoca_aplicacao": "época quente, quando as plantas daninhas estiverem em pleno desenvolvimento vegetativo", "fonte_pagina": 4,
+      "fonte_trecho": "Pastagem | Guanxuma (Sida rhombifolia) | 2,0 - 3,0"
+    },
+    {
+      "cultura": "Pastagem", "praga_nome_comum": "Guanxuma", "praga_nome_cientifico": "Sida santaremnensis",
+      "dose_min": 1.5, "dose_max": 3.0, "dose_unidade": "L/ha",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": "Aplicação terrestre: 200 - 400 L/ha; Aplicação aérea: 50 L/ha.",
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": "1 aplicação ao ano",
+      "carencia_dias": null, "carencia_texto": "Uso não alimentar",
+      "epoca_aplicacao": "época quente, quando as plantas daninhas estiverem em pleno desenvolvimento vegetativo", "fonte_pagina": 4,
+      "fonte_trecho": "Pastagem | Guanxuma (Sida santaremnensis) | 1,5 - 3,0"
+    }
+  ]
+}

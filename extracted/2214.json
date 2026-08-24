@@ -1,0 +1,15 @@
+{
+  "numero_registro": "2214",
+  "registros": [
+    {
+      "cultura": "Citros", "praga_nome_comum": "Ácaro-da-leprose", "praga_nome_cientifico": "Brevipalpus phoenicis",
+      "dose_min": 40, "dose_max": 40, "dose_unidade": "mL/100L",
+      "volume_calda_min": 2000, "volume_calda_max": 2000, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": 7, "carencia_texto": null,
+      "epoca_aplicacao": "Iniciar a aplicação quando for constatada infestação de no máximo 10% dos frutos ou ramos. Realizar no máximo 1 aplicação por ciclo da cultura.", "fonte_pagina": 3,
+      "fonte_trecho": "Citros | Ácaro-da-leprose (Brevipalpus phoenicis) | 40 mL/100 L água | 2000 L/ha"
+    }
+  ]
+}

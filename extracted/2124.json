@@ -1,0 +1,70 @@
+{
+ "numero_registro": "2124",
+ "registros": [
+  {
+   "cultura": "Milho",
+   "praga_nome_comum": "Ferrugem-comum",
+   "praga_nome_cientifico": "Puccinia sorghi",
+   "dose_min": 2.0, "dose_max": 2.0, "dose_unidade": "kg/ha",
+   "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+   "volume_calda_outros": "Terrestre: 100-300 L/ha; Aérea: 20-50 L/ha",
+   "num_max_aplicacoes": 2, "intervalo_aplicacao": "15 dias",
+   "carencia_dias": 35, "carencia_texto": null,
+   "epoca_aplicacao": "Realizar a primeira aplicação de forma preventiva quando a cultura apresentar 6 a 8 folhas (observar o desenvolvimento da cultura, em função da precocidade do material utilizado) ou, no máximo, no início do aparecimento dos sintomas, até a fase de início do pendoamento da cultura.",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Milho | Ferrugem-comum (Puccinia sorghi) | 2,0 kg/ha | Terrestre: 100-300 Aérea: 20-50"
+  },
+  {
+   "cultura": "Milho",
+   "praga_nome_comum": "Cercosporiose",
+   "praga_nome_cientifico": "Cercospora zeae-maydis",
+   "dose_min": 2.0, "dose_max": 2.0, "dose_unidade": "kg/ha",
+   "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+   "volume_calda_outros": "Terrestre: 100-300 L/ha; Aérea: 20-50 L/ha",
+   "num_max_aplicacoes": 2, "intervalo_aplicacao": "15 dias",
+   "carencia_dias": 35, "carencia_texto": null,
+   "epoca_aplicacao": "Realizar a primeira aplicação de forma preventiva quando a cultura apresentar 6 a 8 folhas (observar o desenvolvimento da cultura, em função da precocidade do material utilizado) ou, no máximo, no início do aparecimento dos sintomas, até a fase de início do pendoamento da cultura.",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Milho | Cercosporiose (Cercospora zeae-maydis) | 2,0 kg/ha | Terrestre: 100-300 Aérea: 20-50"
+  },
+  {
+   "cultura": "Soja",
+   "praga_nome_comum": "Mancha-alvo",
+   "praga_nome_cientifico": "Corynespora cassiicola",
+   "dose_min": 1.75, "dose_max": 1.75, "dose_unidade": "kg/ha",
+   "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+   "volume_calda_outros": "Terrestre: 100-300 L/ha; Aérea: 20-50 L/ha",
+   "num_max_aplicacoes": 4, "intervalo_aplicacao": "14 dias",
+   "carencia_dias": 30, "carencia_texto": null,
+   "epoca_aplicacao": "Iniciar as aplicações a partir do estádio fenológico V8 a R1 (cultivares de ciclo determinado) ou entre 30 e 35 dias após a emergência da cultura (cultivares de ciclo indeterminado).",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Soja | Mancha-alvo (Corynespora cassiicola) | 1,75 kg/ha | Terrestre: 100-300 Aérea: 20-50"
+  },
+  {
+   "cultura": "Soja",
+   "praga_nome_comum": "Mancha-púrpura-da-semente ou Crestamento-foliar",
+   "praga_nome_cientifico": "Cercospora kikuchii",
+   "dose_min": 1.75, "dose_max": 1.75, "dose_unidade": "kg/ha",
+   "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+   "volume_calda_outros": "Terrestre: 100-300 L/ha; Aérea: 20-50 L/ha",
+   "num_max_aplicacoes": 4, "intervalo_aplicacao": "14 a 21 dias",
+   "carencia_dias": 30, "carencia_texto": null,
+   "epoca_aplicacao": "Iniciar as aplicações a partir do estádio fenológico V8 a R1 (cultivares de ciclo determinado) ou entre 30 e 35 dias após a emergência da cultura (cultivares de ciclo indeterminado). Caso ocorra outra doença ao mesmo tempo, adotar o menor intervalo que consta em bula.",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Soja | Mancha-púrpura-da-semente ou Crestamento-foliar (Cercospora kikuchii) | 1,75 kg/ha"
+  },
+  {
+   "cultura": "Soja",
+   "praga_nome_comum": "Oídio",
+   "praga_nome_cientifico": "Microsphaera diffusa",
+   "dose_min": 1.75, "dose_max": 1.75, "dose_unidade": "kg/ha",
+   "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+   "volume_calda_outros": "Terrestre: 100-300 L/ha; Aérea: 20-50 L/ha",
+   "num_max_aplicacoes": 4, "intervalo_aplicacao": "14 a 21 dias",
+   "carencia_dias": 30, "carencia_texto": null,
+   "epoca_aplicacao": "Iniciar as aplicações a partir do estádio fenológico R4 (cultivares de ciclo determinado) ou entre 30 e 35 dias após a emergência da cultura (cultivares de ciclo indeterminado), ou no máximo no aparecimento dos sintomas. Caso ocorra outra doença ao mesmo tempo, adotar o menor intervalo que consta em bula.",
+   "fonte_pagina": 3,
+   "fonte_trecho": "Soja | Oídio (Microsphaera diffusa) | 1,75 kg/ha | Terrestre: 100-300 Aérea: 20-50"
+  }
+ ]
+}

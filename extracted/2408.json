@@ -1,0 +1,62 @@
+{
+ "numero_registro": "2408",
+ "registros": [
+  {
+   "cultura": "Café",
+   "praga_nome_comum": "Ferrugem",
+   "praga_nome_cientifico": "Hemileia vastatrix",
+   "dose_min": 3.0,
+   "dose_max": 5.0,
+   "dose_unidade": "L/ha",
+   "volume_calda_min": 50,
+   "volume_calda_max": 50,
+   "volume_calda_unidade": "mL/planta",
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": 1,
+   "intervalo_aplicacao": null,
+   "carencia_dias": 60,
+   "carencia_texto": null,
+   "epoca_aplicacao": "Ferrugem: realizar a aplicação no período de outubro a dezembro, ou no início da estação chuvosa com o solo úmido, dependendo do histórico de pressão na região. Utilizar a maior dose em regiões de maiores índices de pressão da doença. Em caso de reincidência, utilizar outros fungicidas com mecanismo de ação distinto recomendado para a cultura. Realizar no máximo 1 aplicação por ciclo de cultivo e não ultrapassar a dose de 2,2 ml de Premier Plus/planta. Aplicar após florescimento, onde identificamos as pétalas caídas e secas, no máximo até estádio de chumbinho. Não deve ser utilizado Premier® Plus em combinação com qualquer outro produto formulado a base de Imidacloprido na área. Respeitar a dose máxima por hectare recomendada na bula do produto.",
+   "fonte_pagina": 2,
+   "fonte_trecho": "Café | Ferrugem | Hemileia vastatrix | 3,0-5,0 L/ha | 1 | 50 mL/planta (25 mL cada lado) | Jato dirigido/Gotejo | 60"
+  },
+  {
+   "cultura": "Café",
+   "praga_nome_comum": "Bicho-mineiro-do-café",
+   "praga_nome_cientifico": "Leucoptera coffeella",
+   "dose_min": 3.0,
+   "dose_max": 5.0,
+   "dose_unidade": "L/ha",
+   "volume_calda_min": 50,
+   "volume_calda_max": 50,
+   "volume_calda_unidade": "mL/planta",
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": 1,
+   "intervalo_aplicacao": null,
+   "carencia_dias": 60,
+   "carencia_texto": null,
+   "epoca_aplicacao": "Bicho-mineiro e Cigarra: realizar a aplicação no período de outubro a dezembro, ou no início da estação chuvosa com o solo úmido, dependendo do histórico de pressão na região. Utilizar a maior dose em regiões de maiores índices de infestação. Em caso de reincidência, utilizar outros inseticidas com mecanismo de ação distinto e recomendado para a cultura via solo ou foliar. Realizar no máximo 1 aplicação por ciclo de cultivo e não ultrapassar a dose de 2,2 ml de Premier Plus/planta. Aplicar após florescimento, onde identificamos as pétalas caídas e secas, no máximo até estádio de chumbinho. Não deve ser utilizado Premier® Plus em combinação com qualquer outro produto formulado a base de Imidacloprido na área. Respeitar a dose máxima por hectare recomendada na bula do produto.",
+   "fonte_pagina": 2,
+   "fonte_trecho": "Café | Bicho-mineiro-do-café | Leucoptera coffeella | 3,0-5,0 L/ha (linha mesclada com Ferrugem)"
+  },
+  {
+   "cultura": "Café",
+   "praga_nome_comum": "Cigarra-do-cafeeiro",
+   "praga_nome_cientifico": "Quesada gigas",
+   "dose_min": 3.0,
+   "dose_max": 5.0,
+   "dose_unidade": "L/ha",
+   "volume_calda_min": 50,
+   "volume_calda_max": 50,
+   "volume_calda_unidade": "mL/planta",
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": 1,
+   "intervalo_aplicacao": null,
+   "carencia_dias": 60,
+   "carencia_texto": null,
+   "epoca_aplicacao": "Bicho-mineiro e Cigarra: realizar a aplicação no período de outubro a dezembro, ou no início da estação chuvosa com o solo úmido, dependendo do histórico de pressão na região. Utilizar a maior dose em regiões de maiores índices de infestação. Em caso de reincidência, utilizar outros inseticidas com mecanismo de ação distinto e recomendado para a cultura via solo ou foliar. Realizar no máximo 1 aplicação por ciclo de cultivo e não ultrapassar a dose de 2,2 ml de Premier Plus/planta. Aplicar após florescimento, onde identificamos as pétalas caídas e secas, no máximo até estádio de chumbinho. Não deve ser utilizado Premier® Plus em combinação com qualquer outro produto formulado a base de Imidacloprido na área. Respeitar a dose máxima por hectare recomendada na bula do produto.",
+   "fonte_pagina": 2,
+   "fonte_trecho": "Café | Cigarra-do-cafeeiro | Quesada gigas | 3,0-5,0 L/ha (linha mesclada com Ferrugem)"
+  }
+ ]
+}

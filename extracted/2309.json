@@ -1,0 +1,45 @@
+{
+  "numero_registro": "2309",
+  "registros": [
+    {
+      "cultura": "Batata", "praga_nome_comum": "Requeima", "praga_nome_cientifico": "Phytophthora infestans",
+      "dose_min": 1.25, "dose_max": 1.25, "dose_unidade": "L/ha",
+      "volume_calda_min": 800, "volume_calda_max": 1000, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 3, "intervalo_aplicacao": "intervalos médios de 7 dias",
+      "carencia_dias": 3, "carencia_texto": null,
+      "epoca_aplicacao": "preventivo", "fonte_pagina": 2,
+      "fonte_trecho": "Batata | Requeima | Phytophthora infestans | 1,25 (902,5 g i.a.) | 125 (90,25 g i.a.)"
+    },
+    {
+      "cultura": "Batata", "praga_nome_comum": "Requeima", "praga_nome_cientifico": "Phytophthora infestans",
+      "dose_min": 125, "dose_max": 125, "dose_unidade": "mL/100L",
+      "volume_calda_min": 800, "volume_calda_max": 1000, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 3, "intervalo_aplicacao": "intervalos médios de 7 dias",
+      "carencia_dias": 3, "carencia_texto": null,
+      "epoca_aplicacao": "preventivo", "fonte_pagina": 2,
+      "fonte_trecho": "Batata | Requeima | Phytophthora infestans | 1,25 (902,5 g i.a.) | 125 (90,25 g i.a.)"
+    },
+    {
+      "cultura": "Tomate", "praga_nome_comum": "Requeima", "praga_nome_cientifico": "Phytophthora infestans",
+      "dose_min": 1.50, "dose_max": 1.50, "dose_unidade": "L/ha",
+      "volume_calda_min": 1000, "volume_calda_max": 1000, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 3, "intervalo_aplicacao": "intervalos médios de 7 dias",
+      "carencia_dias": 3, "carencia_texto": null,
+      "epoca_aplicacao": "preventivo", "fonte_pagina": 2,
+      "fonte_trecho": "Tomate | Requeima | Phytophthora infestans | 1,50 (1083 g i.a.) | 150 (108.3 g i.a.)"
+    },
+    {
+      "cultura": "Tomate", "praga_nome_comum": "Requeima", "praga_nome_cientifico": "Phytophthora infestans",
+      "dose_min": 150, "dose_max": 150, "dose_unidade": "mL/100L",
+      "volume_calda_min": 1000, "volume_calda_max": 1000, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 3, "intervalo_aplicacao": "intervalos médios de 7 dias",
+      "carencia_dias": 3, "carencia_texto": null,
+      "epoca_aplicacao": "preventivo", "fonte_pagina": 2,
+      "fonte_trecho": "Tomate | Requeima | Phytophthora infestans | 1,50 (1083 g i.a.) | 150 (108.3 g i.a.)"
+    }
+  ]
+}

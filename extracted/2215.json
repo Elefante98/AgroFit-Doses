@@ -1,0 +1,25 @@
+{
+  "numero_registro": "2215",
+  "registros": [
+    {
+      "cultura": "Em todas as culturas com ocorrência do alvo biológico", "praga_nome_comum": "Broca-da-cana", "praga_nome_cientifico": "Diatraea saccharalis",
+      "dose_min": 24, "dose_max": 48, "dose_unidade": "células/ha",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": null, "intervalo_aplicacao": "semanais (intervalos equidistantes)",
+      "carencia_dias": null, "carencia_texto": "Não determinado em função da não necessidade de estipular o limite máximo de resíduos (LMR) para este ingrediente ativo",
+      "epoca_aplicacao": "Aplicação terrestre. As liberações devem iniciar quando forem detectados os primeiros adultos da praga na área. Realizar no mínimo 3 liberações.", "fonte_pagina": 3,
+      "fonte_trecho": "Em todas as culturas com ocorrência do alvo biológico | Broca-da-cana (Diatraea saccharalis) | 24 a 48 células/ha, sendo distribuídos em pontos equidistantes (APLICAÇÃO TERRESTRE)"
+    },
+    {
+      "cultura": "Em todas as culturas com ocorrência do alvo biológico", "praga_nome_comum": "Broca-da-cana", "praga_nome_cientifico": "Diatraea saccharalis",
+      "dose_min": 8, "dose_max": 8, "dose_unidade": "mL/ha",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": null, "intervalo_aplicacao": "semanais (intervalos equidistantes)",
+      "carencia_dias": null, "carencia_texto": "Não determinado em função da não necessidade de estipular o limite máximo de resíduos (LMR) para este ingrediente ativo",
+      "epoca_aplicacao": "Aplicação aérea (via drone). As liberações devem iniciar quando forem detectados os primeiros adultos da praga na área. Realizar no mínimo 3 liberações.", "fonte_pagina": 3,
+      "fonte_trecho": "Em todas as culturas com ocorrência do alvo biológico | Broca-da-cana (Diatraea saccharalis) | 8 mL/ha (200 mil parasitoides) (APLICAÇÃO AÉREA)"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+ "numero_registro": "2403",
+ "registros": [
+  {
+   "cultura": "Qualquer cultura em que ocorra o alvo biológico indicado",
+   "praga_nome_comum": "Lagarta-militar",
+   "praga_nome_cientifico": "Spodoptera frugiperda",
+   "dose_min": null,
+   "dose_max": null,
+   "dose_unidade": null,
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": null,
+   "intervalo_aplicacao": null,
+   "carencia_dias": null,
+   "carencia_texto": "Não pertinente.",
+   "epoca_aplicacao": "Para um monitoramento eficaz da praga, instale as armadilhas com feromônio logo após a emergência das plantas. Mantenha as armadilhas em todas as áreas sob suspeita para coletar o máximo de informações sobre a população da praga. Troque os sachês a cada 30 dias.",
+   "fonte_pagina": 2,
+   "fonte_trecho": "Qualquer cultura em que ocorra o alvo biológico indicado | Spodoptera frugiperda (Lagarta-militar, Lagarta-do-cartucho) | Para monitoramento utilizar 1 armadilha a cada 5 hectares."
+  }
+ ]
+}

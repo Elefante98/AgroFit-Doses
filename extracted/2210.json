@@ -1,0 +1,175 @@
+{
+  "numero_registro": "2210",
+  "registros": [
+    {
+      "cultura": "Batata", "praga_nome_comum": "Pinta-Preta", "praga_nome_cientifico": "Alternaria solani",
+      "dose_min": 300, "dose_max": 400, "dose_unidade": "g/100L",
+      "volume_calda_min": 1000, "volume_calda_max": 1000, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 8, "intervalo_aplicacao": "3 a 7 dias",
+      "carencia_dias": null, "carencia_texto": "sem restrições",
+      "epoca_aplicacao": "Iniciar quando as plantas estiverem com 15 cm de altura; intervalos mais curtos em época favorável à doença", "fonte_pagina": 2,
+      "fonte_trecho": "Batata | Pinta-Preta | Alternaria solani | 300-400 | 3,0-4,0 | 8"
+    },
+    {
+      "cultura": "Batata", "praga_nome_comum": "Pinta-Preta", "praga_nome_cientifico": "Alternaria solani",
+      "dose_min": 3.0, "dose_max": 4.0, "dose_unidade": "kg/ha",
+      "volume_calda_min": 1000, "volume_calda_max": 1000, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 8, "intervalo_aplicacao": "3 a 7 dias",
+      "carencia_dias": null, "carencia_texto": "sem restrições",
+      "epoca_aplicacao": "Iniciar quando as plantas estiverem com 15 cm de altura; intervalos mais curtos em época favorável à doença", "fonte_pagina": 2,
+      "fonte_trecho": "Batata | Pinta-Preta | Alternaria solani | 300-400 | 3,0-4,0 | 8"
+    },
+    {
+      "cultura": "Café", "praga_nome_comum": "Cercosporiose", "praga_nome_cientifico": "Cercospora coffeicola",
+      "dose_min": 2.0, "dose_max": 3.0, "dose_unidade": "kg/ha",
+      "volume_calda_min": 500, "volume_calda_max": 1000, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 5, "intervalo_aplicacao": null,
+      "carencia_dias": null, "carencia_texto": "sem restrições",
+      "epoca_aplicacao": "No aparecimento dos primeiros sintomas da doença, repetindo sempre que as condições forem favoráveis à incidência", "fonte_pagina": 2,
+      "fonte_trecho": "Café | Cercosporiose | Cercospora coffeicola | - | 2,0-3,0 | 5"
+    },
+    {
+      "cultura": "Citros", "praga_nome_comum": "Verrugose", "praga_nome_cientifico": "Elsinoe australis",
+      "dose_min": 100, "dose_max": 150, "dose_unidade": "g/100L",
+      "volume_calda_min": 2000, "volume_calda_max": 2000, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 2, "intervalo_aplicacao": "cerca de 30 dias após a primeira",
+      "carencia_dias": null, "carencia_texto": "sem restrições",
+      "epoca_aplicacao": "Preventiva, quando 2/3 das pétalas estiverem caídas (florada)", "fonte_pagina": 2,
+      "fonte_trecho": "Citros | Verrugose | Elsinoe australis | 100-150 | 2,0-3,0 | 2"
+    },
+    {
+      "cultura": "Citros", "praga_nome_comum": "Verrugose", "praga_nome_cientifico": "Elsinoe australis",
+      "dose_min": 2.0, "dose_max": 3.0, "dose_unidade": "kg/ha",
+      "volume_calda_min": 2000, "volume_calda_max": 2000, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 2, "intervalo_aplicacao": "cerca de 30 dias após a primeira",
+      "carencia_dias": null, "carencia_texto": "sem restrições",
+      "epoca_aplicacao": "Preventiva, quando 2/3 das pétalas estiverem caídas (florada)", "fonte_pagina": 2,
+      "fonte_trecho": "Citros | Verrugose | Elsinoe australis | 100-150 | 2,0-3,0 | 2"
+    },
+    {
+      "cultura": "Citros", "praga_nome_comum": "Cancro Cítrico", "praga_nome_cientifico": "Xanthomonas axonopodis pv. citri",
+      "dose_min": 1.0, "dose_max": 2.0, "dose_unidade": "kg/ha",
+      "volume_calda_min": 2000, "volume_calda_max": 2000, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 7, "intervalo_aplicacao": "15 dias",
+      "carencia_dias": null, "carencia_texto": "sem restrições",
+      "epoca_aplicacao": "Preventiva, no início do período de brotação", "fonte_pagina": 2,
+      "fonte_trecho": "Citros | Cancro Cítrico | Xanthomonas axonopodis pv. citri | - | 1,0-2,0 | 7"
+    },
+    {
+      "cultura": "Feijão", "praga_nome_comum": "Ferrugem", "praga_nome_cientifico": "Uromyces appendiculatus",
+      "dose_min": 2.0, "dose_max": 3.0, "dose_unidade": "kg/ha",
+      "volume_calda_min": 500, "volume_calda_max": 500, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 5, "intervalo_aplicacao": null,
+      "carencia_dias": null, "carencia_texto": "sem restrições",
+      "epoca_aplicacao": "No aparecimento dos primeiros sintomas da doença", "fonte_pagina": 2,
+      "fonte_trecho": "Feijão | Ferrugem | Uromyces appendiculatus | - | 2,0-3,0 | 5"
+    },
+    {
+      "cultura": "Maçã", "praga_nome_comum": "Sarna da Macieira; Cancro Europeu", "praga_nome_cientifico": "Venturia inaequalis; Neonectria galligena",
+      "dose_min": 250, "dose_max": 250, "dose_unidade": "g/100L",
+      "volume_calda_min": 1000, "volume_calda_max": 1000, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 8, "intervalo_aplicacao": "5 a 7 dias",
+      "carencia_dias": null, "carencia_texto": "sem restrições",
+      "epoca_aplicacao": "Após a poda das plantas", "fonte_pagina": 2,
+      "fonte_trecho": "Maçã | Sarna da Macieira / Cancro Europeu | Venturia inaequalis / Neonectria galligena | 250 | 2,5 | 8"
+    },
+    {
+      "cultura": "Maçã", "praga_nome_comum": "Sarna da Macieira; Cancro Europeu", "praga_nome_cientifico": "Venturia inaequalis; Neonectria galligena",
+      "dose_min": 2.5, "dose_max": 2.5, "dose_unidade": "kg/ha",
+      "volume_calda_min": 1000, "volume_calda_max": 1000, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 8, "intervalo_aplicacao": "5 a 7 dias",
+      "carencia_dias": null, "carencia_texto": "sem restrições",
+      "epoca_aplicacao": "Após a poda das plantas", "fonte_pagina": 2,
+      "fonte_trecho": "Maçã | Sarna da Macieira / Cancro Europeu | Venturia inaequalis / Neonectria galligena | 250 | 2,5 | 8"
+    },
+    {
+      "cultura": "Pimentão", "praga_nome_comum": "Requeima", "praga_nome_cientifico": "Phytophthora capsici",
+      "dose_min": 250, "dose_max": 300, "dose_unidade": "g/100L",
+      "volume_calda_min": 1000, "volume_calda_max": 1000, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 8, "intervalo_aplicacao": "7 dias",
+      "carencia_dias": null, "carencia_texto": "sem restrições",
+      "epoca_aplicacao": "25-30 dias após o transplante das mudas", "fonte_pagina": 2,
+      "fonte_trecho": "Pimentão | Requeima | Phytophthora capsici | 250-300 | 2,5-3,0 | 8"
+    },
+    {
+      "cultura": "Pimentão", "praga_nome_comum": "Requeima", "praga_nome_cientifico": "Phytophthora capsici",
+      "dose_min": 2.5, "dose_max": 3.0, "dose_unidade": "kg/ha",
+      "volume_calda_min": 1000, "volume_calda_max": 1000, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 8, "intervalo_aplicacao": "7 dias",
+      "carencia_dias": null, "carencia_texto": "sem restrições",
+      "epoca_aplicacao": "25-30 dias após o transplante das mudas", "fonte_pagina": 2,
+      "fonte_trecho": "Pimentão | Requeima | Phytophthora capsici | 250-300 | 2,5-3,0 | 8"
+    },
+    {
+      "cultura": "Tomate", "praga_nome_comum": "Mancha Bacteriana; Pinta-Preta", "praga_nome_cientifico": "Xanthomonas vesicatoria; Alternaria solani",
+      "dose_min": 250, "dose_max": 400, "dose_unidade": "g/100L",
+      "volume_calda_min": 1000, "volume_calda_max": 1000, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 9, "intervalo_aplicacao": "5 a 7 dias",
+      "carencia_dias": null, "carencia_texto": "sem restrições",
+      "epoca_aplicacao": "20-25 dias após o transplante das mudas", "fonte_pagina": 2,
+      "fonte_trecho": "Tomate | Mancha Bacteriana / Pinta-Preta | Xanthomonas vesicatoria / Alternaria solani | 250-400 | 2,5-4,0 | 9"
+    },
+    {
+      "cultura": "Tomate", "praga_nome_comum": "Mancha Bacteriana; Pinta-Preta", "praga_nome_cientifico": "Xanthomonas vesicatoria; Alternaria solani",
+      "dose_min": 2.5, "dose_max": 4.0, "dose_unidade": "kg/ha",
+      "volume_calda_min": 1000, "volume_calda_max": 1000, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 9, "intervalo_aplicacao": "5 a 7 dias",
+      "carencia_dias": null, "carencia_texto": "sem restrições",
+      "epoca_aplicacao": "20-25 dias após o transplante das mudas", "fonte_pagina": 2,
+      "fonte_trecho": "Tomate | Mancha Bacteriana / Pinta-Preta | Xanthomonas vesicatoria / Alternaria solani | 250-400 | 2,5-4,0 | 9"
+    },
+    {
+      "cultura": "Tomate", "praga_nome_comum": "Requeima", "praga_nome_cientifico": "Phytophthora infestans",
+      "dose_min": 400, "dose_max": 400, "dose_unidade": "g/100L",
+      "volume_calda_min": 1000, "volume_calda_max": 1000, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": null, "intervalo_aplicacao": "5 a 7 dias",
+      "carencia_dias": null, "carencia_texto": "sem restrições",
+      "epoca_aplicacao": "20-25 dias após o transplante das mudas", "fonte_pagina": 2,
+      "fonte_trecho": "Tomate | Requeima | Phytophthora infestans | 400 | 4,0- | 276,4 | 2,76-"
+    },
+    {
+      "cultura": "Tomate", "praga_nome_comum": "Requeima", "praga_nome_cientifico": "Phytophthora infestans",
+      "dose_min": 4.0, "dose_max": null, "dose_unidade": "kg/ha",
+      "volume_calda_min": 1000, "volume_calda_max": 1000, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": null, "intervalo_aplicacao": "5 a 7 dias",
+      "carencia_dias": null, "carencia_texto": "sem restrições",
+      "epoca_aplicacao": "20-25 dias após o transplante das mudas", "fonte_pagina": 2,
+      "fonte_trecho": "Tomate | Requeima | Phytophthora infestans | 400 | 4,0- (impresso truncado na bula) | 276,4 | 2,76-"
+    },
+    {
+      "cultura": "Uva", "praga_nome_comum": "Míldio", "praga_nome_cientifico": "Plasmopora viticola",
+      "dose_min": 200, "dose_max": 250, "dose_unidade": "g/100L",
+      "volume_calda_min": 500, "volume_calda_max": 1000, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 7, "intervalo_aplicacao": "4 a 7 dias",
+      "carencia_dias": null, "carencia_texto": "sem restrições",
+      "epoca_aplicacao": "Durante o período de frutificação, pulverizando preventivamente", "fonte_pagina": 2,
+      "fonte_trecho": "Uva | Míldio | Plasmopora viticola | 200-250 | 2,0-2,5 | 7"
+    },
+    {
+      "cultura": "Uva", "praga_nome_comum": "Míldio", "praga_nome_cientifico": "Plasmopora viticola",
+      "dose_min": 2.0, "dose_max": 2.5, "dose_unidade": "kg/ha",
+      "volume_calda_min": 500, "volume_calda_max": 1000, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 7, "intervalo_aplicacao": "4 a 7 dias",
+      "carencia_dias": null, "carencia_texto": "sem restrições",
+      "epoca_aplicacao": "Durante o período de frutificação, pulverizando preventivamente", "fonte_pagina": 2,
+      "fonte_trecho": "Uva | Míldio | Plasmopora viticola | 200-250 | 2,0-2,5 | 7"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "numero_registro": "2315",
+  "registros": [
+    {
+      "cultura": "Em todas as culturas com ocorrência do alvo biológico", "praga_nome_comum": "Traça-do-tomateiro", "praga_nome_cientifico": "Tuta absoluta",
+      "dose_min": 4.5, "dose_max": 4.5, "dose_unidade": "cartelas/ha",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": null, "intervalo_aplicacao": null,
+      "carencia_dias": null, "carencia_texto": "Não determinado em função da não necessidade de estipular o limite máximo de resíduos (LMR) para este ingrediente ativo.",
+      "epoca_aplicacao": "As liberações devem iniciar 15 – 20 dias após o transplante (ou 20 – 30 dias após a semeadura) e se estendem por todo o ciclo, até o fim da colheita.", "fonte_pagina": 3,
+      "fonte_trecho": "Traça-do-tomateiro (Tuta absoluta) | 4,5 Cartelas de 48 células/ha contendo 100 mil parasitoides por cartela"
+    },
+    {
+      "cultura": "Em todas as culturas com ocorrência do alvo biológico", "praga_nome_comum": "Traça-do-tomateiro", "praga_nome_cientifico": "Tuta absoluta",
+      "dose_min": 18, "dose_max": 18, "dose_unidade": "mL/ha",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": null, "intervalo_aplicacao": null,
+      "carencia_dias": null, "carencia_texto": "Não determinado em função da não necessidade de estipular o limite máximo de resíduos (LMR) para este ingrediente ativo.",
+      "epoca_aplicacao": "As liberações devem iniciar 15 – 20 dias após o transplante (ou 20 – 30 dias após a semeadura) e se estendem por todo o ciclo, até o fim da colheita.", "fonte_pagina": 3,
+      "fonte_trecho": "Traça-do-tomateiro (Tuta absoluta) | Aplicação aérea 18 mL/ha (450 mil parasitoides)"
+    },
+    {
+      "cultura": "Em todas as culturas com ocorrência do alvo biológico", "praga_nome_comum": "Broca-grande-do-fruto; Lagarta-da-espiga", "praga_nome_cientifico": "Helicoverpa zea",
+      "dose_min": 4, "dose_max": 4, "dose_unidade": "cartelas/ha",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": null, "intervalo_aplicacao": "Realizar no mínimo 3 liberações com intervalos semanais.",
+      "carencia_dias": null, "carencia_texto": "Não determinado em função da não necessidade de estipular o limite máximo de resíduos (LMR) para este ingrediente ativo.",
+      "epoca_aplicacao": "HortiFruti: liberações semanais até o fim do ciclo. Grãos: iniciar quando detectados os primeiros adultos da praga na área.", "fonte_pagina": 3,
+      "fonte_trecho": "Broca-grande-do-fruto; Lagarta-da-espiga (Helicoverpa zea) | 4 Cartelas de 48 células/ha contendo 100 mil parasitoides"
+    },
+    {
+      "cultura": "Em todas as culturas com ocorrência do alvo biológico", "praga_nome_comum": "Broca-grande-do-fruto; Lagarta-da-espiga", "praga_nome_cientifico": "Helicoverpa zea",
+      "dose_min": 16, "dose_max": 16, "dose_unidade": "mL/ha",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": null, "intervalo_aplicacao": "Realizar no mínimo 3 liberações com intervalos semanais.",
+      "carencia_dias": null, "carencia_texto": "Não determinado em função da não necessidade de estipular o limite máximo de resíduos (LMR) para este ingrediente ativo.",
+      "epoca_aplicacao": "HortiFruti: liberações semanais até o fim do ciclo. Grãos: iniciar quando detectados os primeiros adultos da praga na área.", "fonte_pagina": 3,
+      "fonte_trecho": "Broca-grande-do-fruto; Lagarta-da-espiga (Helicoverpa zea) | Aplicação aérea 16 mL/ha (400 mil parasitoides)"
+    },
+    {
+      "cultura": "Em todas as culturas com ocorrência do alvo biológico", "praga_nome_comum": "Lagarta-do-cartucho", "praga_nome_cientifico": "Spodoptera frugiperda",
+      "dose_min": 1, "dose_max": 1, "dose_unidade": "cartelas/ha",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": null, "intervalo_aplicacao": "Realizar no mínimo 3 liberações com intervalos semanais.",
+      "carencia_dias": null, "carencia_texto": "Não determinado em função da não necessidade de estipular o limite máximo de resíduos (LMR) para este ingrediente ativo.",
+      "epoca_aplicacao": "As liberações devem iniciar quando forem detectados os primeiros adultos da praga na área.", "fonte_pagina": 3,
+      "fonte_trecho": "Lagarta-do-cartucho (Spodoptera frugiperda) | 1 Cartela de 48 células/ha contendo 100 mil parasitoides"
+    },
+    {
+      "cultura": "Em todas as culturas com ocorrência do alvo biológico", "praga_nome_comum": "Lagarta-do-cartucho", "praga_nome_cientifico": "Spodoptera frugiperda",
+      "dose_min": 4, "dose_max": 4, "dose_unidade": "mL/ha",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": null, "intervalo_aplicacao": "Realizar no mínimo 3 liberações com intervalos semanais.",
+      "carencia_dias": null, "carencia_texto": "Não determinado em função da não necessidade de estipular o limite máximo de resíduos (LMR) para este ingrediente ativo.",
+      "epoca_aplicacao": "As liberações devem iniciar quando forem detectados os primeiros adultos da praga na área.", "fonte_pagina": 3,
+      "fonte_trecho": "Lagarta-do-cartucho (Spodoptera frugiperda) | Aplicação aérea 4mL/ha (100 mil parasitoides)"
+    },
+    {
+      "cultura": "Em todas as culturas com ocorrência do alvo biológico", "praga_nome_comum": "Lagarta-da-soja", "praga_nome_cientifico": "Anticarsia gemmatalis",
+      "dose_min": 5, "dose_max": 5, "dose_unidade": "cartelas/ha",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": null, "intervalo_aplicacao": "Realizar no mínimo 3 liberações com intervalos semanais.",
+      "carencia_dias": null, "carencia_texto": "Não determinado em função da não necessidade de estipular o limite máximo de resíduos (LMR) para este ingrediente ativo.",
+      "epoca_aplicacao": "As liberações devem iniciar quando forem detectados os primeiros adultos da praga na área.", "fonte_pagina": 3,
+      "fonte_trecho": "Lagarta-da-soja (Anticarsia gemmatalis) | 5 Cartelas de 48 células/ha contendo 100 mil parasitoides"
+    },
+    {
+      "cultura": "Em todas as culturas com ocorrência do alvo biológico", "praga_nome_comum": "Lagarta-da-soja", "praga_nome_cientifico": "Anticarsia gemmatalis",
+      "dose_min": 20, "dose_max": 20, "dose_unidade": "mL/ha",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": null, "intervalo_aplicacao": "Realizar no mínimo 3 liberações com intervalos semanais.",
+      "carencia_dias": null, "carencia_texto": "Não determinado em função da não necessidade de estipular o limite máximo de resíduos (LMR) para este ingrediente ativo.",
+      "epoca_aplicacao": "As liberações devem iniciar quando forem detectados os primeiros adultos da praga na área.", "fonte_pagina": 3,
+      "fonte_trecho": "Lagarta-da-soja (Anticarsia gemmatalis) | Aplicação aérea 20 mL/ha (500 mil parasitoides)"
+    },
+    {
+      "cultura": "Em todas as culturas com ocorrência do alvo biológico", "praga_nome_comum": "Lagarta-falsa-medideira", "praga_nome_cientifico": "Chrysodeixis includens",
+      "dose_min": 5, "dose_max": 5, "dose_unidade": "cartelas/ha",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": null, "intervalo_aplicacao": "Realizar no mínimo 3 liberações com intervalos semanais.",
+      "carencia_dias": null, "carencia_texto": "Não determinado em função da não necessidade de estipular o limite máximo de resíduos (LMR) para este ingrediente ativo.",
+      "epoca_aplicacao": "As liberações devem iniciar quando forem detectados os primeiros adultos da praga na área.", "fonte_pagina": 3,
+      "fonte_trecho": "Lagarta-falsa-medideira (Chrysodeixis includens) | 5 Cartelas de 48 células/ha contendo 100 mil parasitoides"
+    },
+    {
+      "cultura": "Em todas as culturas com ocorrência do alvo biológico", "praga_nome_comum": "Lagarta-falsa-medideira", "praga_nome_cientifico": "Chrysodeixis includens",
+      "dose_min": 20, "dose_max": 20, "dose_unidade": "mL/ha",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": null, "intervalo_aplicacao": "Realizar no mínimo 3 liberações com intervalos semanais.",
+      "carencia_dias": null, "carencia_texto": "Não determinado em função da não necessidade de estipular o limite máximo de resíduos (LMR) para este ingrediente ativo.",
+      "epoca_aplicacao": "As liberações devem iniciar quando forem detectados os primeiros adultos da praga na área.", "fonte_pagina": 3,
+      "fonte_trecho": "Lagarta-falsa-medideira (Chrysodeixis includens) | Aplicação aérea 20 mL/ha (500 mil parasitoides)"
+    },
+    {
+      "cultura": "Em todas as culturas com ocorrência do alvo biológico", "praga_nome_comum": "Traça-da-videira-sul-americana", "praga_nome_cientifico": "Lasiothyris luminosa",
+      "dose_min": 2, "dose_max": 2, "dose_unidade": "cartelas/ha",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": null, "intervalo_aplicacao": "Pode-se parcelar a liberação semanal de 200 mil parasitoides em duas liberações de 100 mil parasitoides com intervalo de 3 dias dentro da mesma semana.",
+      "carencia_dias": null, "carencia_texto": "Não determinado em função da não necessidade de estipular o limite máximo de resíduos (LMR) para este ingrediente ativo.",
+      "epoca_aplicacao": "As liberações devem ser iniciadas na fase de pré-floração (botão floral) e ocorrerem até a fase de colheita, enquanto forem observados a presença ou os danos causados pelos alvos biológicos.", "fonte_pagina": 4,
+      "fonte_trecho": "Traça-da-videira-sul-americana (Lasiothyris luminosa) | 2 Cartelas de 48 células/ha contendo 100 mil parasitoides"
+    },
+    {
+      "cultura": "Em todas as culturas com ocorrência do alvo biológico", "praga_nome_comum": "Traça-da-videira-sul-americana", "praga_nome_cientifico": "Lasiothyris luminosa",
+      "dose_min": 8, "dose_max": 8, "dose_unidade": "mL/ha",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": null, "intervalo_aplicacao": "Pode-se parcelar a liberação semanal de 200 mil parasitoides em duas liberações de 100 mil parasitoides com intervalo de 3 dias dentro da mesma semana.",
+      "carencia_dias": null, "carencia_texto": "Não determinado em função da não necessidade de estipular o limite máximo de resíduos (LMR) para este ingrediente ativo.",
+      "epoca_aplicacao": "As liberações devem ser iniciadas na fase de pré-floração (botão floral) e ocorrerem até a fase de colheita, enquanto forem observados a presença ou os danos causados pelos alvos biológicos.", "fonte_pagina": 4,
+      "fonte_trecho": "Traça-da-videira-sul-americana (Lasiothyris luminosa) | Aplicação aérea 8 mL/ha (200 mil parasitoides)"
+    },
+    {
+      "cultura": "Em todas as culturas com ocorrência do alvo biológico", "praga_nome_comum": "Traça-dos-cachos", "praga_nome_cientifico": "Cryptoblabes gnidiella",
+      "dose_min": 2, "dose_max": 2, "dose_unidade": "cartelas/ha",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": null, "intervalo_aplicacao": "Pode-se parcelar a liberação semanal de 200 mil parasitoides em duas liberações de 100 mil parasitoides com intervalo de 3 dias dentro da mesma semana.",
+      "carencia_dias": null, "carencia_texto": "Não determinado em função da não necessidade de estipular o limite máximo de resíduos (LMR) para este ingrediente ativo.",
+      "epoca_aplicacao": "As liberações devem ser iniciadas na fase de pré-floração (botão floral) e ocorrerem até a fase de colheita, enquanto forem observados a presença ou os danos causados pelos alvos biológicos.", "fonte_pagina": 4,
+      "fonte_trecho": "Traça-dos-cachos (Cryptoblabes gnidiella) | 2 Cartelas de 48 células/ha contendo 100 mil parasitoides"
+    },
+    {
+      "cultura": "Em todas as culturas com ocorrência do alvo biológico", "praga_nome_comum": "Traça-dos-cachos", "praga_nome_cientifico": "Cryptoblabes gnidiella",
+      "dose_min": 8, "dose_max": 8, "dose_unidade": "mL/ha",
+      "volume_calda_min": null, "volume_calda_max": null, "volume_calda_unidade": null,
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": null, "intervalo_aplicacao": "Pode-se parcelar a liberação semanal de 200 mil parasitoides em duas liberações de 100 mil parasitoides com intervalo de 3 dias dentro da mesma semana.",
+      "carencia_dias": null, "carencia_texto": "Não determinado em função da não necessidade de estipular o limite máximo de resíduos (LMR) para este ingrediente ativo.",
+      "epoca_aplicacao": "As liberações devem ser iniciadas na fase de pré-floração (botão floral) e ocorrerem até a fase de colheita, enquanto forem observados a presença ou os danos causados pelos alvos biológicos.", "fonte_pagina": 4,
+      "fonte_trecho": "Traça-dos-cachos (Cryptoblabes gnidiella) | Aplicação aérea 8 mL/ha (200 mil parasitoides)"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "numero_registro": "2096",
+  "registros": [
+    {
+      "cultura": "Cana-de-açúcar",
+      "praga_nome_comum": "Caruru-de-mancha",
+      "praga_nome_cientifico": "Amaranthus viridis",
+      "dose_min": 6,
+      "dose_max": 8,
+      "dose_unidade": "L/ha",
+      "volume_calda_min": 100,
+      "volume_calda_max": 300,
+      "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 1,
+      "intervalo_aplicacao": null,
+      "carencia_dias": null,
+      "carencia_texto": "Intervalo de segurança não determinado devido à modalidade de aplicação.",
+      "epoca_aplicacao": "Realizar uma única aplicação em pré-emergência das plantas infestantes e cultura.",
+      "fonte_pagina": 3,
+      "fonte_trecho": "CANA-DE-AÇÚCAR | Caruru-de-mancha, Guanxuma, Beldroega | 6 a 8 L/ha | Realizar uma única aplicação em pré-emergência"
+    },
+    {
+      "cultura": "Cana-de-açúcar",
+      "praga_nome_comum": "Guanxuma",
+      "praga_nome_cientifico": "Sida rhombifolia",
+      "dose_min": 6,
+      "dose_max": 8,
+      "dose_unidade": "L/ha",
+      "volume_calda_min": 100,
+      "volume_calda_max": 300,
+      "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 1,
+      "intervalo_aplicacao": null,
+      "carencia_dias": null,
+      "carencia_texto": "Intervalo de segurança não determinado devido à modalidade de aplicação.",
+      "epoca_aplicacao": "Realizar uma única aplicação em pré-emergência das plantas infestantes e cultura.",
+      "fonte_pagina": 3,
+      "fonte_trecho": "CANA-DE-AÇÚCAR | Caruru-de-mancha, Guanxuma, Beldroega | 6 a 8 L/ha | Realizar uma única aplicação em pré-emergência"
+    },
+    {
+      "cultura": "Cana-de-açúcar",
+      "praga_nome_comum": "Beldroega",
+      "praga_nome_cientifico": "Portulaca oleracea",
+      "dose_min": 6,
+      "dose_max": 8,
+      "dose_unidade": "L/ha",
+      "volume_calda_min": 100,
+      "volume_calda_max": 300,
+      "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 1,
+      "intervalo_aplicacao": null,
+      "carencia_dias": null,
+      "carencia_texto": "Intervalo de segurança não determinado devido à modalidade de aplicação.",
+      "epoca_aplicacao": "Realizar uma única aplicação em pré-emergência das plantas infestantes e cultura.",
+      "fonte_pagina": 3,
+      "fonte_trecho": "CANA-DE-AÇÚCAR | Caruru-de-mancha, Guanxuma, Beldroega | 6 a 8 L/ha | Realizar uma única aplicação em pré-emergência"
+    }
+  ]
+}

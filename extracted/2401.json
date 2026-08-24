@@ -1,0 +1,62 @@
+{
+ "numero_registro": "2401",
+ "registros": [
+  {
+   "cultura": "Arroz irrigado",
+   "praga_nome_comum": "Angiquinho",
+   "praga_nome_cientifico": "Cyperus esculentus e Cyperus iria",
+   "dose_min": 10,
+   "dose_max": 12,
+   "dose_unidade": "g/ha",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": "Terrestre: 150-200 L/ha; Aérea: 30-40 L/ha",
+   "num_max_aplicacoes": 1,
+   "intervalo_aplicacao": null,
+   "carencia_dias": 15,
+   "carencia_texto": null,
+   "epoca_aplicacao": "Para o controle das plantas infestantes na cultura do arroz irrigado, realizar a aplicação, quando as plantas infestantes estiverem entre os estádios de plântula até 4 folhas. Não realizar a aplicação de herbicida Gulliver® após o final do perfilhamento da cultura do arroz irrigado (30 dias após a emergência da cultura). Usar óleo mineral emulsionável na dose de 100 ml/100L (0,1% v/v).",
+   "fonte_pagina": 3,
+   "fonte_trecho": "ARROZ IRRIGADO | Angiquinho (Cyperus esculentus e Cyperus iria) | 10 - 12 g/ha | 150-200 (Terrestre) 30-40 (Aéreo) | 1"
+  },
+  {
+   "cultura": "Arroz irrigado",
+   "praga_nome_comum": "Sagitária",
+   "praga_nome_cientifico": "Sagittaria montevidensis",
+   "dose_min": 10,
+   "dose_max": 12,
+   "dose_unidade": "g/ha",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": "Terrestre: 150-200 L/ha; Aérea: 30-40 L/ha",
+   "num_max_aplicacoes": 1,
+   "intervalo_aplicacao": null,
+   "carencia_dias": 15,
+   "carencia_texto": null,
+   "epoca_aplicacao": "Para o controle das plantas infestantes na cultura do arroz irrigado, realizar a aplicação, quando as plantas infestantes estiverem entre os estádios de plântula até 4 folhas. Não realizar a aplicação de herbicida Gulliver® após o final do perfilhamento da cultura do arroz irrigado (30 dias após a emergência da cultura). Usar óleo mineral emulsionável na dose de 100 ml/100L (0,1% v/v).",
+   "fonte_pagina": 3,
+   "fonte_trecho": "ARROZ IRRIGADO | Sagitária (Sagittaria montevidensis) | 10 - 12 g/ha (linha mesclada com Angiquinho) | 1"
+  },
+  {
+   "cultura": "Arroz irrigado",
+   "praga_nome_comum": "Cuminho",
+   "praga_nome_cientifico": "Fimbristylis miliacea",
+   "dose_min": 10,
+   "dose_max": 12,
+   "dose_unidade": "g/ha",
+   "volume_calda_min": null,
+   "volume_calda_max": null,
+   "volume_calda_unidade": null,
+   "volume_calda_outros": "Terrestre: 150-200 L/ha; Aérea: 30-40 L/ha",
+   "num_max_aplicacoes": 1,
+   "intervalo_aplicacao": null,
+   "carencia_dias": 15,
+   "carencia_texto": null,
+   "epoca_aplicacao": "Para o controle das plantas infestantes na cultura do arroz irrigado, realizar a aplicação, quando as plantas infestantes estiverem entre os estádios de plântula até 4 folhas. Não realizar a aplicação de herbicida Gulliver® após o final do perfilhamento da cultura do arroz irrigado (30 dias após a emergência da cultura). Usar óleo mineral emulsionável na dose de 100 ml/100L (0,1% v/v).",
+   "fonte_pagina": 3,
+   "fonte_trecho": "ARROZ IRRIGADO | Cuminho (Fimbristylis miliacea) | 10 - 12 g/ha (linha mesclada com Angiquinho) | 1"
+  }
+ ]
+}

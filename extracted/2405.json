@@ -1,0 +1,62 @@
+{
+ "numero_registro": "2405",
+ "registros": [
+  {
+   "cultura": "Batata",
+   "praga_nome_comum": "Requeima",
+   "praga_nome_cientifico": "Phytophthora infestans",
+   "dose_min": 2.5,
+   "dose_max": 3.0,
+   "dose_unidade": "kg/ha",
+   "volume_calda_min": 100,
+   "volume_calda_max": 400,
+   "volume_calda_unidade": "L/ha",
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": 4,
+   "intervalo_aplicacao": "intervalos semanais, conforme monitoramento",
+   "carencia_dias": 7,
+   "carencia_texto": null,
+   "epoca_aplicacao": "Iniciar o tratamento de forma preventiva, antes do aparecimento dos primeiros sintomas, repetindo com intervalos semanais, conforme monitoramento.",
+   "fonte_pagina": 4,
+   "fonte_trecho": "Batata | Requeima (Phytophthora infestans) | 2,5 - 3,0 kg/ha | 100 - 400 L/ha (Terrestre) | 4"
+  },
+  {
+   "cultura": "Tomate",
+   "praga_nome_comum": "Requeima",
+   "praga_nome_cientifico": "Phytophthora infestans",
+   "dose_min": 200,
+   "dose_max": 300,
+   "dose_unidade": "g/100L",
+   "volume_calda_min": 800,
+   "volume_calda_max": 1000,
+   "volume_calda_unidade": "L/ha",
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": 4,
+   "intervalo_aplicacao": "intervalos semanais, conforme monitoramento",
+   "carencia_dias": 7,
+   "carencia_texto": null,
+   "epoca_aplicacao": "Iniciar o tratamento de forma preventiva, antes do aparecimento dos primeiros sintomas, repetindo com intervalos semanais, conforme monitoramento.",
+   "fonte_pagina": 4,
+   "fonte_trecho": "Tomate | Requeima (Phytophthora infestans) | 200 - 300 g/100L água | 800 - 1000 L/ha (Terrestre) | 4"
+  },
+  {
+   "cultura": "Uva",
+   "praga_nome_comum": "Míldio",
+   "praga_nome_cientifico": "Plasmopara viticola",
+   "dose_min": 200,
+   "dose_max": 250,
+   "dose_unidade": "g/100L",
+   "volume_calda_min": 0.2,
+   "volume_calda_max": 0.2,
+   "volume_calda_unidade": "L/planta",
+   "volume_calda_outros": null,
+   "num_max_aplicacoes": 4,
+   "intervalo_aplicacao": "a cada 15 dias, conforme monitoramento",
+   "carencia_dias": 7,
+   "carencia_texto": null,
+   "epoca_aplicacao": "Iniciar o tratamento de forma preventiva, antes do aparecimento dos primeiros sintomas, repetindo com a cada 15 dias, conforme monitoramento.",
+   "fonte_pagina": 4,
+   "fonte_trecho": "Uva | Míldio (Plasmopara viticola) | 200 - 250 g/100L água | 0,2 L/planta (Terrestre) | 4"
+  }
+ ]
+}
