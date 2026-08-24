@@ -1,0 +1,135 @@
+{
+  "numero_registro": "4323",
+  "registros": [
+    {
+      "cultura": "Cana-de-açúcar", "praga_nome_comum": "Beldroega", "praga_nome_cientifico": "Portulaca oleracea",
+      "dose_min": 3.0, "dose_max": 4.0, "dose_unidade": "L/ha",
+      "volume_calda_min": 200, "volume_calda_max": 400, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": null, "carencia_texto": "Não determinado devido à modalidade de emprego.",
+      "epoca_aplicacao": "Pré-emergência", "fonte_pagina": 3,
+      "fonte_trecho": "Beldroega Portulaca oleracea | 3,0 – 4,0 | Pré-emergência"
+    },
+    {
+      "cultura": "Cana-de-açúcar", "praga_nome_comum": "Caruru-de-mancha", "praga_nome_cientifico": "Amaranthus viridis",
+      "dose_min": 4.0, "dose_max": 4.0, "dose_unidade": "L/ha",
+      "volume_calda_min": 200, "volume_calda_max": 400, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": null, "carencia_texto": "Não determinado devido à modalidade de emprego.",
+      "epoca_aplicacao": "Pós-emergência", "fonte_pagina": 3,
+      "fonte_trecho": "Caruru-de-mancha Amaranthus viridis | 4,0 | Pós-emergência"
+    },
+    {
+      "cultura": "Cana-de-açúcar", "praga_nome_comum": "Corda-de-viola", "praga_nome_cientifico": "Ipomoea aristolochiaefolia",
+      "dose_min": 3.0, "dose_max": 4.0, "dose_unidade": "L/ha",
+      "volume_calda_min": 200, "volume_calda_max": 400, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": null, "carencia_texto": "Não determinado devido à modalidade de emprego.",
+      "epoca_aplicacao": "Pós-emergência", "fonte_pagina": 3,
+      "fonte_trecho": "Corda-de-viola Ipomoea aristolochiaefolia | 3,0 – 4,0 | Pós-emergência"
+    },
+    {
+      "cultura": "Cana-de-açúcar", "praga_nome_comum": "Guanxuma", "praga_nome_cientifico": "Sida rhombifolia",
+      "dose_min": 4.0, "dose_max": 4.0, "dose_unidade": "L/ha",
+      "volume_calda_min": 200, "volume_calda_max": 400, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": null, "carencia_texto": "Não determinado devido à modalidade de emprego.",
+      "epoca_aplicacao": "Pós-emergência", "fonte_pagina": 3,
+      "fonte_trecho": "Guanxuma Sida rhombifolia | 4,0 | Pós-emergência"
+    },
+    {
+      "cultura": "Cana-de-açúcar", "praga_nome_comum": "Picão-preto", "praga_nome_cientifico": "Bidens pilosa",
+      "dose_min": 3.0, "dose_max": 4.0, "dose_unidade": "L/ha",
+      "volume_calda_min": 200, "volume_calda_max": 400, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": null, "carencia_texto": "Não determinado devido à modalidade de emprego.",
+      "epoca_aplicacao": "Pós-emergência", "fonte_pagina": 3,
+      "fonte_trecho": "Picão-preto Bidens pilosa | 3,0 – 4,0 | Pós-emergência"
+    },
+    {
+      "cultura": "Cana-de-açúcar", "praga_nome_comum": "Trapoeraba", "praga_nome_cientifico": "Commelina benghalensis",
+      "dose_min": 3.0, "dose_max": 4.0, "dose_unidade": "L/ha",
+      "volume_calda_min": 200, "volume_calda_max": 400, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": null, "carencia_texto": "Não determinado devido à modalidade de emprego.",
+      "epoca_aplicacao": "Pré e Pós-emergência", "fonte_pagina": 3,
+      "fonte_trecho": "Trapoeraba Commelina benghalensis | 3,0 – 4,0 | Pré e Pós-emergência"
+    },
+    {
+      "cultura": "Pastagens", "praga_nome_comum": "Bamburral", "praga_nome_cientifico": "Hyptis suaveolens",
+      "dose_min": 1.5, "dose_max": 3.0, "dose_unidade": "L/ha",
+      "volume_calda_min": 200, "volume_calda_max": 400, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": null, "carencia_texto": "U.N.A. - Uso Não Alimentar",
+      "epoca_aplicacao": "Uma aplicação ao ano na época quente, quando as plantas infestantes estiverem em pleno processo de desenvolvimento vegetativo. Adicionar 0,3% v/v de adjuvante a base de óleo vegetal.", "fonte_pagina": 3,
+      "fonte_trecho": "Bamburral Hyptis suaveolens | 1,5 – 3,0"
+    },
+    {
+      "cultura": "Pastagens", "praga_nome_comum": "Fedegoso-branco", "praga_nome_cientifico": "Senna obtusifolia",
+      "dose_min": 1.5, "dose_max": 3.0, "dose_unidade": "L/ha",
+      "volume_calda_min": 200, "volume_calda_max": 400, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": null, "carencia_texto": "U.N.A. - Uso Não Alimentar",
+      "epoca_aplicacao": "Uma aplicação ao ano na época quente, quando as plantas infestantes estiverem em pleno processo de desenvolvimento vegetativo. Adicionar 0,3% v/v de adjuvante a base de óleo vegetal.", "fonte_pagina": 3,
+      "fonte_trecho": "Fedegoso-branco Senna obtusifolia | 1,5 – 3,0"
+    },
+    {
+      "cultura": "Pastagens", "praga_nome_comum": "Gervão-branco", "praga_nome_cientifico": "Croton glandulosus",
+      "dose_min": 1.5, "dose_max": 3.0, "dose_unidade": "L/ha",
+      "volume_calda_min": 200, "volume_calda_max": 400, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": null, "carencia_texto": "U.N.A. - Uso Não Alimentar",
+      "epoca_aplicacao": "Uma aplicação ao ano na época quente, quando as plantas infestantes estiverem em pleno processo de desenvolvimento vegetativo. Adicionar 0,3% v/v de adjuvante a base de óleo vegetal.", "fonte_pagina": 3,
+      "fonte_trecho": "Gervão-branco Croton glandulosus | 1,5 – 3,0"
+    },
+    {
+      "cultura": "Pastagens", "praga_nome_comum": "Guanxuma-branca", "praga_nome_cientifico": "Sida glaziovii",
+      "dose_min": 3.0, "dose_max": 3.0, "dose_unidade": "L/ha",
+      "volume_calda_min": 200, "volume_calda_max": 400, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": null, "carencia_texto": "U.N.A. - Uso Não Alimentar",
+      "epoca_aplicacao": "Uma aplicação ao ano na época quente, quando as plantas infestantes estiverem em pleno processo de desenvolvimento vegetativo. Adicionar 0,3% v/v de adjuvante a base de óleo vegetal.", "fonte_pagina": 3,
+      "fonte_trecho": "Guanxuma-branca Sida glaziovii | 3,0"
+    },
+    {
+      "cultura": "Pastagens", "praga_nome_comum": "Guanxuma", "praga_nome_cientifico": "Sida rhombifolia",
+      "dose_min": 2.0, "dose_max": 3.0, "dose_unidade": "L/ha",
+      "volume_calda_min": 200, "volume_calda_max": 400, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": null, "carencia_texto": "U.N.A. - Uso Não Alimentar",
+      "epoca_aplicacao": "Uma aplicação ao ano na época quente, quando as plantas infestantes estiverem em pleno processo de desenvolvimento vegetativo. Adicionar 0,3% v/v de adjuvante a base de óleo vegetal.", "fonte_pagina": 3,
+      "fonte_trecho": "Guanxuma Sida rhombifolia | 2,0 – 3,0"
+    },
+    {
+      "cultura": "Pastagens", "praga_nome_comum": "Guanxuma", "praga_nome_cientifico": "Sida santaremnensis",
+      "dose_min": 1.5, "dose_max": 3.0, "dose_unidade": "L/ha",
+      "volume_calda_min": 200, "volume_calda_max": 400, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": null, "carencia_texto": "U.N.A. - Uso Não Alimentar",
+      "epoca_aplicacao": "Uma aplicação ao ano na época quente, quando as plantas infestantes estiverem em pleno processo de desenvolvimento vegetativo. Adicionar 0,3% v/v de adjuvante a base de óleo vegetal.", "fonte_pagina": 3,
+      "fonte_trecho": "Guanxuma Sida santaremnensis | 1,5 – 3,0"
+    },
+    {
+      "cultura": "Pastagens", "praga_nome_comum": "Malva-branca", "praga_nome_cientifico": "Sida cordifolia",
+      "dose_min": 1.5, "dose_max": 3.0, "dose_unidade": "L/ha",
+      "volume_calda_min": 200, "volume_calda_max": 400, "volume_calda_unidade": "L/ha",
+      "volume_calda_outros": null,
+      "num_max_aplicacoes": 1, "intervalo_aplicacao": null,
+      "carencia_dias": null, "carencia_texto": "U.N.A. - Uso Não Alimentar",
+      "epoca_aplicacao": "Uma aplicação ao ano na época quente, quando as plantas infestantes estiverem em pleno processo de desenvolvimento vegetativo. Adicionar 0,3% v/v de adjuvante a base de óleo vegetal.", "fonte_pagina": 3,
+      "fonte_trecho": "Malva-branca Sida cordifolia | 1,5 – 3,0"
+    }
+  ]
+}
